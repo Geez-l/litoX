@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  22 OCT 2024 21:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  22 OCT 2024 23:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,24 +506,25 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6912 strings out of 474486
- 112300 string characters out of 5743754
+ 6914 strings out of 474486
+ 112327 string characters out of 5743754
  1938542 words of memory out of 5000000
- 29014 multiletter control sequences out of 15000+600000
- 566628 words of font info for 68 fonts, out of 8000000 for 9000
+ 29015 multiletter control sequences out of 15000+600000
+ 566987 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,8n,84p,1314b,303s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,8n,84p,1342b,303s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jjadr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmcsc10.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/jjadr/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jjadr/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (22 pages, 133166 bytes).
+ic/amsfonts/cm/cmbxti10.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jjadr/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jjadr/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/jjadr/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jjadr/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (22 pages, 144868 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 115 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

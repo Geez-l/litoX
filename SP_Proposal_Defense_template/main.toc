@@ -13,7 +13,7 @@
 \contentsline {chapter}{\numberline {3}Research Methodology}{8}{}%
 \contentsline {section}{\numberline {3.1}Sample Collection}{8}{}%
 \contentsline {section}{\numberline {3.2}Ethical Considerations}{9}{}%
-\contentsline {section}{\numberline {3.3}Creating T. granosa Dataset}{9}{}%
+\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{9}{}%
 \contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{9}{}%
 \contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{10}{}%
 \contentsline {section}{\numberline {3.6}Machine/ Deep Learning Technologies}{11}{}%
