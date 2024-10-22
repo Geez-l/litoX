@@ -11,9 +11,15 @@
 \contentsline {section}{\numberline {2.2}Theme 2 Title}{7}{}%
 \contentsline {section}{\numberline {2.3}Chapter Summary}{7}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{8}{}%
-\contentsline {section}{\numberline {3.1}Research Activities}{8}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{9}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{10}{}%
-\contentsline {chapter}{References}{11}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{12}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{13}{}%
+\contentsline {section}{\numberline {3.1}Sample Collection}{8}{}%
+\contentsline {section}{\numberline {3.2}Ethical Considerations}{9}{}%
+\contentsline {section}{\numberline {3.3}Creating T. granosa Dataset}{9}{}%
+\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{9}{}%
+\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{10}{}%
+\contentsline {section}{\numberline {3.6}Machine/ Deep Learning Technologies}{11}{}%
+\contentsline {section}{\numberline {3.7}Support Vector Machine for Pre-evaluation }{11}{}%
+\contentsline {section}{\numberline {3.8} Deep Learning for Image-Based Classification}{12}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{13}{}%
+\contentsline {chapter}{References}{14}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{15}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{16}{}%
