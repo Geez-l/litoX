@@ -24,6 +24,7 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_A.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_B.aux
+I found no \citation commands---while reading file main.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -35,45 +36,45 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 9 entries,
+You've used 0 entries,
             6951 wiz_defined-function locations,
-            1344 strings with 12642 characters,
-and the built_in function-call counts, 19305 in all, are:
-= -- 2472
-> -- 186
-< -- 817
-+ -- 881
-- -- 18
-* -- 1171
-:= -- 3246
-add.period$ -- 43
-call.type$ -- 9
-change.case$ -- 160
+            1276 strings with 10752 characters,
+and the built_in function-call counts, 43 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 1
+:= -- 32
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 539
-empty$ -- 757
-format.name$ -- 308
-if$ -- 3762
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 242
-num.names$ -- 76
-pop$ -- 383
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 40
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1331
+skip$ -- 1
 stack$ -- 0
-substring$ -- 986
-swap$ -- 330
-text.length$ -- 41
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1040
+type$ -- 0
 warning$ -- 0
-while$ -- 112
+while$ -- 0
 width$ -- 0
-write$ -- 308
-(There was 1 error message)
+write$ -- 2
+(There were 2 error messages)
