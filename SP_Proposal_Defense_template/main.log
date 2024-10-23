@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  22 OCT 2024 22:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  23 OCT 2024 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,31 +423,10 @@ pecies
 
  (chapter_1.tex
 Chapter 1.
-! Misplaced alignment tab character &.
-l.8 ...ributor to total fishery production (Aypa &
-                                                   Baconguis, 2000; BFAR, 20...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 [1
 
 
-]
-! Misplaced alignment tab character &.
-l.22 ... through the release of gametes (Miranda &
-                                                   Ferriols, 2023). Although...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[2] [3] [4]) [5]
+] [2] [3] [4]) [5]
 \openout2 = `chapter_2.aux'.
 
  (chapter_2.tex
@@ -734,7 +713,11 @@ Chapter 4.
 
 
 
-] (main.bbl) [26
+] (main.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [26
 
 
 
@@ -764,24 +747,24 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6912 strings out of 474486
- 112300 string characters out of 5743754
- 1938542 words of memory out of 5000000
- 29014 multiletter control sequences out of 15000+600000
- 566628 words of font info for 68 fonts, out of 8000000 for 9000
+ 6910 strings out of 474485
+ 109605 string characters out of 5753548
+ 1964542 words of memory out of 5000000
+ 29012 multiletter control sequences out of 15000+600000
+ 566987 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,8n,84p,1314b,303s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jjadr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmcsc10.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/jjadr/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jjadr/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (22 pages, 133166 bytes).
+ 79i,11n,84p,1802b,409s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.
+pfb>
+Output written on main.pdf (34 pages, 1160990 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
