@@ -1,6 +1,61 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Adams%
+, Rohlf%
+\BCBL {}\ \BBA {} Slice%
+}{%
+Adams%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+adams2004}
+\APACinsertmetastar {%
+adams2004}%
+\begin{APACrefauthors}%
+Adams, D\BPBI C.%
+, Rohlf, F\BPBI J.%
+\BCBL {}\ \BBA {} Slice, D\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Geometric morphometrics: ten years of progress following
+  the ‘revolution’} {Geometric morphometrics: ten years of progress
+  following the ‘revolution’}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Italian Journal of Zoology}{71}{}{5--16}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/11250000409356545} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Afiati%
+}{%
+Afiati%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+afiati2007}
+\APACinsertmetastar {%
+afiati2007}%
+\begin{APACrefauthors}%
+Afiati, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Gonad maturation of two intertidal blood clams Anadara
+  granosa (L.) and Anadara antiquate (L.) (Bivalvia: Arcidae) in Central Java}
+  {Gonad maturation of two intertidal blood clams anadara granosa (l.) and
+  anadara antiquate (l.) (bivalvia: Arcidae) in central java}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{}{10}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Aji%
 }{%
 Aji%
@@ -55,6 +110,64 @@ Arifin, W\BPBI A.%
 \APACjournalVolNumPages{Jurnal Teknologi Dan Sistem Komputer}{10}{1}{26--31}.
 \newblock
 \begin{APACrefDOI} \doi{10.14710/jtsiskom.2021.14105} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Arkhipkin%
+}{%
+Arkhipkin%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+arkhipkin2005}
+\APACinsertmetastar {%
+arkhipkin2005}%
+\begin{APACrefauthors}%
+Arkhipkin, A\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Statoliths as ‘black boxes’ (life recorders) in
+  squid} {Statoliths as ‘black boxes’ (life recorders) in squid}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Marine and Freshwater Research}{56}{}{573--583}.
+\newblock
+\begin{APACrefDOI} \doi{10.1071/mf04158} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Aypa%
+\ \BBA {} Baconguis%
+}{%
+Aypa%
+\ \BBA {} Baconguis%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+aypa2000}
+\APACinsertmetastar {%
+aypa2000}%
+\begin{APACrefauthors}%
+Aypa, S\BPBI M.%
+\BCBT {}\ \BBA {} Baconguis, S\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Philippines: mangrove-friendly aquaculture}
+  {Philippines: mangrove-friendly aquaculture}.{\BBCQ}
+\newblock
+\BIn{} J\BPBI H.~Primavera, L\BPBI M\BPBI B.~Garcia, M\BPBI T.~Castaños\BCBL
+  {}\ \BBA {} M\BPBI B.~Surtida\ (\BEDS), \APACrefbtitle {Mangrove-friendly
+  aquaculture: Proceedings of the workshop on mangrove-friendly aquaculture
+  organized by the SEAFDEC Aquaculture Department, January 11-15, 1999, Iloilo
+  City, Philippines} {Mangrove-friendly aquaculture: Proceedings of the
+  workshop on mangrove-friendly aquaculture organized by the seafdec
+  aquaculture department, january 11-15, 1999, iloilo city, philippines}\
+  (\BPGS\ 41--56).
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -126,6 +239,30 @@ Barrera-Hernandez, R.%
 \APACaddressPublisher{}{Springer}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-3-031-34222-6_9} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+BFAR%
+}{%
+BFAR%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+bfar2019}
+\APACinsertmetastar {%
+bfar2019}%
+\begin{APACrefauthors}%
+BFAR.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+\APACrefbtitle {Philippine fisheries profile 2018} {Philippine fisheries
+  profile 2018}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{PCA Compound, Elliptical Road, Quezon City,
+  Philippines}{Bureau of Fisheries and Aquatic Resources}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -283,6 +420,41 @@ Budd, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Burdon%
+, Callaway%
+, Elliott%
+, Smith%
+\BCBL {}\ \BBA {} Wither%
+}{%
+Burdon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+burdon2014}
+\APACinsertmetastar {%
+burdon2014}%
+\begin{APACrefauthors}%
+Burdon, D.%
+, Callaway, R.%
+, Elliott, M.%
+, Smith, T.%
+\BCBL {}\ \BBA {} Wither, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{04}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Mass mortalities in bivalve populations: A review of the
+  edible cockle \textit{Cerastoderma edule} (L.)} {Mass mortalities in bivalve
+  populations: A review of the edible cockle \textit{Cerastoderma edule}
+  (l.)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Estuarine, Coastal and Shelf Science}{150}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.ecss.2014.04.011} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Campos%
 , Tedesco%
 , Vasconcelos%
@@ -316,6 +488,149 @@ Campos, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Coe%
+}{%
+Coe%
+}{%
+{\protect \APACyear {1943}}%
+}]{%
+coe1943}
+\APACinsertmetastar {%
+coe1943}%
+\begin{APACrefauthors}%
+Coe, W\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1943}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sexual differentiation in mollusks. I. Pelecypods}
+  {Sexual differentiation in mollusks. i. pelecypods}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Quarterly Review of Biology}{18}{}{154--164}.
+\newblock
+\begin{APACrefDOI} \doi{10.1086/qrb.1943.18.issue-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Collin%
+}{%
+Collin%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+collin2013}
+\APACinsertmetastar {%
+collin2013}%
+\begin{APACrefauthors}%
+Collin, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Phylogenetic patterns and phenotypic plasticity of
+  molluscan sexual systems} {Phylogenetic patterns and phenotypic plasticity of
+  molluscan sexual systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Integrative and Comparative Biology}{53}{}{723--735}.
+\newblock
+\begin{APACrefDOI} \doi{10.1093/icb/ict076} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Concepcion%
+, Guillermo%
+, Tanner%
+, Fonseca%
+\BCBL {}\ \BBA {} Duarte%
+}{%
+Concepcion%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+concepcion2023}
+\APACinsertmetastar {%
+concepcion2023}%
+\begin{APACrefauthors}%
+Concepcion, R.%
+, Guillermo, M.%
+, Tanner, S\BPBI E.%
+, Fonseca, V.%
+\BCBL {}\ \BBA {} Duarte, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {BivalveNet: A hybrid deep neural network for common
+  cockle (Cerastoderma edule) geographical traceability based on shell image
+  analysis} {Bivalvenet: A hybrid deep neural network for common cockle
+  (cerastoderma edule) geographical traceability based on shell image
+  analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Ecological Informatics}{78}{}{102344}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.ecoinf.2023.102344} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Doering%
+\ \BBA {} Ludwig%
+}{%
+Doering%
+\ \BBA {} Ludwig%
+}{%
+{\protect \APACyear {1990}}%
+}]{%
+doering1990}
+\APACinsertmetastar {%
+doering1990}%
+\begin{APACrefauthors}%
+Doering, P.%
+\BCBT {}\ \BBA {} Ludwig, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1990}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Shape Analysis of Otoliths—a Tool for Indirect Ageing
+  of Eel, Anguilla anguilla (L.)?} {Shape analysis of otoliths—a tool for
+  indirect ageing of eel, anguilla anguilla (l.)?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Review of Hydrobiology}{75}{6}{737--743}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/iroh.19900750607} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Erica%
+}{%
+Erica%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+erica2018}
+\APACinsertmetastar {%
+erica2018}%
+\begin{APACrefauthors}%
+Erica, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{{\APACmonth{04}}}{4}.
+\newblock
+\APACrefbtitle {Clam dissection: A first step into dissection and anatomy for
+  young learners.} {Clam dissection: A first step into dissection and anatomy
+  for young learners.}
+\newblock
+\APACaddressPublisher{}{Rosie Research}.
+\newblock
+\begin{APACrefURL} \url{https://rosieresearch.com/clam-dissection-anatomy/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 \APACcitebtitle {FAO 2024 Report: Sustainable Aquatic Food Systems Important
   for Global Food Security – European Fishmeal}}{%
 \APACcitebtitle {FAO 2024 Report: Sustainable Aquatic Food Systems Important
@@ -334,6 +649,87 @@ fao2024}%
 \newblock
 \APAChowpublished
   {\url{https://effop.org/news-events/fao-2024-report-sustainable-aquatic-food-systems-important-for-global-food-security/}}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ferguson%
+, Ward%
+\BCBL {}\ \BBA {} Gillanders%
+}{%
+Ferguson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+ferguson2011}
+\APACinsertmetastar {%
+ferguson2011}%
+\begin{APACrefauthors}%
+Ferguson, G\BPBI J.%
+, Ward, T\BPBI M.%
+\BCBL {}\ \BBA {} Gillanders, B\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Otolith shape and elemental composition: Complementary
+  tools for stock discrimination of mulloway (Argyrosomus japonicus) in
+  southern Australia} {Otolith shape and elemental composition: Complementary
+  tools for stock discrimination of mulloway (argyrosomus japonicus) in
+  southern australia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Fish Research}{110}{}{75--83}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.fishres.2011.03.014} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gosling%
+}{%
+Gosling%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+gosling2004}
+\APACinsertmetastar {%
+gosling2004}%
+\begin{APACrefauthors}%
+Gosling, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {Bivalve molluscs: biology, ecology and culture} {Bivalve
+  molluscs: biology, ecology and culture}.
+\newblock
+\APACaddressPublisher{Oxford}{Blackwell Science}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Heller%
+}{%
+Heller%
+}{%
+{\protect \APACyear {1993}}%
+}]{%
+heller1993}
+\APACinsertmetastar {%
+heller1993}%
+\begin{APACrefauthors}%
+Heller, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1993}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hermaphroditism in molluscs} {Hermaphroditism in
+  molluscs}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biological Journal of the Linnean
+  Society}{48}{}{19--42}.
+\newblock
+\begin{APACrefDOI} \doi{10.1111/bij.1993.48.issue-1} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -368,6 +764,72 @@ Ishak, A\BPBI R.%
   social and behavioral sciences}\ (\BVOL~222, \BPGS\ 263--271).
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.sbspro.2016.05.156} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Karapunar%
+, Werner%
+, Fürsich%
+\BCBL {}\ \BBA {} Nützel%
+}{%
+Karapunar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+karapunar2021}
+\APACinsertmetastar {%
+karapunar2021}%
+\begin{APACrefauthors}%
+Karapunar, B.%
+, Werner, W.%
+, Fürsich, F\BPBI T.%
+\BCBL {}\ \BBA {} Nützel, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The earliest example of sexual dimorphism in
+  bivalves—evidence from the astartid \textit{Nicaniella} (Lower Jurassic,
+  southern Germany)} {The earliest example of sexual dimorphism in
+  bivalves—evidence from the astartid \textit{Nicaniella} (lower jurassic,
+  southern germany)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Paleontology}{95}{6}{1216--1225}.
+\newblock
+\begin{APACrefDOI} \doi{10.1017/jpa.2021.48} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kerr%
+\ \BBA {} Campana%
+}{%
+Kerr%
+\ \BBA {} Campana%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+kerr2014}
+\APACinsertmetastar {%
+kerr2014}%
+\begin{APACrefauthors}%
+Kerr, L\BPBI A.%
+\BCBT {}\ \BBA {} Campana, S\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Chemical composition of fish hard parts as a natural
+  marker of fish stocks} {Chemical composition of fish hard parts as a natural
+  marker of fish stocks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Stock Identification Methods} {Stock identification
+  methods}\ (\BPGS\ 205--234).
+\newblock
+\APACaddressPublisher{}{Elsevier}.
+\newblock
+\begin{APACrefDOI} \doi{10.1016/b978-0-12-397003-9.00011-4} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -407,13 +869,38 @@ Kim, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Lee%
+J\BPBI H.~Lee%
+}{%
+J\BPBI H.~Lee%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+lee1997}
+\APACinsertmetastar {%
+lee1997}%
+\begin{APACrefauthors}%
+Lee, J\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Studies on the gonadal development and gametogenesis of
+  the granulated ark, Tegillarca granosa (Linne)} {Studies on the gonadal
+  development and gametogenesis of the granulated ark, tegillarca granosa
+  (linne)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Korean Journal of Malacology}{13}{}{55--64}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+J\BPBI S.~Lee%
 , Park%
 , Shin%
 , Kim%
 \BCBL {}\ \BBA {} Jeon%
 }{%
-Lee%
+J\BPBI S.~Lee%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2014}}%
 }]{%
@@ -439,6 +926,72 @@ Lee, J\BPBI S.%
   Development}{58}{4}{314--318}.
 \newblock
 \begin{APACrefDOI} \doi{10.1080/07924259.2014.949014} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Leguá%
+, Plaza%
+, Pérez%
+\BCBL {}\ \BBA {} Arkhipkin%
+}{%
+Leguá%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+legua2013}
+\APACinsertmetastar {%
+legua2013}%
+\begin{APACrefauthors}%
+Leguá, J.%
+, Plaza, G.%
+, Pérez, D.%
+\BCBL {}\ \BBA {} Arkhipkin, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Otolith shape analysis as a tool for stock
+  identification of the southern blue whiting, Micromesistius australis}
+  {Otolith shape analysis as a tool for stock identification of the southern
+  blue whiting, micromesistius australis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Latin American Journal of Aquatic
+  Research}{41}{}{479--489}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mahé%
+\ \protect \BOthers {.}}{%
+Mahé%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+mahe2016}
+\APACinsertmetastar {%
+mahe2016}%
+\begin{APACrefauthors}%
+Mahé, K.%
+, Oudard, C.%
+, Mille, T.%
+, Keating, J.%
+, Gonçalves, P.%
+, Clausen, L\BPBI W.%
+\BCBL {}\ \BBA {} et al.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Identifying blue whiting (Micromesistius poutassou)
+  stock structure in the Northeast Atlantic by otolith shape analysis}
+  {Identifying blue whiting (micromesistius poutassou) stock structure in the
+  northeast atlantic by otolith shape analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Canadian Journal of Fisheries and Aquatic
+  Sciences}{73}{}{1363--1371}.
+\newblock
+\begin{APACrefDOI} \doi{10.1139/cjfas-2015-0332} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -499,6 +1052,38 @@ Miranda, D\BPBI V.%
 \APACjournalVolNumPages{Asian Fisheries Science}{36}{2}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.33997/j.afs.2023.36.2.001} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mérigot%
+, Letourneur%
+\BCBL {}\ \BBA {} Lecomte-Finiger%
+}{%
+Mérigot%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+merigot2007}
+\APACinsertmetastar {%
+merigot2007}%
+\begin{APACrefauthors}%
+Mérigot, B.%
+, Letourneur, Y.%
+\BCBL {}\ \BBA {} Lecomte-Finiger, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Characterization of local populations of the common sole
+  Solea solea (Pisces, Soleidae) in the NW Mediterranean through otolith
+  morphometrics and shape analysis} {Characterization of local populations of
+  the common sole solea solea (pisces, soleidae) in the nw mediterranean
+  through otolith morphometrics and shape analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Marine Biology}{151}{3}{997--1008}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s00227-006-0549-0} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -581,6 +1166,32 @@ Philippines, B\BPBI S.%
 \begin{APACrefURL}
   \url{https://sustainablefish.org/impact-initiatives/supporting-small-scale-fisheries/better-seafood-philippines/}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ponton%
+}{%
+Ponton%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+ponton2006}
+\APACinsertmetastar {%
+ponton2006}%
+\begin{APACrefauthors}%
+Ponton, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Is geometric morphometrics efficient for comparing
+  otolith shape of different fish species?} {Is geometric morphometrics
+  efficient for comparing otolith shape of different fish species?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Morphology}{267}{7}{750--757}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/jmor.10439} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -683,6 +1294,72 @@ Srisunont, C.%
 \APACjournalVolNumPages{Influence of Seasonal Variation and Anthropogenic
   Stress on Blood Cockle (Tegillarca Granosa) Production
   Potential}{44}{2}{62--82}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tarca%
+, Carey%
+, Chen%
+, Romero%
+\BCBL {}\ \BBA {} Drăghici%
+}{%
+Tarca%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+tarca2007}
+\APACinsertmetastar {%
+tarca2007}%
+\begin{APACrefauthors}%
+Tarca, A\BPBI L.%
+, Carey, V\BPBI J.%
+, Chen, X\BHBI w.%
+, Romero, R.%
+\BCBL {}\ \BBA {} Drăghici, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine Learning and Its Applications to Biology}
+  {Machine learning and its applications to biology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLoS Computational Biology}{3}{6}{e116}.
+\newblock
+\begin{APACrefDOI} \doi{10.1371/journal.pcbi.0030116} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thompson%
+, Newell%
+, Kennedy%
+\BCBL {}\ \BBA {} Mann%
+}{%
+Thompson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1996}}%
+}]{%
+thompson1996}
+\APACinsertmetastar {%
+thompson1996}%
+\begin{APACrefauthors}%
+Thompson, R\BPBI J.%
+, Newell, R\BPBI I\BPBI E.%
+, Kennedy, V\BPBI S.%
+\BCBL {}\ \BBA {} Mann, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reproductive process and early development}
+  {Reproductive process and early development}.{\BBCQ}
+\newblock
+\BIn{} V\BPBI S.~Kennedy, R\BPBI I\BPBI E.~Newell\BCBL {}\ \BBA {} A\BPBI
+  F.~Eble\ (\BEDS), \APACrefbtitle {The Eastern Oyster Crassostrea virginica}
+  {The eastern oyster crassostrea virginica}\ (\BPGS\ 335--370).
+\newblock
+\APACaddressPublisher{College Park, MD}{Maryland Sea Grant}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -842,6 +1519,61 @@ Yusuff, F\BPBI M.%
   Science}{934}{1}{012048}.
 \newblock
 \begin{APACrefDOI} \doi{10.1088/1755-1315/934/1/012048} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zahn%
+\ \BBA {} Roskies%
+}{%
+Zahn%
+\ \BBA {} Roskies%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+zahn1972}
+\APACinsertmetastar {%
+zahn1972}%
+\begin{APACrefauthors}%
+Zahn, C\BPBI T.%
+\BCBT {}\ \BBA {} Roskies, R\BPBI Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Fourier descriptors for plane closed curves} {Fourier
+  descriptors for plane closed curves}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Computers}{C-21}{}{269--281}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/tc.1972.5008949} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zelditch%
+, Swiderski%
+\BCBL {}\ \BBA {} Sheets%
+}{%
+Zelditch%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+zelditch2004}
+\APACinsertmetastar {%
+zelditch2004}%
+\begin{APACrefauthors}%
+Zelditch, M.%
+, Swiderski, D\BPBI L.%
+\BCBL {}\ \BBA {} Sheets, H\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2004}.
+\newblock
+\APACrefbtitle {Geometric morphometrics for biologists: A primer} {Geometric
+  morphometrics for biologists: A primer}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{Waltham}{Elsevier Academic Press}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

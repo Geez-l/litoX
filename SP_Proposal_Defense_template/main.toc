@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Deep Learning for Phenotype Classification in Ark Shells}{11}{}%
 \contentsline {subsection}{\numberline {2.3.2}Geometric Morphometrics and Machine Learning for Species Delimitation}{12}{}%
 \contentsline {subsection}{\numberline {2.3.3}Contour Analysis in Mollusc Shells Using Machine Learning}{12}{}%
-\contentsline {subsection}{\numberline {2.3.4}Machine Learning for Shape Analysis of Marine Organisms}{12}{}%
+\contentsline {subsection}{\numberline {2.3.4}Machine Learning for Shape Analysis of Marine Organisms}{13}{}%
 \contentsline {subsection}{\numberline {2.3.5}Deep Learning for Landmark-Free Morphological Feature Extraction}{14}{}%
 \contentsline {subsection}{\numberline {2.3.6}Machine Learning for Sex Differentiation in Abalone}{14}{}%
 \contentsline {subsection}{\numberline {2.3.7}Machine Learning for Geographical Traceability in Bivalves}{15}{}%
@@ -30,5 +30,5 @@
 \contentsline {section}{\numberline {3.8} Deep Learning for Image-Based Classification}{24}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{25}{}%
 \contentsline {chapter}{References}{26}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{27}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{28}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{31}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{32}{}%
