@@ -24,7 +24,6 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_A.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_B.aux
-I found no \citation commands---while reading file main.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -35,46 +34,82 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
+I was expecting a `,' or a `}'---line 35 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.13057/biodiv/d231015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 57 of file myreferences.bib
+ :  
+ :  url       = {https://doi.org/10.1007/978-3-031-34222-6_9}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 97 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.1016/j.fuel.2011.03.002}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 117 of file myreferences.bib
+ :  
+ :  url       = {https://doi.org/10.20944/preprints201706.0127.v1}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 141 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.1093/molbev/msq345}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 159 of file myreferences.bib
+ :  
+ :  url       = {https://www.proquest.com/dissertations-theses/ecology-two-species-blood-clams-em-anadara/docview/1797897997/se-2?accountid=207156}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 183 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.3390/jmse3020329}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 0 entries,
+Warning--No journal in narasimham1988
+You've used 28 entries,
             6951 wiz_defined-function locations,
-            1276 strings with 10752 characters,
-and the built_in function-call counts, 43 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 1
-:= -- 32
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            1459 strings with 17296 characters,
+and the built_in function-call counts, 68615 in all, are:
+= -- 8251
+> -- 604
+< -- 3790
++ -- 4183
+- -- 54
+* -- 4762
+:= -- 13301
+add.period$ -- 116
+call.type$ -- 28
+change.case$ -- 481
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 57
+duplicate$ -- 1924
+empty$ -- 2288
+format.name$ -- 1103
+if$ -- 12221
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 84
 missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 796
+num.names$ -- 216
+pop$ -- 1128
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 115
 quote$ -- 0
-skip$ -- 1
+skip$ -- 3700
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 4483
+swap$ -- 1029
+text.length$ -- 76
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 2392
+warning$ -- 1
+while$ -- 375
 width$ -- 0
-write$ -- 2
-(There were 2 error messages)
+write$ -- 1055
+(There were 8 error messages)
