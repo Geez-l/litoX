@@ -171,77 +171,6 @@ Aypa, S\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Bahtiar%
-, Purnama%
-, Kasim%
-\BCBL {}\ \BBA {} Ishak%
-}{%
-Bahtiar%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2022}}%
-}]{%
-bahtiar}
-\APACinsertmetastar {%
-bahtiar}%
-\begin{APACrefauthors}%
-Bahtiar, B.%
-, Purnama, M\BPBI F.%
-, Kasim, M.%
-\BCBL {}\ \BBA {} Ishak, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2022}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Population dynamics of blood clams Tegillarca granosa in
-  Kendari Bay, Southeast Sulawesi, Indonesia} {Population dynamics of blood
-  clams tegillarca granosa in kendari bay, southeast sulawesi,
-  indonesia}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Biodiversitas Journal of Biological
-  Diversity}{23}{10}{}.
-\newblock
-\begin{APACrefDOI} \doi{10.13057/biodiv/d231015} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Barrera-Hernandez%
-, Barrera-Soto%
-, Martinez-Rodriguez%
-, Ríos-Alvarado%
-\BCBL {}\ \BBA {} Ortiz-Rodríguez%
-}{%
-Barrera-Hernandez%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2023}}%
-}]{%
-barrera2023abalone}
-\APACinsertmetastar {%
-barrera2023abalone}%
-\begin{APACrefauthors}%
-Barrera-Hernandez, R.%
-, Barrera-Soto, V.%
-, Martinez-Rodriguez, J\BPBI L.%
-, Ríos-Alvarado, A\BPBI B.%
-\BCBL {}\ \BBA {} Ortiz-Rodríguez, F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Towards Abalone Differentiation Through Machine
-  Learning} {Towards abalone differentiation through machine learning}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Towards Abalone Differentiation through Machine
-  Learning} {Towards abalone differentiation through machine learning}\ (\BPGS\
-  108--118).
-\newblock
-\APACaddressPublisher{}{Springer}.
-\newblock
-\begin{APACrefDOI} \doi{10.1007/978-3-031-34222-6_9} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 BFAR%
 }{%
 BFAR%
@@ -361,29 +290,6 @@ Breton, S.%
 \APACjournalVolNumPages{Molecular Biology and Evolution}{28}{5}{1645--1659}.
 \newblock
 \begin{APACrefDOI} \doi{10.1093/molbev/msq345} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Brotohadikusomo%
-}{%
-Brotohadikusomo%
-}{%
-{\protect \APACyear {1994}}%
-}]{%
-brotohadikusomo}
-\APACinsertmetastar {%
-brotohadikusomo}%
-\begin{APACrefauthors}%
-Brotohadikusomo, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{1994}{November}{}.
-\newblock
-\APACrefbtitle {Ecology of Two Species of Blood Clams Anadara.} {Ecology of two
-  species of blood clams anadara.}
-\newblock
-\APAChowpublished {Proquest}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -869,9 +775,9 @@ Kim, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-J\BPBI H.~Lee%
+Lee%
 }{%
-J\BPBI H.~Lee%
+Lee%
 }{%
 {\protect \APACyear {1997}}%
 }]{%
@@ -891,41 +797,6 @@ Lee, J\BPBI H.%
   (linne)}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Korean Journal of Malacology}{13}{}{55--64}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-J\BPBI S.~Lee%
-, Park%
-, Shin%
-, Kim%
-\BCBL {}\ \BBA {} Jeon%
-}{%
-J\BPBI S.~Lee%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-lee2014}
-\APACinsertmetastar {%
-lee2014}%
-\begin{APACrefauthors}%
-Lee, J\BPBI S.%
-, Park, J\BPBI J.%
-, Shin, Y\BPBI K.%
-, Kim, H.%
-\BCBL {}\ \BBA {} Jeon, M\BPBI A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Sex Change and Sequential Hermaphroditism in Tegillarca
-  Granosa (Bivalvia: Arcidae)} {Sex change and sequential hermaphroditism in
-  tegillarca granosa (bivalvia: Arcidae)}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Invertebrate Reproduction \&
-  Development}{58}{4}{314--318}.
-\newblock
-\begin{APACrefDOI} \doi{10.1080/07924259.2014.949014} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1143,32 +1014,6 @@ Naylor, R\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Philippines%
-}{%
-Philippines%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-betterseafood2024}
-\APACinsertmetastar {%
-betterseafood2024}%
-\begin{APACrefauthors}%
-Philippines, B\BPBI S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{}{}.
-\newblock
-\APACrefbtitle {Better Seafood Philippines.} {Better seafood philippines.}
-\newblock
-\APAChowpublished {Sustainable Fisheries Partnership}.
-\newblock
-\begin{APACrefURL}
-  \url{https://sustainablefish.org/impact-initiatives/supporting-small-scale-fisheries/better-seafood-philippines/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ponton%
 }{%
 Ponton%
@@ -1363,71 +1208,6 @@ Thompson, R\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Tsutsumi%
-, Saito%
-, Koyabu%
-\BCBL {}\ \BBA {} Furusawa%
-}{%
-Tsutsumi%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2023}}%
-}]{%
-tsutsumi2023}
-\APACinsertmetastar {%
-tsutsumi2023}%
-\begin{APACrefauthors}%
-Tsutsumi, M.%
-, Saito, N.%
-, Koyabu, D.%
-\BCBL {}\ \BBA {} Furusawa, C.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Deep Learning Approach for Morphological Feature
-  Extraction Based on Variational Auto-Encoder: An Application to Mandible
-  Shape} {A deep learning approach for morphological feature extraction based
-  on variational auto-encoder: An application to mandible shape}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Npj Systems Biology and Applications}{9}{1}{1--12}.
-\newblock
-\begin{APACrefDOI} \doi{10.1038/s41540-023-00293-6} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Tuset%
-\ \protect \BOthers {.}}{%
-Tuset%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2020}}%
-}]{%
-tuset2020}
-\APACinsertmetastar {%
-tuset2020}%
-\begin{APACrefauthors}%
-Tuset, V\BPBI M.%
-, Galimany, E.%
-, Farrés, A.%
-, Marco-Herrero, E.%
-, Otero-Ferrer, J\BPBI L.%
-, Lombarte, A.%
-\BCBL {}\ \BBA {} Ramón, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2020}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Recognising Mollusc Shell Contours with Enlarged Spines:
-  Wavelet vs Elliptic Fourier Analyses} {Recognising mollusc shell contours
-  with enlarged spines: Wavelet vs elliptic fourier analyses}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Zoology}{140}{}{125778--125778}.
-\newblock
-\begin{APACrefDOI} \doi{10.1016/j.zool.2020.125778} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Wong%
 \ \BBA {} Lim%
 }{%
@@ -1454,71 +1234,6 @@ Wong, T\BPBI M.%
 \APACrefnote{Handle.net}
 \newblock
 \begin{APACrefDOI} \doi{10.3366/in_3366.pdf} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Yurimoto%
-, Kassim%
-, Man%
-\BCBL {}\ \BBA {} Fuseya%
-}{%
-Yurimoto%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2014}}%
-}]{%
-yurimoto2014}
-\APACinsertmetastar {%
-yurimoto2014}%
-\begin{APACrefauthors}%
-Yurimoto, T.%
-, Kassim, F\BPBI M.%
-, Man, A.%
-\BCBL {}\ \BBA {} Fuseya, R.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{}{}.
-\newblock
-\APACrefbtitle {Spawning Season and Larval Occurrence of Blood Cockle (Anadara
-  Granosa) off the Selangor Coast, Peninsular Malaysia.} {Spawning season and
-  larval occurrence of blood cockle (anadara granosa) off the selangor coast,
-  peninsular malaysia.}
-\newblock
-\APACrefnote{DOAJ: Directory of Open Access Journals}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Yusuff%
-\ \protect \BOthers {.}}{%
-Yusuff%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2021}}%
-}]{%
-yusuff2021}
-\APACinsertmetastar {%
-yusuff2021}%
-\begin{APACrefauthors}%
-Yusuff, F\BPBI M.%
-, Shari, M\BPBI A\BPBI M.%
-, Joni, A\BPBI A\BPBI M.%
-, Kusin, F\BPBI M.%
-, Mohamed, K\BPBI N.%
-, Zulkeflee, Z.%
-\BDBL {}Arshad, A.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2021}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Health Status Comparison of Blood Cockle (Tegillarca
-  granosa) between Low and High Yield Farms in Selangor and Johor} {Health
-  status comparison of blood cockle (tegillarca granosa) between low and high
-  yield farms in selangor and johor}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{IOP Conference Series: Earth and Environmental
-  Science}{934}{1}{012048}.
-\newblock
-\begin{APACrefDOI} \doi{10.1088/1755-1315/934/1/012048} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
