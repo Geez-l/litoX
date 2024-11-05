@@ -1,0 +1,120 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: title_page.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_1.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_4.aux
+Illegal, another \bibstyle command---line 10 of file main.aux
+ : \bibstyle
+ :          {apacite}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_A.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_B.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: myreferences.bib
+I was expecting a `,' or a `}'---line 93 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.13057/biodiv/d231015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 115 of file myreferences.bib
+ :  
+ :  url       = {https://doi.org/10.1007/978-3-031-34222-6_9}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 155 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.1016/j.fuel.2011.03.002}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 175 of file myreferences.bib
+ :  
+ :  url       = {https://doi.org/10.20944/preprints201706.0127.v1}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 199 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.1093/molbev/msq345}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 217 of file myreferences.bib
+ :  
+ :  url       = {https://www.proquest.com/dissertations-theses/ecology-two-species-blood-clams-em-anadara/docview/1797897997/se-2?accountid=207156}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 241 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.3390/jmse3020329}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 585 of file myreferences.bib
+ : @article{quenu2020
+ :                   ,
+I'm skipping whatever remains of this entry
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in afiati2007
+Warning--No journal in narasimham1988
+You've used 44 entries,
+            6951 wiz_defined-function locations,
+            1577 strings with 20155 characters,
+and the built_in function-call counts, 101110 in all, are:
+= -- 12284
+> -- 829
+< -- 5480
++ -- 5886
+- -- 90
+* -- 6942
+:= -- 19523
+add.period$ -- 185
+call.type$ -- 44
+change.case$ -- 761
+chr.to.int$ -- 0
+cite$ -- 90
+duplicate$ -- 2726
+empty$ -- 3494
+format.name$ -- 1452
+if$ -- 18261
+int.to.chr$ -- 0
+int.to.str$ -- 132
+missing$ -- 0
+newline$ -- 1200
+num.names$ -- 348
+pop$ -- 1476
+preamble$ -- 1
+purify$ -- 185
+quote$ -- 0
+skip$ -- 5879
+stack$ -- 0
+substring$ -- 6343
+swap$ -- 1519
+text.length$ -- 127
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 3800
+warning$ -- 2
+while$ -- 512
+width$ -- 0
+write$ -- 1538
+(There were 9 error messages)
