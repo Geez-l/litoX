@@ -21,14 +21,3 @@
 \contentsline {section}{\numberline {2.5}Synthesis of the Study}{17}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{20}{}%
 \contentsline {section}{\numberline {3.1}Sample Collection}{20}{}%
-\contentsline {section}{\numberline {3.2}Ethical Considerations}{21}{}%
-\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{21}{}%
-\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{21}{}%
-\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{22}{}%
-\contentsline {section}{\numberline {3.6}Machine/ Deep Learning Technologies}{23}{}%
-\contentsline {section}{\numberline {3.7}Support Vector Machine for Pre-evaluation }{23}{}%
-\contentsline {section}{\numberline {3.8} Deep Learning for Image-Based Classification}{24}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{25}{}%
-\contentsline {chapter}{References}{26}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{31}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{32}{}%
