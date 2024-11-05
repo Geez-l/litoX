@@ -69,53 +69,163 @@ I was expecting a `,' or a `}'---line 241 of file myreferences.bib
  :  url     = {https://doi.org/10.3390/jmse3020329}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 615 of file myreferences.bib
+Repeated entry---line 635 of file myreferences.bib
  : @article{quenu2020
  :                   ,
 I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5076 of file apacite.bst
 Warning--No journal in afiati2007
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Cui, Y., Pan, T., Chen, S., & Zou, X." for entry cui2020
+while executing---line 5079 of file apacite.bst
 Warning--No journal in kiel2021
 Warning--No journal in narasimham1988
-You've used 48 entries,
+You've used 49 entries,
             6951 wiz_defined-function locations,
-            1602 strings with 20927 characters,
-and the built_in function-call counts, 108321 in all, are:
-= -- 13122
-> -- 882
-< -- 5875
-+ -- 6268
-- -- 98
-* -- 7452
-:= -- 20958
-add.period$ -- 201
-call.type$ -- 48
-change.case$ -- 790
+            1610 strings with 21158 characters,
+and the built_in function-call counts, 110544 in all, are:
+= -- 13410
+> -- 892
+< -- 5998
++ -- 6418
+- -- 100
+* -- 7603
+:= -- 21396
+add.period$ -- 205
+call.type$ -- 49
+change.case$ -- 807
 chr.to.int$ -- 0
-cite$ -- 99
-duplicate$ -- 2896
-empty$ -- 3774
-format.name$ -- 1535
-if$ -- 19571
+cite$ -- 101
+duplicate$ -- 2950
+empty$ -- 3843
+format.name$ -- 1549
+if$ -- 19971
 int.to.chr$ -- 0
-int.to.str$ -- 144
+int.to.str$ -- 147
 missing$ -- 0
-newline$ -- 1302
-num.names$ -- 380
-pop$ -- 1563
+newline$ -- 1326
+num.names$ -- 388
+pop$ -- 1585
 preamble$ -- 1
-purify$ -- 198
+purify$ -- 202
 quote$ -- 0
-skip$ -- 6336
+skip$ -- 6469
 stack$ -- 0
-substring$ -- 6747
-swap$ -- 1630
-text.length$ -- 132
+substring$ -- 6911
+swap$ -- 1659
+text.length$ -- 134
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4120
+type$ -- 4200
 warning$ -- 3
-while$ -- 538
+while$ -- 543
 width$ -- 0
-write$ -- 1657
-(There were 9 error messages)
+write$ -- 1683
+(There were 64 error messages)

@@ -481,6 +481,34 @@ Concepcion, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Cui%
+}{%
+Cui%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+cui2020}
+\APACinsertmetastar {%
+cui2020}%
+\begin{APACrefauthors}%
+Cui, P\BPBI T\BPBI C\BPBI S\BPBI \BPBI Z\BPBI X., Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A gender classification method for Chinese mitten crab
+  using deep convolutional neural network} {A gender classification method for
+  chinese mitten crab using deep convolutional neural network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Multimedia Tools and
+  Applications}{79}{11-12}{7669–7684}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1007/s11042-019-08355-w}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Doering%
 \ \BBA {} Ludwig%
 }{%
