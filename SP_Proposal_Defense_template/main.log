@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  5 NOV 2024 23:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  5 NOV 2024 23:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,7 +445,7 @@ Overfull \hbox (7.81496pt too wide) in paragraph at lines 11--11
 \OT1/cmr/bx/n/17.28 and Their
  []
 
-<figures/figure1.png, id=45, 816.04875pt x 693.59125pt>
+<figures/figure1.png, id=44, 816.04875pt x 693.59125pt>
 File: figures/figure1.png Graphic file (type png)
 <use figures/figure1.png>
 Package pdftex.def Info: figures/figure1.png  used on input line 16.
@@ -703,17 +703,17 @@ Chapter 3.
 
 
 ] [21]
-<figures/length.jpg, id=97, 1541.76pt x 2055.68pt>
+<figures/length.jpg, id=96, 1541.76pt x 2055.68pt>
 File: figures/length.jpg Graphic file (type jpg)
 <use figures/length.jpg>
 Package pdftex.def Info: figures/length.jpg  used on input line 38.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
-<figures/width.jpg, id=98, 1541.76pt x 2055.68pt>
+<figures/width.jpg, id=97, 1541.76pt x 2055.68pt>
 File: figures/width.jpg Graphic file (type jpg)
 <use figures/width.jpg>
 Package pdftex.def Info: figures/width.jpg  used on input line 42.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
-<figures/height.jpg, id=99, 1541.76pt x 2055.68pt>
+<figures/height.jpg, id=98, 1541.76pt x 2055.68pt>
 File: figures/height.jpg Graphic file (type jpg)
 <use figures/height.jpg>
 Package pdftex.def Info: figures/height.jpg  used on input line 46.
@@ -738,16 +738,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--559
 \OT1/cmtt/m/n/12 fao [] -2024 [] -report [] -sustainable [] -aquatic [] -food [
 ] -systems [] -important [] -for []
  []
-
-! Misplaced alignment tab character &.
-l.603 F.~James~Rohlf, J\BPBI W., &
-                                  ~Archie.%
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
 [28] [29] [30]) [31]
 \openout2 = `appendix_A.aux'.
@@ -775,25 +765,24 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7112 strings out of 474486
- 114654 string characters out of 5744226
- 1969542 words of memory out of 5000000
- 29213 multiletter control sequences out of 15000+600000
- 566987 words of font info for 69 fonts, out of 8000000 for 9000
+ 7110 strings out of 474486
+ 114635 string characters out of 5744226
+ 1967542 words of memory out of 5000000
+ 29212 multiletter control sequences out of 15000+600000
+ 566687 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,11n,84p,1791b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,84p,1791b,373s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmbxti10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/User/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/User/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (39 pages, 1640206 bytes).
+MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/User/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (39 pages, 1624664 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
+ 171 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
