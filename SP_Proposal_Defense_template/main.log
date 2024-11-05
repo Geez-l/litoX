@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  5 NOV 2024 23:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  6 NOV 2024 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,13 +372,19 @@ LaTeX Info: Redefining \BHBI on input line 130.
 \openout2 = `title_page.aux'.
 
 
-(title_page.tex [1
+(title_page.tex
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
+(Font)              using `OT1/cmr/m/it' instead on input line 6.
+
+[1
 
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \openout2 = `abstract.aux'.
 
- (abstract.tex
+
+(abstract.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
 
 
@@ -702,23 +708,30 @@ Chapter 3.
 
 
 
-] [21]
-<figures/length.jpg, id=96, 1541.76pt x 2055.68pt>
+]
+<figures/male-female T.granosa.png, id=93, 584.1825pt x 368.37625pt>
+File: figures/male-female T.granosa.png Graphic file (type png)
+<use figures/male-female T.granosa.png>
+Package pdftex.def Info: figures/male-female T.granosa.png  used on input line 
+17.
+(pdftex.def)             Requested size: 373.99469pt x 235.8443pt.
+ [21 <./figures/male-female T.granosa.png>]
+<figures/length.jpg, id=98, 1541.76pt x 2055.68pt>
 File: figures/length.jpg Graphic file (type jpg)
 <use figures/length.jpg>
-Package pdftex.def Info: figures/length.jpg  used on input line 38.
+Package pdftex.def Info: figures/length.jpg  used on input line 43.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
-<figures/width.jpg, id=97, 1541.76pt x 2055.68pt>
+<figures/width.jpg, id=99, 1541.76pt x 2055.68pt>
 File: figures/width.jpg Graphic file (type jpg)
 <use figures/width.jpg>
-Package pdftex.def Info: figures/width.jpg  used on input line 42.
+Package pdftex.def Info: figures/width.jpg  used on input line 47.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
-<figures/height.jpg, id=98, 1541.76pt x 2055.68pt>
+<figures/height.jpg, id=100, 1541.76pt x 2055.68pt>
 File: figures/height.jpg Graphic file (type jpg)
 <use figures/height.jpg>
-Package pdftex.def Info: figures/height.jpg  used on input line 46.
+Package pdftex.def Info: figures/height.jpg  used on input line 51.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
- [22 <./figures/length.jpg> <./figures/width.jpg> <./figures/height.jpg>] [23])
+ [22] [23 <./figures/length.jpg> <./figures/width.jpg> <./figures/height.jpg>])
  [24] [25]
 \openout2 = `chapter_4.aux'.
 
@@ -765,11 +778,11 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7110 strings out of 474486
- 114635 string characters out of 5744226
+ 7118 strings out of 474486
+ 114932 string characters out of 5744226
  1967542 words of memory out of 5000000
- 29212 multiletter control sequences out of 15000+600000
- 566687 words of font info for 68 fonts, out of 8000000 for 9000
+ 29220 multiletter control sequences out of 15000+600000
+ 567034 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,11n,84p,1791b,373s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
@@ -780,9 +793,9 @@ e1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/User/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/User/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (39 pages, 1624664 bytes).
+Output written on main.pdf (39 pages, 1815891 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
