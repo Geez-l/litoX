@@ -69,52 +69,53 @@ I was expecting a `,' or a `}'---line 241 of file myreferences.bib
  :  url     = {https://doi.org/10.3390/jmse3020329}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 585 of file myreferences.bib
+Repeated entry---line 615 of file myreferences.bib
  : @article{quenu2020
  :                   ,
 I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in afiati2007
+Warning--No journal in kiel2021
 Warning--No journal in narasimham1988
-You've used 44 entries,
+You've used 48 entries,
             6951 wiz_defined-function locations,
-            1577 strings with 20155 characters,
-and the built_in function-call counts, 101110 in all, are:
-= -- 12284
-> -- 829
-< -- 5480
-+ -- 5886
-- -- 90
-* -- 6942
-:= -- 19523
-add.period$ -- 185
-call.type$ -- 44
-change.case$ -- 761
+            1602 strings with 20927 characters,
+and the built_in function-call counts, 108321 in all, are:
+= -- 13122
+> -- 882
+< -- 5875
++ -- 6268
+- -- 98
+* -- 7452
+:= -- 20958
+add.period$ -- 201
+call.type$ -- 48
+change.case$ -- 790
 chr.to.int$ -- 0
-cite$ -- 90
-duplicate$ -- 2726
-empty$ -- 3494
-format.name$ -- 1452
-if$ -- 18261
+cite$ -- 99
+duplicate$ -- 2896
+empty$ -- 3774
+format.name$ -- 1535
+if$ -- 19571
 int.to.chr$ -- 0
-int.to.str$ -- 132
+int.to.str$ -- 144
 missing$ -- 0
-newline$ -- 1200
-num.names$ -- 348
-pop$ -- 1476
+newline$ -- 1302
+num.names$ -- 380
+pop$ -- 1563
 preamble$ -- 1
-purify$ -- 185
+purify$ -- 198
 quote$ -- 0
-skip$ -- 5879
+skip$ -- 6336
 stack$ -- 0
-substring$ -- 6343
-swap$ -- 1519
-text.length$ -- 127
+substring$ -- 6747
+swap$ -- 1630
+text.length$ -- 132
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 3800
-warning$ -- 2
-while$ -- 512
+type$ -- 4120
+warning$ -- 3
+while$ -- 538
 width$ -- 0
-write$ -- 1538
+write$ -- 1657
 (There were 9 error messages)

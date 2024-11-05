@@ -30,5 +30,5 @@
 \contentsline {section}{\numberline {3.8} Deep Learning for Image-Based Classification}{24}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{26}{}%
 \contentsline {chapter}{References}{27}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{31}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{32}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{32}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{33}{}%

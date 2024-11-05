@@ -590,6 +590,33 @@ Ferguson, G\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+F.~James~Rohlf%
+}{%
+F.~James~Rohlf%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+rohlf1984}
+\APACinsertmetastar {%
+rohlf1984}%
+\begin{APACrefauthors}%
+F.~James~Rohlf, J\BPBI W., &~Archie.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Comparison of Fourier Methods for the Description of
+  Wing Shape in Mosquitoes (Diptera: Culicidae)} {A comparison of fourier
+  methods for the description of wing shape in mosquitoes (diptera:
+  Culicidae)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Systematic Zoology}{33}{3}{302–302}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.2307/2413076} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gosling%
 }{%
 Gosling%
@@ -739,6 +766,33 @@ Kerr, L\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kiel%
+}{%
+Kiel%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+kiel2021}
+\APACinsertmetastar {%
+kiel2021}%
+\begin{APACrefauthors}%
+Kiel, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Assessing bivalve phylogeny using Deep Learning and
+  Computer Vision approaches} {Assessing bivalve phylogeny using deep learning
+  and computer vision approaches}.{\BBCQ}
+\newblock
+
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1101/2021.04.08.438943}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Kim%
 , Yang%
 , Cha%
@@ -772,6 +826,32 @@ Kim, E.%
 \APACjournalVolNumPages{Frontiers in Marine Science}{11}{}{}.
 \newblock
 \begin{APACrefDOI} \doi{10.3389/fmars.2024.1356356} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Koonce%
+}{%
+Koonce%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+koonce2021}
+\APACinsertmetastar {%
+koonce2021}%
+\begin{APACrefauthors}%
+Koonce, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {SqueezeNet} {Squeezenet}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Convolutional Neural Networks with Swift for
+  Tensorflow}{}{}{73–85}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1007/978-1-4842-6168-2_7}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1205,6 +1285,39 @@ Thompson, R\BPBI J.%
   {The eastern oyster crassostrea virginica}\ (\BPGS\ 335--370).
 \newblock
 \APACaddressPublisher{College Park, MD}{Maryland Sea Grant}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tsutsumi%
+, Saito%
+, Koyabu%
+\BCBL {}\ \BBA {} Furusawa%
+}{%
+Tsutsumi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+tsutsumi2023}
+\APACinsertmetastar {%
+tsutsumi2023}%
+\begin{APACrefauthors}%
+Tsutsumi, M.%
+, Saito, N.%
+, Koyabu, D.%
+\BCBL {}\ \BBA {} Furusawa, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Deep Learning Approach for Morphological Feature
+  Extraction Based on Variational Auto-Encoder: An Application to Mandible
+  Shape} {A deep learning approach for morphological feature extraction based
+  on variational auto-encoder: An application to mandible shape}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Npj Systems Biology and Applications}{9}{1}{1--12}.
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41540-023-00293-6} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
