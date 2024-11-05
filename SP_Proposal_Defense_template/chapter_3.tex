@@ -2,30 +2,16 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software, and languages utilized. This will also entail the overall workflow in conducting the study, Non-Invasive Methods in Determining the Sex of \textit{Tegillarca granosa} (blood cockles) using machine learning technologies. The different machine/deep learning algorithms will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
+This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software and languages utilized. This will also entail the overall workflow in conducting the study, Non-Invasive Methods in Determining the Sex of \textit{Tegillarca granosa} (blood cockles) using machine learning technologies. The different machine/deep learning algorithms will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
 
-Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will guide the researchers with the workflow and conduct of this experiment. The researchers would also be assisted by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
+Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will oversee the overall workflow and conduct of this experiment. The researchers will also be guided by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
 
 
 
 \section{Sample Collection}
 \label{sec:samplecollect}
-A total of 500 adult \textit{T. granosa} that have already spawned will be used in this experiment wherein their sex was already classified as male or female. The sample sizes are going to range from 34 to 61 mm and will be sourced from the coastal area in the municipality of Zaraga, Iloilo, Philippines, as well as from fish markets in the municipality of Ivisan, Capiz, Philippines. The research and experimentation will be done at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, Philippines. The samples will be placed in 200 L fiberglass reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023} and will be subjected to spawning to categorize male from female \textit{T. granosa}. The samples will undergo a series of temperature fluctuations to induce the spawning of gametes as described in the study of Ferriols and Miranda (2023). This method, induced spawning, is the most natural and least invasive method for bivalves compared to other methods \cite{aji}. Thus, after the spawning, there would be 250 classified males and 250 females. 
+A total of 1000 adult \textit{T. granosa} that have already spawned will be used in this experiment wherein their sex was already classified as male or female. The sample sizes are going to range from 34 to 61 mm and will be sourced from the coastal area in the municipality of Zaraga, Iloilo, Philippines, as well as from fish markets in the municipality of Ivisan, Capiz, Philippines. The research and experimentation will be done at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, Philippines. The samples will be placed in 200 L fiberglass reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023} and will be subjected to spawning to categorize male from female \textit{T. granosa}. The samples will undergo a series of temperature fluctuations to induce the spawning of gametes as described in the study of Ferriols and Miranda (2023). This method, induced spawning, is the most natural and least invasive method for bivalves compared to other methods \cite{aji}. Thus, after the spawning, there would be 500 classified males and 500 classified females. 
 
-\begin{figure}
-	\centering
-	\begin{minipage}[b]{0.24\textwidth}
-		\centering
-		\includegraphics[width=\linewidth]{T._granosa_male}
-		\caption{Male}
-	\end{minipage}\hspace{0.4cm}
-	\begin{minipage}[b]{0.24\textwidth}
-		\includegraphics[width=\linewidth]{T._granosa_female}
-		\caption{Male}
-	\end{minipage}\hspace{0.4cm}
-
-\section{Male and Female \textit{T. granosa}}
-\label{sec:malefemale}
 
 \section{Ethical Considerations}
 \label{sec:ethical}
@@ -36,31 +22,52 @@ Ethical approval was not required for this study involving animals, as per local
 \section{Creating \textit{T. granosa} Dataset}
 \label{sec:dataset}
 
-For the initial preparation of the experiment, the researchers will collect primary observations for 100 samples of \textit{T. granosa.} For the actual experimentation, the researchers will collect the dataset by batch eventually comprising 1000 samples of \textit{T. granosa}. The images captured for the datasets will be saved in png format with a file naming convention of the sample’s sex, the orientation or view of the shell, and its corresponding number out of the total 1000 samples. Female \textit{T. granosa} sample will begin with 0 in their file name, while males will begin with 1, followed by the views captured such as (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral, and lastly, a unique sample number. For example, “010001” will be the file name for the first female sample taken from the dorsal view and “110001” for the first male sample also taken from the dorsal view. The dataset will be organized in a CSV file that lists each image’s file name along with their shell’s width, height, length, rib count, length of the hinge line, and distance between their umbos. This dataset will be essential for machine learning model training and testing. 
+For the initial preparation of the experiment, the researchers will collect primary observations for 100 samples of \textit{T. granosa.} For the actual experimentation, the researchers will collect the dataset by batch eventually comprising 1000 samples of \textit{T. granosa}. The images captured for the dataset will be saved in png format with a file naming convention of the sample’s sex, the orientation or view of the shell, and its corresponding number out of the total 1000 samples. Female \textit{T. granosa} samples will begin with 0 in their file name, while males will begin with 1, followed by the views captured such as (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral, and lastly, a unique sample number. For example, “010001” will be the file name for the first female sample taken from the dorsal view and “110001” for the first male sample also taken from the dorsal view. The dataset will be organized in a CSV file that lists each image’s file name along with their shell’s width, height, length, rib count, length of the hinge line, and distance between their umbos. This dataset will be essential for machine learning model training and testing. 
 
 \section{Morphological Characteristics Collection}
 \label{sec:morphochar}
 
 Morphology refers to the biological form and represents one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. Morphology is a term that describes structural characteristics by measuring specific components, namely, dimensions such as shapes, sizes, and colors. As stated by the researchers, quantifying and characterizing the shape is essential to understanding and visualizing the variations in \textit{T. granosa’s} morphology. 
-In this study, the researchers are going to measure the height, width, and length of \textit{T. granosa.} The dimensions will be recorded using a Vernier caliper to the nearest 0.01 mm. The length of the \textit{T. granosa} refers to the measurement from the anterior to the posterior of the shell, the width will be measured through the shell’s widest point from the left to the right valve and lastly, the height will be measured from the base of the shell to the shell’s apex. The height of the gap between the valves near the hinge will also be measured. The authors Reyment and Kennedy (1998), indicated that the use of counts of the shell ribs as supplementary information increases identification accuracy. Thus, the researchers will also take into account the difference in the rib count of the male and female \textit{T. granosa} and the ratio will be calculated since the sizes of the blood clams may vary. In addition, sex ratio, size frequency distribution, and relative growth rates were used to investigate possible sexual dimorphism present in blood cockles.
+In this study, the researchers are going to measure the height, width, and length of \textit{T. granosa.} The dimensions will be recorded using a Vernier caliper to the nearest 0.01 mm. The length of the \textit{T. granosa} refers to the measurement from the anterior to the posterior of the shell, the width will be measured through the shell’s widest point from the left to the right valve and lastly, the height will be measured from the base of the shell to the shell’s apex. The height of the gap between the valves near the hinge will also be measured. The authors Reyment and Kennedy (1998), indicated that the use of counts of the shell ribs as supplementary information increases identification accuracy. Thus, the researchers will also take into account the difference in the rib count of the male and female \textit{T. granosa} and the ratio will be calculated since the sizes of the blood clams may vary.
+Sex ratio, size frequency distribution, and relative growth rates were used to investigate sexual dimorphism.
 
-In this study, there would be three major phases for the image processing to be employed namely (1) color thresholding, (2) segmentation, and (3) image hole filling and dilating. The researchers constructed a controlled environment for capturing the samples utilizing a box-like structure with white background surface. This setup was designed to maintain uniform captures of the images, and a consistent measurement between the sample and the camera at a fixed angle to capture features of the sample \textit{T. granosa}. Researches placed a ring light to the left of the box, and using a camera with flash to ensure the image quality, eliminate shadows and clarity of the sample during the image acquisition process. 
+\begin{figure}
+	\centering
+	\begin{minipage}[b]{0.24\textwidth}
+		\centering
+		\includegraphics[width=\linewidth]{length}
+		\caption{Length}
+	\end{minipage}\hspace{0.4cm}
+	\begin{minipage}[b]{0.24\textwidth}
+		\includegraphics[width=\linewidth]{width}
+		\caption{Width}
+	\end{minipage}\hspace{0.4cm}
+	\begin{minipage}[b]{0.24\textwidth}
+		\includegraphics[width=\linewidth]{height}
+		\caption{Height}
+	\end{minipage}
+	\caption{\textit{T. granosa’s} measurements}\label{fig:tegillarca}
+\end{figure}
+
+\section{Image Acquisition and Pre-Processing}
+\label{sec:imageprocess}
+In this study, there would be three major phases for the image processing to be employed namely (1) color thresholding, (2) segmentation, and (3) image hole filling and dilating. The researchers constructed a controlled environment for capturing the samples utilizing a box-like structure of (?) meters with a green background surface. This setup was designed to maintain uniform captures of the images, and a consistent measurement between the sample and the camera, fixing the camera at 50 cm above the \textit{T. granosa}. Placing a ring light to the left of the box, and using a camera with flash to ensure the image quality, eliminate shadows and clarity of the sample during the image acquisition process. 
 For color thresholding, the researchers utilized the red, green, blue (RGB), hue saturation value (HSV), luminance, blue chromaticity, red chromaticity (YCbCr), and (Luminance, a, b)** (CIElab) images obtained from the smartphone considering their wide availability across various stages in the bivalve industry using the MATLAB Colour Thresholding Toolbox in determining which among the four-color spectra may generate the cleanest version of the training images with absence of any blobs . Google Pixel 3 XL will be utilized with the following specifications: 2960 x 1440 for the resolution, 4,032 x 3,024 pixels (12.2 MP) for the dimensions, f/1.8 for the fstop, 28mm (wide), ½.55”, 1.4µm, dual pixel PDAF, OIS \cite{concepcion2023}. 
 After thresholding, the lazy snapping technique will be implemented by manually drawing the background and the foreground lines that represent the black pixels and the bivalve pixels. The lazy snapping algorithm will be configured using the 20 000 superpixels which can divide the \textit{T. granosa’s} images into 20, 000 irregularly shaped geometric pixels that will be based on the CIElab gradients through K-means clustering with K = 3. For the last step, the researchers will perform image hole filling and dilating to ensure that no blobs are remaining that can contribute to noise which can affect the correctness of the extracted feature by taking into consideration the 200-pixel blobs that are disconnected from the largest object in its binary form. This will result in black pixels made by binary filling and dilating to remove the blobs \cite{concepcion2023}.
-Image processing will be performed on the MATLAB installed on the Acer Aspire 3 with CPU of AMD Ryzen 3 7320U with Radeon Graphics. The images will be saved based on how it was stated on the collection of the image dataset. 
+Image processing will be performed on the MATLAB [version[-] installed on the [laptop] with specs. The images will be saved based on how it was stated on the collection of the image dataset. 
 To ensure consistent comparisons for the analysis, the images were captured in different angles including dorsal, ventral, lateral, and anterior and posterior taken in uniform angles to provide visual coverage of the \textit{T. granosa} sample. 
 
 \section{Machine/ Deep Learning Technologies}
 This section of the paper will discuss the technologies to be used in training, and testing the model as well as associated techniques and algorithms.  Since obtaining the induced samples was done per batch, the researchers will conduct an initial run with a support vector machine before delving into more complex methods such as deep learning models. 
 
-\section{Machine Learning for Pre-evaluation }
+\section{Support Vector Machine for Pre-evaluation }
 \label{sec:svm}
 
 The shape of recording structures was first analyzed by collecting measurements of linear distances and applying multivariate statistical methods to these data (traditional linear measurement method) \cite{rohlf1984}. Geometric morphometric (GM) methods are an alternative way of analyzing and quantifying shape, which in theory retains more detail about the geometry of the structure than could be obtained from linear measurements \cite{adams2004}. Machine learning techniques such as decision tree classification, support vector machines (SVMs), and artificial neural networks (ANNs) have been applied to the analysis of bivalve shell geometry and morphology to classify shells based on morphological features, including shell shape, size, and texture, among others \cite{kiel2021}. The results of these studies have shown that machine learning algorithms can accurately classify bivalve shells and provide insights into the relationships between shell morphology and various environmental factors.
-Following this, the researchers are going to conduct a pre-evaluation of the linear measurements for 100 samples of \textit{T. granosa} using the most common supervised machine learning algorithm used namely, Logistic Regression, Support Vector Machine, XGBoost, and Random Forest in order to quantify whether the linear measurements can be a determining factor in determining the sex of the samples before proceeding to more complex methods. 
+Following this, the researchers are going to conduct a pre-evaluation of the linear measurements for 100 samples of \textit{T. granosa} using a Support Vector Machine in order to quantify whether the linear measurements can be a determining factor in determining the sex of the samples before proceeding to more complex methods. 
 
 \section{ Deep Learning for Image-Based Classification}
 \label{sec:deeplearning}
 After collecting a sufficient number of images and identifying initial patterns, convolutional neural networks (CNNs) will be used. CNNs, models like VGGNet, ResNet, and Inception have been effectively applied in phenotype classification \cite{kim2024}. In this study, the deep learning model will be specifically adapted for the sex identification of \textit{T. granosa} based on shell images. CNNs will analyze the images and learn important details about their shapes that can help identify whether they are male or female. 
 Unlike the approach of using three models taken by Kim et al. (2024), the researchers will focus on just one model that has shown the best performance in their study which is SqueezeNet. SqueezeNet is particularly advantageous because it reduces the number of parameters and amount of memory required to store the model without sacrificing accuracy \cite{koonce2021}. Its ability to achieve high accuracy in classifying shell images makes it a suitable choice for distinguishing between male and female \textit{T. granosa.}
-Python and Keras libraries will be used to train and test the model. The dataset will be divided into training, validation, and testing. Performance metrics such as accuracy, precision, recall, and F1-score will be used to evaluate the model's effectiveness.
+Python and Keras libraries will be used to train and test the model. The dataset will be divided into training (), validation (), and testing. Performance metrics such as accuracy, precision, recall, and F1-score will be used to evaluate the model's effectiveness.
