@@ -628,7 +628,7 @@ rohlf1984}
 \APACinsertmetastar {%
 rohlf1984}%
 \begin{APACrefauthors}%
-F.~James~Rohlf, J\BPBI W., and Archie.
+F.~James~Rohlf, J\BPBI W., and Archie
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -691,6 +691,25 @@ Heller, J.%
   Society}{48}{}{19--42}.
 \newblock
 \begin{APACrefDOI} \doi{10.1111/bij.1993.48.issue-1} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {IBM. (2023, December 27). What is support vector machine? |
+  IBM. Www.ibm.com.}}{%
+\APACcitebtitle {IBM. (2023, December 27). What is support vector machine? |
+  IBM. Www.ibm.com.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+ibm2023}
+\APACinsertmetastar {%
+ibm2023}%
+\APACrefbtitle {IBM. (2023, December 27). What is support vector machine? |
+  IBM. Www.ibm.com.} {Ibm. (2023, december 27). what is support vector machine?
+  | ibm. www.ibm.com.}
+\newblock
+\APACrefYearMonthDay{2023}{December}{}.
+\newblock
+\APAChowpublished {\url{https://www.ibm.com/topics/support-vector-machine}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1313,6 +1332,31 @@ Thompson, R\BPBI J.%
   {The eastern oyster crassostrea virginica}\ (\BPGS\ 335--370).
 \newblock
 \APACaddressPublisher{College Park, MD}{Maryland Sea Grant}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Torres%
+}{%
+Torres%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+torres2023}
+\APACinsertmetastar {%
+torres2023}%
+\begin{APACrefauthors}%
+Torres, L\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{April}{}.
+\newblock
+\APACrefbtitle {XGBoost: The King of Machine Learning Algorithms- LatinXinAI -
+  Medium. Medium; LatinXinAI.} {Xgboost: The king of machine learning
+  algorithms- latinxinai - medium. medium; latinxinai.}
+\newblock
+\APAChowpublished
+  {\url{https://medium.com/latinxinai/xgboost-the-king-of-machine-learning-algorithms-6b5c0d4acd87}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

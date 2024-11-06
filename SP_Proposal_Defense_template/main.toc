@@ -32,10 +32,12 @@
 \contentsline {section}{\numberline {3.7}Data Augmentation}{24}{}%
 \contentsline {section}{\numberline {3.8}Machine/ Deep Learning Technologies}{25}{}%
 \contentsline {section}{\numberline {3.9}Machine Learning Models for Pre-evaluation }{25}{}%
-\contentsline {subsection}{\numberline {3.9.1}Support Vector Machine}{26}{}%
-\contentsline {subsection}{\numberline {3.9.2}Extreme Logic Expression}{26}{}%
-\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{26}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{27}{}%
-\contentsline {chapter}{References}{28}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{33}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{34}{}%
+\contentsline {subsection}{\numberline {3.9.1}Extreme Gradient Boosting}{25}{}%
+\contentsline {subsection}{\numberline {3.9.2}Logistic Regression}{26}{}%
+\contentsline {subsection}{\numberline {3.9.3}Random Forest}{26}{}%
+\contentsline {subsection}{\numberline {3.9.4}Support Vector Machine}{26}{}%
+\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{27}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{28}{}%
+\contentsline {chapter}{References}{29}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{34}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{35}{}%

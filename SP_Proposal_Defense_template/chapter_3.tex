@@ -84,8 +84,22 @@ This section of the paper will discuss the technologies to be used in training, 
 The shape of recording structures was first analyzed by collecting measurements of linear distances and applying multivariate statistical methods to these data (traditional linear measurement method) \cite{rohlf1984}. Geometric morphometric (GM) methods are an alternative way of analyzing and quantifying shape, which in theory retains more detail about the geometry of the structure than could be obtained from linear measurements \cite{adams2004}. Machine learning techniques such as decision tree classification, support vector machines (SVMs), and artificial neural networks (ANNs) have been applied to the analysis of bivalve shell geometry and morphology to classify shells based on morphological features, including shell shape, size, and texture, among others \cite{kiel2021}. The results of these studies have shown that machine learning algorithms can accurately classify bivalve shells and provide insights into the relationships between shell morphology and various environmental factors.
 Following this, the researchers are going to conduct a pre-evaluation of the linear measurements for 100 samples of \textit{T. granosa} using a Support Vector Machine in order to quantify whether the linear measurements can be a determining factor in determining the sex of the samples before proceeding to more complex methods. 
 
+\subsection{Extreme Gradient Boosting}
+Extreme Gradient Boosting (XGBoost) is a DT-based ensemble machine learning algorithm that combines the gradient boosting framework and decision trees to reach final decision. It has the ability to achieve improved performance and higher accuracy compared to other supervised machine learning models . This model would be beneficial in terms of its key capabilities of computation of the importance of the attributes based on the overall contribution to the accuracy of the predictions \cite{torres2023}. 
+
+\subsection{Logistic Regression}
+
+Logistic Regresion (LR) is the process of modeling the probability of a discrete outcome given the input variable. The outcomes in the logistic regression is measured using a binary variable and is a transformation of the linear regression using the sigmoid function \cite{cui2020}. Although, there are no related studies about sex identification in mollusks, logistic regression is useful analysis method in classification problems such as determining the sexual dimorphism given the linear measurements measured. 
+
+\subsection{Random Forest}
+
+Random Forest (RF) is type of supervised machine learning algorithm that is oftenly used in regression and classification problems \cite{cui2020}. It has also been utilized in mollusks studies such as sex identification of abalone wherein the Random Forest achieved the highest avaerage balance accuracy for all the datasets\cite{arifin2021}.
+
 \subsection{Support Vector Machine}
-\subsection{Extreme Logic Expression}
+
+Support Vector Machine (SVM) is a supervised machine learning algorithm that classifies data by finding the optimal hyperplane which is also used in classification and regression problems \cite{cui2020}. Support vector machine is also widely used in aquaculture related studies such as the sex determining mandible shapes of due to its ability to solve classification problems with high validation accuracy especially when the clusters of the data with varying labels. The SVM has the ability to reflect the degree of cluster separation . It has the ability to be used as tool in the variety of the image data with biological shapes \cite{tsutsumi2023}.
+
+
 
 \section{ Deep Learning for Image-Based Classification}
 \label{sec:deeplearning}
