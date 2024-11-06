@@ -195,6 +195,34 @@ BFAR.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Boesch%
+}{%
+Boesch%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+boesch2021}
+\APACinsertmetastar {%
+boesch2021}%
+\begin{APACrefauthors}%
+Boesch, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{October 6}{}.
+\newblock
+\APACrefbtitle {VGG Very Deep Convolutional Networks (VGGNet) - What you need
+  to know.} {Vgg very deep convolutional networks (vggnet) - what you need to
+  know.}
+\newblock
+\begin{APACrefURL}
+  \url{https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Viso.ai}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Boey%
 , Maniam%
 , Hamid%
@@ -694,25 +722,6 @@ Heller, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {IBM. (2023, December 27). What is support vector machine? |
-  IBM. Www.ibm.com.}}{%
-\APACcitebtitle {IBM. (2023, December 27). What is support vector machine? |
-  IBM. Www.ibm.com.}}{%
-{\protect \APACyear {2023}}%
-}]{%
-ibm2023}
-\APACinsertmetastar {%
-ibm2023}%
-\APACrefbtitle {IBM. (2023, December 27). What is support vector machine? |
-  IBM. Www.ibm.com.} {Ibm. (2023, december 27). what is support vector machine?
-  | ibm. www.ibm.com.}
-\newblock
-\APACrefYearMonthDay{2023}{December}{}.
-\newblock
-\APAChowpublished {\url{https://www.ibm.com/topics/support-vector-machine}}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Ishak%
 , Mohamad%
 , Soo%
@@ -990,6 +999,34 @@ Mahé, K.%
   Sciences}{73}{}{1363--1371}.
 \newblock
 \begin{APACrefDOI} \doi{10.1139/cjfas-2015-0332} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{MathWorks}%
+}{%
+{MathWorks}%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+mathworks}
+\APACinsertmetastar {%
+mathworks}%
+\begin{APACrefauthors}%
+{MathWorks}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Pretrained Inception-ResNet-v2 Convolutional Neural Network -
+  MATLAB inceptionresnetv2.} {Pretrained inception-resnet-v2 convolutional
+  neural network - matlab inceptionresnetv2.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{MathWorks}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  6 NOV 2024 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  6 NOV 2024 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,38 +735,32 @@ Overfull \hbox (0.7653pt too wide) in paragraph at lines 81--81
 []\OT1/cmr/bx/n/17.28 Machine Learn-ing Mod-els for Pre-evaluation 
  []
 
-[25] [26]) [27] [28]
+[25] [26] [27]) [28] [29]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-) [29
+) [30
 
 
 
 
-] (main.bbl [30
+] (main.bbl [31
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 580--587
+Underfull \hbox (badness 10000) in paragraph at lines 608--615
 \OT1/cmtt/m/n/12 fao [] -2024 [] -report [] -sustainable [] -aquatic [] -food [
 ] -systems [] -important [] -for []
  []
 
-[31]
-Underfull \hbox (badness 2922) in paragraph at lines 708--714
-[]\OT1/cmr/m/it/12 Ibm. (2023, de-cem-ber 27). what is sup-port vec-tor ma-chin
-e? | ibm.
- []
-
-[32] [33]) [34]
+[32] [33] [34]) [35]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [35
+) [36
 
 
 ]
@@ -774,7 +768,7 @@ Appendix A.
 
  (appendix_B.tex
 Appendix B.
-) [36
+) [37
 
 
 
@@ -787,10 +781,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7132 strings out of 474486
- 115117 string characters out of 5744226
+ 7136 strings out of 474486
+ 115174 string characters out of 5744226
  1967542 words of memory out of 5000000
- 29234 multiletter control sequences out of 15000+600000
+ 29238 multiletter control sequences out of 15000+600000
  567034 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,11n,84p,1791b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -804,9 +798,9 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/User/AppData/Local/Programs
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/User/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/User
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (43 pages, 1847056 bytes).
+Output written on main.pdf (44 pages, 1848899 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

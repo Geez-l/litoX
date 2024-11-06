@@ -132,6 +132,16 @@ F1 score (F1) is defined as the mean of the precision and recall in which it pen
 
 \section{ Deep Learning for Image-Based Classification}
 \label{sec:deeplearning}
-After collecting a sufficient number of images and identifying initial patterns, convolutional neural networks (CNNs) will be used. CNNs, models like VGGNet, ResNet, and Inception have been effectively applied in phenotype classification \cite{kim2024}. In this study, the deep learning model will be specifically adapted for the sex identification of \textit{T. granosa} based on shell images. CNNs will analyze the images and learn important details about their shapes that can help identify whether they are male or female. 
-Unlike the approach of using three models taken by Kim et al. (2024), the researchers will focus on just one model that has shown the best performance in their study which is SqueezeNet. SqueezeNet is particularly advantageous because it reduces the number of parameters and amount of memory required to store the model without sacrificing accuracy \cite{koonce2021}. Its ability to achieve high accuracy in classifying shell images makes it a suitable choice for distinguishing between male and female \textit{T. granosa.}
+After collecting a sufficient number of images and identifying initial patterns, convolutional neural networks (CNNs) will be used. CNNs, models like VGGNet, ResNet, and Inception have been effectively applied in phenotype classification \cite{kim2024}. In this study, the deep learning model will be specifically adapted for the sex identification of \textit{T. granosa} based on shell images. CNNs will analyze the images and learn important details about their shapes that can help identify whether they are male or female. Due to the limitation of literature focusing on the sex determining mechanism for bivalves particularly \textit{T. granosa}, the researchers will implement and compare three of the CNN models namely VGGNet, Inception-ResNet, and Squeezenet \citeA{kim2024}. 
+
+\subsection{CNN Model : Visual Geometry Group}
+Visual Geometry Group (VGG) is considered to be a standard Convolutional Neural Network (CNN) architecture that is comprised of multiple layers that has been a ground-breaking object detection models and one of the most popular image recognition architecture \cite{boesch2021}. 
+
+\subsection{CNN Model : Inception ResNet}
+Inception ResNet is a convolutional neural network that has been trained on more than a million images and has a  164 deep layers that has the capacity to classify varied images \cite{mathworks}. This model is mainly used in bivalve studies such as in identifying different ark shells \cite{kim2024}.  
+
+\subsection{CNN Model : Squeezenet}
+SqueezeNet is particularly advantageous because it reduces the number of parameters and amount of memory required to store the model without sacrificing accuracy \cite{koonce2021}. Its ability to achieve high accuracy in classifying shell images makes it a suitable choice for distinguishing between male and female \textit{T. granosa.}
+
+\subsection{CNN Models Performance Evaluation}
 Python and Keras libraries will be used to train and test the model. The dataset will be divided into training (), validation (), and testing. Performance metrics such as accuracy, precision, recall, and F1-score will be used to evaluate the model's effectiveness.
