@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.3}Research Objectives}{3}{}%
 \contentsline {subsection}{\numberline {1.3.1}General Objective}{3}{}%
 \contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{3}{}%
-\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{4}{}%
+\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{3}{}%
 \contentsline {section}{\numberline {1.5}Significance of the Research}{4}{}%
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{6}{}%
 \contentsline {section}{\numberline {2.1}Background on \textit {\textit {Tegillarca granosa }} and Their Importance}{7}{}%
@@ -20,27 +20,27 @@
 \contentsline {section}{\numberline {2.4}Limitations on Sex Identification in \textit {Tegillarca granosa }}{16}{}%
 \contentsline {section}{\numberline {2.5}Synthesis of the Study}{17}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{20}{}%
-\contentsline {section}{\numberline {3.1}Sample Collection}{20}{}%
-\contentsline {section}{\numberline {3.2}Ethical Considerations}{21}{}%
-\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{21}{}%
-\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{22}{}%
-\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{22}{}%
-\contentsline {subsection}{\numberline {3.5.1}Color thresholding}{23}{}%
+\contentsline {section}{\numberline {3.1}Sample Collection}{21}{}%
+\contentsline {section}{\numberline {3.2}Ethical Considerations}{22}{}%
+\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{22}{}%
+\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{23}{}%
+\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{24}{}%
+\contentsline {subsection}{\numberline {3.5.1}Color thresholding}{24}{}%
 \contentsline {subsection}{\numberline {3.5.2}Image segmentation}{24}{}%
-\contentsline {subsection}{\numberline {3.5.3}Image hole filling and dilating}{24}{}%
-\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{24}{}%
-\contentsline {section}{\numberline {3.7}Data Augmentation}{24}{}%
+\contentsline {subsection}{\numberline {3.5.3}Image hole filling and dilating}{25}{}%
+\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{25}{}%
+\contentsline {section}{\numberline {3.7}Data Augmentation}{25}{}%
 \contentsline {section}{\numberline {3.8}Machine/ Deep Learning Technologies}{25}{}%
-\contentsline {section}{\numberline {3.9}Machine Learning Models for Pre-evaluation }{25}{}%
-\contentsline {subsection}{\numberline {3.9.1}Extreme Gradient Boosting}{25}{}%
+\contentsline {section}{\numberline {3.9}Machine Learning Models for Pre-evaluation }{26}{}%
+\contentsline {subsection}{\numberline {3.9.1}Extreme Gradient Boosting}{26}{}%
 \contentsline {subsection}{\numberline {3.9.2}Logistic Regression}{26}{}%
-\contentsline {subsection}{\numberline {3.9.3}Random Forest}{26}{}%
-\contentsline {subsection}{\numberline {3.9.4}Support Vector Machine}{26}{}%
+\contentsline {subsection}{\numberline {3.9.3}Random Forest}{27}{}%
+\contentsline {subsection}{\numberline {3.9.4}Support Vector Machine}{27}{}%
 \contentsline {subsection}{\numberline {3.9.5}Evaluation Metrics}{27}{}%
 \contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{28}{}%
-\contentsline {subsection}{\numberline {3.10.1}CNN Model : Visual Geometry Group}{28}{}%
-\contentsline {subsection}{\numberline {3.10.2}CNN Model : Inception ResNet}{28}{}%
-\contentsline {subsection}{\numberline {3.10.3}CNN Model : Squeezenet}{28}{}%
+\contentsline {subsection}{\numberline {3.10.1}CNN Model : Visual Geometry Group}{29}{}%
+\contentsline {subsection}{\numberline {3.10.2}CNN Model : Inception ResNet}{29}{}%
+\contentsline {subsection}{\numberline {3.10.3}CNN Model : Squeezenet}{29}{}%
 \contentsline {subsection}{\numberline {3.10.4}CNN Models Performance Evaluation}{29}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{30}{}%
 \contentsline {chapter}{References}{31}{}%

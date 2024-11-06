@@ -646,33 +646,6 @@ Ferguson, G\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-F.~James~Rohlf%
-}{%
-F.~James~Rohlf%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-rohlf1984}
-\APACinsertmetastar {%
-rohlf1984}%
-\begin{APACrefauthors}%
-F.~James~Rohlf, J\BPBI W., and Archie
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Comparison of Fourier Methods for the Description of
-  Wing Shape in Mosquitoes (Diptera: Culicidae)} {A comparison of fourier
-  methods for the description of wing shape in mosquitoes (diptera:
-  Culicidae)}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Systematic Zoology}{33}{3}{302–302}.
-\newblock
-\begin{APACrefDOI} \doi{https://doi.org/10.2307/2413076} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Gosling%
 }{%
 Gosling%
@@ -1236,6 +1209,36 @@ Quenu, M.%
 \APACjournalVolNumPages{Journal of Molluscan Studies}{86}{1}{35--41}.
 \newblock
 \begin{APACrefDOI} \doi{10.1093/mollus/eyz031} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rohlf%
+\ \BBA {} Archie%
+}{%
+Rohlf%
+\ \BBA {} Archie%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+rohlf1984}
+\APACinsertmetastar {%
+rohlf1984}%
+\begin{APACrefauthors}%
+Rohlf, F\BPBI J.%
+\BCBT {}\ \BBA {} Archie, J\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Comparison of Fourier Methods for the Description of
+  Wing Shape in Mosquitoes (Diptera: Culicidae)} {A comparison of fourier
+  methods for the description of wing shape in mosquitoes (diptera:
+  Culicidae)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Systematic Zoology}{33}{3}{302–302}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.2307/2413076} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
