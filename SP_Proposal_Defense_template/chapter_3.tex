@@ -99,7 +99,36 @@ Random Forest (RF) is type of supervised machine learning algorithm that is ofte
 
 Support Vector Machine (SVM) is a supervised machine learning algorithm that classifies data by finding the optimal hyperplane which is also used in classification and regression problems \cite{cui2020}. Support vector machine is also widely used in aquaculture related studies such as the sex determining mandible shapes of due to its ability to solve classification problems with high validation accuracy especially when the clusters of the data with varying labels. The SVM has the ability to reflect the degree of cluster separation . It has the ability to be used as tool in the variety of the image data with biological shapes \cite{tsutsumi2023}.
 
+\subsection{Evaluation Metrics}
+Evaluating the performance of the binary classification model is important as well as selecting the appropriate metrics that is based on the requirements of the user. The performance of the supervised machine learning models will be measured based on three metrics namely: accuracy, precision, recall, and F1 score. 
 
+Accuracy (ACC) is the ratio of the overall correctly predicted samples to the total number of examples in the evaluation dataset \cite{cui2020}. The overall correctness of the model in predicting male and female blood cockles. This metric could help in understanding how well the model performs across all classifications. The formula for the accuracy is: 
+
+\begin{equation}
+	\text{PREC} = \frac{\text{Correctly classified samples}} {\text{All samples }} = \frac{TP+ TN}{TP + FP + TN + FN}
+	\label{eq:acc}
+\end{equation}
+Precision (PREC) is the ratio between correctly predicted samples in all samples that are assigned to the positive class \cite{cui2020}. This metric promotes fair representation prevents misidentification of blood cockkles as it identifies potential inaccuracies or biases. The formula for precision is:
+
+
+\begin{equation}
+	\text{PREC} = \frac{\text{True positive samples}} {\text{Samples assigned to class }} = \frac{TP}{TP + FP}
+	\label{eq:prec}
+\end{equation}
+
+Recall (REC) is known as the sensitivity or the true positive rate (TPR) which is the ratio of the correcly predicted cases from all the samples assigned to the actual positive cases \cite{cui2020}. This metrics is the ability of the model to correctly identify positive male and female samples. The formula for recall is:
+
+\begin{equation}
+	\text{REC} = \frac{\text{True positive samples}} {\text{Samples classified positive}} = \frac{TP}{TP + FN}
+	\label{eq:rec}
+\end{equation}
+
+F1 score (F1) is defined as the mean of the precision and recall in which it penalizes the extreme values of either of the two \cite{cui2020}. The formula for the F1 is: 
+
+\begin{equation}
+	\text{REC} = \frac{ precision \times recall }{precision \times recall }= \frac{2 \times TP}{2 \times TP + FP + FN}
+	\label{eq:f1}
+\end{equation}
 
 \section{ Deep Learning for Image-Based Classification}
 \label{sec:deeplearning}
