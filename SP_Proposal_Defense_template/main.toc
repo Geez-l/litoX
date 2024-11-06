@@ -23,12 +23,22 @@
 \contentsline {section}{\numberline {3.1}Sample Collection}{20}{}%
 \contentsline {section}{\numberline {3.2}Ethical Considerations}{21}{}%
 \contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{21}{}%
-\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{21}{}%
+\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{22}{}%
 \contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{22}{}%
-\contentsline {section}{\numberline {3.6}Machine/ Deep Learning Technologies}{23}{}%
-\contentsline {section}{\numberline {3.7}Support Vector Machine for Pre-evaluation }{24}{}%
-\contentsline {section}{\numberline {3.8} Deep Learning for Image-Based Classification}{24}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{26}{}%
-\contentsline {chapter}{References}{27}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{31}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{32}{}%
+\contentsline {subsection}{\numberline {3.5.1}Color thresholding}{23}{}%
+\contentsline {subsection}{\numberline {3.5.2}Image segmentation}{24}{}%
+\contentsline {subsection}{\numberline {3.5.3}Image hole filling and dilating}{24}{}%
+\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{24}{}%
+\contentsline {section}{\numberline {3.7}Data Augmentation}{24}{}%
+\contentsline {section}{\numberline {3.8}Machine/ Deep Learning Technologies}{25}{}%
+\contentsline {section}{\numberline {3.9}Machine Learning Models for Pre-evaluation }{25}{}%
+\contentsline {subsection}{\numberline {3.9.1}Extreme Gradient Boosting}{25}{}%
+\contentsline {subsection}{\numberline {3.9.2}Logistic Regression}{26}{}%
+\contentsline {subsection}{\numberline {3.9.3}Random Forest}{26}{}%
+\contentsline {subsection}{\numberline {3.9.4}Support Vector Machine}{26}{}%
+\contentsline {subsection}{\numberline {3.9.5}Evaluation Metrics}{27}{}%
+\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{28}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{29}{}%
+\contentsline {chapter}{References}{30}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{35}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{36}{}%
