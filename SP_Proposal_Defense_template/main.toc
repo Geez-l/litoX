@@ -20,11 +20,11 @@
 \contentsline {section}{\numberline {2.4}Limitations on Sex Identification in \textit {Tegillarca granosa }}{16}{}%
 \contentsline {section}{\numberline {2.5}Synthesis of the Study}{17}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{20}{}%
-\contentsline {section}{\numberline {3.1}Sample Collection}{21}{}%
-\contentsline {section}{\numberline {3.2}Ethical Considerations}{22}{}%
-\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{22}{}%
-\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{23}{}%
-\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{24}{}%
+\contentsline {section}{\numberline {3.1}Sample Collection}{20}{}%
+\contentsline {section}{\numberline {3.2}Ethical Considerations}{21}{}%
+\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{21}{}%
+\contentsline {section}{\numberline {3.4}Morphological Characteristics Collection}{22}{}%
+\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{23}{}%
 \contentsline {subsection}{\numberline {3.5.1}Color thresholding}{24}{}%
 \contentsline {subsection}{\numberline {3.5.2}Image segmentation}{24}{}%
 \contentsline {subsection}{\numberline {3.5.3}Image hole filling and dilating}{25}{}%

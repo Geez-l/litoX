@@ -1,6 +1,4 @@
-
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  6 NOV 2024 20:49
-
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  6 NOV 2024 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -452,12 +450,12 @@ Overfull \hbox (7.81496pt too wide) in paragraph at lines 11--11
 \OT1/cmr/bx/n/17.28 and Their
  []
 
-<figures/figure1.png, id=48, 816.04875pt x 693.59125pt>
-File: figures/figure1.png Graphic file (type png)
-<use figures/figure1.png>
-Package pdftex.def Info: figures/figure1.png  used on input line 16.
-(pdftex.def)             Requested size: 166.21844pt x 141.27695pt.
-[7 <./figures/figure1.png>] [8] [9] [10] [11]
+<figures/anatomy.png, id=48, 843.75224pt x 502.87875pt>
+File: figures/anatomy.png Graphic file (type png)
+<use figures/anatomy.png>
+Package pdftex.def Info: figures/anatomy.png  used on input line 16.
+(pdftex.def)             Requested size: 373.99469pt x 222.90175pt.
+[7 <./figures/anatomy.png>] [8] [9] [10] [11]
 Overfull \hbox (1.40376pt too wide) in paragraph at lines 51--51
 []\OT1/cmr/bx/n/14.4 Geometric Mor-pho-met-rics and Ma-chine Learn-ing for
  []
@@ -616,25 +614,38 @@ File: figures/male-female T.granosa.png Graphic file (type png)
 Package pdftex.def Info: figures/male-female T.granosa.png  used on input line 
 38.
 (pdftex.def)             Requested size: 373.99469pt x 235.8443pt.
- [21] [22 <./figures/male-female T.granosa.png>]
-<figures/length.jpg, id=104, 1541.76pt x 2055.68pt>
+ [21 <./figures/male-female T.granosa.png>]
+<figures/view.png, id=101, 1150.89975pt x 734.745pt>
+File: figures/view.png Graphic file (type png)
+<use figures/view.png>
+Package pdftex.def Info: figures/view.png  used on input line 34.
+(pdftex.def)             Requested size: 373.99469pt x 238.75566pt.
+ [22 <./figures/view.png>]
+<figures/length.jpg, id=106, 1541.76pt x 2055.68pt>
 File: figures/length.jpg Graphic file (type jpg)
 <use figures/length.jpg>
-Package pdftex.def Info: figures/length.jpg  used on input line 64.
+Package pdftex.def Info: figures/length.jpg  used on input line 49.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
-<figures/width.jpg, id=105, 1541.76pt x 2055.68pt>
+<figures/width.jpg, id=107, 1541.76pt x 2055.68pt>
 File: figures/width.jpg Graphic file (type jpg)
 <use figures/width.jpg>
-Package pdftex.def Info: figures/width.jpg  used on input line 68.
+Package pdftex.def Info: figures/width.jpg  used on input line 53.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
-<figures/height.jpg, id=106, 1541.76pt x 2055.68pt>
+<figures/height.jpg, id=108, 1541.76pt x 2055.68pt>
 File: figures/height.jpg Graphic file (type jpg)
 <use figures/height.jpg>
-Package pdftex.def Info: figures/height.jpg  used on input line 72.
+Package pdftex.def Info: figures/height.jpg  used on input line 57.
 (pdftex.def)             Requested size: 99.73488pt x 132.96518pt.
- [23 <./figures/length.jpg> <./figures/width.jpg> <./figures/height.jpg>] [24] 
-[25]
-Overfull \hbox (0.7653pt too wide) in paragraph at lines 103--103
+
+[23 <./figures/length.jpg> <./figures/width.jpg> <./figures/height.jpg>]
+<figures/setup.jpg, id=112, 1128.46594pt x 1128.46594pt>
+File: figures/setup.jpg Graphic file (type jpg)
+<use figures/setup.jpg>
+Package pdftex.def Info: figures/setup.jpg  used on input line 69.
+(pdftex.def)             Requested size: 166.21844pt x 166.21483pt.
+
+[24 <./figures/setup.jpg>] [25]
+Overfull \hbox (0.7653pt too wide) in paragraph at lines 93--93
 []\OT1/cmr/bx/n/17.28 Machine Learn-ing Mod-els for Pre-evaluation 
  []
 
@@ -684,27 +695,24 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7136 strings out of 474486
- 115867 string characters out of 5743754
- 1967542 words of memory out of 5000000
- 29238 multiletter control sequences out of 15000+600000
+ 7152 strings out of 474485
+ 113495 string characters out of 5753548
+ 1965542 words of memory out of 5000000
+ 29255 multiletter control sequences out of 15000+600000
  567034 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,11n,84p,1791b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\jjadr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbxti10.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/jjadr/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/jjadr/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jjadr/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jjadr
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Us
-ers/jjadr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.p
-fb>
-Output written on main.pdf (44 pages, 1849789 bytes).
+ 79i,12n,84p,1791b,411s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Admin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (44 pages, 3294300 bytes).
 PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
+ 202 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
