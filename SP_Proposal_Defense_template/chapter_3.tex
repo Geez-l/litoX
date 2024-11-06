@@ -6,6 +6,27 @@ This chapter discusses the materials and methods to be employed in the study, fo
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will oversee the overall workflow and conduct of this experiment. The researchers will also be guided by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
 
+The methodology is consists of ten parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration, (7) Data Augmentation (8) Machine and Deep Learning Technologies, (9) Machine Learning Models for Pre-evaluation, and (10) Deep Learning for Image-Based Classification. 
+
+(1) Sample Collection, collecting of \textit{T.granosa} classified as male and female. 
+
+(2) Ethical Considerations, outlines the ethical approval with compliance to local legislation. 
+
+(3) Creating \textit{T. granosa} Dataset, organizing and formatting the content of the dataset in a CSV file along with its orientation and measurements. 
+
+(4) Morphological Characteristics Collection, gathering the measurements of \textit{T. granosa} such as its length, width, height, rib count, length of hinge line, and distance between their umbos. 
+
+(5) Image Acquisition and Pre-processing, describes the controlled environment in gathering images of \textit{T. granosa}. 
+
+(6) Hardware and Software Configuration, contains the specifications of the device that will be using in training the model. 
+
+(7), Data Augmentation, discusses the challenges faced by a biased and unbalanced datasets. 
+
+(8) Machine and Deep Learning Technologies, discusses the technologies used in training the model. 
+
+(9) Machine Learning Models for Pre-evaluation, discusses the methods used in pre-evaluation for linear measurements before proceeding to complex methods. Additionally, discusses evaluating the performance metrics of the models. 
+
+(10) Deep Learning for Image-Based Classification, discusses more complex models used in identifying sex of \textit{T. granosa}. 
 
 
 \section{Sample Collection}
@@ -15,7 +36,7 @@ A total of 500 adult \textit{T. granosa} that have already spawned will be used 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/male-female T.granosa.png}
-	\caption{Male and Female \Tegillarcagranosa shell.}
+	\caption{Male and Female \Tegillarcagranosa shell}
 \end{figure}
 
 \section{Ethical Considerations}
@@ -28,6 +49,12 @@ Ethical approval was not required for this study involving animals, as per local
 \label{sec:dataset}
 
 For the initial preparation of the experiment, the researchers will collect primary observations for 100 samples of \textit{T. granosa.} For the actual experimentation, the researchers will collect the original dataset by batch eventually comprising 500 samples of \textit{T. granosa}. The images captured for the dataset will be saved in png format with a file naming convention of the sample’s sex, the orientation or view of the shell, and its corresponding number out of the total 1000 samples. Female \textit{T. granosa} samples will begin with 0 in their file name, while males will begin with 1, followed by the views captured such as (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral, and lastly, a unique sample number. For example, “010001” will be the file name for the first female sample taken from the dorsal view and “110001” for the first male sample also taken from the dorsal view. The dataset will be organized in a CSV file that lists each image’s file name along with their shell’s width, height, length, rib count, length of the hinge line, and distance between their umbos. This dataset will be essential for machine learning model training and testing. 
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/view.png}
+	\caption{Views of \textit{T. granosa} Shell in Different Orientations}
+\end{figure}
 
 \section{Morphological Characteristics Collection}
 \label{sec:morphochar}
@@ -42,12 +69,19 @@ Sex ratio, size frequency distribution, and relative growth rates were used to i
 	\caption{Linear Measurements of  \Tegillarcagranosa shell.}
 \end{figure}
 
+\newpage
 \section{Image Acquisition and Pre-Processing}
 \label{sec:imageprocess}
-In this study, there would be three major phases for the image processing to be employed namely (1) color thresholding, (2) segmentation, and (3) image hole filling and dilating. Unbalanced samples will lead to train model slowly and affect the gradient update. So, the dataset need to meet sample equilibrium criteria \cite{cui2020}. The researchers constructed a controlled environment for capturing the samples utilizing a box-like structure with a white background surface. This setup was designed to maintain uniform captures of the images, and a consistent measurement between the sample and the camera, fixing the camera at a consistent angle above the \textit{T. granosa}. Placing a ring light to the left of the box, and using a camera with flash to ensure the image quality, eliminate shadows and clarity of the sample during the image acquisition process. 
+In this study, there would be three major phases for the image processing to be employed namely (1) color thresholding, (2) segmentation, and (3) image hole filling and dilating. Unbalanced samples will lead to train model slowly and affect the gradient update. So, the dataset need to meet sample equilibrium criteria \cite{cui2020}. The researchers constructed a controlled environment for capturing the samples utilizing a box-like structure with a white background surface. This setup was designed to maintain uniform captures of the images, and a consistent measurement between the sample and the camera, fixing the camera at a consistent angle above the \textit{T. granosa}. To ensure the image quality, eliminate shadows and clarity of the sample during the image acquisition process, the ring light will be placed in front of the box and use a camera without flash. Google Pixel 3 XL is the smartphone that will be utilized with the following specifications: 2960 x 1440 for the resolution, 4,032 x 3,024 pixels (12.2 MP) for the dimensions, f/1.8 for the fstop, 28mm (wide), ½.55”, 1.4µm, dual pixel PDAF, OIS \cite{concepcion2023}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.4\textwidth]{figures/setup.jpg}
+	\caption{Image Acquisition Setup for \textit{T. granosa} Samples}
+\end{figure}
 
 \subsection{Color thresholding}
-For color thresholding, the researchers utilized the red, green, blue (RGB), hue saturation value (HSV), luminance, blue chromaticity, red chromaticity (YCbCr), and (Luminance, a, b)** (CIElab) images obtained from the smartphone considering their wide availability across various stages in the bivalve industry using the MATLAB Colour Thresholding Toolbox in determining which among the four-color spectra may generate the cleanest version of the training images with absence of any blobs . Google Pixel 3 XL will be utilized with the following specifications: 2960 x 1440 for the resolution, 4,032 x 3,024 pixels (12.2 MP) for the dimensions, f/1.8 for the fstop, 28mm (wide), ½.55”, 1.4µm, dual pixel PDAF, OIS \cite{concepcion2023}. 
+For color thresholding, the researchers utilized the red, green, blue (RGB), hue saturation value (HSV), luminance, blue chromaticity, red chromaticity (YCbCr), and (Luminance, a, b)** (CIElab) images obtained from the smartphone considering their wide availability across various stages in the bivalve industry using the MATLAB Colour Thresholding Toolbox in determining which among the four-color spectra may generate the cleanest version of the training images with absence of any blobs. 
 
 \subsection{Image segmentation}
 After thresholding, the lazy snapping technique will be implemented by manually drawing the background and the foreground lines that represent the black pixels and the bivalve pixels. The lazy snapping algorithm will be configured using the 20 000 superpixels which can divide the \textit{T. granosa’s} images into 20, 000 irregularly shaped geometric pixels that will be based on the CIElab gradients through K-means clustering with K = 3.
