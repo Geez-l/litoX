@@ -36,8 +36,13 @@
 \contentsline {subsection}{\numberline {3.9.2}Logistic Regression}{26}{}%
 \contentsline {subsection}{\numberline {3.9.3}Random Forest}{26}{}%
 \contentsline {subsection}{\numberline {3.9.4}Support Vector Machine}{26}{}%
-\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{27}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{28}{}%
-\contentsline {chapter}{References}{29}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{34}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{35}{}%
+\contentsline {subsection}{\numberline {3.9.5}Evaluation Metrics}{27}{}%
+\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{28}{}%
+\contentsline {subsection}{\numberline {3.10.1}CNN Model : Visual Geometry Group}{28}{}%
+\contentsline {subsection}{\numberline {3.10.2}CNN Model : Inception ResNet}{28}{}%
+\contentsline {subsection}{\numberline {3.10.3}CNN Model : Squeezenet}{28}{}%
+\contentsline {subsection}{\numberline {3.10.4}CNN Models Performance Evaluation}{29}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{30}{}%
+\contentsline {chapter}{References}{31}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{36}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{37}{}%
