@@ -1,4 +1,6 @@
+
 This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  6 NOV 2024 20:49
+
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -372,8 +374,7 @@ LaTeX Info: Redefining \BHBI on input line 130.
 )
 \openout2 = `title_page.aux'.
 
-
-(title_page.tex
+ (title_page.tex
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
 (Font)              using `OT1/cmr/m/it' instead on input line 6.
@@ -397,8 +398,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
 
 (C:\Users\jjadr\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[1
+) [1
 
 
 
@@ -485,43 +485,13 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 98.
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 115--115
-\OT1/cmr/m/n/12 ing and Lar-val Rear-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--115
-\OT1/cmr/m/n/12 gillarca gra-nosa in the
- []
-
-
 Underfull \hbox (badness 1728) in paragraph at lines 118--118
 []\OT1/cmr/m/n/12 Employed less in-va-sive tech-niques which
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 121--121
-[]\OT1/cmr/m/n/12 The ear-li-est ex-am-ple of
- []
-
-
-Underfull \hbox (badness 1502) in paragraph at lines 121--121
-\OT1/cmr/m/n/12 sex-ual di-mor-phism in bi-
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 121--121
-\OT1/cmr/m/n/12 valves|evidence from the
- []
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 121--121
-\OT1/cmr/m/n/12 as-tar-tid Nicaniella (Lower
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 121--121
-\OT1/cmr/m/n/12 Juras-sic, south-ern Ger-
+[]\OT1/cmr/m/n/12 Karapunar, Baran and
  []
 
 
@@ -535,26 +505,6 @@ Underfull \hbox (badness 1509) in paragraph at lines 125--125
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 133--133
-[]\OT1/cmr/m/n/12 Deep learning-based phe-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\OT1/cmr/m/n/12 no-type clas-si-fi-ca-tion of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\OT1/cmr/m/it/12 kagoshi-men-sis\OT1/cmr/m/n/12 , \OT1/cmr/m/it/12 Te-gillarca
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
-\OT1/cmr/m/it/12 gra-nosa\OT1/cmr/m/n/12 , and \OT1/cmr/m/it/12 Anadara
- []
-
-
 Underfull \hbox (badness 2050) in paragraph at lines 134--134
 []\OT1/cmr/m/n/12 Convolutional neu-ral net-
  []
@@ -562,26 +512,6 @@ Underfull \hbox (badness 2050) in paragraph at lines 134--134
 
 Underfull \hbox (badness 10000) in paragraph at lines 134--134
 \OT1/cmr/m/n/12 GNet, Inception-ResNet,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
-[]\OT1/cmr/m/n/12 Geometric mor-pho-met-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
-\OT1/cmr/m/n/12 chal-lenge cur-rently ac-
- []
-
-
-Underfull \hbox (badness 6741) in paragraph at lines 139--139
-\OT1/cmr/m/n/12 cepted species lim-its of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--139
-\OT1/cmr/m/n/12 (Pul-monata: Both-riem-
  []
 
 
@@ -610,23 +540,8 @@ Underfull \hbox (badness 2478) in paragraph at lines 143--143
  []
 
 
-Underfull \hbox (badness 2469) in paragraph at lines 145--145
-[]\OT1/cmr/m/n/12 Recognizing mol-lusc shell
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\OT1/cmr/m/n/12 con-tours with en-larged
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 151--151
-\OT1/cmr/m/n/12 y-ses to Record-ing Struc-
- []
-
-
-Underfull \hbox (badness 6300) in paragraph at lines 151--151
-\OT1/cmr/m/n/12 tures of Ma-rine Or-gan-
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\OT1/cmr/m/n/12 Fedor Lishchenko and
  []
 
 
@@ -637,11 +552,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--152
 
 Underfull \hbox (badness 1067) in paragraph at lines 152--152
 \OT1/cmr/m/n/12 based Ge-o-met-ric Mor-pho-
- []
-
-
-Underfull \hbox (badness 3657) in paragraph at lines 157--157
-\OT1/cmr/m/n/12 for mor-pho-log-i-cal fea-ture
  []
 
 
@@ -660,8 +570,8 @@ Underfull \hbox (badness 1418) in paragraph at lines 159--159
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 163--163
-\OT1/cmr/m/n/12 ti-a-tion Through Ma-chine
+Underfull \hbox (badness 10000) in paragraph at lines 163--163
+[]\OT1/cmr/m/n/12 Barrera-Hernandez, R.
  []
 
 
@@ -670,13 +580,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 164--164
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 169--169
-\OT1/cmr/m/n/12 neu-ral net-work for com-
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 169--169
-\OT1/cmr/m/it/12 ed-ule\OT1/cmr/m/n/12 ) ge-o-graph-i-cal trace-
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]\OT1/cmr/m/n/12 Concepcion, R. and
  []
 
 
@@ -693,9 +598,6 @@ Underfull \hbox (badness 4779) in paragraph at lines 170--170
 Underfull \hbox (badness 1755) in paragraph at lines 172--172
 \OT1/cmr/m/n/12 trace-abil-ity pro-vide faster, cheaper, and
  []
-
-
-LaTeX Warning: Float too large for page by 2.4231pt on input line 177.
 
 [17] [18]) [19]
 \openout2 = `chapter_3.aux'.
