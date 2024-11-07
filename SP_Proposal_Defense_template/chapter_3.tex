@@ -2,7 +2,7 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software and languages utilized. This will also entail the overall workflow in conducting the study, Non-Invasive Methods in Determining the Sex of \textit{Tegillarca granosa} (blood cockles) using machine learning technologies. The different machine/deep learning algorithms will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
+This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software and languages utilized. This will also entail the overall workflow in conducting the study, Non-Invasive Methods in Determining the Sex of \textit{Tegillarca granosa} (blood cockles) using machine learning technologies. The different machine and deep learning algorithms will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will oversee the overall workflow and conduct of this experiment. The researchers will also be guided by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
 
@@ -31,12 +31,12 @@ The methodology is consists of ten parts: (1) Sample Collection, (2) Ethical Con
 
 \section{Sample Collection}
 \label{sec:samplecollect}
-A total of 500 adult \textit{T. granosa} that have already spawned will be used in this experiment wherein their sex was already classified as male or female. The sample sizes are going to range from 34 to 61 mm and will be sourced from the coastal area in the municipality of Zaraga, Iloilo, Philippines, as well as from fish markets in the municipality of Ivisan, Capiz, Philippines. The research and experimentation will be done at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, Philippines. The samples will be placed in 200 L fiberglass reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023} and will be subjected to spawning to categorize male from female \textit{T. granosa}. The samples will undergo a series of temperature fluctuations to induce the spawning of gametes as described in the study of Ferriols and Miranda (2023). This method, induced spawning, is the most natural and least invasive method for bivalves compared to other methods \cite{aji}. Thus, after the spawning, there would be 500 classified males and 500 classified females. 
+The collection of \Tgranosa samples used in this study is conducted by the ongoing research project by the UPV Institute of Aquaculture titled "Initial Attempts on Spawning and Larval Rearing of the Blood Cockle, \Tegillarcagranosa (Linnaeus, 1758), in the Philippines." This research project provides a total of 500 adult \textit{T. granosa} that have already spawned and been classified by sex as either male or female. The samples, ranging in size from 34 to 61 mm, come from the coastal area in the municipality of Zaraga, Iloilo, Philippines, as well as from fish markets in the municipality of Ivisan, Capiz, Philippines. The research and experimentation take place at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, Philippines. The samples are maintained in 200 L fiberglass reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023} and subjected to spawning to categorize males from females. The samples undergo a series of temperature fluctuations to induce the spawning of gametes as described in the study of Ferriols and Miranda (2023). This method, induced spawning, is the most natural and least invasive method for bivalves compared to other methods \cite{aji}.
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/male-female T.granosa.png}
-	\caption{Male and Female \Tegillarcagranosa shell}
+	\caption{Male and Female \Tegillarcagranosa shells}
 \end{figure}
 
 \section{Ethical Considerations}
@@ -53,7 +53,7 @@ For the initial preparation of the experiment, the researchers will collect prim
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/view.png}
-	\caption{Views of \textit{T. granosa} Shell in Different Orientations}
+	\caption{Different Views of the \textit{T. granosa} Shell Captured}
 \end{figure}
 
 \section{Morphological Characteristics Collection}
@@ -69,7 +69,6 @@ Sex ratio, size frequency distribution, and relative growth rates were used to i
 	\caption{Linear Measurements of  \Tegillarcagranosa shell.}
 \end{figure}
 
-\newpage
 \section{Image Acquisition and Pre-Processing}
 \label{sec:imageprocess}
 In this study, there would be three major phases for the image processing to be employed namely (1) color thresholding, (2) segmentation, and (3) image hole filling and dilating. Unbalanced samples will lead to train model slowly and affect the gradient update. So, the dataset need to meet sample equilibrium criteria \cite{cui2020}. The researchers constructed a controlled environment for capturing the samples utilizing a box-like structure with a white background surface. This setup was designed to maintain uniform captures of the images, and a consistent measurement between the sample and the camera, fixing the camera at a consistent angle above the \textit{T. granosa}. To ensure the image quality, eliminate shadows and clarity of the sample during the image acquisition process, the ring light will be placed in front of the box and use a camera without flash. Google Pixel 3 XL is the smartphone that will be utilized with the following specifications: 2960 x 1440 for the resolution, 4,032 x 3,024 pixels (12.2 MP) for the dimensions, f/1.8 for the fstop, 28mm (wide), ½.55”, 1.4µm, dual pixel PDAF, OIS \cite{concepcion2023}
@@ -80,6 +79,7 @@ In this study, there would be three major phases for the image processing to be 
 	\caption{Image Acquisition Setup for \textit{T. granosa} Samples}
 \end{figure}
 
+\newpage
 \subsection{Color thresholding}
 For color thresholding, the researchers utilized the red, green, blue (RGB), hue saturation value (HSV), luminance, blue chromaticity, red chromaticity (YCbCr), and (Luminance, a, b)** (CIElab) images obtained from the smartphone considering their wide availability across various stages in the bivalve industry using the MATLAB Colour Thresholding Toolbox in determining which among the four-color spectra may generate the cleanest version of the training images with absence of any blobs. 
 
