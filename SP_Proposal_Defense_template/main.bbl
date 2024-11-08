@@ -510,8 +510,10 @@ Concepcion, R.%
 
 \bibitem [\protect \citeauthoryear {%
 Cui%
+\ \BBA {} Zou%
 }{%
 Cui%
+\ \BBA {} Zou%
 }{%
 {\protect \APACyear {2020}}%
 }]{%
@@ -519,7 +521,8 @@ cui2020}
 \APACinsertmetastar {%
 cui2020}%
 \begin{APACrefauthors}%
-Cui, P\BPBI T\BPBI C\BPBI S\BPBI \BPBI Z\BPBI X., Y.%
+Cui, P\BPBI T\BPBI C\BPBI S., Y.%
+\BCBT {}\ \BBA {} Zou, X.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -666,6 +669,33 @@ Gosling, E.%
   molluscs: biology, ecology and culture}.
 \newblock
 \APACaddressPublisher{Oxford}{Blackwell Science}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+He%
+\ \BBA {} Zhang%
+}{%
+He%
+\ \BBA {} Zhang%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+he2018}
+\APACinsertmetastar {%
+he2018}%
+\begin{APACrefauthors}%
+He, X.%
+\BCBT {}\ \BBA {} Zhang, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Emotion recognition by assisted learning with
+  convolutional neural networks} {Emotion recognition by assisted learning with
+  convolutional neural networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Neurocomputing}{291}{}{187--194}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

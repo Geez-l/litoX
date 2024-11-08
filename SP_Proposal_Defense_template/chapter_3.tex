@@ -8,25 +8,6 @@ Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will
 
 The methodology is consists of ten parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration, (7) Data Augmentation (8) Machine and Deep Learning Technologies, (9) Machine Learning Models for Pre-evaluation, and (10) Deep Learning for Image-Based Classification. 
 
-(1) Sample Collection, collecting of \textit{T.granosa} classified as male and female. 
-
-(2) Ethical Considerations, outlines the ethical approval with compliance to local legislation. 
-
-(3) Creating \textit{T. granosa} Dataset, organizing and formatting the content of the dataset in a CSV file along with its orientation and measurements. 
-
-(4) Morphological Characteristics Collection, gathering the measurements of \textit{T. granosa} such as its length, width, height, rib count, length of hinge line, and distance between their umbos. 
-
-(5) Image Acquisition and Pre-processing, describes the controlled environment in gathering images of \textit{T. granosa}. 
-
-(6) Hardware and Software Configuration, contains the specifications of the device that will be using in training the model. 
-
-(7), Data Augmentation, discusses the challenges faced by a biased and unbalanced datasets. 
-
-(8) Machine and Deep Learning Technologies, discusses the technologies used in training the model. 
-
-(9) Machine Learning Models for Pre-evaluation, discusses the methods used in pre-evaluation for linear measurements before proceeding to complex methods. Additionally, discusses evaluating the performance metrics of the models. 
-
-(10) Deep Learning for Image-Based Classification, discusses more complex models used in identifying sex of \textit{T. granosa}. 
 
 
 \section{Sample Collection}
@@ -54,19 +35,20 @@ For the initial preparation of the experiment, the researchers will collect prim
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/view.png}
 	\caption{Different Views of the \textit{T. granosa} Shell Captured}
+	\label{fig:granosa_views}
 \end{figure}
 
 \section{Morphological and Morphometric Characteristics Collection}
 \label{sec:morphochar}
 
 Morphology refers to the biological form and represents one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. Morphology is a term that describes structural characteristics by measuring specific components, namely, dimensions such as shapes, sizes, and colors. As stated by the researchers, quantifying and characterizing the shape is essential to understanding and visualizing the variations in \textit{T. granosa’s} morphology. 
-In this study, the researchers are going to measure the height, width, and length of \textit{T. granosa.} The dimensions will be recorded using a Vernier caliper to the nearest 0.01 mm. The length of the \textit{T. granosa} refers to the measurement from the anterior to the posterior of the shell, the width will be measured through the shell’s widest point from the left to the right valve and lastly, the height will be measured from the base of the shell to the shell’s apex. The height of the gap between the valves near the hinge will also be measured. The authors Reyment and Kennedy (1998), indicated that the use of counts of the shell ribs as supplementary information increases identification accuracy. Thus, the researchers will also take into account the difference in the rib count of the male and female \textit{T. granosa} and the ratio will be calculated since the sizes of the blood clams may vary.
-Sex ratio, size frequency distribution, and relative growth rates were used to investigate sexual dimorphism.
+In this study, the researchers are going to measure the height, width, and length of \textit{T. granosa.} The dimensions will be recorded using a Vernier caliper to the nearest 0.01 mm. For the measurements, refer to Figure ~\ref{fig:linear_measurements}. The length (A) of the \textit{T. granosa} refers to the measurement from the anterior to the posterior of the shell. The width (B) is measured through the shell’s widest point from the left to the right valve. The height (C) is measured from the base of the shell to the shell’s apex. The height of the gap between the valves (C) near the hinge will also be measured for the length of hinge line and distance between the umbos. The authors Reyment and Kennedy (1998), indicated that the use of counts of the shell ribs as supplementary information increases identification accuracy. Thus, the researchers will also take into account the difference in the rib count of the male and female \textit{T. granosa} and the ratio will be calculated since the sizes of the blood clams may vary. Sex ratio, size frequency distribution, and relative growth rates were used to investigate sexual dimorphism.
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.95\textwidth]{figures/Tegillarca_granosa_linear_measurements.png}
 	\caption{Linear Measurements of  \Tegillarcagranosa shell.}
+	\label{fig:linear_measurements}
 \end{figure}
 
 \section{Image Acquisition and Pre-Processing}
@@ -77,30 +59,22 @@ In this study, there would be three major phases for the image processing to be 
 	\centering
 	\includegraphics[width=0.4\textwidth]{figures/setup.jpg}
 	\caption{Image Acquisition Setup for \textit{T. granosa} Samples}
+	\label{fig: setup}
 \end{figure}
 
-\newpage
-\subsection{Color thresholding}
-For color thresholding, the researchers utilized the red, green, blue (RGB), hue saturation value (HSV), luminance, blue chromaticity, red chromaticity (YCbCr), and (Luminance, a, b)** (CIElab) images obtained from the smartphone considering their wide availability across various stages in the bivalve industry using the MATLAB Colour Thresholding Toolbox in determining which among the four-color spectra may generate the cleanest version of the training images with absence of any blobs. 
 
-\subsection{Image segmentation}
-After thresholding, the lazy snapping technique will be implemented by manually drawing the background and the foreground lines that represent the black pixels and the bivalve pixels. The lazy snapping algorithm will be configured using the 20 000 superpixels which can divide the \textit{T. granosa’s} images into 20, 000 irregularly shaped geometric pixels that will be based on the CIElab gradients through K-means clustering with K = 3.
-
-\subsection{Image hole filling and dilating}
-For the last step, the researchers will perform image hole filling and dilating to ensure that no blobs are remaining that can contribute to noise which can affect the correctness of the extracted feature by taking into consideration the 200-pixel blobs that are disconnected from the largest object in its binary form. This will result in black pixels made by binary filling and dilating to remove the blobs \cite{concepcion2023}.
-Image processing will be performed on the MATLAB. The images was saved on a jpg format but these images will be cropped and resized to a 64 x 64 matrix and the background of each images would be removed using the split-and-merge algorithm \cite{cui2020}. 
-To ensure consistent comparisons for the analysis, the images were captured in different angles including dorsal, ventral, lateral, and anterior and posterior taken in uniform angles to provide visual coverage of the \textit{T. granosa} sample. 
 
 \section{Hardware and Software Configuration}
 The machine learning and deep learning algorithms would be trained on ACER Aspire 3 general processing unit (GPU) which has a central processing unit (CPU) of  AMD Ryzen 3 7320U with Radeon Graphics (8) @ 2.395GHz and with a memory of 8 gigabyte (GB). The model will be performed on Keras which is a deep learning framework integrated with TensorFlow \cite{cui2020}.
 
 \section{Data Augmentation}
-In the practice of deep learning, there is a possiblity of a small dataset to be filled with bias. Then the most obvious solution is to add more samples. In dealing with an unbalanced dataset which includes different data augmentation such as by means of rotating, scaling, shearing, and translating \cite{cui2020}.
+In the practice of deep learning, there is a possiblity of a small dataset to be filled with bias and overfitting. Then the most obvious solution is to add more samples however it is time-consuming and laborious to collect massive amount of data . In dealing with an unbalanced dataset which includes different data augmentation such as by means of rotating, scaling, shearing, and translating. These four types of data augmentation technique will be considered to have 10 new images of each original image. \cite{cui2020}. Thus, from the a total of 300 images, wherein, 500 images were collected multiplied by 6 angles, it would enlarge the number of data that will be used in training the state-of-the-art CNN models. 
 
-\section{Machine/ Deep Learning Technologies}
-This section of the paper will discuss the technologies to be used in training, and testing the model as well as associated techniques and algorithms.  Since obtaining the induced samples was done per batch, the researchers will conduct an initial run with a support vector machine before delving into more complex methods such as deep learning models. 
+\section{Machine and Deep Learning Technologies}
 
-\section{Machine Learning Models for Pre-evaluation }
+This section of the paper will discuss the technologies to be used in training, and testing the model as well as associated techniques and algorithms.  Since obtaining the induced samples was done per batch, the researchers will conduct an initial run with supervised machine learning models to determine the significance of the collected linear measurements (length, width, height, length hinge line, distance between umbos, and rib count) before delving into more complex methods such as deep learning CNN models. 
+
+\section{Morphometric Characteristics Evaluation using Machine Learning }
 \label{sec:ml models}
 
 The shape of recording structures was first analyzed by collecting measurements of linear distances and applying multivariate statistical methods to these data (traditional linear measurement method) \cite{rohlf1984}. Geometric morphometric (GM) methods are an alternative way of analyzing and quantifying shape, which in theory retains more detail about the geometry of the structure than could be obtained from linear measurements \cite{adams2004}. Machine learning techniques such as decision tree classification, support vector machines (SVMs), and artificial neural networks (ANNs) have been applied to the analysis of bivalve shell geometry and morphology to classify shells based on morphological features, including shell shape, size, and texture, among others \cite{kiel2021}. The results of these studies have shown that machine learning algorithms can accurately classify bivalve shells and provide insights into the relationships between shell morphology and various environmental factors.
@@ -121,7 +95,21 @@ Random Forest (RF) is type of supervised machine learning algorithm that is ofte
 
 Support Vector Machine (SVM) is a supervised machine learning algorithm that classifies data by finding the optimal hyperplane which is also used in classification and regression problems \cite{cui2020}. Support vector machine is also widely used in aquaculture related studies such as the sex determining mandible shapes of due to its ability to solve classification problems with high validation accuracy especially when the clusters of the data with varying labels. The SVM has the ability to reflect the degree of cluster separation . It has the ability to be used as tool in the variety of the image data with biological shapes \cite{tsutsumi2023}.
 
-\subsection{Evaluation Metrics}
+
+\section{ Deep Learning for Image-Based Classification}
+\label{sec:deeplearning}
+After collecting a sufficient number of images and identifying initial patterns, convolutional neural networks (CNNs) will be used. CNNs, models like VGGNet, ResNet, and Inception have been effectively applied in phenotype classification \cite{kim2024}. In this study, the deep learning model will be specifically adapted for the sex identification of \textit{T. granosa} based on shell images. CNN has achieved breakthroughs in terms of image classification, image segmentation and speech recognition \cite{he2018}. In this study, CNNs will analyze the images and learn important details about their shapes that can help identify whether they are male or female. Due to the limitation of literature focusing on the sex determining mechanism for bivalves particularly \textit{T. granosa}, the researchers will implement and compare three of the state-of-thea-art CNN models namely VGGNet, Inception-ResNet, and Squeezenet \citeA{kim2024}. 
+
+\subsection{CNN Model : Visual Geometry Group}
+Visual Geometry Group (VGG) is considered to be a standard Convolutional Neural Network (CNN) architecture that is comprised of multiple layers that has been a ground-breaking object detection models and one of the most popular image recognition architecture \cite{boesch2021}. 
+
+\subsection{CNN Model : Inception ResNet}
+Inception ResNet is a convolutional neural network that has been trained on more than a million images and has a  164 deep layers that has the capacity to classify varied images \cite{mathworks}. This model is mainly used in bivalve studies such as in identifying different ark shells \cite{kim2024}.  
+
+\subsection{CNN Model : Squeezenet}
+SqueezeNet is particularly advantageous because it reduces the number of parameters and amount of memory required to store the model without sacrificing accuracy \cite{koonce2021}. Its ability to achieve high accuracy in classifying shell images makes it a suitable choice for distinguishing between male and female \textit{T. granosa.}
+
+\section{Evaluation Metrics for Machine Learning and CNN Models}
 Evaluating the performance of the binary classification model is important as well as selecting the appropriate metrics that is based on the requirements of the user. The performance of the supervised machine learning models will be measured based on three metrics namely: accuracy, precision, recall, and F1 score. 
 
 Accuracy (ACC) is the ratio of the overall correctly predicted samples to the total number of examples in the evaluation dataset \cite{cui2020}. The overall correctness of the model in predicting male and female blood cockles. This metric could help in understanding how well the model performs across all classifications. The formula for the accuracy is: 
@@ -151,19 +139,3 @@ F1 score (F1) is defined as the mean of the precision and recall in which it pen
 	\text{REC} = \frac{ precision \times recall }{precision \times recall }= \frac{2 \times TP}{2 \times TP + FP + FN}
 	\label{eq:f1}
 \end{equation}
-
-\section{ Deep Learning for Image-Based Classification}
-\label{sec:deeplearning}
-After collecting a sufficient number of images and identifying initial patterns, convolutional neural networks (CNNs) will be used. CNNs, models like VGGNet, ResNet, and Inception have been effectively applied in phenotype classification \cite{kim2024}. In this study, the deep learning model will be specifically adapted for the sex identification of \textit{T. granosa} based on shell images. CNNs will analyze the images and learn important details about their shapes that can help identify whether they are male or female. Due to the limitation of literature focusing on the sex determining mechanism for bivalves particularly \textit{T. granosa}, the researchers will implement and compare three of the CNN models namely VGGNet, Inception-ResNet, and Squeezenet \citeA{kim2024}. 
-
-\subsection{CNN Model : Visual Geometry Group}
-Visual Geometry Group (VGG) is considered to be a standard Convolutional Neural Network (CNN) architecture that is comprised of multiple layers that has been a ground-breaking object detection models and one of the most popular image recognition architecture \cite{boesch2021}. 
-
-\subsection{CNN Model : Inception ResNet}
-Inception ResNet is a convolutional neural network that has been trained on more than a million images and has a  164 deep layers that has the capacity to classify varied images \cite{mathworks}. This model is mainly used in bivalve studies such as in identifying different ark shells \cite{kim2024}.  
-
-\subsection{CNN Model : Squeezenet}
-SqueezeNet is particularly advantageous because it reduces the number of parameters and amount of memory required to store the model without sacrificing accuracy \cite{koonce2021}. Its ability to achieve high accuracy in classifying shell images makes it a suitable choice for distinguishing between male and female \textit{T. granosa.}
-
-\subsection{CNN Models Performance Evaluation}
-Python and Keras libraries will be used to train and test the model. The dataset will be divided into training (), validation (), and testing. Performance metrics such as accuracy, precision, recall, and F1-score will be used to evaluate the model's effectiveness.
