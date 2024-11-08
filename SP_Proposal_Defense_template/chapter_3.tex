@@ -2,7 +2,7 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software and languages utilized. This will also entail the overall workflow in conducting the study, Non-Invasive Methods in Determining the Sex of \textit{Tegillarca granosa} (blood cockles) using machine learning technologies. The different machine and deep learning algorithms will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
+This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software, and languages utilized. This will also entail the overall workflow in conducting the study, Non-Invasive Methods in Determining the Sex of \textit{Tegillarca granosa} (blood cockles) using machine learning technologies. The different machine and deep learning and computer vision technologies will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will oversee the overall workflow and conduct of this experiment. The researchers will also be guided by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
 
@@ -48,7 +48,7 @@ Ethical approval was not required for this study involving animals, as per local
 \section{Creating \textit{T. granosa} Dataset}
 \label{sec:dataset}
 
-For the initial preparation of the experiment, the researchers will collect primary observations for 100 samples of \textit{T. granosa.} For the actual experimentation, the researchers will collect the original dataset by batch eventually comprising 500 samples of \textit{T. granosa}. The images captured for the dataset will be saved in png format with a file naming convention of the sample’s sex, the orientation or view of the shell, and its corresponding number out of the total 1000 samples. Female \textit{T. granosa} samples will begin with 0 in their file name, while males will begin with 1, followed by the views captured such as (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral, and lastly, a unique sample number. For example, “010001” will be the file name for the first female sample taken from the dorsal view and “110001” for the first male sample also taken from the dorsal view. The dataset will be organized in a CSV file that lists each image’s file name along with their shell’s width, height, length, rib count, length of the hinge line, and distance between their umbos. This dataset will be essential for machine learning model training and testing. 
+For the initial preparation of the experiment, the researchers will collect primary observations for 100 samples of \textit{T. granosa.}. For the actual experimentation, the researchers will collect the original dataset by batch eventually comprising 500 samples of \textit{T. granosa}. The linear measurements were measured and gathered manually by the researchers and compiled in the CSV file seprating male and female \textit{T. granosa}. On the other hand, the images captured for the dataset will be saved in jpg format with a file naming convention of the sample’s sex, the orientation or view of the shell, and its corresponding number out of the total 1000 samples. Female \textit{T. granosa} samples will begin with 0 in their file name, while males will begin with 1, followed by the views captured such as (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral, and lastly, a unique sample number. For example, “010001” will be the file name for the first female sample taken from the dorsal view and “110001” for the first male sample also taken from the dorsal view. The dataset will be organized in a CSV file that lists each image’s file name along with their shell’s width, height, length, rib count, length of the hinge line, and distance between their umbos. This dataset will be essential for machine learning model training and testing. 
 
 \begin{figure}[!htbp]
 	\centering
@@ -56,7 +56,7 @@ For the initial preparation of the experiment, the researchers will collect prim
 	\caption{Different Views of the \textit{T. granosa} Shell Captured}
 \end{figure}
 
-\section{Morphological Characteristics Collection}
+\section{Morphological and Morphometric Characteristics Collection}
 \label{sec:morphochar}
 
 Morphology refers to the biological form and represents one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. Morphology is a term that describes structural characteristics by measuring specific components, namely, dimensions such as shapes, sizes, and colors. As stated by the researchers, quantifying and characterizing the shape is essential to understanding and visualizing the variations in \textit{T. granosa’s} morphology. 
