@@ -971,6 +971,36 @@ Leguá, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Magbayao%
+, Arboleda%
+\BCBL {}\ \BBA {} Galas%
+}{%
+Magbayao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+magbayao2020}
+\APACinsertmetastar {%
+magbayao2020}%
+\begin{APACrefauthors}%
+Magbayao, R.%
+, Arboleda, E.%
+\BCBL {}\ \BBA {} Galas, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Identification Of Asian Green Mussel Perna Viridis' Sex
+  Using Image Processing, Fuzzy Logic And K -Nearest Neighbor} {Identification
+  of asian green mussel perna viridis' sex using image processing, fuzzy logic
+  and k -nearest neighbor}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Scientific & Technology
+  Research}{9}{}{1199-1202}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Mahé%
 \ \protect \BOthers {.}}{%
 Mahé%
