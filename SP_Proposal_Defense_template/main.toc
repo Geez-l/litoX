@@ -21,23 +21,24 @@
 \contentsline {section}{\numberline {2.5}Synthesis of the Study}{17}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{20}{}%
 \contentsline {section}{\numberline {3.1}Sample Collection}{20}{}%
-\contentsline {section}{\numberline {3.2}Ethical Considerations}{21}{}%
+\contentsline {section}{\numberline {3.2}Ethical Considerations}{22}{}%
 \contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{22}{}%
 \contentsline {section}{\numberline {3.4}Morphological and Morphometric Characteristics Collection}{23}{}%
-\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{23}{}%
-\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{24}{}%
+\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{24}{}%
+\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{25}{}%
 \contentsline {section}{\numberline {3.7}Data Augmentation}{25}{}%
-\contentsline {section}{\numberline {3.8}Machine and Deep Learning Technologies}{25}{}%
-\contentsline {section}{\numberline {3.9}Morphometric Characteristics Evaluation using Machine Learning }{25}{}%
+\contentsline {section}{\numberline {3.8}Machine and Deep Learning Technologies}{26}{}%
+\contentsline {section}{\numberline {3.9}Morphometric Characteristics Evaluation using Machine Learning }{26}{}%
 \contentsline {subsection}{\numberline {3.9.1}Extreme Gradient Boosting}{26}{}%
-\contentsline {subsection}{\numberline {3.9.2}Logistic Regression}{26}{}%
-\contentsline {subsection}{\numberline {3.9.3}Random Forest}{26}{}%
+\contentsline {subsection}{\numberline {3.9.2}Logistic Regression}{27}{}%
+\contentsline {subsection}{\numberline {3.9.3}Random Forest}{27}{}%
 \contentsline {subsection}{\numberline {3.9.4}Support Vector Machine}{27}{}%
-\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{27}{}%
-\contentsline {subsection}{\numberline {3.10.1}CNN Model: Visual Geometry Group}{27}{}%
+\contentsline {subsection}{\numberline {3.9.5}k-Nearest Neighbors}{28}{}%
+\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{28}{}%
+\contentsline {subsection}{\numberline {3.10.1}CNN Model: Visual Geometry Group}{28}{}%
 \contentsline {subsection}{\numberline {3.10.2}CNN Model: Inception ResNet}{28}{}%
-\contentsline {subsection}{\numberline {3.10.3}CNN Model: Squeezenet}{28}{}%
-\contentsline {section}{\numberline {3.11}Evaluation Metrics for Machine Learning and CNN Models}{28}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{30}{}%
-\contentsline {chapter}{References}{31}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{36}{}%
+\contentsline {subsection}{\numberline {3.10.3}CNN Model: SqueezeNet}{29}{}%
+\contentsline {section}{\numberline {3.11}Evaluation Metrics for Machine Learning and CNN Models}{29}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{31}{}%
+\contentsline {chapter}{References}{32}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{37}{}%

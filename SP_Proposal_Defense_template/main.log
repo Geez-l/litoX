@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  8 NOV 2024 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  20 NOV 2024 21:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -616,46 +616,46 @@ Chapter 3.
 File: figures/male-female T.granosa.png Graphic file (type png)
 <use figures/male-female T.granosa.png>
 Package pdftex.def Info: figures/male-female T.granosa.png  used on input line 
-17.
+21.
 (pdftex.def)             Requested size: 373.99469pt x 235.8443pt.
  [21 <./figures/male-female T.granosa.png>]
 <figures/view.png, id=100, 1150.89975pt x 734.745pt>
 File: figures/view.png Graphic file (type png)
 <use figures/view.png>
-Package pdftex.def Info: figures/view.png  used on input line 34.
+Package pdftex.def Info: figures/view.png  used on input line 42.
 (pdftex.def)             Requested size: 373.99469pt x 238.75566pt.
- [22 <./figures/view.png>]
-<figures/Tegillarca_granosa_linear_measurements.png, id=105, 5900.0425pt x 1527
+ [22] [23 <./figures/view.png>]
+<figures/Tegillarca_granosa_linear_measurements.png, id=108, 5900.0425pt x 1527
 .7075pt>
 File: figures/Tegillarca_granosa_linear_measurements.png Graphic file (type png
 )
 <use figures/Tegillarca_granosa_linear_measurements.png>
 Package pdftex.def Info: figures/Tegillarca_granosa_linear_measurements.png  us
-ed on input line 47.
+ed on input line 57.
 (pdftex.def)             Requested size: 394.77359pt x 102.21834pt.
-
-[23 <./figures/Tegillarca_granosa_linear_measurements.png>]
-<figures/setup.jpg, id=110, 1128.46594pt x 1128.46594pt>
+<figures/setup.jpg, id=109, 1128.46594pt x 1128.46594pt>
 File: figures/setup.jpg Graphic file (type jpg)
 <use figures/setup.jpg>
-Package pdftex.def Info: figures/setup.jpg  used on input line 58.
+Package pdftex.def Info: figures/setup.jpg  used on input line 68.
 (pdftex.def)             Requested size: 166.21844pt x 166.21483pt.
- [24 <./figures/setup.jpg>]
-Overfull \hbox (6.21135pt too wide) in paragraph at lines 75--75
+
+[24 <./figures/Tegillarca_granosa_linear_measurements.png>] [25 <./figures/setu
+p.jpg>]
+Overfull \hbox (6.21135pt too wide) in paragraph at lines 83--83
 []\OT1/cmr/bx/n/17.28 Morphometric Char-ac-ter-is-tics Eval-u-a-tion us-
  []
 
-[25] [26] [27] [28]) [29]
+[26] [27] [28] [29]) [30]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-) [30
+) [31
 
 
 
 
-] (main.bbl [31
+] (main.bbl [32
 
 
 
@@ -665,12 +665,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 611--618
 ] -systems [] -important [] -for []
  []
 
-[32] [33] [34]) [35]
+[33]
+! Misplaced alignment tab character &.
+<argument> International Journal of Scientific &
+                                                 Technology Research
+l.1000   Research}{9}{}{1199-1202}
+                                  .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[34] [35]) [36]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [36
+) [37
 
 
 ]
@@ -685,10 +698,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7188 strings out of 474485
- 114079 string characters out of 5753548
+ 7191 strings out of 474485
+ 114124 string characters out of 5753548
  1965542 words of memory out of 5000000
- 29288 multiletter control sequences out of 15000+600000
+ 29291 multiletter control sequences out of 15000+600000
  566698 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,12n,84p,1791b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -700,9 +713,9 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12
 .pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (43 pages, 10401714 bytes).
+Output written on main.pdf (44 pages, 10403317 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
+ 201 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
