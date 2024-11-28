@@ -1,12 +1,75 @@
 %   Filename    : chapter_4.tex 
+
+
 \chapter{Preliminary Results/System Prototype}
 This chapter presents the preliminary results between the comparison of trained machine learning models: Logistic Regression, Random Forest,  Decision Trees, Support Vector Machine (SVM), and k-nearest Neighbors (KNN).  This chapter will also present the model evaluation and the comparison of model performance. 
 
-\section{Comparison of Model Performance}
-Figure 4.1 presents the comparison results of machine learning models on the morphological traits of the combined  male and female \textit{t.granosa} datasets.
+\section{Data Summary}
+\subsection{Dataset Overview}
 
-\begin{figure}[htbp]
+\subsection{Preprocessing Results}
+
+\section{Hyperparameter Optimization}
+
+\begin{table}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/metrics.png}
-	\caption{Performance measures analysis for the different machine learning models.}
-\end{figure}
+	\resizebox{\linewidth}{!}{ 
+		\begin{tabular}{lcc}
+			\hline
+			\textbf{Model} & \textbf{Best Parameters} & \textbf{Score}  \\ \hline
+			Logistic Regression & \{'classifier\_\_C': 5\} & 0.744654  \\
+			Decision Tree       & \{'criterion': 'gini', 'max\_depth': 10\} & 0.986164  \\
+			Random Forest       & \{'n\_estimators': 50\} & 0.991195  \\
+			SVM                 & \{'classifier\_\_C': 20, 'classifier\_\_kernel': 'rbf'\} & 0.862893  \\
+			KNN                 & \{'classifier\_\_metric': 'manhattan', 'classifier\_\_n\_neighbors': 9, 'classifier\_\_weights': 'distance'\} & 0.991195  \\ \hline
+		\end{tabular}
+	}
+	\caption{Hyperparameter Optimization}
+	\label{tab:hyperparameter-optimization}
+\end{table}
+
+
+\section{Tuned Classifier Comparison}
+
+\begin{table}[H]
+	\centering
+	\resizebox{\linewidth}{!}{ 
+		\begin{tabular}{lcc}
+			\hline
+			\textbf{Model} & \textbf{Balanced Accuracy (\%)} & \textbf{Training Time (s)}  \\ \hline
+			Logistic Regression & 74.35 & 3.07  \\
+			Decision Tree       & 95.44 & 0.16  \\
+			Random Forest       & 98.73 & 1.29  \\
+			SVM                 & 74.64 & 0.12  \\
+			KNN                 & 83.05 & 0.15  \\ \hline
+		\end{tabular}
+	}
+	\caption{Tuned Classifier Comparison}
+	\label{tab:tuned-classifier-comparison}
+\end{table}
+
+
+
+\section{Comparison of Model Performance}
+
+\begin{table}[H]
+	\centering
+	\resizebox{\linewidth}{!}{ 
+		\begin{tabular}{lcccc}
+			\hline
+			\textbf{Model} & \textbf{Ave Accuracy (\%)} & \textbf{Ave Precision (\%)} & \textbf{Ave Recall (\%)} & \textbf{Ave F1-score (\%)} \\ \hline
+			Logistic Regression & 78.86 & 74.96 & 74.86 & 74.55 \\
+			Decision Tree       & 98.11 & 98.22 & 98.11 & 98.12 \\
+			Random Forest       & 98.68 & 98.74 & 98.68 & 98.68 \\
+			SVM                 & 87.34 & 87.79 & 87.34 & 87.22 \\
+			KNN                 & 99.43 & 99.45 & 99.43 & 99.43 \\ \hline
+		\end{tabular}
+	}
+	\caption{Model Performance Comparison}
+	\label{tab:model-performance}
+\end{table}
+
+
+\section{Feature Importance Analysis}
+
+
