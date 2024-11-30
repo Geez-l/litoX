@@ -77,5 +77,19 @@ Table ~\ref{tab:model-performance} presents the comparison results of machine le
 \section{Feature Importance Analysis}
 After processing the dataset and splitting it into training and testing sets, the models are trained and their important features are computed. Feature Analysis helps in identifying which morphological features contribute most in classifying male and female T.granosa. The study uses models such as decision trees, and random forests to generate the scores. The models explore a wide range of features and then produce a score that reflects the feature’s importance in predicting the variable (Anitha \& Neelakandan, 2024).  
 
-To determine the important features that contribute to the classification of sex in T.granosa, two machine learning models, decision trees, and random forest were compared based on the importance of the features. The results in figures ?  indicates variations in feature importance between two models, however certain features such as distance of the umbos, LW\_ratio, length, and height consistently emerge as influential predictors. Hence, this analysis allowed the researchers to identify which features were most predictive that can improve the model’s performance. 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/decision-trees.png}
+	\caption{Feature Importance of Decision Trees}
+	\label{fig:decision-trees}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/random-forest.png}
+	\caption{Feature Importance of Random Forest}
+	\label{fig:random-forest}
+\end{figure}
+
+To determine the important features that contribute to the classification of sex in T.granosa, two machine learning models, decision trees, and random forest were compared based on the importance of the features. The results in figures ~\ref{fig:decision-trees} and ~\ref{fig:random-forest} indicates variations in feature importance between two models, however certain features such as distance of the umbos, LW\_ratio, length, and height consistently emerge as influential predictors. Hence, this analysis allowed the researchers to identify which features were most predictive that can improve the model’s performance. 
 
