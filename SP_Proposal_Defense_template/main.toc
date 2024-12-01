@@ -40,5 +40,12 @@
 \contentsline {subsection}{\numberline {3.10.3}CNN Model: SqueezeNet}{29}{}%
 \contentsline {section}{\numberline {3.11}Evaluation Metrics for Machine Learning and CNN Models}{29}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{31}{}%
-\contentsline {chapter}{References}{32}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{37}{}%
+\contentsline {section}{\numberline {4.1}Data Summary}{31}{}%
+\contentsline {subsection}{\numberline {4.1.1}Dataset Overview}{31}{}%
+\contentsline {subsection}{\numberline {4.1.2}Preprocessing Results}{31}{}%
+\contentsline {section}{\numberline {4.2}Hyperparameter Optimization}{32}{}%
+\contentsline {section}{\numberline {4.3}Tuned Classifier Comparison}{33}{}%
+\contentsline {section}{\numberline {4.4}Comparison of Model Performance}{36}{}%
+\contentsline {section}{\numberline {4.5}Feature Importance Analysis}{36}{}%
+\contentsline {chapter}{References}{38}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{43}{}%
