@@ -1,19 +1,18 @@
 %   Filename    : chapter_4.tex 
-\ensuremath{\pm}
 
 
 \chapter{Preliminary Results/System Prototype}
-This chapter presents the preprocessing results, the training of machine learning models, and feature importance analysis. Preprocessing of the dataset was done using python in Google Colab. The preprocessed dataset was then uploaded to MATLAB to train and evaluate the performance of the different classifiers used. Performance of different classifiers was assessed and feature importance analysis was conducted to identify the most significant predictors of sex identification in \textit{T.granosa}.
+This chapter outlines the results of preprocessing, training of machine learning models, and feature importance analysis. The dataset was preprocessed using Python in Google Colab. After preprocessing, the dataset was exported to MATLAB to train and evaluate the performance of various classifiers. It was followed by assessing the performance of different classifiers, and conducting feature importance analysis to identify the most significant predictors for sex identification in \Tgranosa.
 
 \section{Data Summary}
-\subsection{Dataset Overview}
+\subsection{Dataset Overview and Exploration}
 
-The dataset contains the morphological measurements collected from the 77 male and 72 female \textit{T.granosa} samples. The morphological characteristics included in the dataset are the length, width, height, rib count, hinge length, and distance between the umbos. Additional ratio-based characteristics, such as Length-to-Width ratio, and Length-to-Height ratio, were computed to take into consideration the size variations. These ratios were calculated by dividing the shell length by the shell width and height, respectively. 
+The dataset contains the morphometric measurements collected from the 77 male and 72 female T. granosa samples. Figure no. shows the proportion of male and female samples, a total of 149 samples collected by the researchers and classified through spawning and dissection. 
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/test-train.png}
-	\caption{Proportion of Male and Female Data}
+	\caption{Proportion of Male and Female \Tgranosa}
 	\label{fig:test-train}
 \end{figure}
 
@@ -36,11 +35,12 @@ The dataset contains the morphological measurements collected from the 77 male a
 			 \hline
 		\end{tabular}
 	}
-	\caption{ Descriptive statistics of the T. granosa features}
+	\caption{ Descriptive statistics of the \Tgranosa features}
 	\label{tab:descriptive-stat}
 \end{table}
 
-The preprocessing of the data includes data cleaning, feature engineering, and encoding. Any missing data entries were removed throughout the data cleaning process. The LW and LH ratios were calculated and added by feature engineering to standardize size variations among the samples while maintaining significant morphological patterns. Additionally, a categorical label was encoded using binary values. It was done by indicating male as 1 and female as 0. As for the final preparation, the dataset was split into 70\% as the training and 30\% as testing to ensure balanced male and female sample representation in the training set as well as in testing sets.
+
+
 
 \section{Comparison of Model Performance}
 \begin{figure}[!htbp]
