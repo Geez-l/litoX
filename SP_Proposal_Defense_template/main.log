@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  1 DEC 2024 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  9 DEC 2024 00:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,13 +464,7 @@ File: figures/anatomy.png Graphic file (type png)
 <use figures/anatomy.png>
 Package pdftex.def Info: figures/anatomy.png  used on input line 16.
 (pdftex.def)             Requested size: 373.99469pt x 222.90175pt.
-[7 <./figures/anatomy.png>] [8]
-Overfull \hbox (37.5827pt too wide) in paragraph at lines 36--37
-[]\OT1/cmr/m/n/12 In the study en-ti-tled "The ear-li-est ex-am-ple of sex-ual 
-di-mor-phism in bi-valves|evidence
- []
-
-[9] [10] [11]
+[7 <./figures/anatomy.png>] [8] [9] [10] [11]
 Overfull \hbox (1.40376pt too wide) in paragraph at lines 52--52
 []\OT1/cmr/bx/n/14.4 Geometric Mor-pho-met-rics and Ma-chine Learn-ing for
  []
@@ -635,63 +629,61 @@ File: figures/view.png Graphic file (type png)
 <use figures/view.png>
 Package pdftex.def Info: figures/view.png  used on input line 42.
 (pdftex.def)             Requested size: 373.99469pt x 238.75566pt.
- [22] [23 <./figures/view.png>]
-<figures/Tegillarca_granosa_linear_measurements.png, id=108, 5900.0425pt x 1527
+ [22]
+<figures/Tegillarca_granosa_linear_measurements.png, id=104, 5900.0425pt x 1527
 .7075pt>
 File: figures/Tegillarca_granosa_linear_measurements.png Graphic file (type png
 )
 <use figures/Tegillarca_granosa_linear_measurements.png>
 Package pdftex.def Info: figures/Tegillarca_granosa_linear_measurements.png  us
-ed on input line 57.
+ed on input line 58.
 (pdftex.def)             Requested size: 394.77359pt x 102.21834pt.
+ [23 <./figures/view.png>]
 <figures/setup.jpg, id=109, 1128.46594pt x 1128.46594pt>
 File: figures/setup.jpg Graphic file (type jpg)
 <use figures/setup.jpg>
-Package pdftex.def Info: figures/setup.jpg  used on input line 68.
+Package pdftex.def Info: figures/setup.jpg  used on input line 69.
 (pdftex.def)             Requested size: 166.21844pt x 166.21483pt.
 
-[24 <./figures/Tegillarca_granosa_linear_measurements.png>] [25 <./figures/setu
-p.jpg>]
-Overfull \hbox (6.21135pt too wide) in paragraph at lines 83--83
-[]\OT1/cmr/bx/n/17.28 Morphometric Char-ac-ter-is-tics Eval-u-a-tion us-
+[24 <./figures/Tegillarca_granosa_linear_measurements.png> <./figures/setup.jpg
+>]
+Overfull \hbox (10.35138pt too wide) in paragraph at lines 79--79
+[]\OT1/cmr/bx/n/17.28 Morphometric Char-ac-ter-is-tics Eval-u-a-tion Us-
  []
 
-[26] [27] [28] [29]) [30]
+[25] [26]) [27]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-[31
+<figures/test-train.png, id=127, 328.22626pt x 277.78781pt>
+File: figures/test-train.png Graphic file (type png)
+<use figures/test-train.png>
+Package pdftex.def Info: figures/test-train.png  used on input line 14.
+(pdftex.def)             Requested size: 249.33403pt x 211.01918pt.
+[28
 
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 3
-2.
- (C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
-
-Overfull \hbox (11.30661pt too wide) in paragraph at lines 37--38
-[]\OT1/cmr/m/n/12 For Lo-gis-tic Re-gres-sion, the best hy-per-pa-ram-e-ter was
- the reg-u-lar-iza-tion strength,
+<figures/compare-models.png, id=131, 381.67593pt x 288.3272pt>
+File: figures/compare-models.png Graphic file (type png)
+<use figures/compare-models.png>
+Package pdftex.def Info: figures/compare-models.png  used on input line 48.
+(pdftex.def)             Requested size: 249.33403pt x 188.35194pt.
+ [29 <./figures/test-train.png>] [30 <./figures/compare-models.png>]
+Overfull \hbox (10.51114pt too wide) in paragraph at lines 83--84
+\OT1/cmr/m/n/12 other with ac-cu-ra-cies of (65.77%) and (65.10%), pre-ci-sions
+ of (65.77%) and (65.22%),
  []
 
-[32] [33]
-<figures/confusion matrices.png, id=146, 1052.93375pt x 1606.0pt>
-File: figures/confusion matrices.png Graphic file (type png)
-<use figures/confusion matrices.png>
-Package pdftex.def Info: figures/confusion matrices.png  used on input line 86.
-
-(pdftex.def)             Requested size: 394.77359pt x 602.126pt.
-
-
-LaTeX Warning: Float too large for page by 14.66432pt on input line 89.
-
-[34] [35 <./figures/confusion matrices.png>] [36]) [37] (main.bbl [38
+<figures/confusion-matrix.png, id=141, 480.29437pt x 407.27156pt>
+File: figures/confusion-matrix.png Graphic file (type png)
+<use figures/confusion-matrix.png>
+Package pdftex.def Info: figures/confusion-matrix.png  used on input line 93.
+(pdftex.def)             Requested size: 249.33403pt x 211.42819pt.
+[31] [32 <./figures/confusion-matrix.png>]) [33] (main.bbl [34
 
 
 
@@ -701,12 +693,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 611--618
 ] -systems [] -important [] -for []
  []
 
-[39] [40] [41]) [42]
+[35] [36] [37]) [38]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [43
+) [39
 
 
 ]
@@ -721,10 +713,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7225 strings out of 474486
- 117539 string characters out of 5744227
+ 7211 strings out of 474486
+ 117442 string characters out of 5744227
  1965542 words of memory out of 5000000
- 29321 multiletter control sequences out of 15000+600000
+ 29310 multiletter control sequences out of 15000+600000
  566698 words of font info for 67 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,12n,84p,1793b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -738,9 +730,9 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kane/AppData/Local/Programs
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kane/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Kane
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (50 pages, 10564207 bytes).
+Output written on main.pdf (46 pages, 10456393 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
+ 213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
