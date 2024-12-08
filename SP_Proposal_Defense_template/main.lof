@@ -5,7 +5,9 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Male and Female \textit {Tegillarca granosa }shells}}{21}{}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Different Views of the \textit {T. granosa} Shell Captured}}{23}{}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Linear Measurements of \textit {Tegillarca granosa }shell.}}{24}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Image Acquisition Setup for \textit {T. granosa} Samples}}{25}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Image Acquisition Setup for \textit {T. granosa} Samples}}{24}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Confusion Matrices of the Machine Learning Models}}{35}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Proportion of Male and Female \textit {T. granosa }}}{29}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of Model Performance}}{30}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Confusion Matrix of Linear SVM}}{32}{}%
 \addvspace {10\p@ }
