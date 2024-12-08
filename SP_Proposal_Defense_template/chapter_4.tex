@@ -3,12 +3,12 @@
 
 
 \chapter{Preliminary Results/System Prototype}
-This chapter presents the preliminary results between the comparison of trained machine learning models: Logistic Regression, Random Forest,  Decision Trees, Support Vector Machine (SVM), and k-nearest Neighbors (KNN).  This chapter will also present the model evaluation and the comparison of model performance. 
+This chapter presents the preprocessing results, the training of machine learning models, and feature importance analysis. Preprocessing of the dataset was done using python in Google Colab. The preprocessed dataset was then uploaded to MATLAB to train and evaluate the performance of the different classifiers used. Performance of different classifiers was assessed and feature importance analysis was conducted to identify the most significant predictors of sex identification in \textit{T.granosa}.
 
 \section{Data Summary}
 \subsection{Dataset Overview}
 
-The dataset contains the morphological measurements collected from the 77 male and 72 female T. granosa samples. The morphological characteristics included in the dataset are the length, width, height, rib count, hinge length, and distance between the umbos. Additional ratio-based characteristics, such as Length-to-Width ratio, and Length-to-Height ratio, were computed to take into consideration the size variations. These ratios were calculated by dividing the shell length by the shell width and height, respectively. 
+The dataset contains the morphological measurements collected from the 77 male and 72 female \textit{T.granosa} samples. The morphological characteristics included in the dataset are the length, width, height, rib count, hinge length, and distance between the umbos. Additional ratio-based characteristics, such as Length-to-Width ratio, and Length-to-Height ratio, were computed to take into consideration the size variations. These ratios were calculated by dividing the shell length by the shell width and height, respectively. 
 
 \begin{figure}[!htbp]
 	\centering
@@ -50,9 +50,11 @@ The preprocessing of the data includes data cleaning, feature engineering, and e
 	\label{fig:compare-models}
 \end{figure}
 
+Figure ~\ref{fig:compare-models} shows the comparison of the accuracy in classifying sex of \textit{T.granosa} across different models such as Discriminant, Binary GLM Logistic Regression, SVM, and Ensemble. Based on the figure ~\ref{fig:compare-models} above the SVM obtained the highest accuracy percentage. This indicates that the SVM performed best among other models in the validation set. Followed by the Binary GLM Logistic Regression then the Discriminant. On the other hand, the Ensemble has the lowest accuracy making it the worst model to perform in the validation set. 
+
 \subsection{Performance Evaluation}
 
-To evaluate the performance of the different models used, the effectiveness of the models were evaluated and compared in predicting the sex of the T.granosa based on morphological traits. The use of performance metrics such as accuracy, precision, recall, and F1-score is used to evaluate the performance of the different models. By analyzing the performance metrics the researchers can identify the most effective and best model for the classification of male and female T.granosa. 
+To evaluate the performance of the different models used, the effectiveness of the models were evaluated and compared in predicting the sex of the \textit{T.granosa} based on morphological traits. The use of performance metrics such as accuracy, precision, recall, and F1-score is used to evaluate the performance of the different models. By analyzing the performance metrics the researchers can identify the most effective and best model for the classification of male and female \textit{T.granosa}. 
 
 
 \begin{table}[H]
@@ -72,7 +74,17 @@ To evaluate the performance of the different models used, the effectiveness of t
 	\label{tab:model-performance}
 \end{table}
 
-Table~\ref{tab:model-performance} presents the comparison results of machine learning models on the morphological traits of the combined  male and female T.granosa datasets. The results indicate that all models demonstrated moderate to high performance in predicting male and female, with accuracies ranging between 64.43\% to 69.80\%. 
+Table ~\ref{tab:model-performance} presents the comparison results of machine learning models on the morphological traits of the combined  male and female \textit{T.granosa} datasets. The results indicate that all models demonstrated moderate to high performance in predicting male and female, with accuracies ranging between 64.43\% to 69.80\%. 
+
+The Linear SVM performs as the best model achieving the highest accuracy (69.80\%), precision (69.82\%), recall (69.80\%), and F1-score (69.73\%), with a training time of 2.354s. This indicates that SVM is well-suited in identifying sex of \textit{T.granosa} based on its morphological features. 
+
+The Binary GLM Logistic Regression also performed well having an accuracy of (67.11\%), precision (67.16\%), recall (67.11\%), and F1-score (66.99\%), with a training time of 1.9415s which is faster than Linear SVM. 
+
+The Medium Gaussian SVM, and Linear Discriminant closely followed each other with accuracies of (65.77\%) and (65.10\%), precisions of (65.77\%) and (65.22\%), recall of (65.77\%) and (65.10\%), and F1-score of (65.69\%) and (64.86\%), with a training time of 1.0323s and 2.333s, respectively. 
+
+The Subspace discriminant, however, performs as the worst classifier with accuracy of (64.43\%), precision (64.50\%), recall(64.43\%), and F1-score (64.23\%), with a having the longest training time of 7.708s. 
+
+Overall, the results seen in this comparison highlights that machine learning models are effective in predicting sex identification of \textit{T.granosa} based on their morphological features. With Linear SVM performing as the best model for this dataset. 
 
 
 \subsection{Confusion Matrix Analysis}
@@ -89,6 +101,13 @@ Linear SVM being the best performing model had achieved 57 true positives and 47
 
 
 \subsection{Feature Importance Analysis}
+
+After processing the dataset and splitting it into training and testing sets, the models are trained and their important features are computed. Feature Analysis helps in identifying which morphological features contribute most in classifying male and female \textit{T.granosa}. The study uses models such as Minimum Redundancy Maximum Relevance (mRMR), Chi-sqaure (Chi2), ReliefF, Analysis of Variance (ANOVA) and Kruskal Wallis feature selection algorithms. 
+
+The Minimum Redundancy Maximum Relevance (mRMR) has the best features of height, LW ratio, distance of the umbos, rib count, and length respectively that contributes most in identifying sex classification. The Chi-sqaure (Chi2) includes all 8 features however, distance of the umbos contributes the most followed by height, length of the hinge, LW ratio, length, rib count, LH ratio and width. In the ReliefF scores its best features include the distance of the umbos, length, width, and length of the hinge however, height, LW ratio, LH ratio, and rib count did not contribute in the sex classification. Moreover, in Kruskal Wallis the height contributes the most followed by distance of the umbos, length of the hinge, LW ratio, length, LH ratio, width, and rib count as the lowest. 
+
+The results in figures ?  indicates variations in feature importance between four algorithm models, however certain features such as distance of the umbos are present in all algorithm best features, and followed along the height that are the best features of the three algorithms except for ReliefF. Therefore, features such as distance of the umbos and height consistently emerge as influential predictors. Hence, this analysis allowed the researchers to identify which features were most predictive that can serve as a baseline for sex identification of \textit{T.granosa} based on morphological features. 
+
 
 
 
