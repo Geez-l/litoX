@@ -2,7 +2,7 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software, and languages utilized. This will also entail the overall workflow in conducting the study, Non-Invasive Methods in Determining the Sex of \textit{Tegillarca granosa} (blood cockles) using machine learning technologies. The different machine and deep learning technologies will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
+This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software, and languages utilized. This will also entail the overall workflow in conducting the study, Morphometric-Based Non-Invasive Sex Identification of Blood Cockles \textit{Tegillarca granosa} (Linnaeus, 1758) using machine learning technologies. The different machine and deep learning technologies will be thoroughly discussed to ensure a comprehensive understanding of the entity of the research endeavor and its processes. 
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will oversee the overall workflow and conduct of this experiment. The researchers will also be guided by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
 
@@ -60,7 +60,7 @@ Reyment and Kennedy (1998) indicated that incorporating rib count as supplementa
 	\label{fig:linear_measurements}
 \end{figure}
 
-\section{Image Acquisition and Pre-Processing}
+\section{Image Acquisition and Data Gathering}
 \label{sec:imageprocess}
 This study will comprise 250 male and 250 female \Tgranosa images and will contain 1500 images from different angles. The researchers constructed a box-like structure with a white background surface to control the environment, capturing the images of the samples. This setup aimed to maintain uniform captures of the images, fixing the camera at a consistent angle above the \textit{T. granosa}. A ring light was positioned in front of the box to ensure the image quality, eliminate shadows, and ensure the clarity of the sample during the image acquisition process. Google Pixel 3 XL is the smartphone used with the following specifications: 2960 x 1440 for the resolution, 4,032 x 3,024 pixels (12.2 MP) for the dimensions, f/1.8 for the fstop, 28mm (wide), ½.55”, 1.4µm, dual pixel PDAF, OIS \cite{concepcion2023}
 
@@ -81,7 +81,22 @@ Google Collaboratory is utilized for collaborative preprocessing and data visual
 
 This section of the paper discusses the machine-learning operations that serve as a baseline before delving into more complex deep-learning methods for image classification. The study variables collected were linear measurements (length, width, height, length hinge line, distance between umbos, and rib count), along with additional features such as the length-width ratio and the length-height ratio as the features or the predictors. Then, samples are classified by sex (female = 0, male = 1), which serves as the response variable. 
 
-The preprocessing was performed in the Google Collaboratory and involved dropping duplicates, assigning labels, and feature engineering by calculating the ratios. Model training and selection were performed using MatLab Software version 24.2.0.2712019 (R2024b). A cross-fold validation (k = 5), was applied to partition the dataset and estimate accuracy in each fold. The model selection, normalization, model performance, evaluation metrics (accuracy, precision, recall, and F1 score), and other visualizations were also performed on MatLab. 
+\subsection{Preprocessing of the Dataset}
+\label{sec:pre-processing}
+
+The preprocessing of the dataset involved several steps as preparation for the machine learning analysis. These steps included handling missing values, assigning labels, feature engineering, data merging and cleaning, and scaling the data. Missing values present in both male and female datasets were addressed by removing entries with NAN values. This approach ensured that the subsequent analyses were performed on complete data, minimizing the risk of biases or errors and enhancing the reliability of the results.
+
+Label assignment was carried out by creating a new column named Label in both datasets. A label of 0 was assigned to female samples and a label of 1 was assigned to male samples, thus establishing the target variable for the machine learning models.
+
+In this study, the researchers conducted feature engineering, which involves selecting, extracting, and transforming raw data into a meaningful feature suitable for accurate classification. Additional ratio-based features were added: Length-to-Width (LW\_ratio) and Length-to-Height (LH\_ratio),  calculated separately for both male and female datasets.  These features aimed to capture size-normalized morphometric traits to improve the model performance and serve as a foundation for developing a more complex model for morphological-based classification using deep learning technologies. 
+
+Subsequently, the male and female datasets were merged to create a combined dataset incorporated for further machine learning analysis and explorations. Several operations were performed to eliminate redundancy and potential bias by removing unnecessary columns and excluding duplicate rows to avoid the occurrence of bias in the analysis. 
+
+Lastly, numerical features were scaled using MinMaxScaler which shifts and rescales the values to fit within a specific range, usually [0,1].  Scaling features uniformly helps machine learning models perform well, especially for those that are sensitive to the range of different scales of features.
+
+Moreover, machine learning operations, including model training and selection, were carried out using MATLAB Software version 24.2.0.2712019 (R2024b). A 5-cross-fold validation technique was applied to partition the dataset and assess accuracy in each fold. In MATLAB, researchers performed data standardization, and model evaluation using metrics such as accuracy, precision, recall, and F1 score. Additionally, researchers determined the optimal hyperparameters and feature importance to identify the most relevant features for determining the sex of \Tgranosa.
+
+
 
 \subsection{Evaluation Metrics for Machine Learning}
 Evaluating the performance of the binary classification model is important as well as selecting the appropriate metrics that is based on the requirements of the user. The performance of the supervised machine learning models will be measured based on three metrics namely: accuracy, precision, recall, and F1 score. 
