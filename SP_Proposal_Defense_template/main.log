@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  9 DEC 2024 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  9 DEC 2024 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -627,7 +627,7 @@ Package pdftex.def Info: figures/male-female T.granosa.png  used on input line
 <figures/view.png, id=100, 1150.89975pt x 734.745pt>
 File: figures/view.png Graphic file (type png)
 <use figures/view.png>
-Package pdftex.def Info: figures/view.png  used on input line 42.
+Package pdftex.def Info: figures/view.png  used on input line 39.
 (pdftex.def)             Requested size: 373.99469pt x 238.75566pt.
  [22]
 <figures/Tegillarca_granosa_linear_measurements.png, id=104, 5900.0425pt x 1527
@@ -636,18 +636,18 @@ File: figures/Tegillarca_granosa_linear_measurements.png Graphic file (type png
 )
 <use figures/Tegillarca_granosa_linear_measurements.png>
 Package pdftex.def Info: figures/Tegillarca_granosa_linear_measurements.png  us
-ed on input line 58.
+ed on input line 55.
 (pdftex.def)             Requested size: 394.77359pt x 102.21834pt.
  [23 <./figures/view.png>]
 <figures/setup.jpg, id=109, 1128.46594pt x 1128.46594pt>
 File: figures/setup.jpg Graphic file (type jpg)
 <use figures/setup.jpg>
-Package pdftex.def Info: figures/setup.jpg  used on input line 69.
+Package pdftex.def Info: figures/setup.jpg  used on input line 66.
 (pdftex.def)             Requested size: 166.21844pt x 166.21483pt.
 
 [24 <./figures/Tegillarca_granosa_linear_measurements.png> <./figures/setup.jpg
 >]
-Overfull \hbox (10.35138pt too wide) in paragraph at lines 79--79
+Overfull \hbox (10.35138pt too wide) in paragraph at lines 75--75
 []\OT1/cmr/bx/n/17.28 Morphometric Char-ac-ter-is-tics Eval-u-a-tion Us-
  []
 
@@ -730,7 +730,7 @@ fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kane/AppData/Local/Programs
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Kane/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Kane
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (46 pages, 10456393 bytes).
+Output written on main.pdf (46 pages, 10456438 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
