@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Preprocessing and Model Training Pipeline}}{25}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Proportion of Male and Female \textit {T. granosa }}}{29}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Correlation Matrix of Predictors and Target Variables}}{30}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Correlation Matrix of Predictors and Target Variables}}{29}{}%
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of Model Performance}}{32}{}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Confusion Matrix of Linear SVM}}{34}{}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Feature Importance Scores Sorted Using the MRMR Algorithm.}}{34}{}%
