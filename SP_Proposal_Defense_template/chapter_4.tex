@@ -15,7 +15,7 @@ The dataset contains the morphometric measurements collected from the 77 male an
 	\label{fig:test-train}
 \end{figure}
 
-\subsection{Preprocessing Results}
+\subsection{Statistical Analysis of \Tgranosa features}
 
 \begin{table}[H]
 	\centering
@@ -39,6 +39,10 @@ The dataset contains the morphometric measurements collected from the 77 male an
 	\caption{ Descriptive statistics of the \Tgranosa features}
 	\label{tab:descriptive-stat}
 \end{table}
+
+Standard deviation measures the variation in the set of data values around their respective mean. Table ~\ref{tab:descriptive-stat} showed that out of the eight features, the distance of the umbos shows higher variability $3.25 \pm 2.85$   compared to others. Other features displayed moderate standard deviation values, indicating low to moderate variability, and rib count demonstrated very low variability $19.65 \pm 0.88$.
+
+A normality test was performed to determine the distribution of the samples. The results revealed that all samples followed a non-normal distribution. Subsequently, the Mann-Whitney test was carried out to determine the p-values. Out of the eight features, five were found to be statistically significant. These include the Length with a -value of 0.036142, Height with a p-value of 0.000577, Length (Hinge Line) with a p-value of 0.020658, Distance Umbos with a p-value of 0.000874, and LW\_ratio with the p-value of 0.026395. Therefore, with a confidence interval of 95\%, these features were statistically significant in relationship to the target Label. These results suggest that these five features are important predictors influencing sex determination. Further analysis such as feature importance would be conducted to validate and quantify their contribution. 
 
 
 \section{Comparison of Model Performance}
