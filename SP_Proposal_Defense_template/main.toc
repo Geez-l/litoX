@@ -29,13 +29,13 @@
 \contentsline {section}{\numberline {3.7}Morphometric Characteristics Evaluation Using Machine Learning }{25}{}%
 \contentsline {subsection}{\numberline {3.7.1}Preprocessing and Model Training}{25}{}%
 \contentsline {subsection}{\numberline {3.7.2}Evaluation Metrics for Machine Learning}{27}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{28}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results}{28}{}%
 \contentsline {section}{\numberline {4.1}Data Summary}{28}{}%
 \contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{28}{}%
-\contentsline {subsection}{\numberline {4.1.2}Preprocessing Results}{29}{}%
-\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{29}{}%
-\contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{30}{}%
-\contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{31}{}%
-\contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{32}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }features}{29}{}%
+\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{30}{}%
+\contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{31}{}%
+\contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{32}{}%
+\contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{33}{}%
 \contentsline {chapter}{References}{35}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{40}{}%
+\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{40}{}%
