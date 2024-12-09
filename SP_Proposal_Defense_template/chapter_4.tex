@@ -19,7 +19,6 @@ The dataset contains the morphometric measurements collected from the 77 male an
 
 \begin{figure}[!htbp]
 	\centering
-<<<<<<< HEAD
 	\includegraphics[width=0.9\textwidth]{figures/corr_matrix.png}
 	\caption{Correlation Matrix of Predictors and Target Variables}
 \end{figure}
@@ -28,16 +27,7 @@ The correlation matrix between the variables and the correlation with the target
 The correlation analysis between the predictors and the target (label, male or female) showed that most features had a weak negative correlation with the label. Specifically, the highest negative correlations were observed for the length (L) (r = -0.21),  and height (H) (r = -0.28) being the highest, indicating that these linear measurements only slightly differ between males and females, making it challenging to distinguish morphometric differences. Conversely, a weak positive correlation was found between the label and the rib count (RC) and the length-to-height ratio (LH\_ratio), implying that as these variables increase, the likelihood of classifying the sex improves.
 
 Overall, the results show that while linear measurements such as length (L), width (W), height (H), and hinge line length (LHL) are interdependent, the rib count (RC) and distance between umbos (DU) are mostly independent features. Additionally, the weak correlations between the linear measurements and the label suggest that distinguishing between male and female \Tgranosa based on these traits alone is difficult. To enhance predictive power, a combination of features should be considered. Feature selection could be employed to identify meaningful combinations of features and evaluate their performance using machine learning metrics. Identifying these patterns is crucial for understanding complex biological processes, as traditional correlation coefficients that capture only linear relationships may overlook nonlinear interactions \cite{pividori2024}.
-=======
-	\includegraphics[width=0.8\textwidth]{figures/correlation-matrix.png}
-	\caption{Correlation Matrix of \Tgranosa}
-	\label{fig:correlation-matirx}
-\end{figure}
 
-The figure~\ref{fig:correlation-matirx} shows the correlation matrix between the variables and the correlation with the target was identified and displayed in the heatmap. The positive correlations observed in the matrix are the length (L) and Width (W) having (r = 0.87) and height (H) (r = 0.83), width (W) and Height (H) with (r = 0.82), and length (L) and hinge line length (LHL) with (r = 0.82). These features show high multicollinearity since the correlation is greater than 0.8 \cite{kim2019}. This feature indicates that as the length of the shell increases, its width, height, and hinge line length increases as well. In contrast, the rib count (RC) and distance of the umbos (DU) have a weak correlation from other features with (r = 0.0046) and (r = 0.28) being the highest, respectively. This indicates that features such as the rib count and distance of the umbos do not strongly depend on the length, width, and height of the shell. On the other hand, a negative weak correlation was observed between the label and some features such as the length (L) (r = -0.21),  and height (H) (r = -0.28) being the highest. This indicates that the labels (male and female) and the linear measurements show that they are not easily distinguishable but only have a small difference in the shell’s morphometric traits. 
-
-In conclusion, the results indicates that the linear measurements such as length (L), width (W), height (H), and length of the hinge line (LHL) are dependent on each other, while the rib count (RC), and distance of the umbos (DU) are mostly independent. Moreover, the label (male and female) indicates that the linear measurements has only small differences between the label (male and female), making it hard to identify the sex of \textit{T.granosa}.
->>>>>>> main
 
 \subsection{Statistical Analysis of \Tgranosa features}
 
