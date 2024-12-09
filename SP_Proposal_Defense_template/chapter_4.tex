@@ -8,9 +8,11 @@ This chapter outlines the results of preprocessing, training of machine learning
 
 The dataset contains the morphometric measurements collected from the 77 male and 72 female T. granosa samples. Figure no. shows the proportion of male and female samples, a total of 149 samples collected by the researchers and classified through spawning and dissection. 
 
+\newpage
+
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=0.6\textwidth]{figures/test-train.png}
+	\includegraphics[width=0.8\textwidth]{figures/test-train.png}
 	\caption{Proportion of Male and Female \Tgranosa}
 	\label{fig:test-train}
 \end{figure}
@@ -25,6 +27,7 @@ The correlation matrix between the variables and the correlation with the target
 The correlation analysis between the predictors and the target (label, male or female) showed that most features had a weak negative correlation with the label. Specifically, the highest negative correlations were observed for the length (L) (r = -0.21),  and height (H) (r = -0.28) being the highest, indicating that these linear measurements only slightly differ between males and females, making it challenging to distinguish morphometric differences. Conversely, a weak positive correlation was found between the label and the rib count (RC) and the length-to-height ratio (LH\_ratio), implying that as these variables increase, the likelihood of classifying the sex improves.
 
 Overall, the results show that while linear measurements such as length (L), width (W), height (H), and hinge line length (LHL) are interdependent, the rib count (RC) and distance between umbos (DU) are mostly independent features. Additionally, the weak correlations between the linear measurements and the label suggest that distinguishing between male and female \Tgranosa based on these traits alone is difficult. To enhance predictive power, a combination of features should be considered. Feature selection could be employed to identify meaningful combinations of features and evaluate their performance using machine learning metrics. Identifying these patterns is crucial for understanding complex biological processes, as traditional correlation coefficients that capture only linear relationships may overlook nonlinear interactions \cite{pividori2024}.
+
 
 \subsection{Statistical Analysis of \Tgranosa features}
 
