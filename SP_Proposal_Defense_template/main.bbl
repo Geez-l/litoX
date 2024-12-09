@@ -482,19 +482,22 @@ Concepcion, R.%
 
 \bibitem [\protect \citeauthoryear {%
 Cui%
-\ \BBA {} Zou%
+, Pan%
+, Chen%
+\BCBL {}\ \BBA {} Zou%
 }{%
 Cui%
-\ \BBA {} Zou%
-}{%
+\ \protect \BOthers {.}}{%
 {\protect \APACyear {2020}}%
 }]{%
 cui2020}
 \APACinsertmetastar {%
 cui2020}%
 \begin{APACrefauthors}%
-Cui, P\BPBI T\BPBI C\BPBI S., Y.%
-\BCBT {}\ \BBA {} Zou, X.%
+Cui, Y.%
+, Pan, T.%
+, Chen, S.%
+\BCBL {}\ \BBA {} Zou, X.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -1069,6 +1072,33 @@ Naylor, R\BPBI L.%
 \APACjournalVolNumPages{Nature}{405}{6790}{1017--1024}.
 \newblock
 \begin{APACrefDOI} \doi{10.1038/35016500} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pividori%
+}{%
+Pividori%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+pividori2024}
+\APACinsertmetastar {%
+pividori2024}%
+\begin{APACrefauthors}%
+Pividori, R\BPBI M\BPBI D\BPBI M\BPBI D\BPBI H\BPBI \BPBI G\BPBI C\BPBI S., M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An efficient, not-only-linear correlation coefficient
+  based on clustering} {An efficient, not-only-linear correlation coefficient
+  based on clustering}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cell Systems}{15}{}{854-868}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.cels.2024.08.005}
+  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
