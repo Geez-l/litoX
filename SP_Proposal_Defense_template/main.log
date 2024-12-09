@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  9 DEC 2024 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  9 DEC 2024 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -621,13 +621,13 @@ Chapter 3.
 File: figures/male-female T.granosa.png Graphic file (type png)
 <use figures/male-female T.granosa.png>
 Package pdftex.def Info: figures/male-female T.granosa.png  used on input line 
-21.
+22.
 (pdftex.def)             Requested size: 373.99469pt x 235.8443pt.
  [21 <./figures/male-female T.granosa.png>]
 <figures/view.png, id=100, 1150.89975pt x 734.745pt>
 File: figures/view.png Graphic file (type png)
 <use figures/view.png>
-Package pdftex.def Info: figures/view.png  used on input line 39.
+Package pdftex.def Info: figures/view.png  used on input line 41.
 (pdftex.def)             Requested size: 373.99469pt x 238.75566pt.
  [22]
 <figures/Tegillarca_granosa_linear_measurements.png, id=104, 5900.0425pt x 1527
@@ -636,25 +636,25 @@ File: figures/Tegillarca_granosa_linear_measurements.png Graphic file (type png
 )
 <use figures/Tegillarca_granosa_linear_measurements.png>
 Package pdftex.def Info: figures/Tegillarca_granosa_linear_measurements.png  us
-ed on input line 55.
+ed on input line 57.
 (pdftex.def)             Requested size: 394.77359pt x 102.21834pt.
  [23 <./figures/view.png>]
 <figures/setup.jpg, id=109, 1128.46594pt x 1128.46594pt>
 File: figures/setup.jpg Graphic file (type jpg)
 <use figures/setup.jpg>
-Package pdftex.def Info: figures/setup.jpg  used on input line 66.
+Package pdftex.def Info: figures/setup.jpg  used on input line 68.
 (pdftex.def)             Requested size: 166.21844pt x 166.21483pt.
 
 [24 <./figures/Tegillarca_granosa_linear_measurements.png> <./figures/setup.jpg
 >]
-Overfull \hbox (10.35138pt too wide) in paragraph at lines 75--75
+Overfull \hbox (10.35138pt too wide) in paragraph at lines 77--77
 []\OT1/cmr/bx/n/17.28 Morphometric Char-ac-ter-is-tics Eval-u-a-tion Us-
  []
 
 <figures/pipeline.png, id=116, 673.76718pt x 235.63031pt>
 File: figures/pipeline.png Graphic file (type png)
 <use figures/pipeline.png>
-Package pdftex.def Info: figures/pipeline.png  used on input line 85.
+Package pdftex.def Info: figures/pipeline.png  used on input line 87.
 (pdftex.def)             Requested size: 332.44325pt x 116.26163pt.
 [25 <./figures/pipeline.png>] [26]) [27]
 \openout2 = `chapter_4.aux'.
@@ -671,61 +671,57 @@ Package pdftex.def Info: figures/test-train.png  used on input line 13.
 
 
 
-]
-<figures/compare-models.png, id=133, 381.67593pt x 288.3272pt>
+] [29 <./figures/test-train.png>]
+<figures/compare-models.png, id=141, 381.67593pt x 288.3272pt>
 File: figures/compare-models.png Graphic file (type png)
 <use figures/compare-models.png>
-Package pdftex.def Info: figures/compare-models.png  used on input line 47.
+Package pdftex.def Info: figures/compare-models.png  used on input line 53.
 (pdftex.def)             Requested size: 249.33403pt x 188.35194pt.
- [29 <./figures/test-train.png>] [30 <./figures/compare-models.png>]
-Overfull \hbox (10.51114pt too wide) in paragraph at lines 82--83
-\OT1/cmr/m/n/12 other with ac-cu-ra-cies of (65.77%) and (65.10%), pre-ci-sions
- of (65.77%) and (65.22%),
- []
-
+ [30 <./figures/compare-models.png>]
 <figures/confusion-matrix.png, id=147, 480.29437pt x 407.27156pt>
 File: figures/confusion-matrix.png Graphic file (type png)
 <use figures/confusion-matrix.png>
-Package pdftex.def Info: figures/confusion-matrix.png  used on input line 92.
+Package pdftex.def Info: figures/confusion-matrix.png  used on input line 98.
 (pdftex.def)             Requested size: 249.33403pt x 211.42819pt.
-[31]
-<figures/mrmr.png, id=151, 298.86656pt x 248.42813pt>
+
+[31] [32 <./figures/confusion-matrix.png>]
+<figures/mrmr.png, id=155, 298.86656pt x 248.42813pt>
 File: figures/mrmr.png Graphic file (type png)
 <use figures/mrmr.png>
-Package pdftex.def Info: figures/mrmr.png  used on input line 108.
+Package pdftex.def Info: figures/mrmr.png  used on input line 114.
 (pdftex.def)             Requested size: 199.46428pt x 142.26508pt.
 
-Overfull \hbox (11.767pt too wide) in paragraph at lines 114--125
+Overfull \hbox (11.767pt too wide) in paragraph at lines 120--131
  [][] 
  []
 
-<figures/chi2.png, id=152, 306.39468pt x 257.46187pt>
+<figures/chi2.png, id=156, 306.39468pt x 257.46187pt>
 File: figures/chi2.png Graphic file (type png)
 <use figures/chi2.png>
-Package pdftex.def Info: figures/chi2.png  used on input line 134.
+Package pdftex.def Info: figures/chi2.png  used on input line 140.
 (pdftex.def)             Requested size: 199.46274pt x 142.26445pt.
-<figures/reliefF.png, id=153, 331.2375pt x 276.28218pt>
+<figures/reliefF.png, id=157, 331.2375pt x 276.28218pt>
 File: figures/reliefF.png Graphic file (type png)
 <use figures/reliefF.png>
-Package pdftex.def Info: figures/reliefF.png  used on input line 163.
+Package pdftex.def Info: figures/reliefF.png  used on input line 169.
 (pdftex.def)             Requested size: 199.46173pt x 142.26372pt.
 
-Overfull \hbox (8.51694pt too wide) in paragraph at lines 169--179
+Overfull \hbox (8.51694pt too wide) in paragraph at lines 175--185
  [][] 
  []
 
-<figures/kw.png, id=154, 353.82187pt x 301.8778pt>
+<figures/kw.png, id=158, 353.82187pt x 301.8778pt>
 File: figures/kw.png Graphic file (type png)
 <use figures/kw.png>
-Package pdftex.def Info: figures/kw.png  used on input line 188.
+Package pdftex.def Info: figures/kw.png  used on input line 194.
 (pdftex.def)             Requested size: 199.46701pt x 142.2603pt.
 
-Overfull \hbox (33.25795pt too wide) in paragraph at lines 194--208
+Overfull \hbox (33.25795pt too wide) in paragraph at lines 200--214
  [][] 
  []
 
-[32 <./figures/confusion-matrix.png> <./figures/mrmr.png>] [33 <./figures/chi2.
-png> <./figures/reliefF.png> <./figures/kw.png>]) [34] (main.bbl [35
+[33 <./figures/mrmr.png> <./figures/chi2.png> <./figures/reliefF.png>])
+[34 <./figures/kw.png>] (main.bbl [35
 
 
 
@@ -755,11 +751,11 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7267 strings out of 474486
- 118575 string characters out of 5744227
+ 7269 strings out of 474486
+ 118613 string characters out of 5744227
  1965542 words of memory out of 5000000
- 29362 multiletter control sequences out of 15000+600000
- 569014 words of font info for 77 fonts, out of 8000000 for 9000
+ 29364 multiletter control sequences out of 15000+600000
+ 569373 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,13n,84p,1793b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Kane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
@@ -779,7 +775,7 @@ m/cmsy10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (47 pages, 10634232 bytes).
+Output written on main.pdf (47 pages, 10635778 bytes).
 PDF statistics:
  256 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
