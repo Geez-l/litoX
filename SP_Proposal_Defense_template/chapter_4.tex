@@ -21,9 +21,10 @@ The dataset contains the morphometric measurements collected from the 77 male an
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/corr_matrix.png}
 	\caption{Correlation Matrix of Predictors and Target Variables}
+	\label{fig:corr-matrix}
 \end{figure}
-
-The correlation matrix between the variables and the correlation with the target was identified and displayed in the heatmap. The positive correlations observed in the matrix are the length (L) and Width (W) having (r = 0.87) and height (H) (r = 0.83), width (W) and Height (H) with (r = 0.82), and length (L) and hinge line length (LHL) with (r = 0.82). These features show high multicollinearity since the correlation is greater than 0.8 \cite{kim2019}. This feature indicates that as the length of the shell increases, its width, height, and hinge line length increases as well. In contrast, the rib count (RC) and distance of the umbos (DU) have a weak correlation from other features, with (r = 0.0046) and (r = 0.28) being the highest, respectively. This indicates that features such as the rib count and distance of the umbos do not strongly depend on the length, width, and height of the shell. 
+\newpage
+Figure~\ref{fig:corr-matrix} shows the correlation matrix between the variables and the correlation with the target was identified and displayed in the heatmap. The positive correlations observed in the matrix are the length (L) and Width (W) having (r = 0.87) and height (H) (r = 0.83), width (W) and Height (H) with (r = 0.82), and length (L) and hinge line length (LHL) with (r = 0.82). These features show high multicollinearity since the correlation is greater than 0.8 \cite{kim2019}. This feature indicates that as the length of the shell increases, its width, height, and hinge line length increases as well. In contrast, the rib count (RC) and distance of the umbos (DU) have a weak correlation from other features, with (r = 0.0046) and (r = 0.28) being the highest, respectively. This indicates that features such as the rib count and distance of the umbos do not strongly depend on the length, width, and height of the shell. 
 The correlation analysis between the predictors and the target (label, male or female) showed that most features had a weak negative correlation with the label. Specifically, the highest negative correlations were observed for the length (L) (r = -0.21),  and height (H) (r = -0.28) being the highest, indicating that these linear measurements only slightly differ between males and females, making it challenging to distinguish morphometric differences. Conversely, a weak positive correlation was found between the label and the rib count (RC) and the length-to-height ratio (LH\_ratio), implying that as these variables increase, the likelihood of classifying the sex improves.
 
 Overall, the results show that while linear measurements such as length (L), width (W), height (H), and hinge line length (LHL) are interdependent, the rib count (RC) and distance between umbos (DU) are mostly independent features. Additionally, the weak correlations between the linear measurements and the label suggest that distinguishing between male and female \Tgranosa based on these traits alone is difficult. To enhance predictive power, a combination of features should be considered. Feature selection could be employed to identify meaningful combinations of features and evaluate their performance using machine learning metrics. Identifying these patterns is crucial for understanding complex biological processes, as traditional correlation coefficients that capture only linear relationships may overlook nonlinear interactions \cite{pividori2024}.
@@ -54,7 +55,7 @@ Overall, the results show that while linear measurements such as length (L), wid
 	\label{tab:descriptive-stat}
 \end{table}
 
-Table~\ref{tab:descriptive-stat} shows a statistical summary of the different features, including the mean, standard deviation, minimum, maximum, and p-values, indicating the distribution across the sampled population. These values provide insight into the characteristics and sizes of  \Tgranosa. 
+Table~\ref{tab:descriptive-stat} shows a statistical summary of the different features, including the mean, standard deviation, minimum, maximum, and p-values, indicating the distribution across the sampled population. These values provide insight into the characteristics and sizes of \textit{T. granosa}. 
 
 Standard deviation measures the variation in a set of data values around their respective mean. Among the eight features, the distance between the umbos shows the highest variability (SD = 2.85), indicating that this feature varies significantly among samples. In contrast, rib count demonstrated the lowest variability (SD = 0.88), suggesting that this feature is relatively consistent across the dataset. Other features displayed moderate standard deviation values, indicating low to moderate variability.
 
@@ -229,6 +230,8 @@ The Linear SVM, being the best performing model, achieved 57 true positives and 
 	\caption{Feature Importance Scores Sorted Using the Kruskal Wallis Algorithm.}
 	\label{fig:kw-combined}
 \end{figure}
+
+\newpage
 
 After processing the dataset and splitting it into training and testing sets, the models are trained and their important features are computed. The features are further reduced in the table removing zeros and negative results that do not contribute to the scores. Feature Analysis helps in identifying which morphological features contribute most in classifying male and female T.granosa. The study employed models such as Minimum Redundancy Maximum Relevance (mRMR), Chi-square (Chi2), ReliefF, Analysis of Variance (ANOVA), and Kruskal Wallis feature selection algorithms. 
 

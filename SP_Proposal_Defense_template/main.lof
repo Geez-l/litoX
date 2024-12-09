@@ -9,11 +9,18 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Preprocessing and Model Training Pipeline}}{25}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Proportion of Male and Female \textit {T. granosa }}}{29}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Correlation Matrix of \textit {T. granosa }}}{29}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of Model Performance}}{31}{}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Confusion Matrix of Linear SVM}}{33}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Correlation Matrix of Predictors and Target Variables}}{29}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of Model Performance}}{32}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Confusion Matrix of Linear SVM}}{34}{}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Feature Importance Scores Sorted Using the MRMR Algorithm.}}{34}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Feature Importance Scores Sorted Using the Chi2 Algorithm.}}{34}{}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Feature Importance Scores Sorted Using the ReliefF Algorithm.}}{34}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Feature Importance Scores Sorted Using the Chi2 Algorithm.}}{35}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Feature Importance Scores Sorted Using the ReliefF Algorithm.}}{35}{}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Feature Importance Scores Sorted Using the Kruskal Wallis Algorithm.}}{35}{}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Sex Identification Through Spawning of \textit {Tegillarca granosa }}}{43}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Separating Male and Female Samples After Spawning of \textit {Tegillarca granosa }}}{44}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Sex identified Female Through Dissecting of \textit {Tegillarca granosa }}}{45}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Sex identified Male Through Dissecting of \textit {Tegillarca granosa }}}{46}{}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Linear measurements of Memale \textit {Tegillarca granosa }}}{47}{}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Linear measurements of Male \textit {Tegillarca granosa }}}{47}{}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Distribution of the Features of \textit {Tegillarca granosa }}}{48}{}%

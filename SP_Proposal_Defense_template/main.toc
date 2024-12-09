@@ -32,10 +32,10 @@
 \contentsline {chapter}{\numberline {4}Preliminary Results}{28}{}%
 \contentsline {section}{\numberline {4.1}Data Summary}{28}{}%
 \contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{28}{}%
-\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }features}{30}{}%
-\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{31}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }features}{31}{}%
+\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{32}{}%
 \contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{32}{}%
 \contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{33}{}%
 \contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{34}{}%
-\contentsline {chapter}{References}{36}{}%
-\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{41}{}%
+\contentsline {chapter}{References}{37}{}%
+\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{42}{}%
