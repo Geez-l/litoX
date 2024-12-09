@@ -6,7 +6,8 @@ This chapter discusses the materials and methods to be employed in the study, fo
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will oversee the overall workflow and conduct of this experiment. The researchers will also be guided by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
 
-The methodology consists of ten parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration,(8)Morphometric Characteristics Evaluation Using Machine Learning
+The methodology consists of seven parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration,(7) Morphometric Characteristics Evaluation Using Machine Learning
+
 
 \section{Sample Collection}
 \label{sec:samplecollect}
@@ -77,10 +78,17 @@ This section of the paper discusses the software, programming language, and nece
 
 This section of the paper discusses the machine learning operations that serve as a baseline before delving into more complex deep learning methods for image classification. The study variables collected included linear measurements (length, width, height, length of the hinge line, distance between umbos, and rib count), along with additional features such as the length-width ratio and the length-height ratio as predictors. Samples were then classified by sex (female = 0, male = 1), which serves as the response variable.
 
-\subsection{Preprocessing of the Dataset}
+\subsection{Preprocessing and Model Training}
 \label{sec:pre-processing}
 
-The preprocessing of the dataset involved several steps as preparation for the machine learning analysis. These steps included handling missing values, assigning labels, feature engineering, data merging and cleaning, and scaling the data. Missing values present in both male and female datasets were addressed by removing entries with NaN values. This approach ensured that subsequent analyses were performed on complete data, minimizing the risk of bias or errors and enhancing the reliability of the results.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/pipeline.png}
+	\caption{Preprocessing and Model Training Pipeline}
+	\label{fig: pipeline}
+\end{figure}
+
+The preprocessing of the dataset involved several steps as preparation for the machine learning analysis (\textit{see Figure~\ref{fig: pipeline}}). These steps included handling missing values, assigning labels, feature engineering, data merging and cleaning, and scaling the data. Missing values present in both male and female datasets were addressed by removing entries with NaN values. This approach ensured that subsequent analyses were performed on complete data, minimizing the risk of bias or errors and enhancing the reliability of the results.
 
 Label assignment was conducted by creating a new column named "Label" in both datasets. A label of 0 was assigned to female samples, and a label of 1 was assigned to male samples, thereby establishing the target variable for the machine learning models.
 
@@ -95,12 +103,12 @@ Moreover, machine learning operations, including model training and selection, w
 
 
 \subsection{Evaluation Metrics for Machine Learning}
-Evaluating the performance of the binary classification model is important as well as selecting the appropriate metrics that is based on the requirements of the user. The performance of the supervised machine learning models will be measured based on three metrics namely: accuracy, precision, recall, and F1 score. 
+Evaluating the performance of the binary classification model is important as well as selecting the appropriate metrics that is based on the requirements of the user. The performance of the supervised machine learning models will be measured based on four metrics namely: accuracy, precision, recall, and F1 score. 
 
 Accuracy (ACC) is the ratio of the overall correctly predicted samples to the total number of examples in the evaluation dataset \cite{cui2020}. The overall correctness of the model in predicting male and female blood cockles. This metric could help in understanding how well the model performs across all classifications. The formula for the accuracy is: 
 
 \begin{equation}
-	\text{PREC} = \frac{\text{Correctly classified samples}} {\text{All samples }} = \frac{TP+ TN}{TP + FP + TN + FN}
+	\text{ACC} = \frac{\text{Correctly classified samples}} {\text{All samples }} = \frac{TP+ TN}{TP + FP + TN + FN}
 	\label{eq:acc}
 \end{equation}
 Precision (PREC) is the ratio between correctly predicted samples in all samples that are assigned to the positive class \cite{cui2020}. This metric promotes fair representation and prevents the misidentification of blood cockles as it identifies potential inaccuracies or biases. The formula for precision is:
@@ -118,10 +126,10 @@ Recall (REC) is known as the sensitivity or the true positive rate (TPR) which i
 	\label{eq:rec}
 \end{equation}
 
-F1 score (F1) is defined as the mean of the precision and recall in which it penalizes the extreme values of either of the two \cite{cui2020}. The formula for the F1 is: 
+F1 score is defined as the mean of the precision and recall in which it penalizes the extreme values of either of the two \cite{cui2020}. The formula for the F1 is: 
 
 \begin{equation}
-	\text{REC} = \frac{ precision \times recall }{precision \times recall }= \frac{2 \times TP}{2 \times TP + FP + FN}
+	\text{F1} = \frac{ precision \times recall }{precision \times recall }= \frac{2 \times TP}{2 \times TP + FP + FN}
 	\label{eq:f1}
 \end{equation}
 

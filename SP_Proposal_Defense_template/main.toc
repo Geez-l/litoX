@@ -27,8 +27,8 @@
 \contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{24}{}%
 \contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{25}{}%
 \contentsline {section}{\numberline {3.7}Morphometric Characteristics Evaluation Using Machine Learning }{25}{}%
-\contentsline {subsection}{\numberline {3.7.1}Preprocessing of the Dataset}{25}{}%
-\contentsline {subsection}{\numberline {3.7.2}Evaluation Metrics for Machine Learning}{26}{}%
+\contentsline {subsection}{\numberline {3.7.1}Preprocessing and Model Training}{25}{}%
+\contentsline {subsection}{\numberline {3.7.2}Evaluation Metrics for Machine Learning}{27}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{28}{}%
 \contentsline {section}{\numberline {4.1}Data Summary}{28}{}%
 \contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{28}{}%
@@ -37,5 +37,5 @@
 \contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{30}{}%
 \contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{31}{}%
 \contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{32}{}%
-\contentsline {chapter}{References}{34}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{39}{}%
+\contentsline {chapter}{References}{35}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{40}{}%
