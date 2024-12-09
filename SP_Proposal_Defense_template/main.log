@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  9 DEC 2024 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.17)  9 DEC 2024 13:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,7 +733,7 @@ Overfull \hbox (33.25795pt too wide) in paragraph at lines 213--227
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 611--618
+Underfull \hbox (badness 10000) in paragraph at lines 583--590
 \OT1/cmtt/m/n/12 fao [] -2024 [] -report [] -sustainable [] -aquatic [] -food [
 ] -systems [] -important [] -for []
  []
@@ -758,10 +758,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7275 strings out of 474486
- 119021 string characters out of 5743754
+ 7262 strings out of 474486
+ 118871 string characters out of 5743754
  1965542 words of memory out of 5000000
- 29370 multiletter control sequences out of 15000+600000
+ 29357 multiletter control sequences out of 15000+600000
  569373 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,13n,84p,1793b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -782,7 +782,7 @@ c/amsfonts/cm/cmsy10.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmsy8.pfb><C:/Users/jjadr/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/jjadr/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (48 pages, 10711957 bytes).
+Output written on main.pdf (48 pages, 10709561 bytes).
 PDF statistics:
  261 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
