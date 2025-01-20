@@ -195,34 +195,6 @@ BFAR.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Boesch%
-}{%
-Boesch%
-}{%
-{\protect \APACyear {2021}}%
-}]{%
-boesch2021}
-\APACinsertmetastar {%
-boesch2021}%
-\begin{APACrefauthors}%
-Boesch, G.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2021}{October 6}{}.
-\newblock
-\APACrefbtitle {VGG Very Deep Convolutional Networks (VGGNet) - What you need
-  to know.} {Vgg very deep convolutional networks (vggnet) - what you need to
-  know.}
-\newblock
-\begin{APACrefURL}
-  \url{https://viso.ai/deep-learning/vgg-very-deep-convolutional-networks/}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{Viso.ai}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Boey%
 , Maniam%
 , Hamid%
@@ -510,19 +482,22 @@ Concepcion, R.%
 
 \bibitem [\protect \citeauthoryear {%
 Cui%
-\ \BBA {} Zou%
+, Pan%
+, Chen%
+\BCBL {}\ \BBA {} Zou%
 }{%
 Cui%
-\ \BBA {} Zou%
-}{%
+\ \protect \BOthers {.}}{%
 {\protect \APACyear {2020}}%
 }]{%
 cui2020}
 \APACinsertmetastar {%
 cui2020}%
 \begin{APACrefauthors}%
-Cui, P\BPBI T\BPBI C\BPBI S., Y.%
-\BCBT {}\ \BBA {} Zou, X.%
+Cui, Y.%
+, Pan, T.%
+, Chen, S.%
+\BCBL {}\ \BBA {} Zou, X.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
@@ -672,33 +647,6 @@ Gosling, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-He%
-\ \BBA {} Zhang%
-}{%
-He%
-\ \BBA {} Zhang%
-}{%
-{\protect \APACyear {2018}}%
-}]{%
-he2018}
-\APACinsertmetastar {%
-he2018}%
-\begin{APACrefauthors}%
-He, X.%
-\BCBT {}\ \BBA {} Zhang, W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2018}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Emotion recognition by assisted learning with
-  convolutional neural networks} {Emotion recognition by assisted learning with
-  convolutional neural networks}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Neurocomputing}{291}{}{187--194}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Heller%
 }{%
 Heller%
@@ -825,40 +773,13 @@ Kerr, L\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kiel%
-}{%
-Kiel%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-kiel2021}
-\APACinsertmetastar {%
-kiel2021}%
-\begin{APACrefauthors}%
-Kiel, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Assessing bivalve phylogeny using Deep Learning and
-  Computer Vision approaches} {Assessing bivalve phylogeny using deep learning
-  and computer vision approaches}.{\BBCQ}
-\newblock
-
-\newblock
-\begin{APACrefDOI} \doi{https://doi.org/10.1101/2021.04.08.438943}
-  \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Kim%
+E.~Kim%
 , Yang%
 , Cha%
 , Jung%
 \BCBL {}\ \BBA {} Kim%
 }{%
-Kim%
+E.~Kim%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2024}}%
 }]{%
@@ -888,28 +809,30 @@ Kim, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Koonce%
+J\BPBI H.~Kim%
 }{%
-Koonce%
+J\BPBI H.~Kim%
 }{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
+{\protect \APACyear {2019}}%
 }]{%
-koonce2021}
+kim2019}
 \APACinsertmetastar {%
-koonce2021}%
+kim2019}%
 \begin{APACrefauthors}%
-Koonce, B.%
+Kim, J\BPBI H.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\APACrefYearMonthDay{2019}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {SqueezeNet} {Squeezenet}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Multicollinearity and Misleading Statistical Results}
+  {Multicollinearity and misleading statistical results}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Convolutional Neural Networks with Swift for
-  Tensorflow}{}{}{73–85}.
+\APACjournalVolNumPages{Korean Journal of Anesthesiology}{72}{6}{558--569}.
 \newblock
-\APACjournalVolNumPages{International Journal of Scientific \& Technology Research}{9}{}{1199-1202}.
+\begin{APACrefURL} \url{https://doi.org/10.4097/kja.19087} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.4097/kja.19087} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -970,35 +893,6 @@ Leguá, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Magbayao%
-, Arboleda%
-\BCBL {}\ \BBA {} Galas%
-}{%
-Magbayao%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2020}}%
-}]{%
-magbayao2020}
-\APACinsertmetastar {%
-magbayao2020}%
-\begin{APACrefauthors}%
-Magbayao, R.%
-, Arboleda, E.%
-\BCBL {}\ \BBA {} Galas, E.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2020}{01}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Identification Of Asian Green Mussel Perna Viridis' Sex
-  Using Image Processing, Fuzzy Logic And K -Nearest Neighbor} {Identification
-  of asian green mussel perna viridis' sex using image processing, fuzzy logic
-  and k -nearest neighbor}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Journal of Scientific \& Technology Research}{9}{}{1199-1202}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Mahé%
 \ \protect \BOthers {.}}{%
 Mahé%
@@ -1030,34 +924,6 @@ Mahé, K.%
   Sciences}{73}{}{1363--1371}.
 \newblock
 \begin{APACrefDOI} \doi{10.1139/cjfas-2015-0332} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-{MathWorks}%
-}{%
-{MathWorks}%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-mathworks}
-\APACinsertmetastar {%
-mathworks}%
-\begin{APACrefauthors}%
-{MathWorks}.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-\APACrefbtitle {Pretrained Inception-ResNet-v2 Convolutional Neural Network -
-  MATLAB inceptionresnetv2.} {Pretrained inception-resnet-v2 convolutional
-  neural network - matlab inceptionresnetv2.}
-\newblock
-\begin{APACrefURL}
-  \url{https://www.mathworks.com/help/deeplearning/ref/inceptionresnetv2.html}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{MathWorks}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1209,6 +1075,33 @@ Naylor, R\BPBI L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pividori%
+}{%
+Pividori%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+pividori2024}
+\APACinsertmetastar {%
+pividori2024}%
+\begin{APACrefauthors}%
+Pividori, R\BPBI M\BPBI D\BPBI M\BPBI D\BPBI H\BPBI \BPBI G\BPBI C\BPBI S., M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An efficient, not-only-linear correlation coefficient
+  based on clustering} {An efficient, not-only-linear correlation coefficient
+  based on clustering}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cell Systems}{15}{}{854-868}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.cels.2024.08.005}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ponton%
 }{%
 Ponton%
@@ -1267,36 +1160,6 @@ Quenu, M.%
 \APACjournalVolNumPages{Journal of Molluscan Studies}{86}{1}{35--41}.
 \newblock
 \begin{APACrefDOI} \doi{10.1093/mollus/eyz031} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Rohlf%
-\ \BBA {} Archie%
-}{%
-Rohlf%
-\ \BBA {} Archie%
-}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-rohlf1984}
-\APACinsertmetastar {%
-rohlf1984}%
-\begin{APACrefauthors}%
-Rohlf, F\BPBI J.%
-\BCBT {}\ \BBA {} Archie, J\BPBI W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Comparison of Fourier Methods for the Description of
-  Wing Shape in Mosquitoes (Diptera: Culicidae)} {A comparison of fourier
-  methods for the description of wing shape in mosquitoes (diptera:
-  Culicidae)}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Systematic Zoology}{33}{3}{302–302}.
-\newblock
-\begin{APACrefDOI} \doi{https://doi.org/10.2307/2413076} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1430,31 +1293,6 @@ Thompson, R\BPBI J.%
   {The eastern oyster crassostrea virginica}\ (\BPGS\ 335--370).
 \newblock
 \APACaddressPublisher{College Park, MD}{Maryland Sea Grant}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Torres%
-}{%
-Torres%
-}{%
-{\protect \APACyear {2023}}%
-}]{%
-torres2023}
-\APACinsertmetastar {%
-torres2023}%
-\begin{APACrefauthors}%
-Torres, L\BPBI F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{April}{}.
-\newblock
-\APACrefbtitle {XGBoost: The King of Machine Learning Algorithms- LatinXinAI -
-  Medium. Medium; LatinXinAI.} {Xgboost: The king of machine learning
-  algorithms- latinxinai - medium. medium; latinxinai.}
-\newblock
-\APAChowpublished
-  {\url{https://medium.com/latinxinai/xgboost-the-king-of-machine-learning-algorithms-6b5c0d4acd87}}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

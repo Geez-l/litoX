@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.3}Research Objectives}{3}{}%
 \contentsline {subsection}{\numberline {1.3.1}General Objective}{3}{}%
 \contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{3}{}%
-\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{3}{}%
+\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{4}{}%
 \contentsline {section}{\numberline {1.5}Significance of the Research}{4}{}%
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{6}{}%
 \contentsline {section}{\numberline {2.1}Background on \textit {\textit {Tegillarca granosa }} and Their Importance}{7}{}%
@@ -24,21 +24,18 @@
 \contentsline {section}{\numberline {3.2}Ethical Considerations}{22}{}%
 \contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{22}{}%
 \contentsline {section}{\numberline {3.4}Morphological and Morphometric Characteristics Collection}{23}{}%
-\contentsline {section}{\numberline {3.5}Image Acquisition and Pre-Processing}{24}{}%
+\contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{24}{}%
 \contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{25}{}%
-\contentsline {section}{\numberline {3.7}Data Augmentation}{25}{}%
-\contentsline {section}{\numberline {3.8}Machine and Deep Learning Technologies}{26}{}%
-\contentsline {section}{\numberline {3.9}Morphometric Characteristics Evaluation using Machine Learning }{26}{}%
-\contentsline {subsection}{\numberline {3.9.1}Extreme Gradient Boosting}{26}{}%
-\contentsline {subsection}{\numberline {3.9.2}Logistic Regression}{27}{}%
-\contentsline {subsection}{\numberline {3.9.3}Random Forest}{27}{}%
-\contentsline {subsection}{\numberline {3.9.4}Support Vector Machine}{27}{}%
-\contentsline {subsection}{\numberline {3.9.5}k-Nearest Neighbors}{28}{}%
-\contentsline {section}{\numberline {3.10} Deep Learning for Image-Based Classification}{28}{}%
-\contentsline {subsection}{\numberline {3.10.1}CNN Model: Visual Geometry Group}{28}{}%
-\contentsline {subsection}{\numberline {3.10.2}CNN Model: Inception ResNet}{28}{}%
-\contentsline {subsection}{\numberline {3.10.3}CNN Model: SqueezeNet}{29}{}%
-\contentsline {section}{\numberline {3.11}Evaluation Metrics for Machine Learning and CNN Models}{29}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{31}{}%
-\contentsline {chapter}{References}{32}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{37}{}%
+\contentsline {section}{\numberline {3.7}Morphometric Characteristics Evaluation Using Machine Learning }{25}{}%
+\contentsline {subsection}{\numberline {3.7.1}Preprocessing and Model Training}{25}{}%
+\contentsline {subsection}{\numberline {3.7.2}Evaluation Metrics for Machine Learning}{27}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results}{28}{}%
+\contentsline {section}{\numberline {4.1}Data Summary}{28}{}%
+\contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{28}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }features}{31}{}%
+\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{32}{}%
+\contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{32}{}%
+\contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{33}{}%
+\contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{34}{}%
+\contentsline {chapter}{References}{37}{}%
+\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{42}{}%
