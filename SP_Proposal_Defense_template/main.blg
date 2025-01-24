@@ -15,7 +15,9 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_3.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_4.aux
-Illegal, another \bibstyle command---line 10 of file main.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_5.aux
+Illegal, another \bibstyle command---line 11 of file main.aux
  : \bibstyle
  :          {apacite}
 I'm skipping whatever remains of this command
@@ -78,157 +80,201 @@ Repeated entry---line 1305 of file myreferences.bib
  :                 ,
 I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5062 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5062 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5062 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5062 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5062 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5066 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5068 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5072 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5072 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5072 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5072 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5072 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5072 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
 while executing---line 5075 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
 while executing---line 5075 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5075 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5075 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5075 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5076 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5076 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5076 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5076 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
+while executing---line 5076 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
 while executing---line 5076 of file apacite.bst
 Warning--No journal in afiati2007
 Warning--No journal in narasimham1988
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., & Greene, C. S." for entry pividori2024
+Too many commas in name 1 of "Pividori, M., Ritchie, M. D., Milone, D. H., \& Greene, C. S." for entry pividori2024
 while executing---line 5079 of file apacite.bst
-You've used 48 entries,
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5079 of file apacite.bst
+You've used 49 entries,
             6951 wiz_defined-function locations,
-            1607 strings with 21028 characters,
-and the built_in function-call counts, 110268 in all, are:
-= -- 13409
-> -- 895
-< -- 5968
-+ -- 6447
-- -- 98
-* -- 7577
-:= -- 21278
-add.period$ -- 201
-call.type$ -- 48
-change.case$ -- 829
+            1614 strings with 21230 characters,
+and the built_in function-call counts, 112189 in all, are:
+= -- 13646
+> -- 909
+< -- 6065
++ -- 6542
+- -- 100
+* -- 7705
+:= -- 21636
+add.period$ -- 205
+call.type$ -- 49
+change.case$ -- 846
 chr.to.int$ -- 0
-cite$ -- 98
-duplicate$ -- 2989
-empty$ -- 3807
-format.name$ -- 1570
-if$ -- 19911
+cite$ -- 100
+duplicate$ -- 3039
+empty$ -- 3884
+format.name$ -- 1594
+if$ -- 20279
 int.to.chr$ -- 0
-int.to.str$ -- 144
+int.to.str$ -- 147
 missing$ -- 0
-newline$ -- 1310
-num.names$ -- 380
-pop$ -- 1580
+newline$ -- 1337
+num.names$ -- 388
+pop$ -- 1605
 preamble$ -- 1
-purify$ -- 201
+purify$ -- 205
 quote$ -- 0
-skip$ -- 6414
+skip$ -- 6539
 stack$ -- 0
-substring$ -- 6957
-swap$ -- 1666
-text.length$ -- 135
+substring$ -- 7061
+swap$ -- 1695
+text.length$ -- 137
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4120
+type$ -- 4200
 warning$ -- 2
-while$ -- 558
+while$ -- 565
 width$ -- 0
-write$ -- 1674
-(There were 65 error messages)
+write$ -- 1707
+(There were 87 error messages)
