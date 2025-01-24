@@ -30,39 +30,28 @@ The correlation analysis between the predictors and the target (label, male or f
 Overall, the results show that while linear measurements such as length (L), width (W), height (H), and hinge line length (LHL) are interdependent, the rib count (RC) and distance between umbos (DU) are mostly independent features. Additionally, the weak correlations between the linear measurements and the label suggest that distinguishing between male and female \Tgranosa based on these traits alone is difficult. To enhance predictive power, a combination of features should be considered. Feature selection could be employed to identify meaningful combinations of features and evaluate their performance using machine learning metrics. Identifying these patterns is crucial for understanding complex biological processes, as traditional correlation coefficients that capture only linear relationships may overlook nonlinear interactions \cite{pividori2024}.
 
 
-\subsection{Statistical Analysis of \Tgranosa features}
+\subsection{Statistical Analysis of \Tgranosa Features by Sex}
 
-\begin{table}[H]
+\begin{figure}[!htbp]
 	\centering
-	{\fontsize{8}{10}\selectfont 
-		\resizebox{\linewidth}{!}{ 
-			\begin{tabular}{lcccc}
-				\hline
-				\textbf{Feature} & \textbf{$Mean \pm SD$} & \textbf{Min} & \textbf{Max} & \textbf{p-value}  \\ \hline
-				Length              & $46.41 \pm 5.01$ & 38.050000 & 64.800000 & 0.036142  \\
-				Width               & $35.66 \pm 3.78$ & 28.250000 & 45.500000 & 0.255091  \\
-				Height              & $32.10 \pm 3.59$ & 23.350000 & 45.050000 & 0.000577  \\
-				Rib count           & $19.65 \pm 0.88$ & 17.000000 & 22.000000 & 0.333161  \\
-				Length (Hinge Line) & $28.06 \pm 4.24$ & 20.050000 & 43.050000 & 0.020658  \\
-				Distance Umbos      & $3.25 \pm 2.85$ & 1.050000 & 35.050000 & 0.000874  \\
-				LW\_ratio            & $1.30 \pm 0.07$ & 1.114710 & 1.692185 & 0.026395  \\
-				LH\_ratio            & $1.45 \pm 0.10$ & 1.191919 & 1.844398 & 0.086674  \\
-				\hline
-			\end{tabular}
-		}
-	}
-	\caption{ Dataset Overview and Exploration}
-	\label{tab:descriptive-stat}
-\end{table}
+	\includegraphics[width=1.0\textwidth]{figures/eda.png}
+	\caption{Sex-based Differences in Morphological Features of \Tgranosa}
+	\label{fig:eda}
+\end{figure}
 
-Table~\ref{tab:descriptive-stat} shows a statistical summary of the different features, including the mean, standard deviation, minimum, maximum, and p-values, indicating the distribution across the sampled population. These values provide insight into the characteristics and sizes of \textit{T. granosa}. 
+Figure~\ref{fig:eda} illustrates the mean and standard deviation (SD) of features by sex in \textit{T. granosa}. The differences in the average values of several features between males and females are apparent, though the degree of variability within each group, as indicated by the error bars, suggests varying levels of confidence in these differences.
 
-Standard deviation measures the variation in a set of data values around their respective mean. Among the eight features, the distance between the umbos shows the highest variability (SD = 2.85), indicating that this feature varies significantly among samples. In contrast, rib count demonstrated the lowest variability (SD = 0.88), suggesting that this feature is relatively consistent across the dataset. Other features displayed moderate standard deviation values, indicating low to moderate variability.
+Males generally have larger average values for size-related features, including length, width, and height, compared to females. These differences are supported by relatively small error bars, suggesting greater confidence in the observed distinctions.
 
-A normality test was performed to determine the distribution of the samples. The results revealed that all samples followed a non-normal distribution. Subsequently, the Mann-Whitney U test was carried out to calculate the p-values. Out of the eight features, five were found to be statistically significant: Length (p-value = 0.036142), Height (p-value = 0.000577), Hinge Line Length (p-value = 0.020658), Distance Between Umbos (p-value = 0.000874), and LW\_ratio (p-value = 0.026395). With a 95\% confidence interval, these features were statistically significant in relation to the target Label. These results suggest that these five features are important predictors influencing sex determination. Further analysis such as feature importance would be conducted to validate and quantify their contribution.  
+While males show slightly higher average rib counts than females, the overlap in error bars indicates greater variability and less confidence in the difference for this feature.
 
+The distance between umbos presents the most pronounced difference, with males having a significantly larger average value and minimal overlap in error bars. This strongly suggests a reliable distinction between sexes based on this feature. Similarly, hinge line length also exhibits a clear distinction, with males possessing longer average hinge lines and relatively small error bars.
 
+The ratios of length to width (LW ratio) and length to height (LH ratio) show smaller differences between males and females, with overlapping error bars indicating that these features might be less reliable for sex differentiation, despite males tending to have slightly higher average values.
+
+\newpage
 \section{Comparison of Model Performance}
+
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/compare-models.png}

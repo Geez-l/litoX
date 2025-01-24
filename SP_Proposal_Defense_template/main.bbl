@@ -1445,4 +1445,34 @@ Zha, S.%
 \begin{APACrefDOI} \doi{10.1016/j.chemosphere.2022.134079} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Zhan%
+\ \BBA {} Bao%
+}{%
+Zhan%
+\ \BBA {} Bao%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+zhan2022}
+\APACinsertmetastar {%
+zhan2022}%
+\begin{APACrefauthors}%
+Zhan, P\BPBI L., Zha%
+\BCBT {}\ \BBA {} Bao, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hypoxia-mediated immunotoxicity in the blood clam
+  Tegillarca granosa} {Hypoxia-mediated immunotoxicity in the blood clam
+  tegillarca granosa}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Marine Environmental Research}{177}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.marenvres.2022.105632}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
