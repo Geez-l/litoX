@@ -515,6 +515,39 @@ Cui, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Davenport%
+\ \BBA {} Wong%
+}{%
+Davenport%
+\ \BBA {} Wong%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+davenport1986}
+\APACinsertmetastar {%
+davenport1986}%
+\begin{APACrefauthors}%
+Davenport, J.%
+\BCBT {}\ \BBA {} Wong, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{{\APACmonth{09}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Responses of the Blood Cockle \textit{Anadara granosa}
+  (L.) (Bivalvia: Arcidae) to Salinity, Hypoxia and Aerial Exposure} {Responses
+  of the blood cockle \textit{Anadara granosa} (l.) (bivalvia: Arcidae) to
+  salinity, hypoxia and aerial exposure}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Aquaculture}{56}{2}{151--162}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/0044-8486(86)90024-4}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/0044-8486(86)90024-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Doering%
 \ \BBA {} Ludwig%
 }{%

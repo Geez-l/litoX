@@ -75,7 +75,11 @@ Repeated entry---line 687 of file myreferences.bib
  : @article{quenu2020
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1305 of file myreferences.bib
+Repeated entry---line 1331 of file myreferences.bib
+ : @article{may2021
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1351 of file myreferences.bib
  : @article{kim2019
  :                 ,
 I'm skipping whatever remains of this entry
@@ -236,45 +240,45 @@ Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry z
 while executing---line 5079 of file apacite.bst
 Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
 while executing---line 5079 of file apacite.bst
-You've used 49 entries,
+You've used 50 entries,
             6951 wiz_defined-function locations,
-            1614 strings with 21230 characters,
-and the built_in function-call counts, 112189 in all, are:
-= -- 13646
-> -- 909
-< -- 6065
-+ -- 6542
-- -- 100
-* -- 7705
-:= -- 21636
-add.period$ -- 205
-call.type$ -- 49
-change.case$ -- 846
+            1622 strings with 21486 characters,
+and the built_in function-call counts, 114483 in all, are:
+= -- 13916
+> -- 923
+< -- 6204
++ -- 6675
+- -- 102
+* -- 7877
+:= -- 22126
+add.period$ -- 209
+call.type$ -- 50
+change.case$ -- 865
 chr.to.int$ -- 0
-cite$ -- 100
-duplicate$ -- 3039
-empty$ -- 3884
-format.name$ -- 1594
-if$ -- 20279
+cite$ -- 102
+duplicate$ -- 3087
+empty$ -- 3964
+format.name$ -- 1618
+if$ -- 20679
 int.to.chr$ -- 0
-int.to.str$ -- 147
+int.to.str$ -- 150
 missing$ -- 0
-newline$ -- 1337
-num.names$ -- 388
-pop$ -- 1605
+newline$ -- 1366
+num.names$ -- 396
+pop$ -- 1628
 preamble$ -- 1
-purify$ -- 205
+purify$ -- 211
 quote$ -- 0
-skip$ -- 6539
+skip$ -- 6666
 stack$ -- 0
-substring$ -- 7061
-swap$ -- 1695
-text.length$ -- 137
+substring$ -- 7201
+swap$ -- 1727
+text.length$ -- 141
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4200
+type$ -- 4280
 warning$ -- 2
-while$ -- 565
+while$ -- 574
 width$ -- 0
-write$ -- 1707
-(There were 87 error messages)
+write$ -- 1742
+(There were 88 error messages)
