@@ -10,32 +10,35 @@
 \contentsline {section}{\numberline {2.1}Background on \textit {\textit {Tegillarca granosa }} and Their Importance}{7}{}%
 \contentsline {section}{\numberline {2.2}Current Methods of Sex Identification in \textit {Tegillarca granosa }}{9}{}%
 \contentsline {section}{\numberline {2.3}Machine Learning and Deep Learning in Biological Studies}{11}{}%
-\contentsline {subsection}{\numberline {2.3.1}Deep Learning for Phenotype Classification in Ark Shells}{11}{}%
+\contentsline {subsection}{\numberline {2.3.1}Deep Learning for Phenotype Classification in Ark Shells}{12}{}%
 \contentsline {subsection}{\numberline {2.3.2}Geometric Morphometrics and Machine Learning for Species Delimitation}{12}{}%
 \contentsline {subsection}{\numberline {2.3.3}Contour Analysis in Mollusc Shells Using Machine Learning}{12}{}%
 \contentsline {subsection}{\numberline {2.3.4}Machine Learning for Shape Analysis of Marine Organisms}{13}{}%
 \contentsline {subsection}{\numberline {2.3.5}Deep Learning for Landmark-Free Morphological Feature Extraction}{14}{}%
-\contentsline {subsection}{\numberline {2.3.6}Machine Learning for Sex Differentiation in Abalone}{14}{}%
-\contentsline {subsection}{\numberline {2.3.7}Machine Learning for Geographical Traceability in Bivalves}{15}{}%
+\contentsline {subsection}{\numberline {2.3.6}Machine Learning for Sex Differentiation in Abalone}{15}{}%
+\contentsline {subsection}{\numberline {2.3.7}Machine Learning for Geographical Traceability in Bivalves}{16}{}%
 \contentsline {section}{\numberline {2.4}Limitations on Sex Identification in \textit {Tegillarca granosa }}{16}{}%
-\contentsline {section}{\numberline {2.5}Synthesis of the Study}{17}{}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{20}{}%
-\contentsline {section}{\numberline {3.1}Sample Collection}{20}{}%
-\contentsline {section}{\numberline {3.2}Ethical Considerations}{22}{}%
-\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{22}{}%
-\contentsline {section}{\numberline {3.4}Morphological and Morphometric Characteristics Collection}{23}{}%
-\contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{24}{}%
+\contentsline {section}{\numberline {2.5}Synthesis of the Study}{18}{}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{21}{}%
+\contentsline {section}{\numberline {3.1}Sample Collection}{21}{}%
+\contentsline {section}{\numberline {3.2}Ethical Considerations}{23}{}%
+\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{23}{}%
+\contentsline {section}{\numberline {3.4}Morphological and Morphometric Characteristics Collection}{24}{}%
+\contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{25}{}%
 \contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{25}{}%
-\contentsline {section}{\numberline {3.7}Morphometric Characteristics Evaluation Using Machine Learning }{25}{}%
-\contentsline {subsection}{\numberline {3.7.1}Preprocessing and Model Training}{25}{}%
-\contentsline {subsection}{\numberline {3.7.2}Evaluation Metrics for Machine Learning}{27}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results}{28}{}%
-\contentsline {section}{\numberline {4.1}Data Summary}{28}{}%
-\contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{28}{}%
-\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }features}{31}{}%
-\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{32}{}%
-\contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{32}{}%
-\contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{33}{}%
-\contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{34}{}%
-\contentsline {chapter}{References}{37}{}%
-\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{42}{}%
+\contentsline {section}{\numberline {3.7}Morphometric Characteristics Evaluation Using Machine Learning }{26}{}%
+\contentsline {subsection}{\numberline {3.7.1}Preprocessing and Model Training}{26}{}%
+\contentsline {subsection}{\numberline {3.7.2}Evaluation Metrics for Machine Learning}{28}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results}{29}{}%
+\contentsline {section}{\numberline {4.1}Data Summary}{29}{}%
+\contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{29}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }Features by Sex}{31}{}%
+\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{33}{}%
+\contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{33}{}%
+\contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{34}{}%
+\contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{35}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{38}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{38}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{38}{}%
+\contentsline {chapter}{References}{39}{}%
+\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{44}{}%

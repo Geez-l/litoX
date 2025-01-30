@@ -515,6 +515,39 @@ Cui, Y.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Davenport%
+\ \BBA {} Wong%
+}{%
+Davenport%
+\ \BBA {} Wong%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+davenport1986}
+\APACinsertmetastar {%
+davenport1986}%
+\begin{APACrefauthors}%
+Davenport, J.%
+\BCBT {}\ \BBA {} Wong, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{{\APACmonth{09}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Responses of the Blood Cockle \textit{Anadara granosa}
+  (L.) (Bivalvia: Arcidae) to Salinity, Hypoxia and Aerial Exposure} {Responses
+  of the blood cockle \textit{Anadara granosa} (l.) (bivalvia: Arcidae) to
+  salinity, hypoxia and aerial exposure}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Aquaculture}{56}{2}{151--162}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/0044-8486(86)90024-4}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/0044-8486(86)90024-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Doering%
 \ \BBA {} Ludwig%
 }{%
@@ -1443,6 +1476,36 @@ Zha, S.%
 \APACjournalVolNumPages{Chemosphere}{296}{}{134079}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.chemosphere.2022.134079} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhan%
+\ \BBA {} Bao%
+}{%
+Zhan%
+\ \BBA {} Bao%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+zhan2022}
+\APACinsertmetastar {%
+zhan2022}%
+\begin{APACrefauthors}%
+Zhan, P\BPBI L., Zha%
+\BCBT {}\ \BBA {} Bao, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hypoxia-mediated immunotoxicity in the blood clam
+  Tegillarca granosa} {Hypoxia-mediated immunotoxicity in the blood clam
+  tegillarca granosa}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Marine Environmental Research}{177}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.marenvres.2022.105632}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
