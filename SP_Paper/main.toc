@@ -25,20 +25,21 @@
 \contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{23}{}%
 \contentsline {section}{\numberline {3.4}Morphological and Morphometric Characteristics Collection}{24}{}%
 \contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{25}{}%
-\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{25}{}%
+\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{26}{}%
 \contentsline {section}{\numberline {3.7}Morphometric Characteristics Evaluation Using Machine Learning }{26}{}%
-\contentsline {subsection}{\numberline {3.7.1}Preprocessing and Model Training}{26}{}%
-\contentsline {subsection}{\numberline {3.7.2}Evaluation Metrics for Machine Learning}{28}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results}{29}{}%
-\contentsline {section}{\numberline {4.1}Data Summary}{29}{}%
-\contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{29}{}%
-\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }Features by Sex}{31}{}%
-\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{33}{}%
-\contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{33}{}%
-\contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{34}{}%
-\contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{35}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{38}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{38}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{38}{}%
-\contentsline {chapter}{References}{39}{}%
-\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{44}{}%
+\contentsline {subsection}{\numberline {3.7.1}Data Preprocessing}{27}{}%
+\contentsline {subsection}{\numberline {3.7.2}Machine Learning Models Training}{28}{}%
+\contentsline {subsection}{\numberline {3.7.3}Evaluation Metrics for Machine Learning}{29}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results}{31}{}%
+\contentsline {section}{\numberline {4.1}Data Summary}{31}{}%
+\contentsline {subsection}{\numberline {4.1.1}Dataset Overview and Exploration}{31}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis of \textit {T. granosa }Features by Sex}{33}{}%
+\contentsline {section}{\numberline {4.2}Comparison of Model Performance}{35}{}%
+\contentsline {subsection}{\numberline {4.2.1}Performance Evaluation}{35}{}%
+\contentsline {subsection}{\numberline {4.2.2}Confusion Matrix Analysis}{36}{}%
+\contentsline {subsection}{\numberline {4.2.3}Feature Importance Analysis}{37}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{40}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{40}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{40}{}%
+\contentsline {chapter}{References}{41}{}%
+\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{46}{}%
