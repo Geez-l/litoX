@@ -657,6 +657,33 @@ Ferguson, G\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+{GeeksforGeeks}%
+}{%
+{GeeksforGeeks}%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+geeksforgeeks2024}
+\APACinsertmetastar {%
+geeksforgeeks2024}%
+\begin{APACrefauthors}%
+{GeeksforGeeks}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{{\APACmonth{05}}}{}.
+\newblock
+\APACrefbtitle {Cross-Validation Using K-Fold With Scikit-Learn.}
+  {Cross-validation using k-fold with scikit-learn.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.geeksforgeeks.org/cross-validation-using-k-fold-with-scikit-learn/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2025-04-23}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Gosling%
 }{%
 Gosling%
@@ -737,6 +764,36 @@ Ishak, A\BPBI R.%
   social and behavioral sciences}\ (\BVOL~222, \BPGS\ 263--271).
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.sbspro.2016.05.156} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jaiswal%
+}{%
+Jaiswal%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+jaiswal2024}
+\APACinsertmetastar {%
+jaiswal2024}%
+\begin{APACrefauthors}%
+Jaiswal, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{January}{4}.
+\newblock
+\APACrefbtitle {What is Normalization in Machine Learning? A Comprehensive
+  Guide to Data Rescaling.} {What is normalization in machine learning? a
+  comprehensive guide to data rescaling.}
+\newblock
+\APACaddressPublisher{}{DataCamp}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.datacamp.com/tutorial/normalization-in-machine-learning}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed 2025-04-23}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -2,20 +2,22 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discusses the materials and methods to be employed in the study, focusing on the development requirements and the software, and languages utilized. This will also entail the overall workflow in conducting the study, Morphometric-Based Non-Invasive Sex Identification of Blood Cockles \textit{Tegillarca granosa} (Linnaeus, 1758) using machine learning technologies.
+This chapter discussed the materials and methods employed in the study, focusing on the development requirements, as well as the software and programming languages utilized. It also detailed the overall workflow in conducting the study, Morphometric-Based Non-Invasive Sex Identification of Blood Cockles \textit{Tegillarca granosa} (Linnaeus), 1758) using machine learning and deep learning technologies.
 
-Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, will oversee the overall workflow and conduct of this experiment. The researchers will also be guided by the research associates, LC Mae Gasit and Allena Esther Artera. Consequently, the whole dataset collection process will be done at the University of the Philippines Visayas hatchery facility. 
+Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, oversaw the overall workflow and conduct of the experiment. The researchers were also guided by research associates LC Mae Gasit and Allena Esther Artera. Consequently, the entire dataset collection process was conducted at the University of the Philippines Visayas hatchery facility.
 
-The methodology consists of seven parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration,(7) Morphometric Characteristics Evaluation Using Machine Learning
-
+The methodology consisted of eight parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration,(7) Morphometric Characteristics Evaluation Using Machine Learning, and (8) Morphological Characteristics Evaluation Using Deep Learning
 
 \section{Sample Collection}
-\label{sec:samplecollect}
-The collection of \Tgranosa samples used in this study is part of an ongoing research project by the UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." Furthermore, a total of 500 samples were provided in this study to classify the sex of \textit{T. granosa}.  The samples, ranging in size from 34 to 61 mm, are sourced from the coastal area of Zaraga, Iloilo, Philippines, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figure~\ref{fig:granosa_shells}}). 
+\label{sec:samplecollect} 
 
-The research and experimentation take place at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, Philippines, where the samples are maintained in 200 L fiberglass reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023}. 
+The collection of \Tgranosa samples used in this study was part of an ongoing research project by UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." A total of 271 samples were provided for this study to classify the sex of \textit{T. granosa}. The samples, ranging in size from 34 to 61 mm, were sourced from the coastal area of Zaraga, Iloilo, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figure~\ref{fig:granosa_shells}}).
 
-As part of the data collection process, the researchers utilized induced spawning and dissection to classify the sex of the samples. Induced spawning through temperature fluctuations is the most natural and least invasive method for bivalves compared to other methods \cite{aji}. However, since not all samples exhibited gamete release, the researchers carried out a dissection process assisted by hatchery staff, to expedite data collection. The sex of the dissected samples is identified based on the coloration of gonad tissue, which varies by sex and maturity stage. Females exhibit orange-red to pale orange gonads while males display white to grayish-white gonads \cite{may2021}.  Provided that the methods used for data collection are noninvasive such that \textit{T. granosa} are oxygen regulators that are well adapted to tidal exposure to hypoxia \cite{davenport1986}
+The research and experimentation were conducted at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, where the samples were maintained in 200 L fiberglass-reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023}.
+
+As part of the data collection process, the researchers utilized induced spawning and dissection to classify the sex of the samples. Induced spawning through temperature fluctuations was the most natural and least invasive method for bivalves compared to other approaches \cite{aji}. However, since not all samples exhibited gamete release, the researchers also performed dissections, assisted by hatchery staff, to expedite data collection. The sex of the dissected samples was identified based on the coloration of gonad tissue, which varies according to sex and maturity stage. Females exhibited orange-red to pale orange gonads, while males displayed white to grayish-white gonads \cite{may2021}.
+
+The methods used for data collection were considered noninvasive, particularly given that \Tgranosa are oxygen regulators well adapted to tidal exposure and hypoxia \cite{davenport1986}.
 
 \begin{figure}[!htbp]
 	\centering
@@ -27,14 +29,14 @@ As part of the data collection process, the researchers utilized induced spawnin
 \section{Ethical Considerations}
 \label{sec:ethical}
 
-The experiment involving blood cockles will be conducted according to the Animal Research: Reporting of In Vivo Experiments (ARRIVE) guidelines and will be reviewed by the Institutional Animal Care and Use Committee (IACUC) of the University of the Philippines Visayas. 
+The ongoing research project titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture"—from which the samples used in this study were obtained—was reviewed and approved by the Institutional Animal Care and Use Committee (IACUC) of the University of the Philippines Visayas. 
 
 \section{Creating \textit{T. granosa} Dataset}
 \label{sec:dataset}
 
-The experiment began by collecting primary observations for 100 samples of \textit{T. granosa}. For the actual experimentation, the researchers will collect the original dataset by batch until a sample size of 500  \textit{T. granosa} is reached. Linear measurements were gathered by measuring the width, height, length, rib count, length of the hinge line, and distance between the umbos, and these measurements were organized in a CSV file. This dataset is essential for training and testing machine learning models and establishing the baseline for the Convolutional Neural Networks.
+The experiment began with the collection of preliminary observations from 100 \Tgranosa samples. For the actual experimentation, the researchers collected the full dataset in batches until a total sample size of 271 \Tgranosa was reached. Linear measurements—including width, height, length, rib count, hinge line length, and the distance between the umbos—were recorded and organized into a CSV file. This dataset served as the foundation for training and testing machine learning models, as well as for establishing a baseline for the Convolutional Neural Networks.
 
-The images captured for each sample were saved in JPG format using a file naming convention that includes the sample sex, the orientation or view of the shell, and its corresponding number out of the total 500 samples. Female \textit{T. granosa} samples will have file names starting with 0, while males begin with 1. Each file name will include the views captured, such as (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (refer to Figure~\ref{fig:granosa_views}), followed by a unique sample number. For example, “010001” will be the file name for the first female sample taken from the dorsal view, and “110001” will be the file name for the first male sample also taken from the dorsal view. This naming convention is designed to prevent data leakage and ensure that images are correctly labeled according to their respective samples. Assigning the naming convention ensures smooth flow in training and testing of the gathered data points. 
+Images of each sample were captured and saved in JPG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (refer to Figure~\ref{fig:granosa_views}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
 
 \begin{figure}[!htbp]
 	\centering
@@ -47,10 +49,11 @@ The images captured for each sample were saved in JPG format using a file naming
 \section{Morphological and Morphometric Characteristics Collection}
 \label{sec:morphochar}
 
-Morphology refers to the biological form and represents one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe \textit{T. granosa} structural characteristics by measuring specific components, and dimensions such as shapes, sizes, and colors. In terms of morphometric characteristics, this refers to the measurable features of \textit{T. granosa} which are the length, width, height, length of the hinge line, the distance between the umbos, and the rib count. As stated by the researchers, quantifying and characterizing the shape is essential to understanding and visualizing the variations in \textit{T. granosa’s} morphology. 
+Morphology refers to biological form and is one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe the structural features of \textit{T. granosa}, focusing on measurable attributes such as shape, size, and color. Morphometric characteristics, on the other hand, refer to specific quantifiable features of T. granosa, including length, width, height, hinge line length, distance between the umbos, and rib count. As stated by the researchers, quantifying and characterizing these traits is essential for understanding and visualizing variations in \Tgranosa morphology.
 
-In this study, the researchers measured the height, width, and length of \textit{T. granosa.} using a Vernier caliper to the nearest 0.01 mm. For the measurements, refer to Figure~\ref{fig:linear_measurements}. The length (A) of the \textit{T. granosa} refers to the measurement from the anterior to the posterior of the shell. The width (B) is the distance across the shell’s widest point from the left to the right valve. The height (C) refers to the measurement from the base of the shell to the shell’s apex. The length of the hinge line (D) near the hinge was measured, along with the distance between the umbos (E). 
-Reyment and Kennedy (1998) indicated that incorporating rib count as supplementary information increases identification accuracy. Following this, the researchers recorded the rib count of the male and female \textit{T. granosa}, calculating the ratio since the sizes of the blood cockles vary. 
+The researchers measured the height, width, and length of \Tgranosa using a Vernier caliper with a precision of up to 0.01 mm. Refer to Figure~\ref{fig:linear_measurements} for the corresponding measurement diagram. Length (A) refers to the distance from the anterior to the posterior of the shell. Width (B) is defined as the widest span across the shell from the left to the right valve. Height (C) measures the distance from the base to the apex of the shell. In addition, the hinge line length (D) near the hinge and the distance between the umbos (E) were recorded.
+
+Reyment and Kennedy (1998) emphasized that including rib count as supplementary information can enhance identification accuracy. Following this insight, the researchers also recorded the rib count for both male and female \textit{T. granosa}, adjusting the values by calculating ratios to account for natural size variation among specimens.
 
 \begin{figure}[!htbp]
 	\centering
@@ -61,7 +64,10 @@ Reyment and Kennedy (1998) indicated that incorporating rib count as supplementa
 
 \section{Image Acquisition and Data Gathering}
 \label{sec:imageprocess}
-This study will comprise 250 male and 250 female T. granosa images, resulting in a total of 3000 images taken from different angles. The researchers constructed a box-like structure with a white background to control the environment while capturing images of the samples. This setup aimed to maintain uniform captures of the images, fixing the camera at a consistent angle above the \textit{T. granosa}. A ring light was positioned in front of the box to ensure the image quality, eliminate shadows, and ensure the clarity of the sample during the image acquisition process. Google Pixel 3 XL is the smartphone used with the following specifications: 2960 x 1440 for the resolution, 4,032 x 3,024 pixels (12.2 MP) for the dimensions, f/1.8 for the fstop, 28mm (wide), ½.55”, 1.4µm, dual pixel PDAF, OIS \cite{concepcion2023}
+
+This study comprised 144 male and 127 female \Tgranosa samples, resulting in a total of 1,626 images captured from various angles. To ensure consistency during image acquisition, the researchers constructed a box-like structure with a white background to control the imaging environment. This setup allowed for uniform image captures by fixing the camera at a consistent angle directly above the \textit{T. granosa}. A ring light was positioned in front of the box to enhance image quality, eliminate shadows, and ensure clarity of the samples throughout the image acquisition process.
+
+The images were captured using a Google Pixel 3 XL smartphone, which features a resolution of 2960 × 1440 pixels and a 12.2 MP camera (4032 × 3024 pixels). Additional camera specifications include an f/1.8 aperture, 28mm wide lens, ½.55” sensor size, 1.4µm pixel size, dual-pixel phase detection autofocus (PDAF), and optical image stabilization (OIS) \cite{concepcion2023}.
 
 \begin{figure}[!htbp]
 	\centering
@@ -70,38 +76,71 @@ This study will comprise 250 male and 250 female T. granosa images, resulting in
 	\label{fig: setup}
 \end{figure}
 
+\newpage
 \section{Hardware and Software Configuration}
-This section of the paper discusses the software, programming language, and necessary tools for sex identification. Data collection, preprocessing, and model training were conducted on the Windows 11 operating system using an ACER Aspire 3 general-purpose unit (GPU) with an AMD Ryzen 3 7320U CPU with Radeon Graphics (8) @ 2.395 GHz and 8 gigabytes (GB) of memory. Google Collaboratory was utilized for collaborative preprocessing and data visualization. The results of the gathered measurements were stored and managed in a spreadsheet. GitHub was used for version control, documentation, and activity tracking throughout the study. Python served as the primary programming language, while MATLAB was used for machine learning operations and training machine learning algorithms.
 
+This section of the paper discusses the software, programming languages, and tools used for sex identification. Data collection, preprocessing, and model training were conducted on a Windows 11 operating system using an ACER Aspire 3 general-purpose unit (GPU) equipped with an AMD Ryzen 3 7320U CPU with Radeon Graphics (8 cores) @ 2.395 GHz and 8 GB of RAM. Google Colaboratory was utilized for collaborative preprocessing, computer vision tasks, and model training. Image preprocessing was performed using computer vision techniques in Python, while machine learning and deep learning models were developed using Python libraries, including Keras. The results of the gathered measurements were stored and managed using spreadsheet software. GitHub was employed for version control, documentation, and activity tracking throughout the study.
 
 \section{Morphometric Characteristics Evaluation Using Machine Learning }
 \label{sec:ml models}
 
-This section of the paper discusses the machine learning operations that serve as a baseline before delving into more complex deep learning methods for image classification. The study variables collected included linear measurements (length, width, height, length of the hinge line, distance between umbos, and rib count), along with additional features such as the length-width ratio and the length-height ratio as predictors. Samples were then classified by sex (female = 0, male = 1), which serves as the response variable.
+This section of the paper discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbo distance-to-length ratio, hinge line length-to-length ratio, umbo distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
 
-\subsection{Preprocessing and Model Training}
+\subsection{Data Preprocessing}
 \label{sec:pre-processing}
 
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=0.8\textwidth]{figures/pipeline.png}
-	\caption{Preprocessing and Model Training Pipeline}
-	\label{fig: pipeline}
+	\includegraphics[width=1\textwidth]{figures/pipeline.png}
+	\caption{Data Preprocessing Pipeline}
+	\label{fig:pipeline}
 \end{figure}
 
-The preprocessing of the dataset involved several steps as preparation for the machine learning analysis (\textit{see Figure~\ref{fig: pipeline}}). These steps included handling missing values, assigning labels, feature engineering, data merging and cleaning, and scaling the data. Missing values present in both male and female datasets were addressed by removing entries with NaN values. This approach ensured that subsequent analyses were performed on complete data, minimizing the risk of bias or errors and enhancing the reliability of the results.
+The preprocessing of the dataset involved several essential steps, carried out using Python in Google Colaboratory, in preparation for machine learning analysis (see Figure~\ref{fig:pipeline}).
 
-Label assignment was conducted by creating a new column named "Label" in both datasets. A label of 0 was assigned to female samples, and a label of 1 was assigned to male samples, thereby establishing the target variable for the machine learning models.
+\textbf{\textit{Data Loading and Cleaning}}
 
-In this study, the researchers performed feature engineering, which involves selecting, extracting, and transforming raw data into meaningful features suitable for accurate classification. Additional ratio-based features were introduced: Length-to-Width (LW\_ratio) and Length-to-Height (LH\_ratio), calculated separately for both male and female datasets. These features aimed to capture size-normalized morphometric traits to improve model performance and serve as a foundation for developing a more complex model for morphological classification using deep learning technologies.
+The process began by loading two separate datasets for male and female \textit{T. granosa} directly from GitHub using \texttt{pd.read\_csv()}. Unnecessary columns were removed, and rows containing missing values were excluded using the \texttt{dropna()} function to ensure data completeness and reliability.
 
-Subsequently, the male and female datasets were merged to create a combined dataset for further machine learning analysis and exploration. Several operations were carried out to eliminate redundancy and potential bias by removing unnecessary columns and excluding duplicate rows to avoid bias in the analysis.
+\textbf{\textit{Feature Engineering}}
 
-Lastly, numerical features were scaled using MinMaxScaler, which shifts and rescales the values to fit within a specific range, usually [0,1]. Scaling features uniformly helps machine learning models perform well, particularly for those sensitive to the varying scales of different features.
+Additional ratio-based features were generated to augment the existing measurements. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, hinge line length-to-length ratio, umbos distance-to-length ratio, umbos distance-to-height ratio, and rib density. These derived features aimed to emphasize shape characteristics independent of size, improving the models' ability to distinguish morphological differences between sexes.
 
-Moreover, machine learning operations, including model training and selection, were conducted using MATLAB Software version 24.2.0.2712019 (R2024b). A 5-fold cross-validation technique was applied to partition the dataset and assess accuracy in each fold. In MATLAB, researchers performed data standardization and model evaluation using metrics such as accuracy, precision, recall, and F1 score. Additionally, they determined the optimal hyperparameters and feature importance to identify the most relevant features for determining the sex of \textit{T. granosa}.
+\textbf{\textit{Data De-duplication}}
 
+To avoid redundancy and ensure each specimen was uniquely represented, the last three digits of each \texttt{Litob\_id} were used to identify duplicates. Only the first occurrence of each unique ID was retained, reducing potential bias caused by repeated entries.
 
+\newpage
+\textbf{\textit{Label Assignment}}
+
+A new column labeled \texttt{Label} was added to both datasets. Female specimens were assigned a label of 0, and male specimens a label of 1. This column served as the target variable for classification.
+
+\textbf{\textit{Data Combination and Scaling}}
+
+After cleaning and feature engineering, the male and female datasets were merged into a single DataFrame. The \texttt{Litob\_id} column was removed post de-duplication. All continuous numeric features were normalized using \texttt{MinMaxScaler} to scale values to the range [0, 1].
+
+Rib count was excluded from normalization because it is a discrete feature with biologically meaningful bounds. According to best practices in machine learning, normalizing discrete or categorical features can distort their meaning and is often unnecessary \cite{jaiswal2024}. In this study, rib count was treated as a categorical attribute due to its biological significance and finite, non-continuous nature.
+
+\textbf{\textit{Class Imbalance Handling}}
+
+After normalization, class imbalance was addressed by removing the last 17 samples from the male dataset. This ensured an equal number of male and female samples (127 each), helping to prevent model bias and improving the reliability of classification performance across both classes.
+
+\subsection{Machine Learning Models Training}
+
+\textbf{\textit{Model Selection and Hyperparameter Tuning}}
+
+To establish a baseline for classification, various models were evaluated: Logistic Regression, K-Nearest Neighbors, Support Vector Machine, Random Forest, AdaBoost, Extra Trees, and Gradient Boosting. Hyperparameter tuning was conducted using \texttt{GridSearchCV}, which systematically identified the optimal settings for each model to enhance accuracy and performance.
+
+\textbf{\textit{Cross-Validation}}
+
+A five-fold cross-validation approach was implemented. The dataset was divided into five subsets, with four used for training and one for testing. This process was repeated five times, with each fold serving as the test set once. This method ensured that model evaluation was robust and generalizable, minimizing the bias that may result from a single train-test split. \cite{geeksforgeeks2024}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/cv.png}
+	\caption{Diagram of k-fold cross-validation with k = 5}
+	\label{fig: cv}
+\end{figure}
 
 \subsection{Evaluation Metrics for Machine Learning}
 Evaluating the performance of the binary classification model is important as well as selecting the appropriate metrics that is based on the requirements of the user. The performance of the supervised machine learning models will be measured based on four metrics namely: accuracy, precision, recall, and F1 score. 
