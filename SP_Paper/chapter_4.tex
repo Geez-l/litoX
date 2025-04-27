@@ -45,7 +45,7 @@ The heatmap (see Figure~\ref{fig:heatmap}) revealed three features most correlat
 
 As part of the exploratory data analysis, statistical testing confirmed that the dataset did not follow a normal distribution. Consequently, the Mann-Whitney U test was applied with a significance level of $\alpha = 0.05$ to compare male and female samples. Out of thirteen features, five showed statistically significant differences. These included: distance between umbos ($p = 0.025$), length-width ratio ($p = 0.011$), umbos-length ratio ($p = 0.019$), width-height ratio ($p = 0.003$), and umbos-height ratio ($p = 0.036$). 
 
-It is important to note that statistical significance does not imply predictive importance. Therefore, further analysis—such as feature importance evaluation—was performed to identify the most informative predictors for classification.
+It is important to note that statistical significance does not imply predictive importance. Therefore, further analysis, such as feature importance evaluation, was performed to identify the most informative predictors for classification.
 
 \subsection{Feature Importance Analysis}
 
@@ -68,24 +68,42 @@ The analysis showed that the width-to-height ratio (WH\_ratio) had the highest i
 		\begin{tabular}{lcccccc}
 			\hline
 			\textbf{Model} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)} \\ \hline
-			Support Vector Machine   & 64.89 & 65.88 & 64.89 & 64.22 \\
-			Logistic Regression      & 64.50 & 65.37 & 64.50 & 63.85 \\
-			K-Nearest Neighbors      & 64.14 & 64.52 & 64.14 & 63.99 \\
-			Extra Trees              & 63.75 & 63.22 & 62.96 & 62.84 \\
-			Random Forest            & 62.96 & 60.81 & 60.59 & 60.38 \\
-			Gradient Boosting        & 62.56 & 63.26 & 62.56 & 62.22 \\
-			AdaBoost                 & 60.60 & 61.39 & 60.60 & 60.03 \\
+			Support Vector Machine   & 58.62 & 58.62 & 58.62 & 58.44 \\
+			Logistic Regression      & 57.83 & 57.83 & 57.83 & 57.61 \\
+			K-Nearest Neighbors      & 51.18 & 51.31 & 51.18 & 50.77 \\
+			Extra Trees              & 60.24 & 56.98 & 56.69 & 56.39 \\
+			Random Forest            & 59.07 & 59.46 & 59.06 & 58.74 \\
+			Gradient Boosting        & 60.27 & 60.98 & 60.27 & 59.96 \\
+			\cellcolor{celadon}AdaBoost & \cellcolor{celadon}60.63 & \cellcolor{celadon}60.98 & \cellcolor{celadon}60.63 & \cellcolor{celadon}60.39 \\
 			\hline
 		\end{tabular}
 	}
-	\caption{Performance Metrics for Models with 2 Features}
-	\label{tab:performance-2-features}
+	\caption{Performance Metrics for Models with All 13 Features}
+	\label{tab:performance-13-features}
 \end{table}
 
-Table~\ref{tab:performance-2-features} presents the performance metrics of various machine learning models when trained using only the two most informative features, as identified through feature selection. The evaluation metrics—accuracy, precision, recall, and F1-score—collectively provide a comprehensive view of each model's ability to correctly classify the sex of \textit{T. granosa} specimens.
+In table~\ref{tab:performance-13-features}, the performance of different machine learning models is presented using the full set of 13 features from the dataset. AdaBoost emerges as the highest-performing model, with an accuracy of 60.63\%, precision of 60.98\%, recall of 60.63\%, and an F1-score of 60.39\%. These results suggest that AdaBoost is particularly effective when utilizing all available features, likely due to its ability to combine multiple weak learners into a more robust model. 
 
-Interestingly, despite the simplicity of using only two features, this configuration yielded the highest classification performance across all feature sets. Among the models, the Support Vector Machine (SVM) achieved the best results, with an accuracy of 64.89\%, precision of 65.88\%, recall of 64.89\%, and an F1-score of 64.22\%. Logistic Regression and K-Nearest Neighbors (KNN) also performed competitively, with F1-scores of 63.85\% and 63.99\%, respectively.
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lcccccc}
+			\hline
+			\textbf{Model} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)} \\ \hline
+			Support Vector Machine   & 63.77 & 64.47 & 63.77 & 63.42 \\
+			Logistic Regression      & 63.75 & 63.87 & 63.75 & 63.70 \\
+			\cellcolor{celadon}K-Nearest Neighbors      & \cellcolor{celadon}64.16 & \cellcolor{celadon}64.97 & \cellcolor{celadon}64.16 & \cellcolor{celadon}63.75 \\
+			Extra Trees              & 62.20 & 59.69 & 59.08 & 58.69 \\
+			Random Forest            & 62.96 & 60.10 & 59.85 & 59.54 \\
+			Gradient Boosting        & 63.39 & 64.24 & 64.16 & 64.04 \\
+			AdaBoost                 & 61.02 & 61.26 & 61.02 & 60.82 \\
+			\hline
+		\end{tabular}
+	}
+	\caption{Performance Metrics for Models with 5 Features}
+	\label{tab:performance-5-features}
+\end{table}
 
-In contrast, ensemble-based models such as Random Forest, Gradient Boosting, and AdaBoost demonstrated slightly lower performance, potentially due to the limited number of features restricting their ability to capture complex patterns and interactions typically leveraged by such models.
+Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top 5 features identified through Kruskal-Wallis feature importance analysis. The top 5 features selected are distance between the umbos, length-to-width ratio, width-to-height ratio, umbos-to-height ratio and umbos-to-length ratio. 
 
-It is important to note that these machine learning models were also trained using the full set of 13 features and an intermediate set of 5 features, as detailed in Table~4.1. Surprisingly, the two-feature configuration outperformed both larger feature sets across most models. This finding underscores the value of effective feature selection, suggesting that simpler models with fewer inputs can sometimes yield better generalization and performance than more complex configurations. Moreover, reducing the number of features has practical advantages in terms of data collection, model interpretability, and computational efficiency.
+Interestingly, the performance of the models improves with the reduced feature set. K-Nearest Neighbors (KNN) achieves the highest performance in this scenario, with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1-score of 63.75\%. These results suggest that KNN benefits from using only the most significant features, showing a notable improvement over its performance when all 13 features are used. 

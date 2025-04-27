@@ -123,7 +123,7 @@ Rib count was excluded from normalization because it is a discrete feature with 
 
 \textbf{\textit{Class Imbalance Handling}}
 
-After normalization, class imbalance was addressed by removing the last 17 samples from the male dataset. This ensured an equal number of male and female samples (127 each), helping to prevent model bias and improving the reliability of classification performance across both classes.
+After normalization, class imbalance was addressed by applying Random Under-sampling to the male dataset. This technique randomly reduced the number of male samples to match the number of female samples (127 each), ensuring equal class representation. By using this approach, model bias was minimized, and the classification performance became more reliable across both classes.
 
 \subsection{Machine Learning Models Training}
 

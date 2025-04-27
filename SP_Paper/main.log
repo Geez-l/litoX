@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  23 APR 2025 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  28 APR 2025 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,12 +302,34 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box58
 \@float@everytoks=\toks32
 \@floatcapt=\box59
-))
+)
+(C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+
+(C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen178
+\ar@mcellbox=\box60
+\extrarowheight=\dimen179
+\NC@list=\toks33
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box61
+)
+\everycr=\toks34
+\minrowclearance=\skip63
+\rownum=\count294
+)
+
+LaTeX Warning: Package "xcolor" has already been loaded: ignoring load-time
+(LaTeX)        option "xcdraw".
+
+)
 (C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count294
-\l__pdf_internal_box=\box60
+\l__color_backend_stack_int=\count295
+\l__pdf_internal_box=\box62
 )
 
 LaTeX Warning: Unused global option(s):
@@ -336,17 +358,17 @@ LaTeX Font Info:    ... okay on input line 6.
 (C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
-\scratchdimen=\dimen178
-\scratchbox=\box61
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count298
-\MPscratchDim=\dimen179
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count296
+\scratchdimen=\dimen180
+\scratchbox=\box63
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count299
+\MPscratchDim=\dimen181
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks36
 )
 (C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
@@ -371,7 +393,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@maskedRefs=\count301
+\c@maskedRefs=\count302
 
 (C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -494,12 +516,12 @@ LaTeX Warning: No positions in optional float specifier.
 
 
 Underfull \hbox (badness 1728) in paragraph at lines 119--119
-[]\OT1/cmr/m/n/12 Employed less in-va-sive tech-niques which
+[]|\OT1/cmr/m/n/12 Employed less in-va-sive tech-niques which
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--122
-[]\OT1/cmr/m/n/12 Karapunar, Baran and
+[]|\OT1/cmr/m/n/12 Karapunar, Baran and
  []
 
 
@@ -509,12 +531,12 @@ Underfull \hbox (badness 1946) in paragraph at lines 124--124
 
 
 Underfull \hbox (badness 1509) in paragraph at lines 126--126
-[]\OT1/cmr/m/n/12 There could be mis-in-ter-pre-ta-tion of the
+[]|\OT1/cmr/m/n/12 There could be mis-in-ter-pre-ta-tion of the
  []
 
 
 Underfull \hbox (badness 2050) in paragraph at lines 135--135
-[]\OT1/cmr/m/n/12 Convolutional neu-ral net-
+[]|\OT1/cmr/m/n/12 Convolutional neu-ral net-
  []
 
 
@@ -524,7 +546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 141--141
-[]\OT1/cmr/m/n/12 Neural net-work ana-lysis
+[]|\OT1/cmr/m/n/12 Neural net-work ana-lysis
  []
 
 
@@ -539,22 +561,22 @@ Underfull \hbox (badness 2932) in paragraph at lines 141--141
 
 
 Underfull \hbox (badness 1688) in paragraph at lines 143--143
-[]\OT1/cmr/m/n/12 Combining ge-o-met-ric mor-pho-met-rics and
+[]|\OT1/cmr/m/n/12 Combining ge-o-met-ric mor-pho-met-rics and
  []
 
 
 Underfull \hbox (badness 2478) in paragraph at lines 144--144
-[]\OT1/cmr/m/n/12 Difficulty clas-si-fy-ing in-ter-me-di-ate phe-no-
+[]|\OT1/cmr/m/n/12 Difficulty clas-si-fy-ing in-ter-me-di-ate phe-no-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]\OT1/cmr/m/n/12 Fedor Lishchenko and
+[]|\OT1/cmr/m/n/12 Fedor Lishchenko and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]\OT1/cmr/m/n/12 Landmark- and outline-
+[]|\OT1/cmr/m/n/12 Landmark- and outline-
  []
 
 
@@ -564,7 +586,7 @@ Underfull \hbox (badness 1067) in paragraph at lines 153--153
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 159--159
-[]\OT1/cmr/m/n/12 Morphological reg-u-lated
+[]|\OT1/cmr/m/n/12 Morphological reg-u-lated
  []
 
 
@@ -579,22 +601,22 @@ Underfull \hbox (badness 1418) in paragraph at lines 160--160
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 164--164
-[]\OT1/cmr/m/n/12 Barrera-Hernandez, R.
+[]|\OT1/cmr/m/n/12 Barrera-Hernandez, R.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 165--165
-[]\OT1/cmr/m/n/12 Machine learn-ing al-go-
+[]|\OT1/cmr/m/n/12 Machine learn-ing al-go-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]\OT1/cmr/m/n/12 Concepcion, R. and
+[]|\OT1/cmr/m/n/12 Concepcion, R. and
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[]\OT1/cmr/m/n/12 EfficientNet-Bo,
+[]|\OT1/cmr/m/n/12 EfficientNet-Bo,
  []
 
 
@@ -662,7 +684,13 @@ Overfull \hbox (1.85104pt too wide) in paragraph at lines 107--108
 to-height ra-tio, width-
  []
 
-[27 <./figures/pipeline.png (PNG copy)>] [28]
+[27 <./figures/pipeline.png (PNG copy)>]
+Overfull \hbox (5.36221pt too wide) in paragraph at lines 126--127
+[]\OT1/cmr/m/n/12 After nor-mal-iza-tion, class im-bal-ance was ad-dressed by a
+p-ply-ing Ran-dom Under-
+ []
+
+[28]
 <figures/cv.png, id=134, 736.7525pt x 453.695pt>
 File: figures/cv.png Graphic file (type png)
 <use figures/cv.png>
@@ -671,8 +699,7 @@ Package pdftex.def Info: figures/cv.png  used on input line 140.
  [29 <./figures/cv.png>]) [30]
 \openout2 = `chapter_4.aux'.
 
-
-(chapter_4.tex
+ (chapter_4.tex
 Chapter 4.
 <figures/heatmap.png, id=145, 377.2494pt x 523.2348pt>
 File: figures/heatmap.png Graphic file (type png)
@@ -781,13 +808,13 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7308 strings out of 474486
- 119399 string characters out of 5744227
+ 7463 strings out of 474486
+ 121717 string characters out of 5744227
  1963542 words of memory out of 5000000
- 29397 multiletter control sequences out of 15000+600000
+ 29546 multiletter control sequences out of 15000+600000
  569549 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,12n,84p,1793b,419s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,84p,1793b,417s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Kane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -802,7 +829,7 @@ s/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on main.pdf (52 pages, 20542727 bytes).
+Output written on main.pdf (52 pages, 20542525 bytes).
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
