@@ -1,9 +1,12 @@
 %   Filename    : chapter_4.tex 
 
 \chapter{Results and Discussions}
-This chapter presents the results of the machine learning and deep learning analyses conducted on the preprocessed dataset. Preprocessing was performed using Python in Google Colaboratory. The chapter includes the evaluation of various machine learning classifiers, analysis of feature importance, and the application of deep learning models for image-based classification. These approaches aim to identify key predictors and assess classification performance for sex identification in \textit{T. granosa}.
+
+This chapter presents the results from the machine learning and deep learning analyses conducted on the preprocessed dataset. It includes an evaluation of various machine learning classifiers and the application of deep learning models for image-based classification. The primary focus is on identifying key predictors and assessing classification performance for sex identification in \textit{T. granosa}.
 
 \section{Machine Learning Analysis}
+This chapter outlines the results of preprocessing, training of machine learning models, and feature importance analysis, all conducted in Google Colab using Python. The dataset was preprocessed in Colab, and the training and evaluation of various classifiers were performed entirely within this environment.  This part of the paper includes five subsections: data exploration, statistical analysis, feature importance analysis, performance evaluation, and confusion matrix analysis.
+
 \subsection{Data Exploration}
 
 \begin{figure}[!htbp]
@@ -58,7 +61,7 @@ It is important to note that statistical significance does not imply predictive 
 
 Feature importance was assessed using the Kruskal-Wallis test, a non-parametric method that is suitable for evaluating differences in distributions across groups when the data does not follow a normal distribution. This approach was chosen because of the non-normality of the dataset and its robustness in handling continuous and ordinal data without assuming homogeneity of variances. \cite{ribeiro2024}
 
-The analysis showed that the width-to-height ratio (WH\_ratio) had the highest importance score, indicating it is the most statistically significant feature for distinguishing the sex of \textit{T. granosa}. Other notable features included the length-to-width ratio (LW\_ratio), umbos-to-length ratio (UL\_ratio), and the distance between the umbos, all of which contributed significantly to the classification task.
+The analysis showed that the width-to-height ratio (WH ratio) had the highest importance score, indicating it is the most statistically significant feature for distinguishing the sex of \textit{T. granosa}. Other notable features included the length-to-width ratio (LW ratio), umbo distance-to-length ratio (UL ratio), distance between the umbos, and umbo distance-to-height ratio (UH ratio), all of which contributed significantly to the classification task.
 
 \subsection{Performance Evaluation}
 
@@ -71,10 +74,10 @@ The analysis showed that the width-to-height ratio (WH\_ratio) had the highest i
 			Support Vector Machine   & 58.62 & 58.62 & 58.62 & 58.44 \\
 			Logistic Regression      & 57.83 & 57.83 & 57.83 & 57.61 \\
 			K-Nearest Neighbors      & 51.18 & 51.31 & 51.18 & 50.77 \\
-			Extra Trees              & 60.24 & 56.98 & 56.69 & 56.39 \\
-			Random Forest            & 59.07 & 59.46 & 59.06 & 58.74 \\
-			Gradient Boosting        & 60.27 & 60.98 & 60.27 & 59.96 \\
-			\cellcolor{celadon}AdaBoost & \cellcolor{celadon}60.63 & \cellcolor{celadon}60.98 & \cellcolor{celadon}60.63 & \cellcolor{celadon}60.39 \\
+			Extra Trees              & 59.07 & 59.54 & 59.07 & 58.45 \\
+			Random Forest            & 59.85 & 59.99 & 59.85 & 59.80 \\
+			\cellcolor{celadon}Gradient Boosting        & \cellcolor{celadon}61.03 & \cellcolor{celadon}61.32 & \cellcolor{celadon}61.03 & \cellcolor{celadon}60.81 \\
+			AdaBoost & 60.63 & 60.98 & 60.63 & 60.39 \\
 			\hline
 		\end{tabular}
 	}
@@ -82,7 +85,7 @@ The analysis showed that the width-to-height ratio (WH\_ratio) had the highest i
 	\label{tab:performance-13-features}
 \end{table}
 
-In table~\ref{tab:performance-13-features}, the performance of different machine learning models is presented using the full set of 13 features from the dataset. AdaBoost emerges as the highest-performing model, with an accuracy of 60.63\%, precision of 60.98\%, recall of 60.63\%, and an F1-score of 60.39\%. These results suggest that AdaBoost is particularly effective when utilizing all available features, likely due to its ability to combine multiple weak learners into a more robust model. 
+Table~\ref{tab:performance-13-features} shows the performance metrics of different machine learning models trained using all 13 features from the dataset. Among the models, Gradient Boosting achieved the highest accuracy of 61.03\%, along with strong precision, recall, and F1-score values. AdaBoost also performed competitively, with an accuracy of 60.63\%. These results highlight the effectiveness of ensemble methods such as Gradient Boosting and AdaBoost when utilizing the full feature set, likely because of their capability to combine multiple weak learners into a more robust predictive model \cite{hussain2024}. 
 
 \begin{table}[H]
 	\centering
@@ -93,9 +96,9 @@ In table~\ref{tab:performance-13-features}, the performance of different machine
 			Support Vector Machine   & 63.77 & 64.47 & 63.77 & 63.42 \\
 			Logistic Regression      & 63.75 & 63.87 & 63.75 & 63.70 \\
 			\cellcolor{celadon}K-Nearest Neighbors      & \cellcolor{celadon}64.16 & \cellcolor{celadon}64.97 & \cellcolor{celadon}64.16 & \cellcolor{celadon}63.75 \\
-			Extra Trees              & 62.20 & 59.69 & 59.08 & 58.69 \\
-			Random Forest            & 62.96 & 60.10 & 59.85 & 59.54 \\
-			Gradient Boosting        & 63.39 & 64.24 & 64.16 & 64.04 \\
+			Extra Trees              & 61.04 & 61.68 & 61.04 & 60.67 \\
+			Random Forest            & 61.01 & 61.12 & 61.01 & 60.91 \\
+			Gradient Boosting        & 64.15 & 64.24 & 64.15 & 64.01 \\
 			AdaBoost                 & 61.02 & 61.26 & 61.02 & 60.82 \\
 			\hline
 		\end{tabular}
@@ -104,6 +107,19 @@ In table~\ref{tab:performance-13-features}, the performance of different machine
 	\label{tab:performance-5-features}
 \end{table}
 
-Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top 5 features identified through Kruskal-Wallis feature importance analysis. The top 5 features selected are distance between the umbos, length-to-width ratio, width-to-height ratio, umbos-to-height ratio and umbos-to-length ratio. 
+Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top 5 features identified through Kruskal-Wallis feature importance analysis. The selected features are the distance between the umbos, length-to-width ratio, width-to-height ratio, umbo distance-to-height ratio, and umbo distance-to-length ratio.
 
-Interestingly, the performance of the models improves with the reduced feature set. K-Nearest Neighbors (KNN) achieves the highest performance in this scenario, with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1-score of 63.75\%. These results suggest that KNN benefits from using only the most significant features, showing a notable improvement over its performance when all 13 features are used. 
+Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1-score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
+
+\subsection{Confusion Matrix Analysis}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/confusion_matrix_ml.png}
+	\caption{Feature Importance Scores Using the Kruskal-Wallis Test}
+	\label{fig:cm_ml}
+\end{figure}
+
+Figure~\ref{fig:cm_ml} summarizes the performance of the K-Nearest Neighbors model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, we observe that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
+
+The distribution of correct and incorrect predictions suggests that the model performs slightly better at identifying female samples compared to male samples. Nevertheless, there is a noticeable amount of misclassification in both classes, which indicates room for improvement in the model's predictive performance.
