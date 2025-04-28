@@ -6,5 +6,8 @@
 \contentsline {table}{\numberline {4.1}{\ignorespaces Mann-Whitney U Test Results for Sex-Based Feature Comparison}}{37}{}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Performance Metrics for Models with All 13 Features}}{39}{}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Performance Metrics for Models with 5 Features}}{39}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Performance Metrics for Unbalanced vs. Balanced Datasets (Batch Size: 16, Epochs: 20)}}{40}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Performance Metrics for Individual and Combined Angles (Batch Size: 16, Epochs: 20)}}{41}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Effect of Batch Size and Epoch Values on CNN Model Performance}}{42}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
