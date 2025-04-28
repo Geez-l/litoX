@@ -32,16 +32,24 @@
 \contentsline {section}{\numberline {3.8}Morphological Characteristics Evaluation Using Deep Learning}{29}{}%
 \contentsline {subsection}{\numberline {3.8.1}Convolutional Neural Network}{30}{}%
 \contentsline {subsection}{\numberline {3.8.2}CNN Training}{32}{}%
-\contentsline {section}{\numberline {3.9}Evaluation Metrics}{33}{}%
+\contentsline {section}{\numberline {3.9}Evaluation Metrics}{34}{}%
 \contentsline {chapter}{\numberline {4}Results and Discussions}{36}{}%
 \contentsline {section}{\numberline {4.1}Machine Learning Analysis}{36}{}%
 \contentsline {subsection}{\numberline {4.1.1}Data Exploration}{36}{}%
-\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis}{38}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis}{37}{}%
 \contentsline {subsection}{\numberline {4.1.3}Feature Importance Analysis}{38}{}%
 \contentsline {subsection}{\numberline {4.1.4}Performance Evaluation}{39}{}%
 \contentsline {subsection}{\numberline {4.1.5}Confusion Matrix Analysis}{40}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{42}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{42}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{42}{}%
-\contentsline {chapter}{References}{43}{}%
-\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{48}{}%
+\contentsline {section}{\numberline {4.2}Deep Learning Analysis}{41}{}%
+\contentsline {subsection}{\numberline {4.2.1}Baseline Model}{41}{}%
+\contentsline {subsection}{\numberline {4.2.2}Comparison of Individual and Combined Angles}{42}{}%
+\contentsline {subsection}{\numberline {4.2.3}Training Result and Hyperparameter Tuning}{42}{}%
+\contentsline {subsection}{\numberline {4.2.4}Proposed Model}{44}{}%
+\contentsline {subsection}{\numberline {4.2.5}Learning Rates and Training Behavior per Fold}{44}{}%
+\contentsline {subsection}{\numberline {4.2.6}Visualizations}{45}{}%
+\contentsline {section}{\numberline {4.3}Discussions}{49}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{51}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{51}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{52}{}%
+\contentsline {chapter}{References}{54}{}%
+\contentsline {chapter}{\numberline {A}Data Gathering Documentation and Supplementary Analysis}{59}{}%
