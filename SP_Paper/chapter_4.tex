@@ -260,7 +260,7 @@ The following table summarizes the epochs where learning rate reductions occurre
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccc}
 			\hline
-			\textbf{Fold no.} & \textbf{Epoch (LR Reduced)} & \textbf{Learning Rate After Reduction} & \textbf{Early Stopping Epoch} & \textbf{Best Epoch (Restored)} \\ \hline
+			\textbf{Fold no.} & \begin{tabular}[c]{@{}c@{}}\textbf{Epoch}\\\textbf{(LR Reduced)}\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Learning Rate}\\\textbf{After Reduction}\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Early}\\\textbf{Stopping Epoch}\end{tabular} & \begin{tabular}[c]{@{}c@{}}\textbf{Best Epoch}\\\textbf{(Restored)}\end{tabular} \\ \hline
 			Fold 1 & \begin{tabular}[c]{@{}c@{}}20\\23\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\end{tabular} & 25 & 17 \\ \hline
 			Fold 2 & \begin{tabular}[c]{@{}c@{}}9\\14\\17\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\\0.0001250\end{tabular} & 19 & 11 \\ \hline
 			Fold 3 & \begin{tabular}[c]{@{}c@{}}15\\18\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\end{tabular} & 20 & 12 \\ \hline
@@ -271,6 +271,7 @@ The following table summarizes the epochs where learning rate reductions occurre
 	\caption{Learning Rate Reductions, Early Stopping, and Best Epochs per Fold During 5-Fold Cross-Validation}
 	\label{tab:learning-folds}
 \end{table}
+
 
 \subsection{Visualizations}
 
