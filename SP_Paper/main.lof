@@ -8,15 +8,20 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Image Acquisition Setup for \textit {T. granosa} Samples}}{26}{}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Data Preprocessing Pipeline}}{27}{}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Diagram of k-fold cross-validation with k = 5}}{29}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Shadows removed from male samples at different angles}}{30}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Shadows removed from female samples at different angles}}{30}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Architecture of Convolutional Neural Network (CNN)}}{31}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagram of stratified k-fold cross-validation with k=5}}{32}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Data Augmentation Techniques}}{33}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Correlation heatmap of morphometric features with the sex of \textit {T. granosa}}}{32}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Feature Importance Scores Using the Kruskal-Wallis Test}}{33}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Correlation heatmap of morphometric features with the sex of \textit {T. granosa}}}{37}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Feature Importance Scores Using the Kruskal-Wallis Test}}{38}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Sex Identification Through Spawning of \textit {Tegillarca granosa }}}{42}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Separating Male and Female Samples After Spawning of \textit {Tegillarca granosa }}}{42}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Sex Identified Female Through Dissecting of \textit {Tegillarca granosa }}}{43}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Sex Identified Male Through Dissecting of \textit {Tegillarca granosa }}}{43}{}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Linear Measurements of Female \textit {Tegillarca granosa }}}{43}{}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Linear Measurements of Male \textit {Tegillarca granosa }}}{44}{}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Distribution of the Features of \textit {Tegillarca granosa }}}{44}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Sex Identification Through Spawning of \textit {Tegillarca granosa }}}{47}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Separating Male and Female Samples After Spawning of \textit {Tegillarca granosa }}}{47}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Sex Identified Female Through Dissecting of \textit {Tegillarca granosa }}}{48}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Sex Identified Male Through Dissecting of \textit {Tegillarca granosa }}}{48}{}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Linear Measurements of Female \textit {Tegillarca granosa }}}{48}{}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Linear Measurements of Male \textit {Tegillarca granosa }}}{49}{}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Distribution of the Features of \textit {Tegillarca granosa }}}{49}{}%
