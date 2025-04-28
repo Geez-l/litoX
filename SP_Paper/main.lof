@@ -11,8 +11,8 @@
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Shadows removed from male samples at different angles}}{30}{}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Shadows removed from female samples at different angles}}{30}{}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Architecture of Convolutional Neural Network (CNN)}}{31}{}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagram of stratified k-fold cross-validation with k=5}}{32}{}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Data Augmentation Techniques}}{33}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagram of stratified k-fold cross-validation with k=5}}{33}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Data Augmentation Techniques}}{34}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Correlation heatmap of morphometric features with the sex of \textit {T. granosa}}}{37}{}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Feature Importance Scores Using the Kruskal-Wallis Test}}{39}{}%

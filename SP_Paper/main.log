@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  28 APR 2025 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  28 APR 2025 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -722,21 +722,26 @@ File: figures/cnn_architecture.png Graphic file (type png)
 Package pdftex.def Info: figures/cnn_architecture.png  used on input line 182.
 (pdftex.def)             Requested size: 415.55249pt x 129.14355pt.
  [31 <./figures/cnn_architecture.png (PNG copy)>]
-<figures/skf.png, id=152, 402.50375pt x 332.24126pt>
+<figures/skf.png, id=151, 402.50375pt x 332.24126pt>
 File: figures/skf.png Graphic file (type png)
 <use figures/skf.png>
 Package pdftex.def Info: figures/skf.png  used on input line 210.
 (pdftex.def)             Requested size: 332.44325pt x 274.41165pt.
 
-[32 <./figures/skf.png>]
-<figures/data_augmentation.png, id=157, 885.3075pt x 646.66594pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/data_augmentation.png, id=152, 885.3075pt x 646.66594pt>
 File: figures/data_augmentation.png Graphic file (type png)
 <use figures/data_augmentation.png>
-Package pdftex.def Info: figures/data_augmentation.png  used on input line 220.
+Package pdftex.def Info: figures/data_augmentation.png  used on input line 222.
 
 (pdftex.def)             Requested size: 415.55249pt x 303.53833pt.
- [33 <./figures/data_augmentation.png (PNG copy)>]
-[34]) [35]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[32] [33 <./figures/skf.png>] [34 <./figures/data_augmentation.png (PNG copy)>]
+) [35]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
@@ -861,10 +866,10 @@ L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7525 strings out of 474486
- 123479 string characters out of 5744227
+ 7526 strings out of 474486
+ 123502 string characters out of 5744227
  1963542 words of memory out of 5000000
- 29608 multiletter control sequences out of 15000+600000
+ 29609 multiletter control sequences out of 15000+600000
  569549 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,13n,84p,1793b,417s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -882,7 +887,7 @@ s/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on main.pdf (58 pages, 22308862 bytes).
+Output written on main.pdf (58 pages, 22308955 bytes).
 PDF statistics:
  288 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
