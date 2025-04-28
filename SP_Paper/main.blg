@@ -130,45 +130,45 @@ Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry z
 while executing---line 5079 of file apacite.bst
 Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
 while executing---line 5079 of file apacite.bst
-You've used 56 entries,
+You've used 57 entries,
             6951 wiz_defined-function locations,
-            1652 strings with 22459 characters,
-and the built_in function-call counts, 124218 in all, are:
-= -- 15109
-> -- 996
-< -- 6682
-+ -- 7020
-- -- 118
-* -- 8455
-:= -- 23919
-add.period$ -- 234
-call.type$ -- 56
-change.case$ -- 966
+            1658 strings with 22643 characters,
+and the built_in function-call counts, 126511 in all, are:
+= -- 15397
+> -- 1010
+< -- 6811
++ -- 7163
+- -- 120
+* -- 8615
+:= -- 24381
+add.period$ -- 238
+call.type$ -- 57
+change.case$ -- 983
 chr.to.int$ -- 0
-cite$ -- 114
-duplicate$ -- 3269
-empty$ -- 4403
-format.name$ -- 1721
-if$ -- 22595
+cite$ -- 116
+duplicate$ -- 3324
+empty$ -- 4476
+format.name$ -- 1745
+if$ -- 23006
 int.to.chr$ -- 0
-int.to.str$ -- 168
+int.to.str$ -- 171
 missing$ -- 0
-newline$ -- 1512
-num.names$ -- 444
-pop$ -- 1943
+newline$ -- 1539
+num.names$ -- 452
+pop$ -- 1969
 preamble$ -- 1
-purify$ -- 246
+purify$ -- 250
 quote$ -- 0
-skip$ -- 7288
+skip$ -- 7419
 stack$ -- 0
-substring$ -- 7545
-swap$ -- 1816
-text.length$ -- 166
+substring$ -- 7701
+swap$ -- 1847
+text.length$ -- 168
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 4904
+type$ -- 4984
 warning$ -- 2
-while$ -- 616
+while$ -- 623
 width$ -- 0
-write$ -- 1909
+write$ -- 1942
 (There were 32 error messages)

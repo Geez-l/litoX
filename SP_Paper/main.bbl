@@ -816,6 +816,36 @@ Heller, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Hussain%
+\ \BBA {} Zaidi%
+}{%
+Hussain%
+\ \BBA {} Zaidi%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+hussain2024}
+\APACinsertmetastar {%
+hussain2024}%
+\begin{APACrefauthors}%
+Hussain, S\BPBI S.%
+\BCBT {}\ \BBA {} Zaidi, S\BPBI S\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {AdaBoost Ensemble Approach with Weak Classifiers for
+  Gear Fault Diagnosis and Prognosis in DC Motors} {Adaboost ensemble approach
+  with weak classifiers for gear fault diagnosis and prognosis in dc
+  motors}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Sciences}{14}{7}{3105}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/app14073105} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ishak%
 , Mohamad%
 , Soo%
