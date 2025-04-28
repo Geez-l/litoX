@@ -193,5 +193,69 @@ Table~\ref{tab:batchsize-epoch} shows the results indicating that a batch size o
 
 In contrast, increasing the batch size to 64 resulted in lower recall and F1-scores, suggesting that smaller batch Sizes (16 or 32) are more effective for this dataset. A moderate batch size of 32 allowed the model to generalize better and maintain stable learning, while too large batch sizes may have led to underfitting.
 
+\subsection{Activation Functions}
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lcccccc}
+			\hline
+			\textbf{Activation Functions} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
+			\rowcolor{celadon}ReLU  & 71.68 & 72.52 & 69.29 & 69.12  & 77.34 & 0.5824 \\
+			ELU   					& 53.14 & 32.91 & 53.08 & 39.95  & 58.23 & 0.6796 \\
+			PreLU   				& 62.64 & 66.59 & 50.43 & 56.96  & 72.33 & 0.6162 \\
+			\hline
+		\end{tabular}
+	}
+	\caption{Performance Metrics for Different Activation Functions (Batch Size: 32, Epochs: 50)}
+	\label{tab:activation-function}
+\end{table}
+
+Table~\ref{tab:activation-function} the performance of different activation functions applied to the CNN model trained with a batch size of 32 and 50 epochs. Based on the results, the ReLU activation function achieved the best overall performance, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1-score of 69.12\%, and AUC score of 77.34\%, along with the lowest loss at 0.5824. This suggests that ReLU remains an effective activation function for the classification of T. granosa, outperforming both ELU and PReLU in this setup.
+
+\section{Proposed Model}
+This section presents the performance evaluation of the proposed Convolutional Neural Network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lcccccc}
+			\hline
+			\textbf{Fold no.} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
+			Fold 1  & 76.47 & 70.59 & 92.31 & 80.00  & 73.08 & 0.5975 \\
+			Fold 2  & 62.75 & 70.59 & 46.15 & 55.81  & 71.85 & 0.6202 \\
+			Fold 3  & 78.43 & 75.00 & 84.00 & 79.25  & 84.92 & 0.5392 \\
+			Fold 4  & 62.75 & 71.43 & 40.00 & 51.28  & 71.08 & 0.6331 \\
+			Fold 5  & 78.00 & 75.00 & 84.00 & 79.25  & 85.76 & 0.5219 \\
+			\hline
+		\end{tabular}
+	}
+	\caption{Per-Fold Performance Metrics (Batch Size: 32, Epochs: 50, Activation Function: ReLU)}
+	\label{tab:per-fold}
+\end{table}
+
+The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracies above 76\% and strong recall and AUC scores, demonstrating its potential for reliable sex identification of T. granosa. The slight variation in performance across folds may be attributed to differences in data distribution, emphasizing the importance of further data augmentation and balancing for future work.
+
+\section{Learning Rates and Training Behavior per Fold}
+This section presents the learning rate adjustments, early stopping events, and best epoch selections for each fold during the 5-fold cross-validation of the proposed model. During training, the ReduceLROnPlateau callback was employed to monitor the validation loss and automatically reduce the learning rate when performance plateaued. Additionally, EarlyStopping was utilized to halt training once no further improvement was observed after a set patience, and the model weights were restored from the end of the best-performing epoch to ensure optimal performance.
+
+The following table summarizes the epochs where learning rate reductions occurred, the adjusted learning rates, the epochs at which early stopping took place, and the best epochs from which model weights were restored for each fold.
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lcccc}
+			\hline
+			\textbf{Fold no.} & \textbf{Epoch (LR Reduced)} & \textbf{Learning Rate After Reduction} & \textbf{Early Stopping Epoch} & \textbf{Best Epoch (Restored)} \\ \hline
+			Fold 1 & \begin{tabular}[c]{@{}c@{}}20\\23\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\end{tabular} & 25 & 17 \\ \hline
+			Fold 2 & \begin{tabular}[c]{@{}c@{}}9\\14\\17\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\\0.0001250\end{tabular} & 19 & 11 \\ \hline
+			Fold 3 & \begin{tabular}[c]{@{}c@{}}15\\18\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\end{tabular} & 20 & 12 \\ \hline
+			Fold 4 & \begin{tabular}[c]{@{}c@{}}12\\15\\27\\30\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\\0.0001250\\0.0000625\end{tabular} & 32 & 24 \\ \hline
+			Fold 5 & \begin{tabular}[c]{@{}c@{}}20\\23\end{tabular} & \begin{tabular}[c]{@{}c@{}}0.0005000\\0.0002500\end{tabular} & 25 & 17 \\ \hline
+		\end{tabular}
+	}
+	\caption{Learning Rate Reductions, Early Stopping, and Best Epochs per Fold During 5-Fold Cross-Validation}
+	\label{tab:learning-folds}
+\end{table}
 
 
