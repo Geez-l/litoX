@@ -2,7 +2,7 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discussed the materials and methods employed in the study, focusing on the development requirements, as well as the software and programming languages utilized. It also detailed the overall workflow in conducting the study, Morphometric-Based Non-Invasive Sex Identification of Blood Cockles \textit{Tegillarca granosa} (Linnaeus), 1758) using machine learning and deep learning technologies.
+This chapter discussed the materials and methods employed in the study, focusing on the development requirements, as well as the software and programming languages utilized. It also detailed the overall workflow in conducting the study, Morphometric and Morphological-Based Non-Invasive Sex Identification of Blood Cockles \textit{Tegillarca granosa} (Linnaeus), 1758) using machine learning and deep learning technologies.
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, oversaw the overall workflow and conduct of the experiment. The researchers were also guided by research associates LC Mae Gasit and Allena Esther Artera. Consequently, the entire dataset collection process was conducted at the University of the Philippines Visayas hatchery facility.
 
@@ -46,7 +46,7 @@ Images of each sample were captured and saved in JPG format using a standardized
 \end{figure}
 
 \newpage
-\section{Morphological and Morphometric Characteristics Collection}
+\section{Morphometric and Morphological Characteristics Collection}
 \label{sec:morphochar}
 
 Morphology refers to biological form and is one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe the structural features of \textit{T. granosa}, focusing on measurable attributes such as shape, size, and color. Morphometric characteristics, on the other hand, refer to specific quantifiable features of T. granosa, including length, width, height, hinge line length, distance between the umbos, and rib count. As stated by the researchers, quantifying and characterizing these traits is essential for understanding and visualizing variations in \Tgranosa morphology.
@@ -143,7 +143,7 @@ A five-fold cross-validation approach was implemented. The dataset was divided i
 \end{figure}
 
 \section{Morphological Characteristics Evaluation Using Deep Learning}
-This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A Convolutional Neural Network (CNN) architecture was implemented and trained on preprocessed images using cross-validation.
+This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A Convolutional Neural Network (CNN) architecture was implemented and trained on preprocessed images using stratified cross-validation.
 
 \textbf{\textit{Image Preprocessing}}
 
@@ -175,7 +175,7 @@ To minimize noise caused by shadows around the shell, HSV thresholding, contours
 
 \subsection{Convolutional Neural Network}
 
-Convolutional Neural Networks are the main deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 12 layers designed to extract features from the input image with dimensions of (256, 256, 3). The layers consist of four convolution layers, a flatten layer, and two dense layers. The CNN framework used in this study is shown in Figure~\ref{fig:cnn_architecture}.
+Convolutional Neural Networks are the main deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 12 layers designed to extract features from the input image with dimensions. The layers consist of four convolution layers, a flatten layer, dropout and two dense layers. The CNN framework used in this study is shown in Figure~\ref{fig:cnn_architecture}.
 
 \begin{figure}[h]
 	\centering
