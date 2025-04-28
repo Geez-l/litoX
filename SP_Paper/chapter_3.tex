@@ -6,7 +6,7 @@ This chapter discussed the materials and methods employed in the study, focusing
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, oversaw the overall workflow and conduct of the experiment. The researchers were also guided by research associates LC Mae Gasit and Allena Esther Artera. Consequently, the entire dataset collection process was conducted at the University of the Philippines Visayas hatchery facility.
 
-The methodology consisted of eight parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration,(7) Morphometric Characteristics Evaluation Using Machine Learning, and (8) Morphological Characteristics Evaluation Using Deep Learning
+The methodology consisted of nine parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration,(7) Morphometric Characteristics Evaluation Using Machine Learning, (8) Morphological Characteristics Evaluation Using Deep Learning, and (9) Evaluation Metrics
 
 \section{Sample Collection}
 \label{sec:samplecollect} 
@@ -123,7 +123,7 @@ Rib count was excluded from normalization because it is a discrete feature with 
 
 \textbf{\textit{Class Imbalance Handling}}
 
-After normalization, class imbalance was addressed by removing the last 17 samples from the male dataset. This ensured an equal number of male and female samples (127 each), helping to prevent model bias and improving the reliability of classification performance across both classes.
+After normalization, class imbalance was addressed by applying Random Under-sampling to the male dataset. This technique randomly reduced the number of male samples to match the number of female samples (127 each), ensuring equal class representation. By using this approach, model bias was minimized, and the classification performance became more reliable across both classes.
 
 \subsection{Machine Learning Models Training}
 
@@ -142,37 +142,120 @@ A five-fold cross-validation approach was implemented. The dataset was divided i
 	\label{fig: cv}
 \end{figure}
 
-\subsection{Evaluation Metrics for Machine Learning}
-Evaluating the performance of the binary classification model is important as well as selecting the appropriate metrics that is based on the requirements of the user. The performance of the supervised machine learning models will be measured based on four metrics namely: accuracy, precision, recall, and F1 score. 
+\section{Morphological Characteristics Evaluation Using Deep Learning}
+This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A Convolutional Neural Network (CNN) architecture was implemented and trained on preprocessed images using cross-validation.
 
-Accuracy (ACC) is the ratio of the overall correctly predicted samples to the total number of examples in the evaluation dataset \cite{cui2020}. The overall correctness of the model in predicting male and female blood cockles. This metric could help in understanding how well the model performs across all classifications. The formula for the accuracy is: 
+\textbf{\textit{Image Preprocessing}}
+
+This subsection details the image processing techniques applied to raw shell images of \Tgranosa using computer vision methods before training the deep learning model. The image preprocessing techniques include standardizing input dimensions and removing shadows, background, and noise. Each image underwent data augmentation to enhance feature visibility for effective learning. Image preprocessing ensures consistent and high-quality input data for model training.
+
+\textbf{\textit{Adjusting Dimensions}}
+
+All images were resized to a consistent dimension of 256x256 pixels to ensure uniformity throughout the dataset. This standardization is essential for Convolutional Neural Networks (CNNs), as a consistent input dimension is required. While resizing, the aspect ratio was maintained to prevent distortion of the morphological features, and padding was added to retain the original format.
+
+\textbf{\textit{Background Removal}}
+
+Background removal was performed to maintain a consistent white background throughout the dataset. The tool \texttt{rembg} was used to efficiently remove the original background, retaining the foreground from the raw images. This method resulted in clear images with a white background, enhancing focus on the morphological features and defining the shell boundaries.
+
+\textbf{\textit{Shadow Removal}}
+
+To minimize noise caused by shadows around the shell, HSV thresholding, contours, and morphological thresholds were applied to isolate and remove shadowed regions. This approach preserved the natural color of the blood cockles and eliminated shadows and noise from the surrounding area.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{figures/male_shadows_removed.png}
+	\caption{Shadows removed from male samples at different angles}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{figures/female_shadows_removed.png}
+	\caption{Shadows removed from female samples at different angles}
+\end{figure}
+
+\subsection{Convolutional Neural Network}
+
+Convolutional Neural Networks are the main deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 12 layers designed to extract features from the input image with dimensions of (256, 256, 3). The layers consist of four convolution layers, a flatten layer, and two dense layers. The CNN framework used in this study is shown in Figure~\ref{fig:cnn_architecture}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{figures/cnn_architecture.png}
+	\caption{Architecture of Convolutional Neural Network (CNN)}
+	\label{fig:cnn_architecture}
+\end{figure}
+
+\textbf{\textit{Convolution Layer}}
+
+The convolution layers of CNN extract the features from the input image through the convolution operation. This study uses four convolution layers with a 3x3 kernel size and filter sizes of 16, 32, 64, and 128. The first layer extracts the low-level features, such as edges, lines, and corners, while the deeper layers iteratively extract more complex information from these low-level features. The ReLU activation function was used, allowing the model to learn the complex patterns within the data.
+
+\textbf{\textit{Pooling Layer}}
+
+A pooling layer was added after the convolution layer to enhance calculation speed and prevent overfitting \cite{cui2020}. In this study, max pooling was applied with a (3,3) kernel size.
+
+\textbf{\textit{Fully Connected and Dropout}}
+
+Fully connected layers follow after the convolution and pooling layers. Each neuron connects to all neurons of the previous layer. The output values from the fully connected layers are sent to an output layer. It was classified using different sigmoid functions appropriate for binary classification.
+
+A large number of parameters in the training process can lead to overfitting. It occurs when the model learns the training data too well, including its noise and irrelevant details. This results in poor performance on unseen data. To mitigate the overfitting, the dropout layer was employed. Dropout works by temporarily discarding a portion of the neurons in the network with probability \( p \) (\( 0 < p < 1 \)). During this process, these neurons do not participate in the forward propagation process of CNN and the backward propagation process \cite{cui2020}.
+
+\subsection{CNN Training}
+The dataset consists of 1626 samples, with 127 samples from females and 144 samples from males, individually for each angle. Given the minimal class imbalance, random undersampling was carried out to create a balanced dataset. All images were resized to 256x256 pixels and normalized using a Rescaling layer, ensuring pixel values were within the range [0, 1].
+
+\textbf{\textit{Data Splitting}}
+
+Due to the limited dataset size, a traditional train-test split was not adopted. Instead, a 5-fold stratified cross-validation approach was used to maximize the use of available data while preserving the class distribution within each fold. \texttt{StratifiedKFold} was applied to ensure that the distribution of male and female samples remained consistent across all folds, thereby enabling fair and robust model evaluation \cite{stratifiedKFold2020}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/skf.png}
+	\caption{Diagram of stratified k-fold cross-validation with k=5}
+\end{figure}
+
+\textbf{\textit{Data Augmentation}}
+
+Before model training, online data augmentation was applied exclusively to the training data within each fold, creating new data variations on the fly. The augmentations included random horizontal flips, slight rotations, and zoom transformations to enhance data diversity and improve model generalization \cite{awan2022}. All augmentation was strictly applied only to the training subset of each fold to prevent data leakage and maintain the validity of the results. On-the-fly data augmentation (OnDAT) generates augmented data during each iteration, exposing the model to constantly changing data variations. Augmenting the original data allows better exploration of the underlying data generation process and has the potential to prevent the model from overfitting spurious patterns, thereby improving performance \cite{cerqueira2024}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{figures/data_augmentation.png}
+	\caption{Data Augmentation Techniques}
+\end{figure}
+
+\textbf{\textit{Training Procedure}}
+
+During the training process, model performance per fold was carefully monitored. One important thing to observe is the consistency in the performance, whether the model is still learning or is at high risk of overfitting. Early stopping was applied to ensure the stable performance of the model across folds. This technique allows for monitoring the training of the neural network, stopping when the performance metrics, in this case, validation loss, cease to improve. Furthermore, to enhance the learning process, \texttt{ReduceLROnPlateau} was applied, which decreased the learning rate if there was no improvement in the model for a specified number of epochs \cite{kerasTeam}.
+
+The model was trained using the Adam optimization algorithm, with an initial learning rate of 0.001. Binary cross-entropy, commonly known as the log loss, was employed as the loss function due to its effectiveness in binary classification tasks. To reduce the risk of overfitting, a dropout rate of 0.5 was applied, randomly deactivating half of the neurons during the training process to improve generalization.
+
+\section{Evaluation Metrics}
+Evaluating the performance of a binary classification model is essential, and selecting appropriate metrics depends on the specific requirements of the user. The performance of both supervised machine learning and deep learning models will be measured using several key metrics, including accuracy, precision, recall, F1 score, and the AUC-ROC score.
+
+Accuracy (ACC) is the ratio of the overall correctly predicted samples to the total number of examples in the evaluation dataset \cite{cui2020}. It measures the overall correctness of the model in predicting both male and female blood cockles. This metric provides insight into how well the model performs across all classifications. The formula for accuracy is: 
 
 \begin{equation}
-	\text{ACC} = \frac{\text{Correctly classified samples}} {\text{All samples }} = \frac{TP+ TN}{TP + FP + TN + FN}
+	\text{ACC} = \frac{\text{Correctly classified samples}}{\text{All samples}} = \frac{TP + TN}{TP + FP + TN + FN}
 	\label{eq:acc}
 \end{equation}
-Precision (PREC) is the ratio between correctly predicted samples in all samples that are assigned to the positive class \cite{cui2020}. This metric promotes fair representation and prevents the misidentification of blood cockles as it identifies potential inaccuracies or biases. The formula for precision is:
 
+Precision (PREC) is the ratio of correctly predicted positive samples to all samples assigned to the positive class \cite{cui2020}. This metric helps in evaluating the fairness of the model and prevents the misclassification of blood cockles as it identifies potential inaccuracies or biases. The formula for precision is:
 
 \begin{equation}
-	\text{PREC} = \frac{\text{True positive samples}} {\text{Samples assigned to class }} = \frac{TP}{TP + FP}
+	\text{PREC} = \frac{\text{True positive samples}}{\text{Samples assigned to positive class}} = \frac{TP}{TP + FP}
 	\label{eq:prec}
 \end{equation}
 
-Recall (REC) is known as the sensitivity or the true positive rate (TPR) which is the ratio of the correctly predicted cases from all the samples assigned to the actual positive cases \cite{cui2020}. This metric is the ability of the model to correctly identify positive male and female samples. The formula for the recall is:
+Recall (REC), also known as sensitivity or the true positive rate (TPR), is the ratio of correctly predicted positive cases to all the actual positive samples \cite{cui2020}. It represents the ability of the model to correctly identify positive male and female samples. The formula for recall is:
 
 \begin{equation}
-	\text{REC} = \frac{\text{True positive samples}} {\text{Samples classified positive}} = \frac{TP}{TP + FN}
+	\text{REC} = \frac{\text{True positive samples}}{\text{Samples classified positive}} = \frac{TP}{TP + FN}
 	\label{eq:rec}
 \end{equation}
 
-F1 score is defined as the mean of the precision and recall in which it penalizes the extreme values of either of the two \cite{cui2020}. The formula for the F1 is: 
+The F1 score is the harmonic mean of precision and recall, which penalizes extreme values of either of the two metrics \cite{cui2020}. It is particularly useful when the class distribution is imbalanced. The formula for the F1 score is:
 
 \begin{equation}
-	\text{F1} = \frac{ precision \times recall }{precision \times recall }= \frac{2 \times TP}{2 \times TP + FP + FN}
+	\text{F1} = \frac{2 \times \text{precision} \times \text{recall}}{\text{precision} + \text{recall}} = \frac{2 \times TP}{2 \times TP + FP + FN}
 	\label{eq:f1}
 \end{equation}
 
-
-
-
+The Area Under the Receiver Operating Characteristic Curve (AUC-ROC) is a performance measurement for classification problems, particularly used in deep learning in this study. The ROC curve is a plot of the true positive rate (recall) against the false positive rate (1 - specificity), and the AUC score quantifies the overall ability of the model to discriminate between positive and negative classes. A higher AUC indicates better model performance. \cite{nahm2022} 
