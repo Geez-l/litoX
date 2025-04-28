@@ -138,6 +138,31 @@ Arkhipkin, A\BPBI I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Awan%
+}{%
+Awan%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+awan2022}
+\APACinsertmetastar {%
+awan2022}%
+\begin{APACrefauthors}%
+Awan, A\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{November}{}.
+\newblock
+\APACrefbtitle {A Complete Guide to Data Augmentation.} {A complete guide to
+  data augmentation.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.datacamp.com/tutorial/complete-guide-data-augmentation}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Aypa%
 \ \BBA {} Baconguis%
 }{%
@@ -391,6 +416,39 @@ Campos, A.%
 \APACjournalVolNumPages{Proteomic Research in Bivalves}{75}{14}{4346--4359}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.jprot.2012.04.027} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cerqueira%
+, Santos%
+, Baghoussi%
+\BCBL {}\ \BBA {} Soares%
+}{%
+Cerqueira%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+cerqueira2024}
+\APACinsertmetastar {%
+cerqueira2024}%
+\begin{APACrefauthors}%
+Cerqueira, V.%
+, Santos, M.%
+, Baghoussi, Y.%
+\BCBL {}\ \BBA {} Soares, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On-the-fly Data Augmentation for Forecasting with Deep
+  Learning} {On-the-fly data augmentation for forecasting with deep
+  learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ArXiv (Cornell University)}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.48550/arxiv.2404.16918}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -654,6 +712,31 @@ Ferguson, G\BPBI J.%
 \APACjournalVolNumPages{Fish Research}{110}{}{75--83}.
 \newblock
 \begin{APACrefDOI} \doi{10.1016/j.fishres.2011.03.014} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+GeeksforGeeks%
+}{%
+GeeksforGeeks%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+stratifiedKFold2020}
+\APACinsertmetastar {%
+stratifiedKFold2020}%
+\begin{APACrefauthors}%
+GeeksforGeeks.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{August 6}{}.
+\newblock
+\APACrefbtitle {Stratified K Fold Cross Validation.} {Stratified k fold cross
+  validation.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.geeksforgeeks.org/stratified-k-fold-cross-validation/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -1082,6 +1165,34 @@ Mérigot, B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Nahm%
+}{%
+Nahm%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+nahm2022}
+\APACinsertmetastar {%
+nahm2022}%
+\begin{APACrefauthors}%
+Nahm, F\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Receiver Operating Characteristic Curve: Overview and
+  Practical Use for Clinicians} {Receiver operating characteristic curve:
+  Overview and practical use for clinicians}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Korean Journal of Anesthesiology}{75}{1}{25--36}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.4097/kja.21209} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.4097/kja.21209} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Narasimham%
 }{%
 Narasimham%
@@ -1323,6 +1434,30 @@ Tarca, A\BPBI L.%
 \APACjournalVolNumPages{PLoS Computational Biology}{3}{6}{e116}.
 \newblock
 \begin{APACrefDOI} \doi{10.1371/journal.pcbi.0030116} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Team%
+}{%
+Team%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+kerasTeam}
+\APACinsertmetastar {%
+kerasTeam}%
+\begin{APACrefauthors}%
+Team, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {Keras documentation: ReduceLROnPlateau.} {Keras documentation:
+  Reducelronplateau.}
+\newblock
+\begin{APACrefURL} \url{https://keras.io/api/callbacks/reduce_lr_on_plateau/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
