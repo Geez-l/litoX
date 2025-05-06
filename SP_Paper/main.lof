@@ -21,14 +21,21 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Average Training and Validation Accuracy Across Folds}}{46}{}%
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Training and Validation Loss per Fold}}{46}{}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Average Training and Validation Loss Across Folds}}{47}{}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion Matrix for Final Model Predictions}}{48}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion Matrix for Final Model Predictions}}{47}{}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces ROC Curve and AUC Score}}{48}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Sex Identification Through Spawning of \textit {Tegillarca granosa }}}{59}{}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Separating Male and Female Samples After Spawning of \textit {Tegillarca granosa }}}{59}{}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Sex Identified Female Through Dissecting of \textit {Tegillarca granosa }}}{60}{}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Sex Identified Male Through Dissecting of \textit {Tegillarca granosa }}}{60}{}%
-\contentsline {figure}{\numberline {A.5}{\ignorespaces Linear Measurements of Female \textit {Tegillarca granosa }}}{60}{}%
-\contentsline {figure}{\numberline {A.6}{\ignorespaces Linear Measurements of Male \textit {Tegillarca granosa }}}{61}{}%
-\contentsline {figure}{\numberline {A.7}{\ignorespaces Distribution of the Features of \textit {Tegillarca granosa }}}{61}{}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Sex Identification Through Spawning of \textit {Tegillarca granosa }}}{58}{}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Sex-Based Separation of \textit {Tegillarca granosa }Samples Post-Spawning}}{58}{}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Sex Identified Female Through Dissection of \textit {Tegillarca granosa }}}{59}{}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Sex Identified Male Through Dissection of \textit {Tegillarca granosa }}}{59}{}%
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Linear Measurements of Female \textit {Tegillarca granosa }}}{59}{}%
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Linear Measurements of Male \textit {Tegillarca granosa }}}{60}{}%
+\contentsline {figure}{\numberline {A.7}{\ignorespaces Captured Images of Female \textit {Tegillarca granosa }}}{60}{}%
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Captured Images of Male \textit {Tegillarca granosa }}}{60}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Feature Distribution of \textit {Tegillarca granosa }}}{61}{}%
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Correlation Matrix of Morphological Variables \textit {Tegillarca granosa }}}{62}{}%
+\contentsline {figure}{\numberline {B.3}{\ignorespaces Feature Maps from First Convolution Layer}}{62}{}%
+\contentsline {figure}{\numberline {B.4}{\ignorespaces Feature Maps from Second Convolution Layer}}{63}{}%
+\contentsline {figure}{\numberline {B.5}{\ignorespaces Feature Maps from Third Convolution Layer}}{63}{}%
