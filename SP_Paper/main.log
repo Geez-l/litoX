@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  28 APR 2025 18:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  6 MAY 2025 20:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -411,18 +411,18 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/scit' undefined
 [1
 
 
-{C:/Users/Kane/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+{C:/Users/Kane/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2])
 \openout2 = `abstract.aux'.
 
 
 (abstract.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 
 
 (C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
 
 
 (C:\Users\Kane\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -488,7 +488,7 @@ Overfull \hbox (7.81496pt too wide) in paragraph at lines 11--11
 \OT1/cmr/bx/n/17.28 and Their
  []
 
-<figures/anatomy.png, id=51, 843.75224pt x 502.87875pt>
+<figures/anatomy.png, id=54, 843.75224pt x 502.87875pt>
 File: figures/anatomy.png Graphic file (type png)
 <use figures/anatomy.png>
 Package pdftex.def Info: figures/anatomy.png  used on input line 16.
@@ -646,20 +646,20 @@ Chapter 3.
 
 
 ]
-<figures/male-female T.granosa.png, id=102, 584.1825pt x 368.37625pt>
+<figures/male-female T.granosa.png, id=105, 584.1825pt x 368.37625pt>
 File: figures/male-female T.granosa.png Graphic file (type png)
 <use figures/male-female T.granosa.png>
 Package pdftex.def Info: figures/male-female T.granosa.png  used on input line 
 24.
 (pdftex.def)             Requested size: 373.99469pt x 235.8443pt.
  [22 <./figures/male-female T.granosa.png>]
-<figures/view.png, id=107, 1150.89975pt x 734.745pt>
+<figures/view.png, id=111, 1150.89975pt x 734.745pt>
 File: figures/view.png Graphic file (type png)
 <use figures/view.png>
 Package pdftex.def Info: figures/view.png  used on input line 43.
 (pdftex.def)             Requested size: 373.99469pt x 238.75566pt.
  [23] [24 <./figures/view.png>]
-<figures/Tegillarca_granosa_linear_measurements.png, id=116, 5900.0425pt x 1527
+<figures/Tegillarca_granosa_linear_measurements.png, id=119, 5900.0425pt x 1527
 .7075pt>
 File: figures/Tegillarca_granosa_linear_measurements.png Graphic file (type png
 )
@@ -667,7 +667,7 @@ File: figures/Tegillarca_granosa_linear_measurements.png Graphic file (type png
 Package pdftex.def Info: figures/Tegillarca_granosa_linear_measurements.png  us
 ed on input line 60.
 (pdftex.def)             Requested size: 394.77359pt x 102.21834pt.
-<figures/setup.jpg, id=117, 1128.46594pt x 1128.46594pt>
+<figures/setup.jpg, id=120, 1128.46594pt x 1128.46594pt>
 File: figures/setup.jpg Graphic file (type jpg)
 <use figures/setup.jpg>
 Package pdftex.def Info: figures/setup.jpg  used on input line 74.
@@ -679,7 +679,7 @@ Overfull \hbox (10.35138pt too wide) in paragraph at lines 84--84
  []
 
 [26 <./figures/setup.jpg>]
-<figures/pipeline.png, id=126, 690.32906pt x 152.82094pt>
+<figures/pipeline.png, id=129, 690.32906pt x 152.82094pt>
 File: figures/pipeline.png Graphic file (type png)
 <use figures/pipeline.png>
 Package pdftex.def Info: figures/pipeline.png  used on input line 94.
@@ -697,7 +697,7 @@ p-ply-ing Ran-dom Under-
  []
 
 [28]
-<figures/cv.png, id=134, 736.7525pt x 453.695pt>
+<figures/cv.png, id=138, 736.7525pt x 453.695pt>
 File: figures/cv.png Graphic file (type png)
 <use figures/cv.png>
 Package pdftex.def Info: figures/cv.png  used on input line 140.
@@ -708,13 +708,13 @@ Overfull \hbox (9.47134pt too wide) in paragraph at lines 145--145
  []
 
 [29 <./figures/cv.png>]
-<figures/male_shadows_removed.png, id=140, 854.2314pt x 150.3216pt>
+<figures/male_shadows_removed.png, id=143, 854.2314pt x 150.3216pt>
 File: figures/male_shadows_removed.png Graphic file (type png)
 <use figures/male_shadows_removed.png>
 Package pdftex.def Info: figures/male_shadows_removed.png  used on input line 1
 66.
 (pdftex.def)             Requested size: 415.55249pt x 73.12607pt.
-<figures/female_shadows_removed.png, id=141, 854.2314pt x 150.3216pt>
+<figures/female_shadows_removed.png, id=144, 854.2314pt x 150.3216pt>
 File: figures/female_shadows_removed.png Graphic file (type png)
 <use figures/female_shadows_removed.png>
 Package pdftex.def Info: figures/female_shadows_removed.png  used on input line
@@ -722,20 +722,20 @@ Package pdftex.def Info: figures/female_shadows_removed.png  used on input line
 (pdftex.def)             Requested size: 415.55249pt x 73.12607pt.
  [30 <./figures/male_shadows_removed.png> <./figures/female_shadows_removed.png
 >]
-<figures/cnn_architecture.png, id=147, 1334.73656pt x 414.79968pt>
+<figures/cnn_architecture.png, id=150, 1334.73656pt x 414.79968pt>
 File: figures/cnn_architecture.png Graphic file (type png)
 <use figures/cnn_architecture.png>
 Package pdftex.def Info: figures/cnn_architecture.png  used on input line 182.
 (pdftex.def)             Requested size: 415.55249pt x 129.14355pt.
  [31 <./figures/cnn_architecture.png (PNG copy)>]
-<figures/skf.png, id=151, 402.50375pt x 332.24126pt>
+<figures/skf.png, id=154, 402.50375pt x 332.24126pt>
 File: figures/skf.png Graphic file (type png)
 <use figures/skf.png>
 Package pdftex.def Info: figures/skf.png  used on input line 210.
 (pdftex.def)             Requested size: 249.33403pt x 205.81pt.
 
 [32 <./figures/skf.png>]
-<figures/data_augmentation.png, id=157, 885.3075pt x 646.66594pt>
+<figures/data_augmentation.png, id=160, 885.3075pt x 646.66594pt>
 File: figures/data_augmentation.png Graphic file (type png)
 <use figures/data_augmentation.png>
 Package pdftex.def Info: figures/data_augmentation.png  used on input line 222.
@@ -747,7 +747,7 @@ Package pdftex.def Info: figures/data_augmentation.png  used on input line 222.
 
  (chapter_4.tex
 Chapter 4.
-<figures/heatmap.png, id=169, 377.2494pt x 523.2348pt>
+<figures/heatmap.png, id=172, 377.2494pt x 523.2348pt>
 File: figures/heatmap.png Graphic file (type png)
 <use figures/heatmap.png>
 Package pdftex.def Info: figures/heatmap.png  used on input line 14.
@@ -758,7 +758,7 @@ Package pdftex.def Info: figures/heatmap.png  used on input line 14.
 
 
 ] [37 <./figures/heatmap.png>]
-<figures/kw.png, id=177, 693.0693pt x 424.9476pt>
+<figures/kw.png, id=180, 693.0693pt x 424.9476pt>
 File: figures/kw.png Graphic file (type png)
 <use figures/kw.png>
 Package pdftex.def Info: figures/kw.png  used on input line 57.
@@ -770,7 +770,7 @@ test, a non-parametric
  []
 
 [38 <./figures/kw.png>] [39]
-<figures/confusion_matrix_ml.png, id=187, 430.7292pt x 330.2739pt>
+<figures/confusion_matrix_ml.png, id=190, 430.7292pt x 330.2739pt>
 File: figures/confusion_matrix_ml.png Graphic file (type png)
 <use figures/confusion_matrix_ml.png>
 Package pdftex.def Info: figures/confusion_matrix_ml.png  used on input line 11
@@ -778,60 +778,67 @@ Package pdftex.def Info: figures/confusion_matrix_ml.png  used on input line 11
 (pdftex.def)             Requested size: 332.44325pt x 254.91138pt.
  [40 <./figures/confusion_matrix_ml.png>] [41]
 [42] [43] [44]
-<figures/acc_epoch.png, id=205, 1074.6549pt x 354.123pt>
+<figures/acc_epoch.png, id=208, 1074.6549pt x 354.123pt>
 File: figures/acc_epoch.png Graphic file (type png)
 <use figures/acc_epoch.png>
-Package pdftex.def Info: figures/acc_epoch.png  used on input line 279.
+Package pdftex.def Info: figures/acc_epoch.png  used on input line 280.
 (pdftex.def)             Requested size: 332.44325pt x 109.55003pt.
-<figures/avg_acc.png, id=206, 714.7503pt x 426.393pt>
+<figures/avg_acc.png, id=209, 714.7503pt x 426.393pt>
 File: figures/avg_acc.png Graphic file (type png)
 <use figures/avg_acc.png>
-Package pdftex.def Info: figures/avg_acc.png  used on input line 288.
+Package pdftex.def Info: figures/avg_acc.png  used on input line 289.
 (pdftex.def)             Requested size: 332.44325pt x 198.32924pt.
-<figures/loss_epoch.png, id=207, 1074.6549pt x 354.123pt>
+ [45 <./figures/acc_epoch.png>]
+<figures/loss_epoch.png, id=214, 1074.6549pt x 354.123pt>
 File: figures/loss_epoch.png Graphic file (type png)
 <use figures/loss_epoch.png>
-Package pdftex.def Info: figures/loss_epoch.png  used on input line 297.
+Package pdftex.def Info: figures/loss_epoch.png  used on input line 298.
 (pdftex.def)             Requested size: 332.44325pt x 109.55003pt.
- [45 <./figures/acc_epoch.png>] [46 <./figures/avg_acc.png> <./figures/loss_epo
-ch.png>]
-<figures/avg_loss.png, id=217, 714.7503pt x 426.393pt>
+<figures/avg_loss.png, id=215, 714.7503pt x 426.393pt>
 File: figures/avg_loss.png Graphic file (type png)
 <use figures/avg_loss.png>
-Package pdftex.def Info: figures/avg_loss.png  used on input line 306.
+Package pdftex.def Info: figures/avg_loss.png  used on input line 307.
 (pdftex.def)             Requested size: 332.44325pt x 198.32924pt.
-<figures/cm_dl.png, id=218, 462.528pt x 395.3169pt>
+ [46 <./figures/avg_acc.png> <./figures/loss_epoch.png>]
+<figures/cm_dl.png, id=222, 462.528pt x 395.3169pt>
 File: figures/cm_dl.png Graphic file (type png)
 <use figures/cm_dl.png>
-Package pdftex.def Info: figures/cm_dl.png  used on input line 315.
+Package pdftex.def Info: figures/cm_dl.png  used on input line 316.
 (pdftex.def)             Requested size: 332.44325pt x 284.1514pt.
-<figures/roc.png, id=219, 507.3354pt x 395.3169pt>
+ [47 <./figures/avg_loss.png> <./figures/cm_dl.png>]
+<figures/roc.png, id=228, 507.3354pt x 395.3169pt>
 File: figures/roc.png Graphic file (type png)
 <use figures/roc.png>
-Package pdftex.def Info: figures/roc.png  used on input line 324.
+Package pdftex.def Info: figures/roc.png  used on input line 325.
 (pdftex.def)             Requested size: 332.44325pt x 259.04605pt.
- [47 <./figures/avg_loss.png>] [48 <./figures/cm_dl.png> <./figures/roc.png>] [
-49]) [50]
+
+[48 <./figures/roc.png>]) [49]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
 Chapter 5.
-[51
+[50
 
 
 
 
-]) [52] [53] (main.bbl
+]
+Overfull \hbox (4.58899pt too wide) in paragraph at lines 19--20
+\OT1/cmr/m/n/12 This spe-cial prob-lem en-ti-tled Mor-pho-me-t-ric and Morpholo
+gical-Based Non-invasive
+ []
+
+) [51] [52] (main.bbl
 Underfull \hbox (badness 1043) in paragraph at lines 151--164
 []\OT1/cmr/m/n/12 Awan, A. A.  (2022, Novem-ber).  \OT1/cmr/m/it/12 A com-plete
  guide to data aug-men-ta-
  []
 
-[54
+[53
 
 
 
-] [55]
+] [54]
 Underfull \hbox (badness 10000) in paragraph at lines 677--684
 \OT1/cmtt/m/n/12 fao [] -2024 [] -report [] -sustainable [] -aquatic [] -food [
 ] -systems [] -important [] -for []
@@ -843,13 +850,13 @@ Underfull \hbox (badness 5954) in paragraph at lines 728--741
 fied k fold cross val-i-da-
  []
 
-[56]
+[55]
 Underfull \hbox (badness 1210) in paragraph at lines 1353--1368
 \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// diogoribeiro7 [] .g
 ithub [] .io / statistics / data %
  []
 
-[57]) [58]
+[56]) [57]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
@@ -885,36 +892,76 @@ File: figures/male_dataset.png Graphic file (type png)
 <use figures/male_dataset.png>
 Package pdftex.def Info: figures/male_dataset.png  used on input line 50.
 (pdftex.def)             Requested size: 249.33403pt x 179.98636pt.
-<figures/sample_distribution.png, id=267, 597.6729pt x 604.1772pt>
-File: figures/sample_distribution.png Graphic file (type png)
-<use figures/sample_distribution.png>
-Package pdftex.def Info: figures/sample_distribution.png  used on input line 56
+<figures/female_dataset(img).png, id=267, 759.33687pt x 301.62688pt>
+File: figures/female_dataset(img).png Graphic file (type png)
+<use figures/female_dataset(img).png>
+Package pdftex.def Info: figures/female_dataset(img).png  used on input line 56
 .
-(pdftex.def)             Requested size: 249.33403pt x 252.04718pt.
-) [59
+(pdftex.def)             Requested size: 332.44325pt x 132.05807pt.
+<figures/male_dataset(img).png, id=268, 760.34062pt x 302.63063pt>
+File: figures/male_dataset(img).png Graphic file (type png)
+<use figures/male_dataset(img).png>
+Package pdftex.def Info: figures/male_dataset(img).png  used on input line 62.
+(pdftex.def)             Requested size: 332.44325pt x 132.32207pt.
+) [58
 
 
- <./figures/spawning.jpg> <./figures/spawning_separated.jpg>] [60 <./figures/di
+ <./figures/spawning.jpg> <./figures/spawning_separated.jpg>] [59 <./figures/di
 ssecting_female.jpg> <./figures/dissecting male.jpg> <./figures/female_dataset.
-png>] [61 <./figures/male_dataset.png> <./figures/sample_distribution.png>]
+png>] [60 <./figures/male_dataset.png> <./figures/female_dataset(img).png> <./f
+igures/male_dataset(img).png>]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex) (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux)
-(chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (appendix_A.aux
-) (appendix_B.aux))
+ (appendix_B.tex
+Appendix B.
+<figures/sample_distribution.png, id=283, 597.6729pt x 604.1772pt>
+File: figures/sample_distribution.png Graphic file (type png)
+<use figures/sample_distribution.png>
+Package pdftex.def Info: figures/sample_distribution.png  used on input line 25
+.
+(pdftex.def)             Requested size: 249.33403pt x 252.04718pt.
+<figures/corr_matrix.png, id=284, 654.0435pt x 388.8126pt>
+File: figures/corr_matrix.png Graphic file (type png)
+<use figures/corr_matrix.png>
+Package pdftex.def Info: figures/corr_matrix.png  used on input line 31.
+(pdftex.def)             Requested size: 332.44325pt x 197.62732pt.
+<figures/conv1.png, id=285, 688.0104pt x 680.7834pt>
+File: figures/conv1.png Graphic file (type png)
+<use figures/conv1.png>
+Package pdftex.def Info: figures/conv1.png  used on input line 37.
+(pdftex.def)             Requested size: 249.33403pt x 246.71274pt.
+<figures/conv2.png, id=286, 703.9098pt x 688.0104pt>
+File: figures/conv2.png Graphic file (type png)
+<use figures/conv2.png>
+Package pdftex.def Info: figures/conv2.png  used on input line 43.
+(pdftex.def)             Requested size: 249.33403pt x 243.69424pt.
+<figures/conv3.png, id=287, 693.792pt x 685.8423pt>
+File: figures/conv3.png Graphic file (type png)
+<use figures/conv3.png>
+Package pdftex.def Info: figures/conv3.png  used on input line 49.
+(pdftex.def)             Requested size: 249.33403pt x 246.47397pt.
+) [61
+
+
+
+
+ <./figures/sample_distribution.png>] [62 <./figures/corr_matrix.png> <./figure
+s/conv1.png>] [63 <./figures/conv2.png> <./figures/conv3.png>] (main.aux
+(title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux)
+(chapter_4.aux) (chapter_5.aux) (appendix_A.aux) (appendix_B.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 7581 strings out of 474486
- 124810 string characters out of 5744227
+ 7624 strings out of 474486
+ 126051 string characters out of 5744227
  1963542 words of memory out of 5000000
- 29664 multiletter control sequences out of 15000+600000
+ 29707 multiletter control sequences out of 15000+600000
  569549 words of font info for 78 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,17n,84p,1793b,417s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,17n,84p,1840b,417s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Kane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -929,9 +976,9 @@ s/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmtt12.pfb>
-Output written on main.pdf (69 pages, 22606674 bytes).
+Output written on main.pdf (72 pages, 24746457 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
+ 356 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
