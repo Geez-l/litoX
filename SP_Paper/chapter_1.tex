@@ -9,9 +9,9 @@ The Philippines is a global center of marine biodiversity and has established aq
 
 Maintaining a balanced male-to-female ratio of blood cockles is crucial to prevent overharvesting and ensure sustainability. An imbalanced ratio can lead to overexploitation and negatively impact the population's viability. However, there is limited literature on \textit{T. granosa} that provides a thorough understanding of its sex-determining mechanisms, particularly regarding sexual dimorphism based on morphometric and morphological characteristics \cite{breton2017sex}.
 
-Currently, sex determination methods for blood cockles are invasive, including dissection and histological examinations, which often result in the death of the species. While there is growing literature on sex identification in aquaculture commodities using machine learning and deep learning, there is a notable scarcity of research specifically addressing \textit{T. granosa} \cite{miranda2023}.
+Currently, sex determination methods for blood cockles are invasive, including dissection and histological examinations, which often result in the death of the species. While there is growing literature on sex identification in aquaculture commodities using machine learning and deep learning, there is a notable scarcity of research specific to \textit{T. granosa} \cite{miranda2023}.
 
-This study, titled "Morphometric and Morphological-Based Non-Invasive Sex Identification of Blood Cockles \textit{Tegillarca granosa} (Linnaeus, 1758)," aims to provide a detailed baseline analysis of blood cockles by leveraging their morphometric and morphological characteristics. Sexual dimorphism in bivalves is often subtle and challenging to establish mascropically \cite{karapunar2021}. However, by integrating machine learning and deep learning, the study seeks to identify distinct features that may indicate sexual dimorphism between male and female blood cockles.
+This study aims to provide a detailed baseline analysis of blood cockles by leveraging their morphometric and morphological characteristics. Sexual dimorphism in bivalves is often subtle and challenging to establish mascropically \cite{karapunar2021}. However, by integrating machine learning and deep learning, the study seeks to identify distinct features that may indicate sexual dimorphism between male and female blood cockles.
 
 \section{Problem Statement}
 
@@ -37,12 +37,13 @@ The general objective of this study is to develop a non-invasive method for iden
 To achieve the overall general objective of developing a non-invasive sex identification of \textit{T. granosa} using machine learning, deep learning, and computer vision technologies, the following specific objectives have been established:  
 
 \begin{enumerate}
-   \item To collect and organize a comprehensive dataset of \textit{T. granosa} which will include high-quality images and relevant morphological measurements that will serve as the basis for the machine-learning model.
+   \item to collect and organize a comprehensive dataset of \textit{T. granosa}, which will include linear measurements and images captured from different camera angles that will serve as the basis for training and evaluating the machine learning and deep learning models. 
  
-   \item To develop and implement machine learning and deep learning models that can classify the sex of \textit{T. granosa} based on the collected linear measurements and images of different angles of the sample.
+   \item to develop and implement machine learning and deep learning models that can classify the sex of \textit{T. granosa} based on the collected linear measurements and images of different camera angles of the sample, and determine the best performing models.
    
    
-   \item To evaluate the performance of the models used using performance metrics such as accuracy, precision, recall, and F1-score, and AUC-ROC score for deep learning. 
+ 	\item to evaluate the model performance using performance metrics such as accuracy, precision, recall, and F1-score, AUC-ROC score for deep learning, and optimize the performance by performing hyperparameter optimization.
+   
    
 \end{enumerate}
 
@@ -55,9 +56,9 @@ In contrast, this study mainly focused on developing a non-invasive method for i
 
 The researchers worked with 271  blood cockles that had been sex-identified and taken from Panay Island, specifically sourced from Zarraga Iloilo and Ivisan Capiz. These samples, divided between 144 males and 127 females, were obtained through induced spawning via temperature shock and dissection. Data collection was limited to the spawned stage among the five gonadal stages  - immature, developing, mature, spawning, and spent stages. The other stages were not preferable due to indistinguishable gonads and their inability to undergo induced spawning \cite{may2021}.  Thus, the researchers only focused on the samples undergoing the spawned stage. 
 
-During the data collection,  the researchers personally gathered linear measurements, including length, width, height, rib count, length of the hinge line, and distance between the umbos through the vernier caliper. The data-gathering process was supervised by the University Research Associates from the Institute of Aquaculture, College of Fisheries and Ocean Sciences. Aside from linear measurements, images were taken from six different angles. The image collection was non-invasive, considering the blood cockle-built ability to survive in low oxygen environments and naturally inhabit intertidal mudflats \cite{zhan2022}.
+During the data collection,  the researchers personally gathered linear measurements, including length, width, height, rib count, length of the hinge line, and distance between the umbos through the vernier caliper. The data-gathering process was supervised by the University Research Associates from the Institute of Aquaculture, College of Fisheries and Ocean Sciences. Aside from linear measurements, images were taken from six different angles. The process of linear measurements and image collection were non-invasive, considering the blood cockle-built ability to survive in low oxygen environments and naturally inhabit intertidal mudflats \cite{zhan2022}.
 
-The method developed in this study is specific to \textit{Tegillarca granosa} and may not apply to other bivalve species. The model was trained exclusively for \textit{Tegillarca granosa} and morphological features - such as length, width, height, rib count, length of the hinge line, and distance between the umbos may not be consistent and applicable across other shellfish species. 
+The method developed in this study is specific to \textit{Tegillarca granosa} and may not apply to other bivalve species. The model was trained exclusively for \textit{Tegillarca granosa} and morphometric and morphological features, which may not be consistent and applicable across other shellfish species. 
 
 \section{Significance of the Research}
 \label{sec:significance}
