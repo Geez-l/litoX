@@ -1,0 +1,62 @@
+% Filename   : preamble.tex
+% Description: Combined preamble file
+
+\documentclass[12pt,titlepage,twopage,letterpaper]{book}
+
+% --- Packages ---
+\usepackage{pdfpages}
+\usepackage{apacite}  % APA style citation
+\usepackage{amsmath, amsfonts, amssymb}  % AMS math packages
+\usepackage{graphicx}  % for including images (JPG, PNG)
+\usepackage{verbatim}  % for multi-line comments
+\usepackage{color}     % colored text
+\usepackage{url}       % clickable URLs
+\usepackage{tabularx}  % better tables
+\usepackage{adjustbox} % content adjustment (e.g. table fitting)
+\usepackage{lscape}    % landscape mode
+\usepackage{float}     % improved float control
+\usepackage[table,xcdraw]{xcolor}  % color in tables
+\usepackage{colortbl}  % table row/column color
+\usepackage{setspace}  % spacing (e.g., double spacing)
+\usepackage{lineno}    % line numbers
+
+% --- Custom Colors ---
+\definecolor{celadon}{rgb}{0.67, 0.87, 0.77}
+
+% --- Table Styling ---
+\setlength{\arrayrulewidth}{1.5pt}
+
+% --- Margin and Page Setup ---
+\topmargin 0.0in
+\oddsidemargin 0.0in
+\evensidemargin 0.0in
+\voffset 0.0in
+\hoffset 0.5625in
+\textwidth 5.75in
+\textheight 8.5in
+\parskip 1em
+\parindent 0.25in
+
+% --- APA Citation (no "References" heading) ---
+\makeatletter
+\let\st@rtbibsection\@bibnewpage
+\let\st@rtbibchapter\@bibnewpage
+\makeatother
+\bibliographystyle{apacite}
+
+% --- Hyphenation Rules ---
+\hyphenation{ana-lysis know-ledge}
+
+% --- Custom Commands ---
+\newcommand{\degree}{^{\circ}}
+\newcommand{\etal}{et al.}
+\newcommand{\figref}[1]{Figure \ref{#1}}
+\newcommand{\appref}[1]{Appendix \ref{#1}}
+\newcommand{\Tgranosa}{\textit{T. granosa }}
+\newcommand{\Tegillarcagranosa}{\textit{Tegillarca granosa }}
+\newcommand{\thestitle}[1]{{\Large \textsc{#1}}}
+
+% Optional: Uncomment if needed
+% \renewcommand{\thefigure}{\thesection.\arabic{figure}}
+% \renewcommand{\thetable}{\thesection.\arabic{table}}
+% \renewcommand{\contentsname}{Table of Contents}

@@ -1,0 +1,38 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diagram of \textit {Tegillarca granosa}'s External Anatomy}}{12}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Male and Female \textit {Tegillarca granosa }shells}}{33}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Different Views of the \textit {T. granosa} Shell Captured}}{35}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Linear Measurements of \textit {Tegillarca granosa }shell.}}{36}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Image Acquisition Setup for \textit {T. granosa} Samples}}{37}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Data Preprocessing Pipeline}}{39}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Diagram of k-fold cross-validation with k = 5}}{43}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Shadows removed from male samples at different angles}}{44}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Shadows removed from female samples at different angles}}{44}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Architecture of Convolutional Neural Network (CNN)}}{45}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Diagram of stratified k-fold cross-validation with k=5}}{47}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Data Augmentation Techniques}}{48}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Correlation heatmap of morphometric features with the sex of \textit {T. granosa}}}{54}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Feature Importance Scores Using the Kruskal-Wallis Test}}{57}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Feature Importance Scores Using the Kruskal-Wallis Test}}{59}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Training and Validation Accuracy per Fold}}{65}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Average Training and Validation Accuracy Across Folds}}{66}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Training and Validation Loss per Fold}}{66}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Average Training and Validation Loss Across Folds}}{67}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion Matrix for Final Model Predictions}}{68}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces ROC Curve and AUC Score}}{69}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Sex Identification Through Spawning of \textit {Tegillarca granosa }}}{89}{}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Sex-Based Separation of \textit {Tegillarca granosa }Samples Post-Spawning}}{89}{}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Sex Identified Female Through Dissection of \textit {Tegillarca granosa }}}{90}{}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Sex Identified Male Through Dissection of \textit {Tegillarca granosa }}}{90}{}%
+\contentsline {figure}{\numberline {C.5}{\ignorespaces Linear Measurements of Female \textit {Tegillarca granosa }}}{90}{}%
+\contentsline {figure}{\numberline {C.6}{\ignorespaces Linear Measurements of Male \textit {Tegillarca granosa }}}{91}{}%
+\contentsline {figure}{\numberline {C.7}{\ignorespaces Captured Images of Female \textit {Tegillarca granosa }}}{91}{}%
+\contentsline {figure}{\numberline {C.8}{\ignorespaces Captured Images of Male \textit {Tegillarca granosa }}}{91}{}%
