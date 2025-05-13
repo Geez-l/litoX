@@ -1,0 +1,76 @@
+%   Filename    : chapter_1.tex 
+\chapter{Introduction}
+\label{sec:researchdesc}    %labels help you reference sections of your document
+
+\section{Overview}
+\label{sec:overview}
+
+The Philippines is a global center of marine biodiversity and has established aquaculture as a significant contributor to total fishery production \cite{aypa2000, bfar2019}. The country produces over 4 million tonnes of seafood annually and is the 11th largest seafood producer in the world. Aquaculture is deeply integrated into Filipinos' livelihoods, encompassing fish cultivation and the production of various aquatic species, including bivalves. Among these, blood cockles \textit{(Tegillarca granosa)} hold considerable economic and environmental significance, making it essential to ensure sustainable production and population balance.
+
+Maintaining a balanced male-to-female ratio of blood cockles is crucial to prevent overharvesting and ensure sustainability. An imbalanced ratio can lead to overexploitation and negatively impact the population's viability. However, there is limited literature on \textit{T. granosa} that provides a thorough understanding of its sex-determining mechanisms, particularly regarding sexual dimorphism based on morphometric and morphological characteristics \cite{breton2017sex}.
+
+Currently, sex determination methods for blood cockles are invasive, including dissection and histological examinations, which often result in the death of the species. While there is growing literature on sex identification in aquaculture commodities using machine learning and deep learning, there is a notable scarcity of research specific to \textit{T. granosa} \cite{miranda2023}.
+
+This study aims to provide a detailed baseline analysis of blood cockles by leveraging their morphometric and morphological characteristics. Sexual dimorphism in bivalves is often subtle and challenging to establish mascropically \cite{karapunar2021}. However, by integrating machine learning and deep learning, the study seeks to identify distinct features that may indicate sexual dimorphism between male and female blood cockles.
+
+\section{Problem Statement}
+
+Identifying the sex of \textit{T. granosa} is important for promoting sustainable aquaculture and biodiversity by maintaining a balanced male-to-female ratio. A balanced ratio helps prevent overharvesting. Although sex identification is crucial for blood cockle population management and sustainable aquaculture, there is a notable lack of research on creating non-invasive methods for determining the sex of \textit{T. granosa}. Many recent studies and approaches rely on invasive methods like dissection or histological analysis, which are impractical for large-scale aquaculture operations focused on conservation.
+
+Current methods for determining the sex of \textit{T. granosa} are invasive and  involve dissection, which requires cutting open the shell to visually inspect the gonads \cite{erica2018}. This procedure can cause harm to the specimens and frequently leads to their death. Another method is histological examination, where tissue samples are analyzed under a microscope \cite{may2021}. Both approaches are labor-intensive and time-consuming, and can pose risks to population management, particularly when maintaining a balanced sex ratio for breeding programs is essential. Moreover, these invasive methods require specialized technical skills for accurate execution. Resource-limited aquaculture operations face significant challenges in accessing the necessary laboratory equipment, such as microscopes and staining tools, complicating the process.
+
+A less invasive approach employed by aquaculturists involves monitor spawning behavior, where individuals are separated and stimulated to reproduce in order to determine their sex through the release of gametes \cite{miranda2023}. Although this method is indeed less invasive than dissection, it still induces stress in blood cockles and may not be completely effective for fast identification in large populations.
+
+Given the limitations of both invasive and less invasive methods, there is a clear need for a more advanced approach. An alternative, non-invasive method involving machine and deep learning technologies could address these issues by providing a fast, accurate, and effective solution without harming or stressing the blood cockles.
+
+\section{Research Objectives}
+\label{sec:researchobjectives}
+
+\subsection{General Objective}
+\label{sec:generalobjective}
+
+The general objective of this study is to develop a non-invasive method for identifying the sex of \textit{Tegillarca granosa} using machine and deep learning integrated with computer vision technologies. This method aims to provide accurate and streamlined sex identification without causing harm to the specimens, thus supporting sustainable aquaculture practices.
+
+\subsection{Specific Objectives}
+\label{sec:specificobjectives}
+
+To achieve the overall general objective of developing a non-invasive sex identification of \textit{T. granosa} using machine learning, deep learning, and computer vision technologies, the following specific objectives have been established:  
+
+\begin{enumerate}
+	\item to collect and organize a comprehensive dataset of \textit{T. granosa}, which will include linear measurements and images captured from different camera angles that will serve as the basis for training and evaluating the machine learning and deep learning models,
+	
+	\item to develop and implement machine learning and deep learning models that can classify the sex of \textit{T. granosa} based on the collected linear measurements and images of different camera angles of the sample, and determine the best performing models, and
+	
+	
+	\item to evaluate the model performance using performance metrics such as accuracy, precision, recall, and F1-score, AUC-ROC score for deep learning, and optimize the performance by performing hyperparameter optimization.
+	
+	
+\end{enumerate}
+
+\section{Scope and Limitations of the Research}
+\label{sec:scopelimitations}
+
+This study is conducted alongside the ongoing research by the UPV DOST-PCAARRD, titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture."The ongoing research primarily involves the rearing of \textit{T. granosa} from spat to larvae, feeding experiments, stocking density evaluations, substrate selection, and settlement rate assessments.
+
+In contrast, this study mainly focused on developing a non-invasive method for identifying the sex of \textit{Tegillarca granosa} using machine learning, computer vision, and deep learning technologies. The goal is to provide an accurate and efficient means of sex identification without causing harm to the samples, contributing to sustainable aquaculture practices.
+
+The researchers worked with 271  blood cockles that had been sex-identified and taken from Panay Island, specifically sourced from Zarraga Iloilo and Ivisan Capiz. These samples, divided between 144 males and 127 females, were obtained through induced spawning via temperature shock and dissection. Data collection was limited to the spawned stage among the five gonadal stages  - immature, developing, mature, spawning, and spent stages. The other stages were not preferable due to indistinguishable gonads and their inability to undergo induced spawning \cite{may2021}.  Thus, the researchers only focused on the samples undergoing the spawned stage. 
+
+During the data collection,  the researchers personally gathered linear measurements, including length, width, height, rib count, length of the hinge line, and distance between the umbos through the vernier caliper. The data-gathering process was supervised by the University Research Associates from the Institute of Aquaculture, College of Fisheries and Ocean Sciences. Aside from linear measurements, images were taken from six different angles. The process of linear measurements and image collection were non-invasive, considering the blood cockle-built ability to survive in low oxygen environments and naturally inhabit intertidal mudflats \cite{zhan2022}.
+
+The method developed in this study is specific to \textit{Tegillarca granosa} and may not apply to other bivalve species. The model was trained exclusively for \textit{Tegillarca granosa} and morphometric and morphological features, which may not be consistent and applicable across other shellfish species. 
+
+\section{Significance of the Research}
+\label{sec:significance}
+
+This study will give us a significant advancement in non-invasive sex identification methods in \textit{T. granosa} providing innovative solutions that could solve the challenges in identifying sex and reshape sustainable approaches to aquaculture. The significance of this study extends to the following:
+
+\textit{Research Institution.} The result of this study focusing on the sex-identification mechanism of bivalves, specifically \textit{Tegillarca granosa}, will provide valuable insights into universities and research centers that focus on fisheries and coastal management, such as the UPV Institute of Aquaculture, that aim to develop sustainable development and suitable culture techniques.
+
+\textit{Fishermen.} By developing a non-invasive method in sex identification, this study can help long-term harvest efficiency and maintain the ratio of the harvest which can help prevent exploitation of the \textit{T. granosa.}
+
+\textit{Coastal Communities.} The result of this study would be beneficial for the coastal communities that are reliant on their source of income with aquaculture commodities like blood cockles. Maintaining the diversity and aspect ratio of male and female may increase the market value of blood cockle production since cockle aquaculture faces significant obstacles worldwide due to the fluctuating seed supplies and scarcity of broodstock from the wild. 
+
+\textit{Future Researchers.} The result of this study would serve as the basis for studies that involve sex identification in bivalves such as \textit{T. granosa}. Some technologies are yet to be explored in machine learning, deep learning, and computer vision technologies that can lead to higher accuracy and distinguish the presence of sexual dimorphism in the \textit{T. granosa}.
+
+

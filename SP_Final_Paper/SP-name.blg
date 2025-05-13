@@ -1,0 +1,186 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: SP-name.aux
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apacite.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: title_page.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: approval.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: declaration.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: dedication.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: acknowledgment.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_1.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_2.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_3.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_4.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_5.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+A level-1 auxiliary file: chapter_6.aux
+Illegal, another \bibstyle command---line 2 of file chapter_6.aux
+ : \bibstyle
+ :          {apacite}
+I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_A.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_B.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_C.aux
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: myreferences.bib
+I was expecting a `,' or a `}'---line 47 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.13057/biodiv/d231015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 58 of file myreferences.bib
+ :  
+ :  url       = {https://doi.org/10.1007/978-3-031-34222-6_9}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 78 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.1016/j.fuel.2011.03.002}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 97 of file myreferences.bib
+ :  
+ :  url       = {https://doi.org/10.20944/preprints201706.0127.v1}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 109 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.1093/molbev/msq345}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 118 of file myreferences.bib
+ :  
+ :  url       = {https://www.proquest.com/dissertations-theses/ecology-two-species-blood-clams-em-anadara/docview/1797897997/se-2?accountid=207156}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 130 of file myreferences.bib
+ :  
+ :  url     = {https://doi.org/10.3390/jmse3020329}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 344 of file myreferences.bib
+ : @article{quenu2020
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 666 of file myreferences.bib
+ : @article{may2021
+ :                 ,
+I'm skipping whatever remains of this entry
+Warning--entry type for "jaiswal2024" isn't style-file defined
+--line 698 of file myreferences.bib
+Warning--entry type for "geeksforgeeks2024" isn't style-file defined
+--line 709 of file myreferences.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5062 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5062 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5066 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5068 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5068 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5068 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5072 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5072 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5075 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5075 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5076 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5076 of file apacite.bst
+Warning--No journal in afiati2007
+Warning--No journal in narasimham1988
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Name 1 in "Zhan, Zha, Peng, Lin, and Bao, Y." has a comma at the end for entry zhan2022
+while executing---line 5079 of file apacite.bst
+Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2022
+while executing---line 5079 of file apacite.bst
+You've used 57 entries,
+            6951 wiz_defined-function locations,
+            1664 strings with 22735 characters,
+and the built_in function-call counts, 126511 in all, are:
+= -- 15397
+> -- 1010
+< -- 6811
++ -- 7163
+- -- 120
+* -- 8615
+:= -- 24381
+add.period$ -- 238
+call.type$ -- 57
+change.case$ -- 983
+chr.to.int$ -- 0
+cite$ -- 116
+duplicate$ -- 3324
+empty$ -- 4476
+format.name$ -- 1745
+if$ -- 23006
+int.to.chr$ -- 0
+int.to.str$ -- 171
+missing$ -- 0
+newline$ -- 1539
+num.names$ -- 452
+pop$ -- 1969
+preamble$ -- 1
+purify$ -- 250
+quote$ -- 0
+skip$ -- 7419
+stack$ -- 0
+substring$ -- 7701
+swap$ -- 1847
+text.length$ -- 168
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 4984
+warning$ -- 2
+while$ -- 623
+width$ -- 0
+write$ -- 1942
+(There were 32 error messages)
