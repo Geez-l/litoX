@@ -7,18 +7,18 @@
 \contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{5}{}%
 \contentsline {section}{\numberline {1.5}Significance of the Research}{6}{}%
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{9}{}%
-\contentsline {section}{\numberline {2.1}Background on \textit {\textit {Tegillarca granosa }} and Their Importance}{10}{}%
-\contentsline {section}{\numberline {2.2}Current Methods of Sex Identification in \textit {Tegillarca granosa }}{14}{}%
-\contentsline {section}{\numberline {2.3}Machine Learning and Deep Learning in Biological Studies}{17}{}%
+\contentsline {section}{\numberline {2.1}Background on \textit {T. granosa }and Their Importance}{10}{}%
+\contentsline {section}{\numberline {2.2}Sex Identification Methods in \textit {T. granosa }}{14}{}%
+\contentsline {section}{\numberline {2.3}Machine Learning and Deep Learning in Biology}{16}{}%
 \contentsline {subsection}{\numberline {2.3.1}Deep Learning for Phenotype Classification in Ark Shells}{17}{}%
 \contentsline {subsection}{\numberline {2.3.2}Geometric Morphometrics and Machine Learning for Species Delimitation}{18}{}%
-\contentsline {subsection}{\numberline {2.3.3}Contour Analysis in Mollusc Shells Using Machine Learning}{19}{}%
+\contentsline {subsection}{\numberline {2.3.3}Contour Analysis in Mollusc Shells Using Machine Learning}{18}{}%
 \contentsline {subsection}{\numberline {2.3.4}Machine Learning for Shape Analysis of Marine Organisms}{19}{}%
 \contentsline {subsection}{\numberline {2.3.5}Deep Learning for Landmark-Free Morphological Feature Extraction}{21}{}%
 \contentsline {subsection}{\numberline {2.3.6}Machine Learning for Sex Differentiation in Abalone}{22}{}%
 \contentsline {subsection}{\numberline {2.3.7}Machine Learning for Geographical Traceability in Bivalves}{23}{}%
-\contentsline {section}{\numberline {2.4}Limitations on Sex Identification in \textit {Tegillarca granosa }}{25}{}%
-\contentsline {section}{\numberline {2.5}Chapter Summary}{27}{}%
+\contentsline {section}{\numberline {2.4}Limitations on Sex Identification in \textit {T. granosa }}{24}{}%
+\contentsline {section}{\numberline {2.5}Chapter Summary}{26}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{31}{}%
 \contentsline {section}{\numberline {3.1}Sample Collection}{32}{}%
 \contentsline {section}{\numberline {3.2}Ethical Considerations}{33}{}%
