@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  15 MAY 2025 10:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  16 MAY 2025 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1031,29 +1031,26 @@ File: figures/roc.png Graphic file (type png)
 Package pdftex.def Info: figures/roc.png  used on input line 327.
 (pdftex.def)             Requested size: 332.44325pt x 259.04605pt.
  [69 <./figures/roc.png>]
-Overfull \hbox (0.12791pt too wide) in paragraph at lines 344--345
-[]\OT1/cmr/m/n/12 When com-pared to sim-i-lar ex-ist-ing stud-ies such as the g
-en-der clas-si-fi-ca-tion method
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [70])
-[71]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [71]
+[72]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex [72
+ (chapter_5.tex
+Chapter 5.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73
 
 
 
 
 ]
-Chapter 5.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
@@ -1212,7 +1209,7 @@ rs/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
 y10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmti12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (105 pages, 25251156 bytes).
+Output written on SP-name.pdf (105 pages, 25252393 bytes).
 PDF statistics:
  457 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
