@@ -177,7 +177,8 @@ To minimize noise caused by shadows around the shell, HSV thresholding, contours
 
 \subsection{Convolutional Neural Network}
 
-Convolutional Neural Networks are the main deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 12 layers designed to extract features from the input image with dimensions. The layers consist of four convolution layers, a flatten layer, dropout and two dense layers. The CNN framework used in this study is shown in Figure~\ref{fig:cnn_architecture}.
+Convolutional Neural Networks are the deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 12 layers, designed to extract features from the input image with dimensions. The layers consist of four convolution layers, a pooling layer, a flatten layer, dropout, and two dense layers. The CNN framework used in this study was updated from an open source GitHub implementation by Christian Versloot, which focused on K-fold Cross Validation using TensorFlow and Keras, which was customized to align with the objectives of this study. The framework of this study is shown in Figure~\ref{fig:cnn_architecture}.
+
 
 \begin{figure}[h]
 	\centering
@@ -200,6 +201,33 @@ Fully connected layers follow after the convolution and pooling layers. Each neu
 
 A large number of parameters in the training process can lead to overfitting. It occurs when the model learns the training data too well, including its noise and irrelevant details. This results in poor performance on unseen data. To mitigate the overfitting, the dropout layer was employed. Dropout works by temporarily discarding a portion of the neurons in the network with probability \( p \) (\( 0 < p < 1 \)). During this process, these neurons do not participate in the forward propagation process of CNN and the backward propagation process \cite{cui2020}.
 
+\section{Architecture of Proposed CNN Network}
+\label{tab:cnn architecture}
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{lcccccc}
+			\hline
+			\textbf{Layer} & \textbf{Number of Neurons} & \textbf{Stride} & \textbf{Kernel Size} & \textbf{Activation} & \textbf{Parameters} \\ \hline
+			Rescaling & & & & & \\ 
+			Convolution & 16 & 1x1 & 3x3 & ReLU & 448 \\ 
+			Max Pooling & & 1x1 & 3x3 & & \\
+			Convolution & 32 & 1x1 & 3x3 & ReLU & 4,640 \\
+			Max Pooling & & 1x1 & 3x3 & & \\ 
+			Convolution & 64 & 1x1 & 3x3 & ReLU & 18,496 \\
+			Max Pooling & & 1x1 & 3x3 & & \\
+			Flatten & & & & & \\
+			Dense & 128 & & & ReLU & 7,372,928 \\
+			Dropout & & & & & \\
+			Dense & 1 & & & Sigmoid & 129 \\ \hline
+		\end{tabular}
+		
+	}
+	\caption{Architecture of Proposed CNN Network}
+	\label{tab:cnn architecture-table}
+\end{table}
+
 \subsection{CNN Training}
 The dataset consists of 1626 samples, with 127 samples from females and 144 samples from males, individually for each angle. Given the minimal class imbalance, random undersampling was carried out to create a balanced dataset. All images were resized to 256x256 pixels and normalized using a Rescaling layer, ensuring pixel values were within the range [0, 1].
 
@@ -220,6 +248,7 @@ Before model training, online data augmentation was applied exclusively to the t
 
 On-the-fly data augmentation (OnDAT) generates augmented data during each iteration, exposing the model to constantly changing data variations. Augmenting the original data allows better exploration of the underlying data generation process and has the potential to prevent the model from overfitting spurious patterns, thereby improving performance \cite{cerqueira2024}.
 
+
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{figures/data_augmentation.png}
@@ -232,6 +261,7 @@ On-the-fly data augmentation (OnDAT) generates augmented data during each iterat
 During the training process, model performance per fold was carefully monitored. One important thing to observe is the consistency in the performance, whether the model is still learning or is at high risk of overfitting. Early stopping was applied to ensure the stable performance of the model across folds. This technique allows for monitoring the training of the neural network, stopping when the performance metrics, in this case, validation loss, cease to improve. Furthermore, to enhance the learning process, \texttt{ReduceLROnPlateau} was applied, which decreased the learning rate if there was no improvement in the model for a specified number of epochs \cite{kerasTeam}.
 
 The model was trained using the Adam optimization algorithm, with an initial learning rate of 0.001. Binary cross-entropy, commonly known as the log loss, was employed as the loss function due to its effectiveness in binary classification tasks. To reduce the risk of overfitting, a dropout rate of 0.5 was applied, randomly deactivating half of the neurons during the training process to improve generalization.
+
 
 \section{Evaluation Metrics}
 Evaluating the performance of a binary classification model is essential, and selecting appropriate metrics depends on the specific requirements of the user. The performance of both supervised machine learning and deep learning models will be measured using several key metrics, including accuracy, precision, recall, F1 score, and the AUC-ROC score.

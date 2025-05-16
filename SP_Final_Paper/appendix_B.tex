@@ -24,8 +24,18 @@
 %  the following shows 3 examples, replace entries with your own
 %
 
-\newcommand{\resperson}[4]{\textbf{#1} \\ #2 \\ #3 \\ \url{#4}\vspace{0.5em}\\}
+\newcommand{\resperson}[4]{%
+	\textbf{#1} \\
+	#2 \\
+	#3 \\
+	\ifthenelse{\equal{#4}{}}{}{%
+		\texttt{#4} \\
+	}%
+}
 
-\resperson{Dr. Firstname1 Lastname1}{Role1}{Affiliation1}{emailaddr@domain.com}
-\resperson{Mr. Firstname2 Lastname2}{Role2}{Affiliation2}{emailaddr2@domain.com}
-\resperson{Ms. Firstname3 Lastname3}{Role3}{Affiliation3}{emailaddr3@domain.net}
+\resperson{Dr. Victor Marco Emmanuel N. Ferriols}{Provided blood cockles samples used in this study}{Director, University of the Philippines Institute of Aquaculture}{vnferriols@up.edu.ph}
+\resperson{Ms. Allena Esther D. Arteta}{Performed spawning of blood cockles samples, assisted the researchers with dissection and sex identification.}{Research Associate, Institute of Aquaculture}{adarteta@up.edu.ph}
+\resperson{Ms. LC May C. Gasit }{Performed spawning of blood cockles samples, assisted the researchers with the dissection and sex identification}{Research Associate, Institute of Aquaculture}{lcgasit@up.edu.ph}
+\resperson{Sheila G. Untalan}{Performed spawning of blood cockles samples, assisted the researchers with the dissection and sex identification}{Research Associate, Institute of Aquaculture}{}
+\resperson{Joel M. Fabrigas}{Assisted the researchers with the dissection and sex identification}{Hatchery Staff, Institute of Aquaculture}{}
+\resperson{Paul Andre M. Lopez}{Assisted the researchers with the dissection and sex identification}{Hatchery Staff, Institute of Aquaculture}{}
