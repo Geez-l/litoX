@@ -15,43 +15,43 @@
 \contentsline {subsection}{\numberline {2.3.3}Contour Analysis in Mollusc Shells Using Machine Learning}{18}{}%
 \contentsline {subsection}{\numberline {2.3.4}Machine Learning for Shape Analysis of Marine Organisms}{19}{}%
 \contentsline {subsection}{\numberline {2.3.5}Deep Learning for Landmark-Free Morphological Feature Extraction}{21}{}%
-\contentsline {subsection}{\numberline {2.3.6}Machine Learning for Sex Differentiation in Abalone}{22}{}%
+\contentsline {subsection}{\numberline {2.3.6}Machine Learning for Sex Differentiation in Abalone}{21}{}%
 \contentsline {subsection}{\numberline {2.3.7}Machine Learning for Geographical Traceability in Bivalves}{23}{}%
 \contentsline {section}{\numberline {2.4}Limitations on Sex Identification in \textit {T. granosa }}{24}{}%
 \contentsline {section}{\numberline {2.5}Chapter Summary}{26}{}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{31}{}%
-\contentsline {section}{\numberline {3.1}Sample Collection}{32}{}%
-\contentsline {section}{\numberline {3.2}Ethical Considerations}{33}{}%
-\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{34}{}%
-\contentsline {section}{\numberline {3.4}Morphometric and Morphological Characteristics Collection}{35}{}%
-\contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{36}{}%
-\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{38}{}%
-\contentsline {section}{\numberline {3.7}Morphometric Characteristics Evaluation Using Machine Learning }{38}{}%
-\contentsline {subsection}{\numberline {3.7.1}Data Preprocessing}{39}{}%
-\contentsline {subsection}{\numberline {3.7.2}Machine Learning Models Training}{42}{}%
-\contentsline {section}{\numberline {3.8}Morphological Characteristics Evaluation Using Deep Learning}{42}{}%
-\contentsline {subsection}{\numberline {3.8.1}Convolutional Neural Network}{45}{}%
-\contentsline {subsection}{\numberline {3.8.2}CNN Training}{46}{}%
-\contentsline {section}{\numberline {3.9}Evaluation Metrics}{49}{}%
-\contentsline {chapter}{\numberline {4}Results and Discussions}{53}{}%
-\contentsline {section}{\numberline {4.1}Machine Learning Analysis}{53}{}%
-\contentsline {subsection}{\numberline {4.1.1}Data Exploration}{54}{}%
-\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis}{55}{}%
-\contentsline {subsection}{\numberline {4.1.3}Feature Importance Analysis}{56}{}%
-\contentsline {subsection}{\numberline {4.1.4}Performance Evaluation}{56}{}%
-\contentsline {subsection}{\numberline {4.1.5}Confusion Matrix Analysis}{58}{}%
-\contentsline {section}{\numberline {4.2}Deep Learning Analysis}{59}{}%
-\contentsline {subsection}{\numberline {4.2.1}Baseline Model}{60}{}%
-\contentsline {subsection}{\numberline {4.2.2}Comparison of Individual and Combined Angles}{61}{}%
-\contentsline {subsection}{\numberline {4.2.3}Training Result and Hyperparameter Tuning}{62}{}%
-\contentsline {subsection}{\numberline {4.2.4}Proposed Model}{63}{}%
-\contentsline {subsection}{\numberline {4.2.5}Learning Rates and Training Behavior per Fold}{64}{}%
-\contentsline {subsection}{\numberline {4.2.6}Visualizations}{65}{}%
-\contentsline {section}{\numberline {4.3}Discussions}{69}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{73}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{73}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{75}{}%
-\contentsline {chapter}{\numberline {6}References}{77}{}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{85}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{87}{}%
-\contentsline {chapter}{\numberline {C}Data Gathering Documentation}{89}{}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{29}{}%
+\contentsline {section}{\numberline {3.1}Sample Collection}{30}{}%
+\contentsline {section}{\numberline {3.2}Ethical Considerations}{31}{}%
+\contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{32}{}%
+\contentsline {section}{\numberline {3.4}Morphometric Data Collection}{33}{}%
+\contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{34}{}%
+\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{35}{}%
+\contentsline {section}{\numberline {3.7}Machine Learning on Morphometric Data}{36}{}%
+\contentsline {subsection}{\numberline {3.7.1}Data Preprocessing}{37}{}%
+\contentsline {subsection}{\numberline {3.7.2}Machine Learning Models Training}{39}{}%
+\contentsline {section}{\numberline {3.8}Deep Learning for Morphological Analysis}{40}{}%
+\contentsline {subsection}{\numberline {3.8.1}Convolutional Neural Network}{42}{}%
+\contentsline {subsection}{\numberline {3.8.2}CNN Training}{44}{}%
+\contentsline {section}{\numberline {3.9}Evaluation Metrics}{47}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussions}{49}{}%
+\contentsline {section}{\numberline {4.1}Machine Learning Analysis}{49}{}%
+\contentsline {subsection}{\numberline {4.1.1}Data Exploration}{50}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis}{51}{}%
+\contentsline {subsection}{\numberline {4.1.3}Feature Importance Analysis}{52}{}%
+\contentsline {subsection}{\numberline {4.1.4}Performance Evaluation}{53}{}%
+\contentsline {subsection}{\numberline {4.1.5}Confusion Matrix Analysis}{54}{}%
+\contentsline {section}{\numberline {4.2}Deep Learning Analysis}{55}{}%
+\contentsline {subsection}{\numberline {4.2.1}Baseline Model}{56}{}%
+\contentsline {subsection}{\numberline {4.2.2}Comparison of Individual and Combined Angles}{56}{}%
+\contentsline {subsection}{\numberline {4.2.3}Training Result and Hyperparameter Tuning}{57}{}%
+\contentsline {subsection}{\numberline {4.2.4}Proposed Model}{59}{}%
+\contentsline {subsection}{\numberline {4.2.5}Learning Rates and Training Behavior per Fold}{60}{}%
+\contentsline {subsection}{\numberline {4.2.6}Visualizations}{61}{}%
+\contentsline {section}{\numberline {4.3}Discussions}{65}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{69}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{69}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{71}{}%
+\contentsline {chapter}{\numberline {6}References}{73}{}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{81}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{83}{}%
+\contentsline {chapter}{\numberline {C}Data Gathering Documentation}{85}{}%
