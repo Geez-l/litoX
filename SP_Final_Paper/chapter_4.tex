@@ -304,7 +304,7 @@ Figure~\ref{fig:tvapf} shows the performance of the model in the training and va
 	\label{fig:atvaaf}
 \end{figure}
 
-Figure~\ref{fig:atvaaf} shows the average performance of the model in both training and accuracy in terms of accuracy across five folds. Similar to the individual performances, there is an observable upward trend, which shows that the accuracy score improves with the number of folds. The validation accuracy shows a downward and upward trend that shows that it gradually improves on later epochs. The accuracy in the training is slightly higher than the accuracy when validating the model, it indicates that the model learns during training.
+Figure~\ref{fig:atvaaf} shows the average performance of the model in terms of training and validation accuracy across five folds. An upward trend is observable in the training and validation accuracy, indicating that the model gradually improves over the epochs. While fluctuations or dips can be seen in the validation accuracy, the model recovers in later epochs. The training accuracy remains consistently higher than the validation accuracy, which is expected behavior, as it learns from the training data. Generally, the model demonstrates a gradual improvement in learning, as reflected in the average upward trend aggregated across five folds.
 
 \begin{figure}[!htbp]
 	\centering
@@ -322,7 +322,7 @@ Figure~\ref{fig:tvlpf} shows the performance of the model in the training and va
 	\label{fig:atvlaf}
 \end{figure}
 
-Figure~\ref{fig:atvlaf} shows the average performance of the model in both the training and validation in terms of loss across five folds. There is an observable downward trend in both the average loss for training and validation. Additionally, the average training loss is slightly lower than the average validation loss.
+Figure~\ref{fig:atvlaf} shows the average performance of the model regarding training and validation loss across five folds. A continuous downward trend is observed in training and validation accuracy, indicating that the model's loss gradually decreases across epochs. This suggests that the model generalizes better following the initial instability in the earlier epoch in the folds. Additionally, the training loss consistently remains lower than the validation loss, since the model was directly optimized on the training set. Overall, the downward trend in training and validation loss signifies that the model is learning and improving across the five folds.
 
 \newpage
 \begin{figure}[!htbp]
@@ -332,7 +332,7 @@ Figure~\ref{fig:atvlaf} shows the average performance of the model in both the t
 	\label{fig:cm_dl}
 \end{figure}
 
-Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and predicted class label. The matrix shows the correctly predicted male and female samples along with their corresponding percentages. There is an observable trend where females have slightly higher true positives compared to males in the number and percentages for the correctly classified male and female samples, which are 94 and 88, corresponding to 74\% and 69\%, respectively. Additionally, the false classified samples were 33 for females and 39 for males, respectively accounting for 26\% and 31\%.
+Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and predicted class label after the training and validation. The matrix shows the correctly predicted male and female samples and their corresponding percentages. Females have slightly higher true positives compared to males in the number and percentages, which are 94 and 88, corresponding to 74\% and 69\%, respectively. Additionally, the falsely classified samples were 33 for females and 39 for males, respectively, accounting for 26\% and 31\%.
 
 \begin{figure}[!htbp]
 	\centering
@@ -341,7 +341,7 @@ Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and p
 	\label{fig:roc_auc}
 \end{figure}
 
-Figure~\ref{fig:roc_auc} shows the ROC Curve shows the ability of the proposed model to correctly identify the true positives, which can help determine the tradeoff between specificity and sensitivity. It will also determine the validity of the model, that it is not predicting based only on random chances. The range of AUC ROC is between 0.5 and 1. The model was able to achieve a score of 0.7734, which is better than random chances and an indication that the model is performing reasonably. 
+Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model’s ability to correctly identify the true positives, which can help determine the trade-off between specificity and sensitivity. It will also determine the model's validity, supporting that it is not being predicted based only on random chance. The range of AUC ROC is between 0.5 and 1. The model achieved an average score of 0.7734, which is better than random chance and a positive indication that the model is performing reasonably.
 
 \section{Discussions}
 
