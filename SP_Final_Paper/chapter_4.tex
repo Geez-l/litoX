@@ -77,7 +77,7 @@ The analysis showed that the width-to-height ratio (WH ratio) had the highest im
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccccc}
 			\hline
-			\textbf{Model} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)} \\ \hline
+			\textbf{Model} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)} \\ \hline
 			Support Vector Machine   & 58.62 & 58.62 & 58.62 & 58.44 \\
 			Logistic Regression      & 57.83 & 57.83 & 57.83 & 57.61 \\
 			K-Nearest Neighbors      & 51.18 & 51.31 & 51.18 & 50.77 \\
@@ -92,14 +92,14 @@ The analysis showed that the width-to-height ratio (WH ratio) had the highest im
 	\label{tab:performance-13-features}
 \end{table}
 
-Table~\ref{tab:performance-13-features} shows the performance metrics of different machine learning models trained using all 13 features from the dataset. Among the models, Gradient Boosting achieved the highest accuracy of 61.03\%, along with strong precision, recall, and F1-score values. AdaBoost also performed competitively, with an accuracy of 60.63\%. These results highlight the effectiveness of ensemble methods such as Gradient Boosting and AdaBoost when utilizing the full feature set, likely because of their capability to combine multiple weak learners into a more robust predictive model \cite{hussain2024}.  
+Table~\ref{tab:performance-13-features} shows the performance metrics of different machine learning models trained using all 13 features from the dataset. Among the models, Gradient Boosting achieved the highest accuracy of 61.03\%, along with strong precision, recall, and F1 Score values. AdaBoost also performed competitively, with an accuracy of 60.63\%. These results highlight the effectiveness of ensemble methods such as Gradient Boosting and AdaBoost when utilizing the full feature set, likely because of their capability to combine multiple weak learners into a more robust predictive model \cite{hussain2024}.  
 
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccccc}
 			\hline
-			\textbf{Model} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)} \\ \hline
+			\textbf{Model} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)} \\ \hline
 			Support Vector Machine   & 63.77 & 64.47 & 63.77 & 63.42 \\
 			Logistic Regression      & 63.75 & 63.87 & 63.75 & 63.70 \\
 			\cellcolor{celadon}K-Nearest Neighbors      & \cellcolor{celadon}64.16 & \cellcolor{celadon}64.97 & \cellcolor{celadon}64.16 & \cellcolor{celadon}63.75 \\
@@ -116,7 +116,7 @@ Table~\ref{tab:performance-13-features} shows the performance metrics of differe
 
 Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top five features identified through Kruskal-Wallis feature importance analysis. The selected features are the distance between the umbos, length-to-width ratio, width-to-height ratio, umbo distance-to-height ratio, and umbo distance-to-length ratio.
 
-Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1-score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
+Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
 
 \subsection{Confusion Matrix Analysis}
 
@@ -132,7 +132,7 @@ Figure~\ref{fig:cm_ml} summarizes the performance of the K-Nearest Neighbors mod
 \section{Deep Learning Analysis}
 This section presents the performance of the Convolutional Neural Network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations.
 
-The machine learning analysis (see Figure~\ref{tab:performance-5-features}) revealed that five of the original features produced significant results. The K-Nearest Neighbor (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
+The machine learning analysis (see Figure~\ref{tab:performance-5-features}) revealed that five of the original features produced significant results. The K-Nearest Neighbor (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
 
 \subsection{Baseline Model}
 This section presents the baseline model with a batch size of 16 and 20 epochs, which will serve as the starting point for comparison and provide a guideline for hyperparameter tuning. The focus will be on one of the angles, specifically the Left Lateral view, since the feature importance analysis using the Kruskal-Wallis Test indicated that the width-to-height ratio had the highest importance score, which is most visible from the Left Lateral view.
@@ -143,7 +143,7 @@ This section presents the baseline model with a batch size of 16 and 20 epochs, 
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccccc}
 			\hline
-			\textbf{Dataset} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
+			\textbf{Dataset} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
 			Unbalanced   & 65.27 & 71.82 & 58.99 & 63.99 & 73.08 & 0.6122 \\
 			\rowcolor{celadon}Balanced     & 67.34 & 69.43 & 64.06 & 65.60 & 74.31 & 0.5981 \\
 			\hline
@@ -153,7 +153,7 @@ This section presents the baseline model with a batch size of 16 and 20 epochs, 
 	\label{tab:unbalanced-balanced}
 \end{table}
 
-The unbalanced dataset, which consisted of 144 male samples and 127 female samples, achieved an accuracy of 65.27\%, precision of 71.82\%, recall of 58.99\%, an F1-score of 63.99\%, an AUC score of 73.08\%, and a loss of 0.6122. However, to address the class imbalance and enhance model performance, random undersampling was performed. This approach resulted in improved performance metrics for the balanced dataset, with an accuracy of 67.34\%, precision of 69.43\%, a recall of 64.06\%, an F1-score of 65.60\%, an AUC score of 74.31\%, and a lower loss of 0.5981.
+The unbalanced dataset, which consisted of 144 male samples and 127 female samples, achieved an accuracy of 65.27\%, precision of 71.82\%, recall of 58.99\%, an F1 Score of 63.99\%, an AUC score of 73.08\%, and a loss of 0.6122. However, to address the class imbalance and enhance model performance, random undersampling was performed. This approach resulted in improved performance metrics for the balanced dataset, with an accuracy of 67.34\%, precision of 69.43\%, a recall of 64.06\%, an F1 Score of 65.60\%, an AUC score of 74.31\%, and a lower loss of 0.5981.
 
 \subsection{Comparison of Individual and Combined Angles}
 Using the same batch size and number of epochs, performance was compared across all individual angles and the combination of the two highest-performing angles based on accuracy, using a balanced dataset. For the combined analysis, samples from the two selected angles were placed side by side, and a new dataset folder was created for male and female samples. 
@@ -164,7 +164,7 @@ Using the same batch size and number of epochs, performance was compared across 
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccccc}
 			\hline
-			\textbf{Angle} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)} & \textbf{AUC score (\%)} & \textbf{Loss (\%)} \\ \hline
+			\textbf{Angle} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)} & \textbf{AUC score (\%)} & \textbf{Loss (\%)} \\ \hline
 			Dorsal 	 				& 66.54 & 63.76 & \cellcolor{celadon}77.88 & \cellcolor{celadon}69.96 & 73.09 & 0.6152 \\
 			Ventral  				& 67.30 & 69.33 & 66.18 & 66.53 & \cellcolor{celadon}74.87 & 0.6159 \\
 			Anterior  				& 51.57 & 31.11 & 6.31  & 10.02 & 65.87 & 0.6825 \\
@@ -179,7 +179,7 @@ Using the same batch size and number of epochs, performance was compared across 
 	\label{tab:individual-combined}
 \end{table}
 
-Table~\ref{tab:individual-combined} presents the performance metrics for each individual angle and the combination of the two highest-performing angles in terms of accuracy. The Left Lateral view achieved the highest accuracy (67.34\%) and precision (69.43\%), while the Dorsal view obtained the highest recall (77.88\%) and F1-score (69.96\%). Meanwhile, the Ventral view recorded the highest AUC score (74.87\%), indicating its strong ability to distinguish between classes.
+Table~\ref{tab:individual-combined} presents the performance metrics for each individual angle and the combination of the two highest-performing angles in terms of accuracy. The Left Lateral view achieved the highest accuracy (67.34\%) and precision (69.43\%), while the Dorsal view obtained the highest recall (77.88\%) and F1 Score (69.96\%). Meanwhile, the Ventral view recorded the highest AUC score (74.87\%), indicating its strong ability to distinguish between classes.
 Combining the Ventral and Left Lateral views resulted in an overall accuracy of 62.60\%, suggesting that while combined images may provide complementary information, individual angle views still outperformed the combined views under the current experimental setup.
 
 \subsection{Training Result and Hyperparameter Tuning}
@@ -194,7 +194,7 @@ The Left Lateral angle was chosen because it achieved the highest accuracy and p
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lccccccc}
 			\hline
-			\textbf{Batch Size} & \textbf{No. of Epoch} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)} & \textbf{AUC score (\%)} & \textbf{Loss (\%)} \\ \hline
+			\textbf{Batch Size} & \textbf{No. of Epoch} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)} & \textbf{AUC score (\%)} & \textbf{Loss (\%)} \\ \hline
 			16 & 20 & 67.34 & 69.43 & 64.06 & 65.60 & 74.31 & 0.5981 \\
 			16 & 30 & 67.73 & 70.17 & 64.06 & 65.72 & 75.76 & 0.5900 \\
 			16 & 50 & 67.73 & 70.17 & 64.06 & 65.72 & 75.76 & 0.5900  \\
@@ -211,9 +211,9 @@ The Left Lateral angle was chosen because it achieved the highest accuracy and p
 	\label{tab:batchsize-epoch}
 \end{table}
 
-Table~\ref{tab:batchsize-epoch} shows the results indicating that a batch size of 32 with 50 epochs achieved the best overall performance, with an accuracy of 71.68\%, a precision of 72.52\%, a recall of 69.29\%, an F1-score of 69.12\%, and AUC score of 77.34\%.
+Table~\ref{tab:batchsize-epoch} shows the results indicating that a batch size of 32 with 50 epochs achieved the best overall performance, with an accuracy of 71.68\%, a precision of 72.52\%, a recall of 69.29\%, an F1 Score of 69.12\%, and AUC score of 77.34\%.
 
-In contrast, increasing the batch size to 64 resulted in lower recall and F1-scores, suggesting that smaller batch Sizes (16 or 32) are more effective for this dataset. A moderate batch size of 32 allowed the model to generalize better and maintain stable learning, while too large batch sizes may have led to underfitting.
+In contrast, increasing the batch size to 64 resulted in lower recall and F1 Scores, suggesting that smaller batch Sizes (16 or 32) are more effective for this dataset. A moderate batch size of 32 allowed the model to generalize better and maintain stable learning, while too large batch sizes may have led to underfitting.
 
 \newpage
 \noindent\textbf{B. Activation Functions}
@@ -223,7 +223,7 @@ In contrast, increasing the batch size to 64 resulted in lower recall and F1-sco
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccccc}
 			\hline
-			\textbf{Activation Functions} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
+			\textbf{Activation Functions} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
 			\rowcolor{celadon}ReLU  & 71.68 & 72.52 & 69.29 & 69.12  & 77.34 & 0.5824 \\
 			ELU   					& 53.14 & 32.91 & 53.08 & 39.95  & 58.23 & 0.6796 \\
 			PreLU   				& 62.64 & 66.59 & 50.43 & 56.96  & 72.33 & 0.6162 \\
@@ -234,7 +234,7 @@ In contrast, increasing the batch size to 64 resulted in lower recall and F1-sco
 	\label{tab:activation-function}
 \end{table}
 
-Table~\ref{tab:activation-function} the performance of different activation functions applied to the CNN model trained with a batch size of 32 and 50 epochs. Based on the results, the ReLU activation function achieved the best overall performance, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1-score of 69.12\%, and AUC score of 77.34\%, along with the lowest loss at 0.5824. This suggests that ReLU remains an effective activation function for the classification of \textit{T. granosa}, outperforming both ELU and PReLU in this setup.
+Table~\ref{tab:activation-function} the performance of different activation functions applied to the CNN model trained with a batch size of 32 and 50 epochs. Based on the results, the ReLU activation function achieved the best overall performance, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1 Score of 69.12\%, and AUC score of 77.34\%, along with the lowest loss at 0.5824. This suggests that ReLU remains an effective activation function for the classification of \textit{T. granosa}, outperforming both ELU and PReLU in this setup.
 
 \subsection{Proposed Model}
 This section presents the performance evaluation of the proposed Convolutional Neural Network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
@@ -244,7 +244,7 @@ This section presents the performance evaluation of the proposed Convolutional N
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccccc}
 			\hline
-			\textbf{Fold no.} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1-Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
+			\textbf{Fold no.} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
 			Fold 1  & 76.47 & 70.59 & 92.31 & 80.00  & 73.08 & 0.5975 \\
 			Fold 2  & 62.75 & 70.59 & 46.15 & 55.81  & 71.85 & 0.6202 \\
 			Fold 3  & 78.43 & 75.00 & 84.00 & 79.25  & 84.92 & 0.5392 \\
@@ -347,9 +347,9 @@ Figure~\ref{fig:roc_auc} shows the ROC Curve shows the ability of the proposed m
 
 This study aimed to develop a non-invasive method for identifying the sex of \textit{T. granosa} using machine learning and deep learning techniques. The dataset used in the study was manually curated by the researchers, consisting of linear measurements and the images captured from six different camera angles.
 
-Initial experiments conducted through machine learning focused on classification accuracy, feature selection, and feature importance analysis. The machine learning approach revealed that using five key features, selected through statistical tests (Mann-Whitney U-test and Kruskal-Wallis test), outperformed models trained on all 13 features. The K-nearest neighbors (KNN) classifier, utilizing five significant features, achieved an accuracy of 64.16\%, a precision of 64.97\%, a recall of 64.16\%, and an F1-score of 63.57\%. Feature importance analysis identified the width-height ratio as the most discriminative variable, observed in the left lateral view, as supported by the feature correlation score of p=0.18. These results indicated that a more focused set of features can enhance model performance, confirming the potential of non-invasive sex identification using linear measurements. 
+Initial experiments conducted through machine learning focused on classification accuracy, feature selection, and feature importance analysis. The machine learning approach revealed that using five key features, selected through statistical tests (Mann-Whitney U-test and Kruskal-Wallis test), outperformed models trained on all 13 features. The K-nearest neighbors (KNN) classifier, utilizing five significant features, achieved an accuracy of 64.16\%, a precision of 64.97\%, a recall of 64.16\%, and an F1 Score of 63.57\%. Feature importance analysis identified the width-height ratio as the most discriminative variable, observed in the left lateral view, as supported by the feature correlation score of p=0.18. These results indicated that a more focused set of features can enhance model performance, confirming the potential of non-invasive sex identification using linear measurements. 
 
-Subsequent deep learning experiments explored the impact of different image angles and model hyperparameters on classification accuracy. The baseline model with balanced data outperformed those trained on unbalanced data. Hyperparameter optimization,  involving sets of epochs and batch sizes, further improved the model performance. Additionally, the influence of different activation functions, such as ReLU, eLU, and pReLU, was evaluated. The study found that the camera angle from the left lateral view consistently produced the best results, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1-score of 69.12\%, and an AUC score of 77.34\%. The optimal model convergence was achieved with 50 epochs, a batch size of 32, and ReLU as the activation function. 
+Subsequent deep learning experiments explored the impact of different image angles and model hyperparameters on classification accuracy. The baseline model with balanced data outperformed those trained on unbalanced data. Hyperparameter optimization,  involving sets of epochs and batch sizes, further improved the model performance. Additionally, the influence of different activation functions, such as ReLU, eLU, and pReLU, was evaluated. The study found that the camera angle from the left lateral view consistently produced the best results, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1 Score of 69.12\%, and an AUC score of 77.34\%. The optimal model convergence was achieved with 50 epochs, a batch size of 32, and ReLU as the activation function. 
 
 Performance variations across experiments emphasize the role of fine-tuning parameters, including image angles, batch sizes, epochs, activation functions, and the learning rate in influencing model behavior and performance. The progression of validation loss was closely monitored, as it signifies overfitting or underfitting. To mitigate overfitting and enhance model generalization, data augmentation, stratified sampling, and regularization techniques such as early stopping were employed.
 
