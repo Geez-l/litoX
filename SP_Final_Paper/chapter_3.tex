@@ -197,7 +197,7 @@ The convolution layers of CNN extract the features from the input image through 
 
 \textbf{\textit{Pooling Layer}}
 
-A pooling layer was added after the convolution layer to enhance calculation speed and prevent overfitting \cite{cui2020}. In this study, max pooling was applied with a (3,3) kernel size.
+A pooling layer was added after the convolution layer to enhance calculation speed and prevent overfitting \cite{cui2020}. In this study, max pooling was applied with a (2,2) kernel size.
 
 \textbf{\textit{Fully Connected and Dropout}}
 
@@ -213,11 +213,11 @@ A large number of parameters in the training process can lead to overfitting. It
 			\textbf{Layer} & \textbf{Number of Neurons} & \textbf{Stride} & \textbf{Kernel Size} & \textbf{Activation} & \textbf{Parameters} \\ \hline
 			Rescaling & & & & & \\ 
 			Convolution & 16 & 1x1 & 3x3 & ReLU & 448 \\ 
-			Max Pooling & & 1x1 & 3x3 & & \\
+			Max Pooling & & 1x1 & 2x2 & & \\
 			Convolution & 32 & 1x1 & 3x3 & ReLU & 4,640 \\
-			Max Pooling & & 1x1 & 3x3 & & \\ 
+			Max Pooling & & 1x1 & 2x2 & & \\ 
 			Convolution & 64 & 1x1 & 3x3 & ReLU & 18,496 \\
-			Max Pooling & & 1x1 & 3x3 & & \\
+			Max Pooling & & 1x1 & 2x2 & & \\
 			Flatten & & & & & \\
 			Dense & 128 & & & ReLU & 7,372,928 \\
 			Dropout & & & & & \\
