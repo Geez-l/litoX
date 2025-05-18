@@ -181,7 +181,7 @@ To minimize noise caused by shadows around the shell, HSV thresholding, contours
 
 \subsection{Convolutional Neural Network}
 
-Convolutional Neural Networks are the deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 12 layers, designed to extract features from the input image with dimensions. The layers consist of four convolution layers, a pooling layer, a flatten layer, dropout, and two dense layers. The CNN framework used in this study was updated from an open source GitHub implementation by Christian Versloot, which focused on K-fold Cross Validation using TensorFlow and Keras, which was customized to align with the objectives of this study. The framework of this study is shown in Figure~\ref{fig:cnn_architecture}.
+Convolutional Neural Networks are the deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 5 layers, designed to extract features from the input image with dimensions. The layers consist of three convolution layers, a pooling layer, a flatten layer, dropout, and two dense layers. The CNN framework used in this study was updated from an open source GitHub implementation by Christian Versloot, which focused on K-fold Cross Validation using TensorFlow and Keras, which was customized to align with the objectives of this study. The framework of this study is shown in Figure~\ref{fig:cnn_architecture}.
 
 
 \begin{figure}[h]
@@ -230,7 +230,7 @@ A large number of parameters in the training process can lead to overfitting. It
 \end{table}
 
 \subsection{CNN Training}
-The dataset consists of 1626 samples, with 127 samples from females and 144 samples from males, individually for each angle. Given the minimal class imbalance, random undersampling was carried out to create a balanced dataset. All images were resized to 256x256 pixels and normalized using a Rescaling layer, ensuring pixel values were within the range [0, 1].
+The dataset consists of 1626 images, with 127 samples from females and 144 samples from males, individually for each angle. Given the minimal class imbalance, random undersampling was carried out to create a balanced dataset. All images were resized to 256x256 pixels and normalized using a Rescaling layer, ensuring pixel values were within the range [0, 1].
 
 \textbf{\textit{Data Splitting}}
 
