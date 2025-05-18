@@ -15,3 +15,76 @@
 % Uncomment the commant below specifying the correct appendix file. 
 %\includepdf[pages=-, scale = 0.9, pagecommand={}, offset = -30 0]{appendixA.pdf}
 
+\noindent\textbf{i. Machine Learning}
+\vspace{-0.5cm}
+
+This section of the paper displays the key steps in the machine learning analysis by performing feature engineering to create and transform a new dataset, identifying the most significant features through the Kruskal-Wallis Test, applying random undersampling to address the minimal imbalance in the dataset, and conducting five-fold cross-validation to evaluate the model's performance.
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/feature_engineering.png}
+	\caption{Feature engineering}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/feature_importance.png}
+	\caption{Feature importance}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/random_undersampling_ML.png}
+	\caption{Random Undersampling in Machine Learning}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/ml_five fold_cv.png}
+	\caption{Five fold cross-validation in Machine Learning}
+\end{figure}
+
+\newpage
+\noindent\textbf{ii. Image Processing}
+\vspace{-0.5cm}
+
+This section of the paper displays the key steps in the image processing by resizing the images to have similar dimensions of 256x256, and the shadows were removed to improve the image quality, and remove noise before proceeding to the deep learning operations.
+ 
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/same_dimensions.png}
+	\caption{Resizing images to 256x256 to have similar dimensions}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/shadow_remove.png}
+	\caption{Processing the images to remove the shadows}
+\end{figure}
+
+\newpage
+
+\noindent\textbf{iii. Deep Learning}
+\vspace{-0.5cm}
+
+This section of the paper displays the key steps in deep learning by implementing random undersampling in addressing class imbalance, data augmentation to create variability in the dataset, and the CNN layers comprised of three convolution layers, a flatten, and 2 dense layers. 
+
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/random_undersampling_DL.png}
+	\caption{Random Undersampling in Deep Learning}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/live_augmentation.png}
+	\caption{On-the-Fly Data Augmentation}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/CNN_layers.png}
+	\caption{CNN Layers}
+\end{figure}
