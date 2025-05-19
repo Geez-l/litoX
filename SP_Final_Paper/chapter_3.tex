@@ -36,6 +36,8 @@ The ongoing research project titled "Establishment of the Center for Mollusc Res
 
 The experiment began with the collection of preliminary observations from 100 \Tgranosa samples. For the actual experimentation, the researchers collected the full dataset in batches until a total sample size of 271 \Tgranosa was reached. Linear measurements—including width, height, length, rib count, hinge line length, and the distance between the umbos—were recorded and organized into a CSV file. This dataset served as the foundation for training and testing machine learning models, as well as for establishing a baseline for the Convolutional Neural Networks.
 
+Images of each sample were captured and saved in JPG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (\textit{refer to Figure~\ref{fig:granosa_views}}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
+
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{figures/view.png}
@@ -43,12 +45,15 @@ The experiment began with the collection of preliminary observations from 100 \T
 	\label{fig:granosa_views}
 \end{figure}
 
-Images of each sample were captured and saved in JPG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (\textit{refer to Figure~\ref{fig:granosa_views}}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
 
 \section{Morphometric Data Collection}
 \label{sec:morphochar}
 
 Morphology refers to biological form and is one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe the structural features of \textit{T. granosa}, focusing on measurable attributes such as shape, size, and color. Morphometric characteristics, on the other hand, refer to specific quantifiable features of \textit{T. granosa}, including length, width, height, hinge line length, distance between the umbos, and rib count. As stated by the researchers, quantifying and characterizing these traits is essential for understanding and visualizing variations in \Tgranosa morphology.
+
+The researchers measured the height, width, and length of \Tgranosa using a Vernier caliper with a precision of up to 0.01 mm. Refer to Figure~\ref{fig:linear_measurements} for the corresponding measurement diagram. Length (A) refers to the distance from the anterior to the posterior of the shell. Width (B) is defined as the widest span across the shell from the left to the right valve. Height (C) measures the distance from the base to the apex of the shell. In addition, the hinge line length (D) near the hinge and the distance between the umbos (E) were recorded.
+
+Reyment and Kennedy (1998) emphasized that including rib count as supplementary information can enhance identification accuracy. Following this insight, the researchers also recorded the rib count for both male and female \textit{T. granosa}, adjusting the values by calculating ratios to account for natural size variation among specimens.
 
 \begin{figure}[!htbp]
 	\centering
@@ -57,13 +62,12 @@ Morphology refers to biological form and is one of the most visually recognizabl
 	\label{fig:linear_measurements}
 \end{figure}
 
-\newpage
-The researchers measured the height, width, and length of \Tgranosa using a Vernier caliper with a precision of up to 0.01 mm. Refer to Figure~\ref{fig:linear_measurements} for the corresponding measurement diagram. Length (A) refers to the distance from the anterior to the posterior of the shell. Width (B) is defined as the widest span across the shell from the left to the right valve. Height (C) measures the distance from the base to the apex of the shell. In addition, the hinge line length (D) near the hinge and the distance between the umbos (E) were recorded.
-
-Reyment and Kennedy (1998) emphasized that including rib count as supplementary information can enhance identification accuracy. Following this insight, the researchers also recorded the rib count for both male and female \textit{T. granosa}, adjusting the values by calculating ratios to account for natural size variation among specimens.
-
 \section{Image Acquisition and Data Gathering}
 \label{sec:imageprocess}
+
+This study comprised 144 male and 127 female \Tgranosa samples, resulting in a total of 1,626 images captured from various angles. To ensure consistency during image acquisition, the researchers constructed a box-like structure with a white background to control the imaging environment (\textit{see Figure~\ref{fig:setup}}). This setup allowed for uniform image captures by fixing the camera at a consistent angle directly above the \textit{T. granosa}. A ring light was positioned in front of the box to enhance image quality, eliminate shadows, and ensure clarity of the samples throughout the image acquisition process.
+
+The images were captured using a Google Pixel 3 XL smartphone, which features a resolution of 2960 × 1440 pixels and a 12.2 MP camera (4032 × 3024 pixels). Additional camera specifications include an f/1.8 aperture, 28mm wide lens, ½.55” sensor size, 1.4µm pixel size, dual-pixel phase detection autofocus (PDAF), and optical image stabilization (OIS) \cite{concepcion2023}.
 
 \begin{figure}[!htbp]
 	\centering
@@ -71,10 +75,6 @@ Reyment and Kennedy (1998) emphasized that including rib count as supplementary 
 	\caption{Image acquisition setup for \textit{T. granosa} samples.}
 	\label{fig:setup}
 \end{figure}
-
-This study comprised 144 male and 127 female \Tgranosa samples, resulting in a total of 1,626 images captured from various angles. To ensure consistency during image acquisition, the researchers constructed a box-like structure with a white background to control the imaging environment (\textit{see Figure~\ref{fig:setup}}). This setup allowed for uniform image captures by fixing the camera at a consistent angle directly above the \textit{T. granosa}. A ring light was positioned in front of the box to enhance image quality, eliminate shadows, and ensure clarity of the samples throughout the image acquisition process.
-
-The images were captured using a Google Pixel 3 XL smartphone, which features a resolution of 2960 × 1440 pixels and a 12.2 MP camera (4032 × 3024 pixels). Additional camera specifications include an f/1.8 aperture, 28mm wide lens, ½.55” sensor size, 1.4µm pixel size, dual-pixel phase detection autofocus (PDAF), and optical image stabilization (OIS) \cite{concepcion2023}.
 
 \section{Hardware and Software Configuration}
 
@@ -89,14 +89,14 @@ This section of the paper discusses the machine learning operations that served 
 \subsection{Data Preprocessing}
 \label{sec:pre-processing}
 
+The preprocessing of the dataset involved several essential steps, carried out using Python in Google Colaboratory, in preparation for machine learning analysis (\textit{see Figure~\ref{fig:pipeline}}).
+
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=1\textwidth]{figures/pipeline.png}
 	\caption{Data preprocessing in machine learning pipeline.}
 	\label{fig:pipeline}
 \end{figure}
-
-The preprocessing of the dataset involved several essential steps, carried out using Python in Google Colaboratory, in preparation for machine learning analysis (\textit{see Figure~\ref{fig:pipeline}}).
 
 \textbf{\textit{Data Loading and Cleaning}}
 
@@ -136,6 +136,8 @@ To establish a baseline for classification, various models were evaluated: Logis
 
 \textbf{\textit{Cross-Validation}}
 
+A five-fold cross-validation approach was implemented (\textit{refer to Figure~\ref{fig:cv}}). The dataset was divided into five subsets, with four used for training and one for testing. This process was repeated five times, with each fold serving as the test set once. This method ensured that model evaluation was robust and generalizable, minimizing the bias that may result from a single train-test split. \cite{geeksforgeeks2024}
+
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/cv.png}
@@ -143,8 +145,7 @@ To establish a baseline for classification, various models were evaluated: Logis
 	\label{fig:cv}
 \end{figure}
 
-A five-fold cross-validation approach was implemented (\textit{refer to Figure~\ref{fig:cv}}). The dataset was divided into five subsets, with four used for training and one for testing. This process was repeated five times, with each fold serving as the test set once. This method ensured that model evaluation was robust and generalizable, minimizing the bias that may result from a single train-test split. \cite{geeksforgeeks2024}
-
+\newpage
 \section{Deep Learning for Morphological Analysis}
 This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A Convolutional Neural Network (CNN) architecture was implemented and trained on preprocessed images using stratified cross-validation.
 
@@ -152,6 +153,7 @@ This section outlines the application of deep learning techniques in analyzing t
 
 This subsection details the image processing techniques applied to raw shell images of \Tgranosa using computer vision methods before training the deep learning model. The image preprocessing techniques include standardizing input dimensions and removing shadows, background, and noise. Each image underwent data augmentation to enhance feature visibility for effective learning. Image preprocessing ensures consistent and high-quality input data for model training.
 
+\newpage
 \textbf{\textit{Adjusting Dimensions}}
 
 All images were resized to a consistent dimension of 256x256 pixels to ensure uniformity throughout the dataset. This standardization is essential for Convolutional Neural Networks (CNNs), as a consistent input dimension is required. While resizing, the aspect ratio was maintained to prevent distortion of the morphological features, and padding was added to retain the original format.
@@ -161,6 +163,8 @@ All images were resized to a consistent dimension of 256x256 pixels to ensure un
 Background removal was performed to maintain a consistent white background throughout the dataset. The tool \texttt{rembg} was used to efficiently remove the original background, retaining the foreground from the raw images. This method resulted in clear images with a white background, enhancing focus on the morphological features and defining the shell boundaries.
 
 \textbf{\textit{Shadow Removal}}
+
+To minimize noise caused by shadows around the shell, HSV thresholding, contours, and morphological thresholds were applied to isolate and remove shadowed regions. This approach preserved the natural color of the blood cockles and eliminated shadows and noise from the surrounding area (\textit{see Figures~\ref{fig:m_noshadow} and~\ref{fig:f_noshadow}}).
 
 \begin{figure}[h]
 	\centering
@@ -176,10 +180,10 @@ Background removal was performed to maintain a consistent white background throu
 	\label{fig:f_noshadow}
 \end{figure}
 
-To minimize noise caused by shadows around the shell, HSV thresholding, contours, and morphological thresholds were applied to isolate and remove shadowed regions. This approach preserved the natural color of the blood cockles and eliminated shadows and noise from the surrounding area (\textit{see Figures~\ref{fig:m_noshadow} and~\ref{fig:f_noshadow}}).
-
 \newpage
 \subsection{Convolutional Neural Network}
+
+Convolutional Neural Networks are the deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 5 layers, designed to extract features from the input image with dimensions. The layers consist of three convolution layers, a pooling layer, a flatten layer, dropout, and two dense layers. The CNN framework used in this study was updated from an open source GitHub implementation by Christian Versloot, which focused on K-fold Cross Validation using TensorFlow and Keras, which was customized to align with the objectives of this study. The framework of this study is shown in Figure~\ref{fig:cnn_architecture}.
 
 \begin{figure}[h]
 	\centering
@@ -187,8 +191,6 @@ To minimize noise caused by shadows around the shell, HSV thresholding, contours
 	\caption{Architecture of convolutional neural network (CNN).}
 	\label{fig:cnn_architecture}
 \end{figure}
-
-Convolutional Neural Networks are the deep learning tool used in image classification, specifically binary classification. CNNs leverage their ability to share weights and use pooling techniques, reducing the number of parameters \cite{cui2020}. The proposed CNN architecture for sex identification of blood cockles employs 5 layers, designed to extract features from the input image with dimensions. The layers consist of three convolution layers, a pooling layer, a flatten layer, dropout, and two dense layers. The CNN framework used in this study was updated from an open source GitHub implementation by Christian Versloot, which focused on K-fold Cross Validation using TensorFlow and Keras, which was customized to align with the objectives of this study. The framework of this study is shown in Figure~\ref{fig:cnn_architecture}.
 
 \textbf{\textit{Convolution Layer}}
 
