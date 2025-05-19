@@ -2,7 +2,7 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discusses the materials and methods employed in the study, focusing on the development requirements, as well as the software and programming languages utilized. It also detailed the overall workflow in conducting the study, Morphometric and Morphological-Based Non-Invasive Sex Identification of Blood Cockle, \textit{Tegillarca granosa} (Linnaeus, 1758) using machine learning and deep learning technologies.
+This chapter discusses the materials and methods employed in the study, focusing on the development requirements, as well as the software and programming languages utilized. It also detailed the overall workflow in conducting the study. 
 
 Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, oversaw the overall workflow by providing baseline characteristics of the samples that the researchers could focus on. Additionally, guidance was offered by the research associates LC Mae Gasit and Allena Esther Artera. Consequently, the entire dataset collection process was conducted at the University of the Philippines Visayas hatchery facility.
 
@@ -31,10 +31,10 @@ The methods used for data collection were considered noninvasive, particularly g
 
 The ongoing research project titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture"—from which the samples used in this study were obtained—was reviewed and approved by the Institutional Animal Care and Use Committee (IACUC) of the University of the Philippines Visayas. 
 
-
 \section{Creating \textit{T. granosa} Dataset}
 \label{sec:dataset}
 
+\vspace*{-0.8cm}
 The experiment began with the collection of preliminary observations from 100 \Tgranosa samples. For the actual experimentation, the researchers collected the full dataset in batches until a total sample size of 271 \Tgranosa was reached. Linear measurements—including width, height, length, rib count, hinge line length, and the distance between the umbos—were recorded and organized into a CSV file. This dataset served as the foundation for training and testing machine learning models, as well as for establishing a baseline for the Convolutional Neural Networks.
 
 Images of each sample were captured and saved in JPG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (\textit{refer to Figure~\ref{fig:granosa_views}}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
