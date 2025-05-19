@@ -11,6 +11,8 @@ This chapter outlines the results of preprocessing, training of machine learning
 
 Exploratory data analysis was performed to characterize the dataset using visualizations to understand the patterns and correlations within the data. A correlation heatmap was created to assess the relationship between the predictors and the target variable.
 
+The heatmap (\textit{see Figure~\ref{fig:heatmap}}) revealed three features most correlated with the sex of \textit{T. granosa}: the width-height ratio (r = 0.18), the umbos-length ratio (r = 0.12), and the distance between the umbos (r = 0.12). Each of these features demonstrated a weak positive relationship with the target variable. 
+
 \vspace{0.5cm}
 \begin{figure}[!htbp]
 	\centering
@@ -18,9 +20,6 @@ Exploratory data analysis was performed to characterize the dataset using visual
 	\caption{Heatmap of morphometric correlations with \textit{T. granosa} sex.}
 	\label{fig:heatmap}
 \end{figure}
-
-
-The heatmap (\textit{see Figure~\ref{fig:heatmap}}) revealed three features most correlated with the sex of \textit{T. granosa}: the width-height ratio (r = 0.18), the umbos-length ratio (r = 0.12), and the distance between the umbos (r = 0.12). Each of these features demonstrated a weak positive relationship with the target variable. 
 
 \newpage
 \subsection{Statistical Analysis}
@@ -61,6 +60,8 @@ It is important to note that statistical significance does not imply predictive 
 
 Feature importance was assessed using the Kruskal-Wallis test, a non-parametric method that is suitable for evaluating differences in distributions across groups when the data does not follow a normal distribution. This approach was chosen because of the non-normality of the dataset and its robustness in handling continuous and ordinal data without assuming homogeneity of variances. \cite{ribeiro2024}
 
+The analysis showed that the width-to-height ratio (WH ratio) had the highest importance score, indicating it is the most statistically significant feature for distinguishing the sex of \textit{T. granosa}. Other notable features included the length-to-width ratio (LW ratio), umbo distance-to-length ratio (UL ratio), distance between the umbos, and umbo distance-to-height ratio (UH ratio), all of which contributed significantly to the classification task (\textit{refer to Figure~\ref{fig:kw}}).
+
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/kw.png}
@@ -68,10 +69,10 @@ Feature importance was assessed using the Kruskal-Wallis test, a non-parametric 
 	\label{fig:kw}
 \end{figure}
 
-The analysis showed that the width-to-height ratio (WH ratio) had the highest importance score, indicating it is the most statistically significant feature for distinguishing the sex of \textit{T. granosa}. Other notable features included the length-to-width ratio (LW ratio), umbo distance-to-length ratio (UL ratio), distance between the umbos, and umbo distance-to-height ratio (UH ratio), all of which contributed significantly to the classification task (\textit{refer to Figure~\ref{fig:kw}}).
-
 \subsection{Performance Evaluation}
 \label{tab:performance-eval}
+
+Table~\ref{tab:performance-13-features} shows the performance metrics of different machine learning models trained using all 13 features from the dataset. Among the models, Gradient Boosting achieved the highest accuracy of 61.03\%, along with strong precision, recall, and F1 Score values. AdaBoost also performed competitively, with an accuracy of 60.63\%. These results highlight the effectiveness of ensemble methods such as Gradient Boosting and AdaBoost when utilizing the full feature set, likely because of their capability to combine multiple weak learners into a more robust predictive model \cite{hussain2024}.  
 
 \begin{table}[H]
 	\centering
@@ -93,7 +94,11 @@ The analysis showed that the width-to-height ratio (WH ratio) had the highest im
 	\label{tab:performance-13-features}
 \end{table}
 
-Table~\ref{tab:performance-13-features} shows the performance metrics of different machine learning models trained using all 13 features from the dataset. Among the models, Gradient Boosting achieved the highest accuracy of 61.03\%, along with strong precision, recall, and F1 Score values. AdaBoost also performed competitively, with an accuracy of 60.63\%. These results highlight the effectiveness of ensemble methods such as Gradient Boosting and AdaBoost when utilizing the full feature set, likely because of their capability to combine multiple weak learners into a more robust predictive model \cite{hussain2024}.  
+
+
+Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top five features identified through Kruskal-Wallis feature importance analysis. The selected features are the distance between the umbos, length-to-width ratio, width-to-height ratio, umbo distance-to-height ratio, and umbo distance-to-length ratio.
+
+Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
 
 \begin{table}[H]
 	\centering
@@ -115,11 +120,9 @@ Table~\ref{tab:performance-13-features} shows the performance metrics of differe
 	\label{tab:performance-5-features}
 \end{table}
 
-Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top five features identified through Kruskal-Wallis feature importance analysis. The selected features are the distance between the umbos, length-to-width ratio, width-to-height ratio, umbo distance-to-height ratio, and umbo distance-to-length ratio.
-
-Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
-
 \subsection{Confusion Matrix Analysis}
+
+Figure~\ref{fig:cm_ml} summarizes the performance of the K-Nearest Neighbors model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
 
 \begin{figure}[!htbp]
 	\centering
@@ -128,8 +131,7 @@ Interestingly, the overall performance of the models improved when using only th
 	\label{fig:cm_ml}
 \end{figure}
 
-Figure~\ref{fig:cm_ml} summarizes the performance of the K-Nearest Neighbors model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
-
+\newpage
 \section{Deep Learning Analysis}
 This section presents the performance of the Convolutional Neural Network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations.
 
@@ -137,6 +139,8 @@ The machine learning analysis (see Figure~\ref{tab:performance-5-features}) reve
 
 \subsection{Baseline Model}
 This section presents the baseline model with a batch size of 16 and 20 epochs, which will serve as the starting point for comparison and provide a guideline for hyperparameter tuning. The focus will be on one of the angles, specifically the Left Lateral view, since the feature importance analysis using the Kruskal-Wallis Test indicated that the width-to-height ratio had the highest importance score, which is most visible from the Left Lateral view.
+
+The unbalanced dataset, which consisted of 144 male samples and 127 female samples, achieved an accuracy of 65.27\%, precision of 71.82\%, recall of 58.99\%, an F1 Score of 63.99\%, an AUC score of 73.08\%, and a loss of 0.6122. However, to address the class imbalance and enhance model performance, random undersampling was performed. This approach resulted in improved performance metrics for the balanced dataset, with an accuracy of 67.34\%, precision of 69.43\%, a recall of 64.06\%, an F1 Score of 65.60\%, an AUC score of 74.31\%, and a lower loss of 0.5981.
 
 \vspace{0.5cm}
 \begin{table}[H]
@@ -154,12 +158,14 @@ This section presents the baseline model with a batch size of 16 and 20 epochs, 
 	\label{tab:unbalanced-balanced}
 \end{table}
 
-The unbalanced dataset, which consisted of 144 male samples and 127 female samples, achieved an accuracy of 65.27\%, precision of 71.82\%, recall of 58.99\%, an F1 Score of 63.99\%, an AUC score of 73.08\%, and a loss of 0.6122. However, to address the class imbalance and enhance model performance, random undersampling was performed. This approach resulted in improved performance metrics for the balanced dataset, with an accuracy of 67.34\%, precision of 69.43\%, a recall of 64.06\%, an F1 Score of 65.60\%, an AUC score of 74.31\%, and a lower loss of 0.5981.
-
 \subsection{Comparison of Individual and Combined Angles}
+\vspace{-0.5 cm}
 Using the same batch size and number of epochs, performance was compared across all individual angles and the combination of the two highest-performing angles based on accuracy, using a balanced dataset. For the combined analysis, samples from the two selected angles were placed side by side, and a new dataset folder was created for male and female samples. 
 
-\vspace{0.5cm}
+Table~\ref{tab:individual-combined} presents the performance metrics for each individual angle and the combination of the two highest-performing angles in terms of accuracy. The Left Lateral view achieved the highest accuracy (67.34\%) and precision (69.43\%), while the Dorsal view obtained the highest recall (77.88\%) and F1 Score (69.96\%). Meanwhile, the Ventral view recorded the highest AUC score (74.87\%), indicating its strong ability to distinguish between classes.
+Combining the Ventral and Left Lateral views resulted in an overall accuracy of 62.60\%, suggesting that while combined images may provide complementary information, individual angle views still outperformed the combined views under the current experimental setup.
+
+\vspace{-0.1 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -180,15 +186,16 @@ Using the same batch size and number of epochs, performance was compared across 
 	\label{tab:individual-combined}
 \end{table}
 
-Table~\ref{tab:individual-combined} presents the performance metrics for each individual angle and the combination of the two highest-performing angles in terms of accuracy. The Left Lateral view achieved the highest accuracy (67.34\%) and precision (69.43\%), while the Dorsal view obtained the highest recall (77.88\%) and F1 Score (69.96\%). Meanwhile, the Ventral view recorded the highest AUC score (74.87\%), indicating its strong ability to distinguish between classes.
-Combining the Ventral and Left Lateral views resulted in an overall accuracy of 62.60\%, suggesting that while combined images may provide complementary information, individual angle views still outperformed the combined views under the current experimental setup.
-
 \subsection{Training Result and Hyperparameter Tuning}
 The Left Lateral angle was selected for further optimization. Several experiments were conducted by tuning hyperparameters such as batch size, number of epochs, and activation functions. Each adjustment was compared against the baseline model to enhance performance and develop a robust CNN for sex classification of \textit{T. granosa}.
 
 The Left Lateral angle was chosen because it achieved the highest accuracy and precision among all individual views, and because the Kruskal-Wallis feature importance analysis indicated that the width-to-height ratio, a feature most visible from the lateral perspective, was the most significant morphological trait for classification. Therefore, focusing on this view was expected to maximize the model's learning capacity and improve classification performance.
 
 \noindent\textbf{A. Batch Size and Number of Epochs}
+
+Table~\ref{tab:batchsize-epoch} shows the results indicating that a batch size of 32 with 50 epochs achieved the best overall performance, with an accuracy of 71.68\%, a precision of 72.52\%, a recall of 69.29\%, an F1 Score of 69.12\%, and AUC score of 77.34\%.
+
+In contrast, increasing the batch size to 64 resulted in lower recall and F1 Scores, suggesting that smaller batch Sizes (16 or 32) are more effective for this dataset. A moderate batch size of 32 allowed the model to generalize better and maintain stable learning, while too large batch sizes may have led to underfitting.
 
 \begin{table}[H]
 	\centering
@@ -212,12 +219,9 @@ The Left Lateral angle was chosen because it achieved the highest accuracy and p
 	\label{tab:batchsize-epoch}
 \end{table}
 
-Table~\ref{tab:batchsize-epoch} shows the results indicating that a batch size of 32 with 50 epochs achieved the best overall performance, with an accuracy of 71.68\%, a precision of 72.52\%, a recall of 69.29\%, an F1 Score of 69.12\%, and AUC score of 77.34\%.
-
-In contrast, increasing the batch size to 64 resulted in lower recall and F1 Scores, suggesting that smaller batch Sizes (16 or 32) are more effective for this dataset. A moderate batch size of 32 allowed the model to generalize better and maintain stable learning, while too large batch sizes may have led to underfitting.
-
-\newpage
 \noindent\textbf{B. Activation Functions}
+
+Table~\ref{tab:activation-function} shows the performance of different activation functions applied to the CNN model trained with a batch size of 32 and 50 epochs. Based on the results, the ReLU activation function achieved the best overall performance, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1 Score of 69.12\%, and AUC score of 77.34\%, along with the lowest loss at 0.5824. This suggests that ReLU remains an effective activation function for the classification of \textit{T. granosa}, outperforming both ELU and PReLU in this setup.
 
 \begin{table}[H]
 	\centering
@@ -235,10 +239,10 @@ In contrast, increasing the batch size to 64 resulted in lower recall and F1 Sco
 	\label{tab:activation-function}
 \end{table}
 
-Table~\ref{tab:activation-function} shows the performance of different activation functions applied to the CNN model trained with a batch size of 32 and 50 epochs. Based on the results, the ReLU activation function achieved the best overall performance, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1 Score of 69.12\%, and AUC score of 77.34\%, along with the lowest loss at 0.5824. This suggests that ReLU remains an effective activation function for the classification of \textit{T. granosa}, outperforming both ELU and PReLU in this setup.
-
 \subsection{Proposed Model}
 This section presents the performance evaluation of the proposed Convolutional Neural Network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
+
+The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracies above 76\% and strong recall and AUC scores, demonstrating its potential for reliable sex identification of \textit{T. granosa}. The slight variation in performance across folds may be attributed to differences in data distribution, emphasizing the importance of further data augmentation and balancing for future work.
 
 \begin{table}[H]
 	\centering
@@ -258,7 +262,6 @@ This section presents the performance evaluation of the proposed Convolutional N
 	\label{tab:per-fold}
 \end{table}
 
-The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracies above 76\% and strong recall and AUC scores, demonstrating its potential for reliable sex identification of \textit{T. granosa}. The slight variation in performance across folds may be attributed to differences in data distribution, emphasizing the importance of further data augmentation and balancing for future work.
 
 \vspace{0.75cm}
 \begin{minipage}{\linewidth}
@@ -289,6 +292,8 @@ The following table summarizes the epochs where learning rate reductions occurre
 
 \subsection{Visualizations}
 
+Figure~\ref{fig:tvapf} shows the performance of the model in the training and validation in terms of accuracy across five folds. The graph across folds displays a consistent upward trend for the training accuracy. However, there is an observable change in the performance, particularly in Folds 1 and 2, where it shows a slight downward trend in the validation accuracy.
+
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.8\textwidth]{figures/acc_epoch.png}
@@ -296,7 +301,8 @@ The following table summarizes the epochs where learning rate reductions occurre
 	\label{fig:tvapf}
 \end{figure}
 
-Figure~\ref{fig:tvapf} shows the performance of the model in the training and validation in terms of accuracy across five folds. The graph across folds displays a consistent upward trend for the training accuracy. However, there is an observable change in the performance, particularly in Folds 1 and 2, where it shows a slight downward trend in the validation accuracy.
+\newpage
+Figure~\ref{fig:atvaaf} shows the average performance of the model in terms of training and validation accuracy across five folds. An upward trend is observable in the training and validation accuracy, indicating that the model gradually improves over the epochs. While fluctuations or dips can be seen in the validation accuracy, the model recovers in later epochs. The training accuracy remains consistently higher than the validation accuracy, which is expected behavior, as it learns from the training data. Generally, the model demonstrates a gradual improvement in learning, as reflected in the average upward trend aggregated across five folds.
 
 \begin{figure}[!htbp]
 	\centering
@@ -305,7 +311,7 @@ Figure~\ref{fig:tvapf} shows the performance of the model in the training and va
 	\label{fig:atvaaf}
 \end{figure}
 
-Figure~\ref{fig:atvaaf} shows the average performance of the model in terms of training and validation accuracy across five folds. An upward trend is observable in the training and validation accuracy, indicating that the model gradually improves over the epochs. While fluctuations or dips can be seen in the validation accuracy, the model recovers in later epochs. The training accuracy remains consistently higher than the validation accuracy, which is expected behavior, as it learns from the training data. Generally, the model demonstrates a gradual improvement in learning, as reflected in the average upward trend aggregated across five folds.
+Figure~\ref{fig:tvlpf} shows the performance of the model in the training and validation in terms of the training and validation loss across five folds. The graph across folds displays a consistent downward trend for the training loss. On the other hand, there is an observable change in the performance, especially in Folds 1,2,3, and 4, where it shows an upward trend in the validation loss. This is an implication for the learning performance of the model, as it may not be learning effectively. 
 
 \begin{figure}[!htbp]
 	\centering
@@ -314,7 +320,7 @@ Figure~\ref{fig:atvaaf} shows the average performance of the model in terms of t
 	\label{fig:tvlpf}
 \end{figure}
 
-Figure~\ref{fig:tvlpf} shows the performance of the model in the training and validation in terms of the training and validation loss across five folds. The graph across folds displays a consistent downward trend for the training loss. On the other hand, there is an observable change in the performance, especially in Folds 1,2,3, and 4, where it shows an upward trend in the validation loss. This is an implication for the learning performance of the model, as it may not be learning effectively. 
+Figure~\ref{fig:atvlaf} shows the average performance of the model regarding training and validation loss across five folds. A continuous downward trend is observed in training and validation accuracy, indicating that the model's loss gradually decreases across epochs. This suggests that the model generalizes better following the initial instability in the earlier epoch in the folds. Additionally, the training loss consistently remains lower than the validation loss, since the model was directly optimized on the training set. Overall, the downward trend in training and validation loss signifies that the model is learning and improving across the five folds.
 
 \begin{figure}[!htbp]
 	\centering
@@ -323,9 +329,9 @@ Figure~\ref{fig:tvlpf} shows the performance of the model in the training and va
 	\label{fig:atvlaf}
 \end{figure}
 
-Figure~\ref{fig:atvlaf} shows the average performance of the model regarding training and validation loss across five folds. A continuous downward trend is observed in training and validation accuracy, indicating that the model's loss gradually decreases across epochs. This suggests that the model generalizes better following the initial instability in the earlier epoch in the folds. Additionally, the training loss consistently remains lower than the validation loss, since the model was directly optimized on the training set. Overall, the downward trend in training and validation loss signifies that the model is learning and improving across the five folds.
-
 \newpage
+Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and predicted class label after the training and validation. The matrix shows the correctly predicted male and female samples and their corresponding percentages. Females have slightly higher true positives compared to males in the number and percentages, which are 94 and 88, corresponding to 74\% and 69\%, respectively. Additionally, the falsely classified samples were 33 for females and 39 for males, respectively, accounting for 26\% and 31\%.
+
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/cm_dl.png}
@@ -333,9 +339,9 @@ Figure~\ref{fig:atvlaf} shows the average performance of the model regarding tra
 	\label{fig:cm_dl}
 \end{figure}
 
-Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and predicted class label after the training and validation. The matrix shows the correctly predicted male and female samples and their corresponding percentages. Females have slightly higher true positives compared to males in the number and percentages, which are 94 and 88, corresponding to 74\% and 69\%, respectively. Additionally, the falsely classified samples were 33 for females and 39 for males, respectively, accounting for 26\% and 31\%.
+\newpage
+Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model’s ability to correctly identify the true positives, which can help determine the trade-off between specificity and sensitivity. It will also determine the model's validity, supporting that it is not being predicted based only on random chance. The range of AUC ROC is between 0.5 and 1. The model achieved an average score of 0.7734, which is better than random chance and a positive indication that the model is performing reasonably.
 
-\vspace{-10pt}
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/roc.png}
@@ -344,8 +350,6 @@ Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and p
 \end{figure}
 
 \newpage
-Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model’s ability to correctly identify the true positives, which can help determine the trade-off between specificity and sensitivity. It will also determine the model's validity, supporting that it is not being predicted based only on random chance. The range of AUC ROC is between 0.5 and 1. The model achieved an average score of 0.7734, which is better than random chance and a positive indication that the model is performing reasonably.
-
 \section{Discussions}
 
 This study aimed to develop a non-invasive method for identifying the sex of \textit{T. granosa} using machine learning and deep learning techniques. The dataset used in the study was manually curated by the researchers, consisting of linear measurements and the images captured from six different camera angles.
