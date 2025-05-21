@@ -47,10 +47,11 @@ Afiati, N.%
 \newblock
 \APACrefYearMonthDay{2007}{01}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Gonad maturation of two intertidal blood clams Anadara
-  granosa (L.) and Anadara antiquate (L.) (Bivalvia: Arcidae) in Central Java}
-  {Gonad maturation of two intertidal blood clams anadara granosa (l.) and
-  anadara antiquate (l.) (bivalvia: Arcidae) in central java}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Gonad maturation of two intertidal blood clams
+  \textit{Anadara granosa} (L.) and \textit{Anadara antiquate} (L.) (Bivalvia:
+  Arcidae) in Central Java} {Gonad maturation of two intertidal blood clams
+  \textit{Anadara granosa} (l.) and \textit{Anadara antiquate} (l.) (bivalvia:
+  Arcidae) in central java}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{}{10}{}{}.
 \PrintBackRefs{\CurrentBib}
@@ -75,7 +76,7 @@ Aji, L\BPBI P.%
 {\BBOQ}\APACrefatitle {Review: Spawning Induction in Bivalve} {Review: Spawning
   induction in bivalve}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Jurnal Penelitian Sains}{14}{}{14207}.
+\APACjournalVolNumPages{Jurnal Penelitian Sains}{14}{}{}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -182,16 +183,16 @@ Aypa, S\BPBI M.%
 \newblock
 \APACrefYearMonthDay{2000}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Philippines: mangrove-friendly aquaculture}
-  {Philippines: mangrove-friendly aquaculture}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Philippines: Mangrove-Friendly Aquaculture}
+  {Philippines: Mangrove-friendly aquaculture}.{\BBCQ}
 \newblock
 \BIn{} J\BPBI H.~Primavera, L\BPBI M\BPBI B.~Garcia, M\BPBI T.~Castaños\BCBL
-  {}\ \BBA {} M\BPBI B.~Surtida\ (\BEDS), \APACrefbtitle {Mangrove-friendly
-  aquaculture: Proceedings of the workshop on mangrove-friendly aquaculture
-  organized by the SEAFDEC Aquaculture Department, January 11-15, 1999, Iloilo
-  City, Philippines} {Mangrove-friendly aquaculture: Proceedings of the
-  workshop on mangrove-friendly aquaculture organized by the seafdec
-  aquaculture department, january 11-15, 1999, iloilo city, philippines}\
+  {}\ \BBA {} M\BPBI B.~Surtida\ (\BEDS), \APACrefbtitle {Mangrove-Friendly
+  Aquaculture: Proceedings of the Workshop on Mangrove-Friendly Aquaculture
+  Organized by the {SEAFDEC} Aquaculture Department, January 11-15, 1999,
+  {Iloilo City, Philippines}} {Mangrove-friendly aquaculture: Proceedings of
+  the workshop on mangrove-friendly aquaculture organized by the {SEAFDEC}
+  aquaculture department, january 11-15, 1999, {Iloilo City, Philippines}}\
   (\BPGS\ 41--56).
 \PrintBackRefs{\CurrentBib}
 
@@ -242,11 +243,11 @@ Boey, P\BHBI L.%
 \newblock
 \APACrefYearMonthDay{2011}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Utilization of waste cockle shell (Anadara granosa) in
-  biodiesel production from palm olein: Optimization using response surface
-  methodology} {Utilization of waste cockle shell (anadara granosa) in
-  biodiesel production from palm olein: Optimization using response surface
-  methodology}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Utilization of waste cockle shell (\textit{Anadara
+  granosa}) in biodiesel production from palm olein: Optimization using
+  response surface methodology} {Utilization of waste cockle shell
+  (\textit{Anadara granosa}) in biodiesel production from palm olein:
+  Optimization using response surface methodology}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Fuel}{90}{7}{2353--2358}.
 \newblock
@@ -528,9 +529,9 @@ Concepcion, R.%
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {BivalveNet: A hybrid deep neural network for common
-  cockle (Cerastoderma edule) geographical traceability based on shell image
-  analysis} {Bivalvenet: A hybrid deep neural network for common cockle
-  (cerastoderma edule) geographical traceability based on shell image
+  cockle (\textit{Cerastoderma edule}) geographical traceability based on shell
+  image analysis} {Bivalvenet: A hybrid deep neural network for common cockle
+  (\textit{Cerastoderma edule}) geographical traceability based on shell image
   analysis}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Ecological Informatics}{78}{}{102344}.
@@ -626,8 +627,8 @@ Doering, P.%
 \APACrefYearMonthDay{1990}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Shape Analysis of Otoliths—a Tool for Indirect Ageing
-  of Eel, Anguilla anguilla (L.)?} {Shape analysis of otoliths—a tool for
-  indirect ageing of eel, anguilla anguilla (l.)?}{\BBCQ}
+  of Eel, \textit{Anguilla anguilla} (L.)?} {Shape analysis of otoliths—a
+  tool for indirect ageing of eel, \textit{Anguilla anguilla} (l.)?}{\BBCQ}
 \newblock
 \APACjournalVolNumPages{International Review of Hydrobiology}{75}{6}{737--743}.
 \newblock
@@ -704,10 +705,10 @@ Ferguson, G\BPBI J.%
 \APACrefYearMonthDay{2011}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Otolith shape and elemental composition: Complementary
-  tools for stock discrimination of mulloway (Argyrosomus japonicus) in
-  southern Australia} {Otolith shape and elemental composition: Complementary
-  tools for stock discrimination of mulloway (argyrosomus japonicus) in
-  southern australia}.{\BBCQ}
+  tools for stock discrimination of mulloway (\textit{Argyrosomus japonicus})
+  in Southern Australia} {Otolith shape and elemental composition:
+  Complementary tools for stock discrimination of mulloway (\textit{Argyrosomus
+  japonicus}) in southern australia}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Fish Research}{110}{}{75--83}.
 \newblock
@@ -934,7 +935,7 @@ Karapunar, B.%
 \newblock
 {\BBOQ}\APACrefatitle {The earliest example of sexual dimorphism in
   bivalves—evidence from the astartid \textit{Nicaniella} (Lower Jurassic,
-  southern Germany)} {The earliest example of sexual dimorphism in
+  Southern Germany)} {The earliest example of sexual dimorphism in
   bivalves—evidence from the astartid \textit{Nicaniella} (lower jurassic,
   southern germany)}.{\BBCQ}
 \newblock
@@ -1001,10 +1002,10 @@ Kim, E.%
 \APACrefYearMonthDay{2024}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Deep Learning-Based Phenotype Classification of Three
-  Ark Shells: Anadara Kagoshimensis, Tegillarca Granosa, and Anadara
-  Broughtonii} {Deep learning-based phenotype classification of three ark
-  shells: Anadara kagoshimensis, tegillarca granosa, and anadara
-  broughtonii}.{\BBCQ}
+  Ark Shells: \textit{Anadara kagoshimensis}, \textit{Tegillarca granosa}, and
+  \textit{Anadara Broughtonii}} {Deep learning-based phenotype classification
+  of three ark shells: \textit{Anadara kagoshimensis}, \textit{Tegillarca
+  granosa}, and \textit{Anadara Broughtonii}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Frontiers in Marine Science}{11}{}{}.
 \newblock
@@ -1029,9 +1030,9 @@ Lee, J\BPBI H.%
 \APACrefYearMonthDay{1997}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Studies on the gonadal development and gametogenesis of
-  the granulated ark, Tegillarca granosa (Linne)} {Studies on the gonadal
-  development and gametogenesis of the granulated ark, tegillarca granosa
-  (linne)}.{\BBCQ}
+  the granulated ark, \textit{Tegillarca granosa} (Linne)} {Studies on the
+  gonadal development and gametogenesis of the granulated ark,
+  \textit{Tegillarca granosa} (linne)}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{The Korean Journal of Malacology}{13}{}{55--64}.
 \PrintBackRefs{\CurrentBib}
@@ -1060,9 +1061,9 @@ Leguá, J.%
 \APACrefYearMonthDay{2013}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Otolith shape analysis as a tool for stock
-  identification of the southern blue whiting, Micromesistius australis}
-  {Otolith shape analysis as a tool for stock identification of the southern
-  blue whiting, micromesistius australis}.{\BBCQ}
+  identification of the southern blue whiting, \textit{Micromesistius
+  australis}} {Otolith shape analysis as a tool for stock identification of the
+  southern blue whiting, \textit{Micromesistius australis}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Latin American Journal of Aquatic
   Research}{41}{}{479--489}.
@@ -1091,10 +1092,10 @@ Mahé, K.%
 \newblock
 \APACrefYearMonthDay{2016}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Identifying blue whiting (Micromesistius poutassou)
-  stock structure in the Northeast Atlantic by otolith shape analysis}
-  {Identifying blue whiting (micromesistius poutassou) stock structure in the
-  northeast atlantic by otolith shape analysis}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Identifying blue whiting (\textit{Micromesistius
+  poutassou}) stock structure in the Northeast Atlantic by otolith shape
+  analysis} {Identifying blue whiting (\textit{Micromesistius poutassou}) stock
+  structure in the northeast atlantic by otolith shape analysis}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Canadian Journal of Fisheries and Aquatic
   Sciences}{73}{}{1363--1371}.
@@ -1125,9 +1126,10 @@ May, K.%
 \newblock
 \APACrefYearMonthDay{2021}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Spawning Period of Blood Cockle Tegillarca Granosa
-  (Linnaeus, 1758) in Myeik Coastal Areas} {Spawning period of blood cockle
-  tegillarca granosa (linnaeus, 1758) in myeik coastal areas}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Spawning Period of Blood Cockle \textit{Tegillarca
+  granosa} (Linnaeus, 1758) in Myeik Coastal Areas} {Spawning period of blood
+  cockle \textit{Tegillarca granosa} (linnaeus, 1758) in myeik coastal
+  areas}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{J. Myanmar Acad. Arts Sci}{4}{}{}.
 \PrintBackRefs{\CurrentBib}
@@ -1153,9 +1155,10 @@ Miranda, D\BPBI V.%
 \APACrefYearMonthDay{2023}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Initial Attempts on Spawning and Larval Rearing of the
-  Blood Cockle, Tegillarca Granosa (Linnaeus, 1758), in the Philippines}
-  {Initial attempts on spawning and larval rearing of the blood cockle,
-  tegillarca granosa (linnaeus, 1758), in the philippines}.{\BBCQ}
+  Blood Cockle, \textit{Tegillarca granosa} (Linnaeus, 1758), in the
+  Philippines} {Initial attempts on spawning and larval rearing of the blood
+  cockle, \textit{Tegillarca granosa} (linnaeus, 1758), in the
+  philippines}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Asian Fisheries Science}{36}{2}{}.
 \newblock
@@ -1239,10 +1242,10 @@ Narasimham, K\BPBI A.%
 \newblock
 \APACrefYearMonthDay{1988}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Taxonomy of the Blood Clams Anadara (Tegillarca) Granosa
-  (Linnaeus, 1758) and A. (T.) Rhombea (Born, 1780)} {Taxonomy of the blood
-  clams anadara (tegillarca) granosa (linnaeus, 1758) and a. (t.) rhombea
-  (born, 1780)}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Taxonomy of the Blood Clams Anadara (\textit{Tegillarca
+  granosa} (Linnaeus, 1758) and A. (T.) Rhombea (Born, 1780)} {Taxonomy of the
+  blood clams anadara (\textit{Tegillarca granosa} (linnaeus, 1758) and a. (t.)
+  rhombea (born, 1780)}.{\BBCQ}
 \newblock
 
 \PrintBackRefs{\CurrentBib}
@@ -1424,12 +1427,12 @@ Srisunont, C.%
 \APACrefYearMonthDay{2020}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Influence of Seasonal Variation and Anthropogenic Stress
-  on Blood Cockle (Tegillarca Granosa) Production Potential} {Influence of
-  seasonal variation and anthropogenic stress on blood cockle (tegillarca
-  granosa) production potential}.{\BBCQ}
+  on Blood Cockle (\textit{Tegillarca Granosa}) Production Potential}
+  {Influence of seasonal variation and anthropogenic stress on blood cockle
+  (\textit{Tegillarca Granosa}) production potential}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Influence of Seasonal Variation and Anthropogenic
-  Stress on Blood Cockle (Tegillarca Granosa) Production
+  Stress on Blood Cockle (\textit{Tegillarca Granosa}) Production
   Potential}{44}{2}{62--82}.
 \PrintBackRefs{\CurrentBib}
 
@@ -1576,9 +1579,9 @@ Wong, T\BPBI M.%
 \newblock
 \APACrefYearMonthDay{2018}{}{}.
 \newblock
-\APACrefbtitle {Cockle (Anadara Granosa) Seed Produced in the Laboratory,
-  Malaysia.} {Cockle (anadara granosa) seed produced in the laboratory,
-  malaysia.}
+\APACrefbtitle {Cockle (\textit{Anadara granosa}) Seed Produced in the
+  Laboratory, Malaysia.} {Cockle (\textit{Anadara granosa}) seed produced in
+  the laboratory, malaysia.}
 \newblock
 \APACrefnote{Handle.net}
 \newblock
@@ -1664,9 +1667,9 @@ Zha, S.%
 \APACrefYearMonthDay{2022}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Impacts of four commonly used nanoparticles on the
-  metabolism of a marine bivalve species, Tegillarca granosa} {Impacts of four
-  commonly used nanoparticles on the metabolism of a marine bivalve species,
-  tegillarca granosa}.{\BBCQ}
+  metabolism of a marine bivalve species, \textit{Tegillarca granosa}} {Impacts
+  of four commonly used nanoparticles on the metabolism of a marine bivalve
+  species, \textit{Tegillarca granosa}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Chemosphere}{296}{}{134079}.
 \newblock
@@ -1694,8 +1697,8 @@ Zhan, P\BPBI L., Zha%
 \APACrefYearMonthDay{2022}{}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Hypoxia-mediated immunotoxicity in the blood clam
-  Tegillarca granosa} {Hypoxia-mediated immunotoxicity in the blood clam
-  tegillarca granosa}.{\BBCQ}
+  \textit{Tegillarca granosa}} {Hypoxia-mediated immunotoxicity in the blood
+  clam \textit{Tegillarca granosa}}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Marine Environmental Research}{177}{}{}.
 \newblock

@@ -59,7 +59,7 @@ Reyment and Kennedy (1998) emphasized that including rib count as supplementary 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.95\textwidth]{figures/Tegillarca_granosa_linear_measurements.png}
-	\caption{Linear measurements of the \Tgranosa shell.}
+	\caption{Linear measurements that were gathered from the shell of \textit{T. granosa}.}
 	\label{fig:linear_measurements}
 \end{figure}
 
@@ -84,7 +84,7 @@ This section of the paper discusses the software, programming languages, and too
 \section{Machine Learning on Morphometric Data}
 \label{sec:ml models}
 
-This section of the paper discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbo distance-to-length ratio, hinge line length-to-length ratio, umbo distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
+This section of the paper discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbos distance-to-length ratio, hinge line length-to-length ratio, umbos distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
 
 \newpage
 \subsection{Data Preprocessing}
@@ -227,7 +227,7 @@ A large number of parameters in the training process can lead to overfitting. It
 		\end{tabular}
 		
 	}
-	\caption{Architecture of proposed convolution neural network.}
+	\caption{Architecture of the convolutional neural network used.}
 	\label{tab:cnn architecture-table}
 \end{table}
 
@@ -250,6 +250,13 @@ Due to the limited dataset size, a traditional train-test split was not adopted.
 Before model training, online data augmentation was applied exclusively to the training data within each fold, creating new data variations on the fly. The augmentations included random horizontal flips, slight rotations, and zoom transformations to enhance data diversity and improve model generalization \cite{awan2022}. All augmentation was strictly applied only to the training subset of each fold to prevent data leakage and maintain the validity of the results (\textit{Figure~\ref{fig:data_augmentation}}). 
 
 On-the-fly data augmentation (OnDAT) generates augmented data during each iteration, exposing the model to constantly changing data variations. Augmenting the original data allows better exploration of the underlying data generation process and has the potential to prevent the model from overfitting spurious patterns, thereby improving performance \cite{cerqueira2024}.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{figures/data_augmentation.png}
+	\caption{Dataset augmentation techniques.}
+	\label{fig:data_augmentation}
+\end{figure}
 
 \newpage
 \textbf{\textit{Training Procedure}}

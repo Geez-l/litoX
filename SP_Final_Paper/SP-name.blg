@@ -144,15 +144,15 @@ Too many commas in name 1 of "Zhan, Zha, Peng, Lin, and Bao, Y." for entry zhan2
 while executing---line 5079 of file apacite.bst
 You've used 57 entries,
             6951 wiz_defined-function locations,
-            1664 strings with 22735 characters,
-and the built_in function-call counts, 126511 in all, are:
-= -- 15397
+            1663 strings with 22904 characters,
+and the built_in function-call counts, 127535 in all, are:
+= -- 15511
 > -- 1010
-< -- 6811
-+ -- 7163
+< -- 6925
++ -- 7277
 - -- 120
-* -- 8615
-:= -- 24381
+* -- 8727
+:= -- 24723
 add.period$ -- 238
 call.type$ -- 57
 change.case$ -- 983
@@ -161,20 +161,20 @@ cite$ -- 116
 duplicate$ -- 3324
 empty$ -- 4476
 format.name$ -- 1745
-if$ -- 23006
+if$ -- 23120
 int.to.chr$ -- 0
 int.to.str$ -- 171
 missing$ -- 0
 newline$ -- 1539
 num.names$ -- 452
-pop$ -- 1969
+pop$ -- 1970
 preamble$ -- 1
 purify$ -- 250
 quote$ -- 0
-skip$ -- 7419
+skip$ -- 7420
 stack$ -- 0
-substring$ -- 7701
-swap$ -- 1847
+substring$ -- 7815
+swap$ -- 1845
 text.length$ -- 168
 text.prefix$ -- 0
 top$ -- 1
