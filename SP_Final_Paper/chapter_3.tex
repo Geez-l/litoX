@@ -254,7 +254,7 @@ On-the-fly data augmentation (OnDAT) generates augmented data during each iterat
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/data_augmentation.png}
-	\caption{Dataset augmentation techniques.}
+	\caption{ On-the-Fly dataset augmentation (OnDAT) techniques.}
 	\label{fig:data_augmentation}
 \end{figure}
 
@@ -275,6 +275,13 @@ Accuracy (ACC) is the ratio of the overall correctly predicted samples to the to
 	\text{ACC} = \frac{\text{Correctly classified samples}}{\text{All samples}} = \frac{TP + TN}{TP + FP + TN + FN}
 	\label{eq:acc}
 \end{equation}
+
+\hspace*{2em}where: \\
+\hspace*{2em}TP or true positive is the number of male samples that were correctly identified as male \textit{T. granosa}, \\
+\hspace*{2em}TN or true negative is the number of female samples that were correctly identified as female \textit{T. granosa}, \\
+\hspace*{2em}FP or false positive is the number of female samples that were incorrectly identified as male \textit{T. granosa}, and \\
+\hspace*{2em}FN or false negative is the number of male samples that were incorrectly identified as female \textit{T. granosa}.
+
 
 Precision (PREC) is the ratio of correctly predicted positive samples to all samples assigned to the positive class \cite{cui2020}. This metric helps in evaluating the fairness of the model and prevents the misclassification of blood cockles as it identifies potential inaccuracies or biases. The formula for precision is:
 
