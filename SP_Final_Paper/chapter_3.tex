@@ -2,28 +2,35 @@
 \chapter{Research Methodology}
 \label{sec:methodology}
 
-This chapter discusses the materials and methods employed in the study, focusing on the development requirements, as well as the software and programming languages utilized. It also detailed the overall workflow in conducting the study, Morphometric and Morphological-Based Non-Invasive Sex Identification of Blood Cockle, \textit{Tegillarca granosa} (Linnaeus, 1758) using machine learning and deep learning technologies.
+This chapter discusses the materials and methods employed, focusing on the detailed workflow in conducting the study from sample collection, preprocessing, model training and evaluation. 
 
-Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, oversaw the overall workflow by providing baseline characteristics of the samples that the researchers could focus on. Additionally, guidance was offered by the research associates LC Mae Gasit and Allena Esther Artera. Consequently, the entire dataset collection process was conducted at the University of the Philippines Visayas hatchery facility.
+Dr. Victor Emmanuel Ferriols, the director of the Institute of Aquaculture, oversaw the overall workflow by providing baseline characteristics of the samples that the researchers could focus on. Additionally, guidance was offered by the research associates Allena Esther Artera and LC Mae Gasit. Consequently, the entire dataset collection process was conducted at the University of the Philippines Visayas hatchery facility.
 
-The methodology consisted of nine parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration,(7) Machine Learning on Morphometric Data, (8) Deep Learning for Morphological Analysis, and (9) Evaluation Metrics
+The methodology consisted of nine parts: (1) Sample Collection, (2) Ethical Considerations, (3) Creating \textit{T.granosa} Dataset, (4) Morphological Characteristics Collection (5) Image Acquisition and Pre-processing, (6) Hardware and Software Configuration, (7) Machine Learning for Morphometric Data, (8) Deep Learning for Morphological Analysis, and (9) Evaluation Metrics
 
 \section{Sample Collection}
 \label{sec:samplecollect} 
 
-The collection of \Tgranosa samples used in this study was part of an ongoing research project by UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." A total of 271 samples were provided for this study to classify the sex of \textit{T. granosa}. The samples, ranging in size from 34 to 61 mm, were sourced from the coastal area of Zaraga, Iloilo, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figure~\ref{fig:granosa_shells}}).
+The collection of \Tgranosa samples used in this study was part of an ongoing research project by UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." A total of 271 samples were provided for this study to classify the sex of \textit{T. granosa}. The samples, ranging in size from 34 to 61 mm, were sourced from the coastal area of Zarraga, Iloilo, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figure~\ref{fig:granosa_femaleshells}},{and Figure~\ref{fig:granosa_maleshells}}).
 
 The research and experimentation were conducted at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, where the samples were maintained in 200 L fiberglass-reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023}.
 
 As part of the data collection process, the researchers utilized induced spawning and dissection to classify the sex of the samples. Induced spawning through temperature fluctuations was the most natural and least invasive method for bivalves compared to other approaches \cite{aji}. However, since not all samples exhibited gamete release, the researchers also performed dissections, assisted by hatchery staff, to expedite data collection. The sex of the dissected samples was identified based on the coloration of gonad tissue, which varies according to sex and maturity stage. Females exhibited orange-red to pale orange gonads, while males displayed white to grayish-white gonads \cite{may2021}.
 
-The methods used for data collection were considered noninvasive, particularly given that \Tgranosa are oxygen regulators well adapted to tidal exposure and hypoxia \cite{davenport1986}.
+The methods used for data collection were considered non-invasive, particularly given that \Tgranosa are oxygen regulators well adapted to tidal exposure and hypoxia \cite{davenport1986}.
 
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/male-female T.granosa(2).png}
-	\caption{Male and female \Tgranosa shells.}
-	\label{fig:granosa_shells}
+	\includegraphics[width=0.9\textwidth]{figures/female.png}
+	\caption{Female \Tgranosa shells.}
+	\label{fig:granosa_femaleshells}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/male.png}
+	\caption{Male \Tgranosa shells.}
+	\label{fig:granosa_maleshells}
 \end{figure}
 
 \section{Ethical Considerations}
@@ -41,7 +48,7 @@ Images of each sample were captured and saved in JPG format using a standardized
 
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=0.9\textwidth]{figures/view.png}
+	\includegraphics[width=0.9\textwidth]{figures/camera_views.png}
 	\caption{Different views of the \textit{T. granosa} shell captured}
 	\label{fig:granosa_views}
 \end{figure}
@@ -58,7 +65,7 @@ Reyment and Kennedy (1998) emphasized that including rib count as supplementary 
 
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=0.95\textwidth]{figures/Tegillarca_granosa_linear_measurements.png}
+	\includegraphics[width=0.95\textwidth]{figures/linear_measurements.png}
 	\caption{Linear measurements that were gathered from the shell of \textit{T. granosa}.}
 	\label{fig:linear_measurements}
 \end{figure}
@@ -254,7 +261,7 @@ On-the-fly data augmentation (OnDAT) generates augmented data during each iterat
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/data_augmentation.png}
-	\caption{Dataset augmentation techniques.}
+	\caption{ On-the-Fly dataset augmentation (OnDAT) techniques.}
 	\label{fig:data_augmentation}
 \end{figure}
 
@@ -275,6 +282,13 @@ Accuracy (ACC) is the ratio of the overall correctly predicted samples to the to
 	\text{ACC} = \frac{\text{Correctly classified samples}}{\text{All samples}} = \frac{TP + TN}{TP + FP + TN + FN}
 	\label{eq:acc}
 \end{equation}
+
+\hspace*{2em}where: \\
+\hspace*{2em}TP or true positive is the number of male samples that were correctly identified as male \textit{T. granosa}, \\
+\hspace*{2em}TN or true negative is the number of female samples that were correctly identified as female \textit{T. granosa}, \\
+\hspace*{2em}FP or false positive is the number of female samples that were incorrectly identified as male \textit{T. granosa}, and \\
+\hspace*{2em}FN or false negative is the number of male samples that were incorrectly identified as female \textit{T. granosa}.
+
 
 Precision (PREC) is the ratio of correctly predicted positive samples to all samples assigned to the positive class \cite{cui2020}. This metric helps in evaluating the fairness of the model and prevents the misclassification of blood cockles as it identifies potential inaccuracies or biases. The formula for precision is:
 
