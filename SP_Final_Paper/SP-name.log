@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  22 MAY 2025 01:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.1)  26 MAY 2025 04:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -557,15 +557,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-Overfull \hbox (0.49698pt too wide) in paragraph at lines 59--60
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Overfull \hbox (0.49698pt too wide) in paragraph at lines 62--63
 []\OT1/cmr/m/n/12 To my lovely (but some-times an-noy-ing) sib-lings { Ha-ri-et
 te, Vladimir, Michaela,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10])
@@ -840,78 +840,85 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [30]
-<figures/male-female T.granosa(2).png, id=177, 1445.4pt x 813.0375pt>
-File: figures/male-female T.granosa(2).png Graphic file (type png)
-<use figures/male-female T.granosa(2).png>
-Package pdftex.def Info: figures/male-female T.granosa(2).png  used on input li
-ne 24.
-(pdftex.def)             Requested size: 373.99469pt x 210.36748pt.
- [31 <./figures/male-female T.granosa(2).png>]
-<figures/view.png, id=182, 1150.89975pt x 734.745pt>
-File: figures/view.png Graphic file (type png)
-<use figures/view.png>
-Package pdftex.def Info: figures/view.png  used on input line 44.
-(pdftex.def)             Requested size: 373.99469pt x 238.75566pt.
+<figures/female.png, id=177, 1402.5198pt x 220.6644pt>
+File: figures/female.png Graphic file (type png)
+<use figures/female.png>
+Package pdftex.def Info: figures/female.png  used on input line 24.
+(pdftex.def)             Requested size: 373.99469pt x 58.84279pt.
+<figures/male.png, id=178, 1414.5648pt x 205.4877pt>
+File: figures/male.png Graphic file (type png)
+<use figures/male.png>
+Package pdftex.def Info: figures/male.png  used on input line 31.
+(pdftex.def)             Requested size: 373.99469pt x 54.32855pt.
+
+Underfull \vbox (badness 5667) has occurred while \output is active []
+
+ [31 <./figures/female.png (PNG copy)> <./figures/male.png (PNG copy)>]
+<figures/camera_views.png, id=182, 1409.265pt x 228.1323pt>
+File: figures/camera_views.png Graphic file (type png)
+<use figures/camera_views.png>
+Package pdftex.def Info: figures/camera_views.png  used on input line 51.
+(pdftex.def)             Requested size: 373.99469pt x 60.5418pt.
+ [32 <./figures/camera_views.png (PNG copy)>]
+<figures/linear_measurements.png, id=186, 1560.5502pt x 443.4969pt>
+File: figures/linear_measurements.png Graphic file (type png)
+<use figures/linear_measurements.png>
+Package pdftex.def Info: figures/linear_measurements.png  used on input line 68
+.
+(pdftex.def)             Requested size: 394.77359pt x 112.18678pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33 <./figures/view.png>]
-<figures/Tegillarca_granosa_linear_measurements.png, id=191, 5900.0425pt x 1527
-.7075pt>
-File: figures/Tegillarca_granosa_linear_measurements.png Graphic file (type png
-)
-<use figures/Tegillarca_granosa_linear_measurements.png>
-Package pdftex.def Info: figures/Tegillarca_granosa_linear_measurements.png  us
-ed on input line 61.
-(pdftex.def)             Requested size: 394.77359pt x 102.21834pt.
- [34 <./figures/Tegillarca_granosa_linear_measurements.png>]
-<figures/setup.jpg, id=196, 1128.46594pt x 1128.46594pt>
+ [33]
+<figures/setup.jpg, id=191, 1128.46594pt x 1128.46594pt>
 File: figures/setup.jpg Graphic file (type jpg)
 <use figures/setup.jpg>
-Package pdftex.def Info: figures/setup.jpg  used on input line 75.
+Package pdftex.def Info: figures/setup.jpg  used on input line 82.
 (pdftex.def)             Requested size: 166.21844pt x 166.21483pt.
 
-[35 <./figures/setup.jpg>] [36]
-<figures/pipeline.png, id=204, 690.32906pt x 152.82094pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./figures/linear_measurements.png (PNG copy)>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <./figures/setup.jpg>] [36]
+<figures/pipeline.png, id=202, 690.32906pt x 152.82094pt>
 File: figures/pipeline.png Graphic file (type png)
 <use figures/pipeline.png>
-Package pdftex.def Info: figures/pipeline.png  used on input line 97.
+Package pdftex.def Info: figures/pipeline.png  used on input line 104.
 (pdftex.def)             Requested size: 415.55249pt x 91.99406pt.
  [37 <./figures/pipeline.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-<figures/cv.png, id=212, 736.7525pt x 453.695pt>
+<figures/cv.png, id=210, 736.7525pt x 453.695pt>
 File: figures/cv.png Graphic file (type png)
 <use figures/cv.png>
-Package pdftex.def Info: figures/cv.png  used on input line 144.
+Package pdftex.def Info: figures/cv.png  used on input line 151.
 (pdftex.def)             Requested size: 332.44325pt x 204.71469pt.
 
 [39] [40 <./figures/cv.png>]
-<figures/male_shadows_removed.png, id=221, 854.2314pt x 150.3216pt>
+<figures/male_shadows_removed.png, id=219, 854.2314pt x 150.3216pt>
 File: figures/male_shadows_removed.png Graphic file (type png)
 <use figures/male_shadows_removed.png>
 Package pdftex.def Info: figures/male_shadows_removed.png  used on input line 1
-72.
+79.
 (pdftex.def)             Requested size: 415.55249pt x 73.12607pt.
-<figures/female_shadows_removed.png, id=222, 854.2314pt x 150.3216pt>
+<figures/female_shadows_removed.png, id=220, 854.2314pt x 150.3216pt>
 File: figures/female_shadows_removed.png Graphic file (type png)
 <use figures/female_shadows_removed.png>
 Package pdftex.def Info: figures/female_shadows_removed.png  used on input line
- 179.
+ 186.
 (pdftex.def)             Requested size: 415.55249pt x 73.12607pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [41 <./figures/male_shadows_removed.png>]
-<figures/cnn_architecture.png, id=227, 1334.73656pt x 414.79968pt>
+<figures/cnn_architecture.png, id=225, 1334.73656pt x 414.79968pt>
 File: figures/cnn_architecture.png Graphic file (type png)
 <use figures/cnn_architecture.png>
-Package pdftex.def Info: figures/cnn_architecture.png  used on input line 191.
+Package pdftex.def Info: figures/cnn_architecture.png  used on input line 198.
 (pdftex.def)             Requested size: 415.55249pt x 129.14355pt.
 
 Underfull \vbox (badness 4981) has occurred while \output is active []
@@ -921,20 +928,20 @@ G copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<figures/skf.png, id=236, 402.50375pt x 332.24126pt>
+<figures/skf.png, id=234, 402.50375pt x 332.24126pt>
 File: figures/skf.png Graphic file (type png)
 <use figures/skf.png>
-Package pdftex.def Info: figures/skf.png  used on input line 240.
+Package pdftex.def Info: figures/skf.png  used on input line 247.
 (pdftex.def)             Requested size: 249.33403pt x 205.81pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [44]
-<figures/data_augmentation.png, id=240, 885.3075pt x 646.66594pt>
+<figures/data_augmentation.png, id=238, 885.3075pt x 646.66594pt>
 File: figures/data_augmentation.png Graphic file (type png)
 <use figures/data_augmentation.png>
-Package pdftex.def Info: figures/data_augmentation.png  used on input line 256.
+Package pdftex.def Info: figures/data_augmentation.png  used on input line 263.
 
 (pdftex.def)             Requested size: 249.33403pt x 182.12102pt.
 
@@ -944,28 +951,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [45 <./figures/skf.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./figures/data_augmentation.png (PNG copy)>]
-Underfull \vbox (badness 2503) has occurred while \output is active []
+ [46 <./figures/data_augmentation.png (PNG copy)>] [47])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47])
-[48]
+ [48]
+[49]
 \openout2 = `chapter_4.aux'.
 
- (chapter_4.tex
-Chapter 4.
-[49
+ (chapter_4.tex [50
 
 
 
 
 ]
-<figures/heatmap.png, id=259, 392.96812pt x 545.03625pt>
+Chapter 4.
+[51]
+<figures/heatmap.png, id=264, 392.96812pt x 545.03625pt>
 File: figures/heatmap.png Graphic file (type png)
 <use figures/heatmap.png>
 Package pdftex.def Info: figures/heatmap.png  used on input line 19.
 (pdftex.def)             Requested size: 166.21844pt x 230.54372pt.
- [50 <./figures/heatmap.png>] [51]
-<figures/kw.png, id=269, 721.94719pt x 442.65375pt>
+ [52 <./figures/heatmap.png>] [53]
+<figures/kw.png, id=273, 721.94719pt x 442.65375pt>
 File: figures/kw.png Graphic file (type png)
 <use figures/kw.png>
 Package pdftex.def Info: figures/kw.png  used on input line 67.
@@ -973,101 +980,92 @@ Package pdftex.def Info: figures/kw.png  used on input line 67.
 
 Underfull \vbox (badness 4940) has occurred while \output is active []
 
- [52 <./figures/kw.png>] [53]
-<figures/confusion_matrix_ml.png, id=277, 569.12625pt x 444.91219pt>
+ [54 <./figures/kw.png>] [55]
+<figures/confusion_matrix_ml.png, id=281, 569.12625pt x 444.91219pt>
 File: figures/confusion_matrix_ml.png Graphic file (type png)
 <use figures/confusion_matrix_ml.png>
 Package pdftex.def Info: figures/confusion_matrix_ml.png  used on input line 12
-9.
+7.
 (pdftex.def)             Requested size: 332.44325pt x 259.8958pt.
- [54]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55 <./figures/confusion_matrix_ml.png>]
-Underfull \vbox (badness 2189) has occurred while \output is active []
-
  [56]
+<figures/roc_ml.png, id=285, 570.933pt x 422.0568pt>
+File: figures/roc_ml.png Graphic file (type png)
+<use figures/roc_ml.png>
+Package pdftex.def Info: figures/roc_ml.png  used on input line 137.
+(pdftex.def)             Requested size: 332.44325pt x 245.76555pt.
+ [57 <./figures/confusion_matrix_ml.png>]
+Underfull \vbox (badness 3954) has occurred while \output is active []
+
+ [58 <./figures/roc_ml.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
-[59] [60]
-<figures/acc_epoch.png, id=301, 1074.6549pt x 354.123pt>
+ [60]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61]
+[62] [63]
+<figures/acc_epoch.png, id=311, 1074.6549pt x 354.123pt>
 File: figures/acc_epoch.png Graphic file (type png)
 <use figures/acc_epoch.png>
-Package pdftex.def Info: figures/acc_epoch.png  used on input line 307.
+Package pdftex.def Info: figures/acc_epoch.png  used on input line 315.
 (pdftex.def)             Requested size: 332.44325pt x 109.55003pt.
- [61]
-<figures/avg_acc.png, id=305, 1445.4pt x 813.0375pt>
+ [64]
+<figures/avg_acc.png, id=315, 1445.4pt x 813.0375pt>
 File: figures/avg_acc.png Graphic file (type png)
 <use figures/avg_acc.png>
-Package pdftex.def Info: figures/avg_acc.png  used on input line 317.
+Package pdftex.def Info: figures/avg_acc.png  used on input line 325.
 (pdftex.def)             Requested size: 332.44325pt x 186.99469pt.
- [62 <./figures/acc_epoch.png> <./figures/avg_acc.png>]
-<figures/loss_epoch.png, id=311, 1074.6549pt x 354.123pt>
+ [65 <./figures/acc_epoch.png> <./figures/avg_acc.png>]
+<figures/loss_epoch.png, id=321, 1074.6549pt x 354.123pt>
 File: figures/loss_epoch.png Graphic file (type png)
 <use figures/loss_epoch.png>
-Package pdftex.def Info: figures/loss_epoch.png  used on input line 326.
+Package pdftex.def Info: figures/loss_epoch.png  used on input line 334.
 (pdftex.def)             Requested size: 332.44325pt x 109.55003pt.
-<figures/avg_loss.png, id=312, 1445.4pt x 813.0375pt>
+<figures/avg_loss.png, id=322, 1445.4pt x 813.0375pt>
 File: figures/avg_loss.png Graphic file (type png)
 <use figures/avg_loss.png>
-Package pdftex.def Info: figures/avg_loss.png  used on input line 335.
+Package pdftex.def Info: figures/avg_loss.png  used on input line 343.
 (pdftex.def)             Requested size: 332.44325pt x 186.99469pt.
- [63 <./figures/loss_epoch.png>]
-<figures/cm_dl.png, id=318, 462.528pt x 395.3169pt>
+ [66 <./figures/loss_epoch.png>]
+<figures/cm_dl.png, id=327, 462.528pt x 395.3169pt>
 File: figures/cm_dl.png Graphic file (type png)
 <use figures/cm_dl.png>
-Package pdftex.def Info: figures/cm_dl.png  used on input line 345.
+Package pdftex.def Info: figures/cm_dl.png  used on input line 353.
 (pdftex.def)             Requested size: 249.33403pt x 213.10602pt.
- [64 <./figures/avg_loss.png>]
-<figures/roc.png, id=323, 507.3354pt x 395.3169pt>
+ [67 <./figures/avg_loss.png>]
+<figures/roc.png, id=332, 507.3354pt x 395.3169pt>
 File: figures/roc.png Graphic file (type png)
 <use figures/roc.png>
-Package pdftex.def Info: figures/roc.png  used on input line 355.
+Package pdftex.def Info: figures/roc.png  used on input line 363.
 (pdftex.def)             Requested size: 249.33403pt x 194.28001pt.
- [65 <./figures/cm_dl.png>]
+ [68 <./figures/cm_dl.png>] [69 <./figures/roc.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66 <./figures/roc.png>]
-Overfull \hbox (1.36401pt too wide) in paragraph at lines 371--372
-\OT1/cmr/m/n/12 method for Chi-nese mit-ten crab us-ing deep learn-ing CNNs []C
-ui et al.[], 2020)|there
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [67])
-[68]
+ [70])
+[71]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex
-Chapter 5.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69
+ (chapter_5.tex [72
 
 
 
 
 ]
-Overfull \hbox (4.58899pt too wide) in paragraph at lines 17--18
-\OT1/cmr/m/n/12 This spe-cial prob-lem en-ti-tled Mor-pho-me-t-ric and Morpholo
-gical-Based Non-invasive
- []
-
+Chapter 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70])
-[71]
+ [73]
+Underfull \vbox (badness 4001) has occurred while \output is active []
+
+ [74])
+[75]
 \openout2 = `chapter_6.aux'.
 
- (chapter_6.tex [72
+ (chapter_6.tex [76
 
 
 
@@ -1083,8 +1081,8 @@ Underfull \hbox (badness 1043) in paragraph at lines 152--165
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
-[74] [75]
+ [77]
+[78] [79]
 Underfull \hbox (badness 10000) in paragraph at lines 678--685
 \OT1/cmtt/m/n/12 fao [] -2024 [] -report [] -sustainable [] -aquatic [] -food [
 ] -systems [] -important [] -for []
@@ -1096,77 +1094,77 @@ Underfull \hbox (badness 5954) in paragraph at lines 729--742
 fied k fold cross val-i-da-
  []
 
-[76] [77] [78]
+[80] [81] [82]
 Underfull \hbox (badness 1210) in paragraph at lines 1356--1371
 \OT1/cmr/m/n/12 Re-trieved from $\OT1/cmtt/m/n/12 https :// diogoribeiro7 [] .g
 ithub [] .io / statistics / data %
  []
 
-[79])) [80]
+[83])) [84]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-<figures/feature_engineering.png, id=376, 391.4625pt x 91.84312pt>
+<figures/feature_engineering.png, id=389, 391.4625pt x 91.84312pt>
 File: figures/feature_engineering.png Graphic file (type png)
 <use figures/feature_engineering.png>
 Package pdftex.def Info: figures/feature_engineering.png  used on input line 26
 .
 (pdftex.def)             Requested size: 373.99469pt x 87.74934pt.
-<figures/feature_importance.png, id=377, 494.59781pt x 134.00063pt>
+<figures/feature_importance.png, id=390, 494.59781pt x 134.00063pt>
 File: figures/feature_importance.png Graphic file (type png)
 <use figures/feature_importance.png>
 Package pdftex.def Info: figures/feature_importance.png  used on input line 32.
 
 (pdftex.def)             Requested size: 373.99469pt x 101.32625pt.
-<figures/random_undersampling_ML.png, id=378, 300.3722pt x 82.80937pt>
+<figures/random_undersampling_ML.png, id=391, 300.3722pt x 82.80937pt>
 File: figures/random_undersampling_ML.png Graphic file (type png)
 <use figures/random_undersampling_ML.png>
 Package pdftex.def Info: figures/random_undersampling_ML.png  used on input lin
 e 38.
 (pdftex.def)             Requested size: 373.99469pt x 103.11469pt.
-<figures/ml_five fold_cv.png, id=379, 493.0922pt x 394.47375pt>
+<figures/ml_five fold_cv.png, id=392, 493.0922pt x 394.47375pt>
 File: figures/ml_five fold_cv.png Graphic file (type png)
 <use figures/ml_five fold_cv.png>
 Package pdftex.def Info: figures/ml_five fold_cv.png  used on input line 44.
 (pdftex.def)             Requested size: 373.99469pt x 299.20726pt.
-[81
+[85
 
 
 
 
  <./figures/feature_engineering.png>]
-<figures/same_dimensions.png, id=385, 234.8775pt x 130.98938pt>
+<figures/same_dimensions.png, id=397, 234.8775pt x 130.98938pt>
 File: figures/same_dimensions.png Graphic file (type png)
 <use figures/same_dimensions.png>
 Package pdftex.def Info: figures/same_dimensions.png  used on input line 56.
 (pdftex.def)             Requested size: 373.99469pt x 208.5739pt.
-<figures/shadow_remove.png, id=386, 383.93437pt x 370.38374pt>
+<figures/shadow_remove.png, id=398, 383.93437pt x 370.38374pt>
 File: figures/shadow_remove.png Graphic file (type png)
 <use figures/shadow_remove.png>
 Package pdftex.def Info: figures/shadow_remove.png  used on input line 62.
 (pdftex.def)             Requested size: 373.99469pt x 360.82033pt.
- [82 <./figures/feature_importance.png> <./figures/random_undersampling_ML.png>
-] [83 <./figures/ml_five fold_cv.png> <./figures/same_dimensions.png>] [84 <./f
+ [86 <./figures/feature_importance.png> <./figures/random_undersampling_ML.png>
+] [87 <./figures/ml_five fold_cv.png> <./figures/same_dimensions.png>] [88 <./f
 igures/shadow_remove.png>]
-<figures/random_undersampling_DL.png, id=401, 383.93437pt x 140.02313pt>
+<figures/random_undersampling_DL.png, id=414, 383.93437pt x 140.02313pt>
 File: figures/random_undersampling_DL.png Graphic file (type png)
 <use figures/random_undersampling_DL.png>
 Package pdftex.def Info: figures/random_undersampling_DL.png  used on input lin
 e 76.
 (pdftex.def)             Requested size: 373.99469pt x 136.40768pt.
-<figures/live_augmentation.png, id=402, 194.97844pt x 60.97781pt>
+<figures/live_augmentation.png, id=415, 194.97844pt x 60.97781pt>
 File: figures/live_augmentation.png Graphic file (type png)
 <use figures/live_augmentation.png>
 Package pdftex.def Info: figures/live_augmentation.png  used on input line 82.
 (pdftex.def)             Requested size: 373.99469pt x 116.96902pt.
-<figures/CNN_layers.png, id=403, 245.41687pt x 158.09062pt>
+<figures/CNN_layers.png, id=416, 245.41687pt x 158.09062pt>
 File: figures/CNN_layers.png Graphic file (type png)
 <use figures/CNN_layers.png>
 Package pdftex.def Info: figures/CNN_layers.png  used on input line 88.
 (pdftex.def)             Requested size: 373.99469pt x 240.925pt.
-) [85 <./figures/random_undersampling_DL.png> <./figures/live_augmentation.png>
-] [86 <./figures/CNN_layers.png>]
+) [89 <./figures/random_undersampling_DL.png> <./figures/live_augmentation.png>
+] [90 <./figures/CNN_layers.png>]
 \openout2 = `appendix_B.aux'.
 
  (appendix_B.tex
@@ -1181,7 +1179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[87
+[91
 
 
 
@@ -1206,62 +1204,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--36
 
  []
 
-[88]
+[92]
 \openout2 = `appendix_C.aux'.
 
  (appendix_C.tex
 Appendix C.
-<figures/spawning.jpg, id=420, 3481.005pt x 4641.34pt>
+<figures/spawning.jpg, id=432, 3481.005pt x 4641.34pt>
 File: figures/spawning.jpg Graphic file (type jpg)
 <use figures/spawning.jpg>
 Package pdftex.def Info: figures/spawning.jpg  used on input line 23.
 (pdftex.def)             Requested size: 166.21844pt x 221.59908pt.
-<figures/spawning_separated.jpg, id=421, 2055.68pt x 924.45375pt>
+<figures/spawning_separated.jpg, id=433, 2055.68pt x 924.45375pt>
 File: figures/spawning_separated.jpg Graphic file (type jpg)
 <use figures/spawning_separated.jpg>
 Package pdftex.def Info: figures/spawning_separated.jpg  used on input line 29.
 
 (pdftex.def)             Requested size: 228.55513pt x 102.77638pt.
-<figures/dissecting_female.jpg, id=422, 3481.005pt x 4641.34pt>
+<figures/dissecting_female.jpg, id=434, 3481.005pt x 4641.34pt>
 File: figures/dissecting_female.jpg Graphic file (type jpg)
 <use figures/dissecting_female.jpg>
 Package pdftex.def Info: figures/dissecting_female.jpg  used on input line 35.
 (pdftex.def)             Requested size: 166.21844pt x 221.59908pt.
-<figures/dissecting male.jpg, id=423, 3481.005pt x 4641.34pt>
+<figures/dissecting male.jpg, id=435, 3481.005pt x 4641.34pt>
 File: figures/dissecting male.jpg Graphic file (type jpg)
 <use figures/dissecting male.jpg>
 Package pdftex.def Info: figures/dissecting male.jpg  used on input line 41.
 (pdftex.def)             Requested size: 166.21844pt x 221.59908pt.
-<figures/female_dataset.png, id=424, 620.3175pt x 338.76563pt>
+<figures/female_dataset.png, id=436, 620.3175pt x 338.76563pt>
 File: figures/female_dataset.png Graphic file (type png)
 <use figures/female_dataset.png>
 Package pdftex.def Info: figures/female_dataset.png  used on input line 47.
 (pdftex.def)             Requested size: 249.33403pt x 136.16548pt.
-<figures/male_dataset.png, id=425, 481.8pt x 347.79938pt>
+<figures/male_dataset.png, id=437, 481.8pt x 347.79938pt>
 File: figures/male_dataset.png Graphic file (type png)
 <use figures/male_dataset.png>
 Package pdftex.def Info: figures/male_dataset.png  used on input line 53.
 (pdftex.def)             Requested size: 249.33403pt x 179.98636pt.
-[89
+[93
 
 
 
 
- <./figures/spawning.jpg>] [90 <./figures/spawning_separated.jpg> <./figures/di
-ssecting_female.jpg> <./figures/dissecting male.jpg>] [91 <./figures/female_dat
+ <./figures/spawning.jpg>] [94 <./figures/spawning_separated.jpg> <./figures/di
+ssecting_female.jpg> <./figures/dissecting male.jpg>] [95 <./figures/female_dat
 aset.png> <./figures/male_dataset.png>]
-<figures/female_dataset(img).png, id=437, 759.33687pt x 301.62688pt>
+<figures/female_dataset(img).png, id=450, 759.33687pt x 301.62688pt>
 File: figures/female_dataset(img).png Graphic file (type png)
 <use figures/female_dataset(img).png>
 Package pdftex.def Info: figures/female_dataset(img).png  used on input line 60
 .
 (pdftex.def)             Requested size: 332.44325pt x 132.05807pt.
-<figures/male_dataset(img).png, id=438, 760.34062pt x 302.63063pt>
+<figures/male_dataset(img).png, id=451, 760.34062pt x 302.63063pt>
 File: figures/male_dataset(img).png Graphic file (type png)
 <use figures/male_dataset(img).png>
 Package pdftex.def Info: figures/male_dataset(img).png  used on input line 67.
 (pdftex.def)             Requested size: 332.44325pt x 132.32207pt.
-) [92 <./figures/female_dataset(img).png> <./figures/male_dataset(img).png>] (S
+) [96 <./figures/female_dataset(img).png> <./figures/male_dataset(img).png>] (S
 P-name.aux (title_page.aux)
 (approval.aux) (declaration.aux) (dedication.aux) (acknowledgment.aux)
 (abstract.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux)
@@ -1271,37 +1269,33 @@ P-name.aux (title_page.aux)
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 15 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 8705 strings out of 474486
- 147796 string characters out of 5744227
- 1965542 words of memory out of 5000000
- 30713 multiletter control sequences out of 15000+600000
+ 8721 strings out of 474486
+ 147969 string characters out of 5744227
+ 1964542 words of memory out of 5000000
+ 30729 multiletter control sequences out of 15000+600000
  569901 words of font info for 79 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,17n,84p,1795b,650s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Kane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/e
-c/dpi600\tcrm1200.pk><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Kane/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Kane/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kane/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
-s/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl
-12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmss8.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (114 pages, 25718056 bytes).
+ 79i,17n,84p,1795b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Kane\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Kane/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Kane/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Kane/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Kane/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Use
+rs/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb>
+<C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y10.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti12.pfb><C:/Users/Kane/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on SP-name.pdf (118 pages, 36639042 bytes).
 PDF statistics:
- 504 PDF objects out of 1000 (max. 8388607)
+ 517 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 201 words of extra memory for PDF output out of 10000 (max. 10000000)
 
