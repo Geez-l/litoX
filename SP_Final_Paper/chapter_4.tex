@@ -120,7 +120,7 @@ Interestingly, the overall performance of the models improved when using only th
 
 \subsection{Visualizations for Machine Learning}
 
-Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of the K-Nearest Neighbors model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
+Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of the KNN model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
 
 \begin{figure}[!htbp]
 	\centering
@@ -351,7 +351,7 @@ Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and p
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/cm_dl.png}
-	\caption{Confusion matrix for final model predictions.}
+	\caption{Confusion matrix for CNN model (Batch Size: 32, Epochs: 50, Activation Function: ReLU).}
 	\label{fig:cm_dl}
 \end{figure}
 
@@ -369,7 +369,7 @@ Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model
 
 \section{Discussions}
 
-This study aimed to develop a non-invasive method for identifying the sex of \Tgranosa using machine learning and deep learning technologies. Specifically, it explored the relevance of linear shell measurements and image data in building accurate classification models that can support sustainable aquaculture practices.
+This study aimed to develop a noninvasive method for identifying the sex of \Tgranosa using machine learning and deep learning technologies. Specifically, it explored the relevance of linear shell measurements and image data in building accurate classification models that can support sustainable aquaculture practices.
 
 In the machine learning experiments, feature selection played a key role in enhancing model performance. A reduced set of five statistically significant features, which were identified through Mann-Whitney U and Kruskal-Wallis tests, outperformed models using all available features. The K-Nearest Neighbors (KNN) classifier, trained on these five features, achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 score of 63.57\%. The width-height ratio observed from the left lateral view emerged as the most discriminative feature, with a correlation score of $p = 0.18$.
 
@@ -377,7 +377,7 @@ Deep learning experiments further revealed the impact of image angle and hyperpa
 
 The improved accuracy from models using fewer, more relevant features supports the idea that dimensionality reduction, when guided by statistical analysis, can enhance classification. The prominence of the left lateral view in both machine learning and deep learning results suggests that this angle reveals key morphological traits tied to sex differentiation. This aligns with the biological premise that some external characteristics may be more distinguishable when viewed from specific perspectives.
 
-These findings demonstrates the feasibility of a non-invasive, accurate, and scalable approach to sex identification in \textit{T. granosa}. This is especially important in aquaculture, where traditional sex identification methods are often invasive or require specialized knowledge. By reducing the need for physical intervention, this approach promotes animal welfare and operational efficiency, potentially enabling real-time sex identification in aquaculture settings.
+These findings demonstrates the feasibility of a noninvasive, accurate, and scalable approach to sex identification in \textit{T. granosa}. This is especially important in aquaculture, where traditional sex identification methods are often invasive or require specialized knowledge. By reducing the need for physical intervention, this approach promotes animal welfare and operational efficiency, potentially enabling real-time sex identification in aquaculture settings.
 
 When compared to related work, such as the gender classification of Chinese mitten crabs using CNNs \cite{cui2020}, this study reflects both shared methodologies and important distinctions. While both utilized CNN architectures, differences in image resolution, dataset characteristics, and species-specific morphology may explain the performance gap which is 98.90\% in the crab study compared to 71.68\% in this study. The lower accuracy here likely reflects subtler morphological differences in \Tgranosa and limited dataset size.
 
