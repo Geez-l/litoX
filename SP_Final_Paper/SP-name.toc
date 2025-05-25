@@ -30,28 +30,29 @@
 \contentsline {subsection}{\numberline {3.7.1}Data Preprocessing}{37}{}%
 \contentsline {subsection}{\numberline {3.7.2}Machine Learning Models Training}{39}{}%
 \contentsline {section}{\numberline {3.8}Deep Learning for Morphological Analysis}{40}{}%
-\contentsline {subsection}{\numberline {3.8.1}Convolutional Neural Network}{42}{}%
-\contentsline {subsection}{\numberline {3.8.2}CNN Training}{44}{}%
+\contentsline {subsection}{\numberline {3.8.1}Image Preprocessing}{40}{}%
+\contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network}{42}{}%
+\contentsline {subsection}{\numberline {3.8.3}CNN Training}{44}{}%
 \contentsline {section}{\numberline {3.9}Evaluation Metrics}{47}{}%
-\contentsline {chapter}{\numberline {4}Results and Discussions}{49}{}%
-\contentsline {section}{\numberline {4.1}Machine Learning Analysis}{49}{}%
-\contentsline {subsection}{\numberline {4.1.1}Data Exploration}{50}{}%
-\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis}{51}{}%
-\contentsline {subsection}{\numberline {4.1.3}Feature Importance Analysis}{52}{}%
-\contentsline {subsection}{\numberline {4.1.4}Performance Evaluation}{53}{}%
-\contentsline {subsection}{\numberline {4.1.5}Confusion Matrix Analysis}{54}{}%
-\contentsline {section}{\numberline {4.2}Deep Learning Analysis}{55}{}%
-\contentsline {subsection}{\numberline {4.2.1}Baseline Model}{56}{}%
-\contentsline {subsection}{\numberline {4.2.2}Comparison of Individual and Combined Angles}{57}{}%
-\contentsline {subsection}{\numberline {4.2.3}Training Result and Hyperparameter Tuning}{58}{}%
-\contentsline {subsection}{\numberline {4.2.4}Proposed Model}{59}{}%
-\contentsline {subsection}{\numberline {4.2.5}Learning Rates and Training Behavior per Fold}{60}{}%
-\contentsline {subsection}{\numberline {4.2.6}Visualizations}{61}{}%
-\contentsline {section}{\numberline {4.3}Discussions}{66}{}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{69}{}%
-\contentsline {section}{\numberline {5.1}Conclusion}{69}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{71}{}%
-\contentsline {chapter}{\numberline {6}References}{73}{}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{81}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{87}{}%
-\contentsline {chapter}{\numberline {C}Data Gathering Documentation}{89}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussions}{51}{}%
+\contentsline {section}{\numberline {4.1}Machine Learning Analysis}{51}{}%
+\contentsline {subsection}{\numberline {4.1.1}Data Exploration}{52}{}%
+\contentsline {subsection}{\numberline {4.1.2}Statistical Analysis}{53}{}%
+\contentsline {subsection}{\numberline {4.1.3}Feature Importance Analysis}{54}{}%
+\contentsline {subsection}{\numberline {4.1.4}Performance Evaluation}{55}{}%
+\contentsline {subsection}{\numberline {4.1.5}Visualizations for Machine Learning}{56}{}%
+\contentsline {section}{\numberline {4.2}Deep Learning Analysis}{58}{}%
+\contentsline {subsection}{\numberline {4.2.1}Baseline Model}{59}{}%
+\contentsline {subsection}{\numberline {4.2.2}Comparison of Individual and Combined Angles}{60}{}%
+\contentsline {subsection}{\numberline {4.2.3}Training Result and Hyperparameter Tuning}{61}{}%
+\contentsline {subsection}{\numberline {4.2.4}Proposed Model}{62}{}%
+\contentsline {subsection}{\numberline {4.2.5}Learning Rates and Training Behavior per Fold}{63}{}%
+\contentsline {subsection}{\numberline {4.2.6}Visualizations for Deep Learning}{64}{}%
+\contentsline {section}{\numberline {4.3}Discussions}{69}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{73}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{73}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{74}{}%
+\contentsline {chapter}{\numberline {6}References}{77}{}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{85}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{91}{}%
+\contentsline {chapter}{\numberline {C}Data Gathering Documentation}{93}{}%

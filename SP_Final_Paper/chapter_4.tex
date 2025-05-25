@@ -5,7 +5,7 @@ This chapter presents the results from the machine learning and deep learning an
 
 \section{Machine Learning Analysis}
 
-This chapter outlines the results of preprocessing, training of machine learning models, and feature importance analysis, all conducted in Google Colab using Python. The dataset was preprocessed in Colab, and the training and evaluation of various classifiers were performed entirely within this environment.  This part of the paper includes five subsections: data exploration, statistical analysis, feature importance analysis, performance evaluation, and confusion matrix analysis.
+This chapter outlines the results of preprocessing, training of machine learning models, and feature importance analysis, all conducted in Google Colab using Python. The dataset was preprocessed in Colab, and the training and evaluation of various classifiers were performed entirely within this environment.  This part of the paper includes five subsections: data exploration, statistical analysis, feature importance analysis, performance evaluation, and visualizations for machine learning.
 
 \subsection{Data Exploration}
 
@@ -24,7 +24,7 @@ The heatmap (\textit{see Figure~\ref{fig:heatmap}}) revealed three features most
 \newpage
 \subsection{Statistical Analysis}
 
-As part of the exploratory data analysis, statistical testing confirmed that the dataset did not follow a normal distribution (\textit{see Table~\ref{tab:mann-whitney}}). Consequently, the Mann-Whitney U test was applied with a significance level of $\alpha = 0.05$ to compare male and female samples. Out of thirteen features, five showed statistically significant differences. These included: distance between umbos ($p = 0.025$), length-width ratio ($p = 0.011$), umbos distance-length ratio ($p = 0.019$), width-height ratio ($p = 0.003$), and umbos distance-height ratio ($p = 0.036$). 
+As part of the exploratory data analysis, statistical testing confirmed that the dataset did not follow a normal distribution (\textit{see Table~\ref{tab:mann-whitney}}). Consequently, the Mann-Whitney U test was applied with a significance level of $\alpha = 0.05$ to compare male and female samples. Out of thirteen features, five showed statistically significant differences. These included: width-height ratio ($p = 0.003$), length-width ratio ($p = 0.011$), umbos distance-length ratio ($p = 0.019$), distance between umbos ($p = 0.025$), and umbos distance-height ratio ($p = 0.036$). 
 
 It is important to note that statistical significance does not imply predictive importance. Therefore, further analysis, such as feature importance evaluation, was performed to identify the most informative predictors for classification.
 
@@ -94,8 +94,6 @@ Table~\ref{tab:performance-13-features} shows the performance metrics of differe
 	\label{tab:performance-13-features}
 \end{table}
 
-
-
 Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top five features identified through Kruskal-Wallis feature importance analysis. The selected features are the distance between the umbos, length-to-width ratio, width-to-height ratio, umbos distance-to-height ratio, and umbos distance-to-length ratio.
 
 Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
@@ -120,9 +118,9 @@ Interestingly, the overall performance of the models improved when using only th
 	\label{tab:performance-5-features}
 \end{table}
 
-\subsection{Confusion Matrix Analysis}
+\subsection{Visualizations for Machine Learning}
 
-Figure~\ref{fig:cm_ml} summarizes the performance of the K-Nearest Neighbors model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
+Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of the K-Nearest Neighbors model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
 
 \begin{figure}[!htbp]
 	\centering
@@ -132,10 +130,20 @@ Figure~\ref{fig:cm_ml} summarizes the performance of the K-Nearest Neighbors mod
 \end{figure}
 
 \newpage
-\section{Deep Learning Analysis}
-This section presents the performance of the Convolutional Neural Network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations.
+Figure~\ref{fig:roc_ml} displays the average ROC curve, showing KNN’s ability to distinguish between positive and negative cases. The ROC curve helps assess the trade-off between sensitivity (true positive rate) and specificity (1 - false positive rate). The Area Under the Curve (AUC) value, which ranges from 0.5 (random chance) to 1 (perfect discrimination), is used to evaluate the model’s overall performance. In this case, KNN achieved an average AUC of 0.7004, indicating that it performs better than random guessing and has reasonable predictive ability.
 
-The machine learning analysis (see Figure~\ref{tab:performance-5-features}) revealed that five of the original features produced significant results. The K-Nearest Neighbors (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figures/roc_ml.png}
+	\caption{ROC curve with AUC score for KNN.}
+	\label{fig:roc_ml}
+\end{figure}
+
+\newpage
+\section{Deep Learning Analysis}
+This section presents the performance of the Convolutional Neural Network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations for deep learning.
+
+The machine learning analysis (\textit{see Figure~\ref{tab:performance-5-features}}) revealed that five of the original features produced significant results. The K-Nearest Neighbors (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
 
 \subsection{Baseline Model}
 This section presents the baseline model with a batch size of 16 and 20 epochs, which will serve as the starting point for comparison and provide a guideline for hyperparameter tuning. The focus will be on one of the angles, specifically the Left Lateral view, since the feature importance analysis using the Kruskal-Wallis Test indicated that the width-to-height ratio had the highest importance score, which is most visible from the Left Lateral view.
@@ -298,7 +306,7 @@ The following table summarizes the epochs where learning rate reductions occurre
 \end{table}
 
 
-\subsection{Visualizations}
+\subsection{Visualizations for Deep Learning}
 
 Figure~\ref{fig:tvapf} shows the performance of the model in the training and validation in terms of accuracy across five folds. The graph across folds displays a consistent upward trend for the training accuracy. However, there is an observable change in the performance, particularly in Folds 1 and 2, where it shows a slight downward trend in the validation accuracy.
 
@@ -360,16 +368,17 @@ Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model
 \newpage
 
 \section{Discussions}
-This study aimed to develop a non-invasive method for identifying the sex of \textit{T. granosa} using machine learning and deep learning techniques. The goal of the study is to determine the relevance of linear measurements and image data in building a classification model that supports sustainable aquaculture practices.
 
-In the initial machine learning experiments, the focus was on classification accuracy, feature selection, and feature importance analysis. Results revealed that models trained on a reduced feature set performed better than those using all available data. Specifically, the five key features, selected through statistical tests (Mann-Whitney U-test and Kruskal-Wallis test), led to improved classification performance. The K-Nearest Neighbors (KNN) classifier, utilizing five significant features, achieved an accuracy of 64.16\%, a precision of 64.97\%, a recall of 64.16\%, and an F1 score of 63.57\%. Feature importance analysis identified the width-height ratio as the most discriminative variable, observed in the left lateral view, as supported by the feature correlation score of p = 0.18. These results indicated that a more focused set of features can enhance model performance, confirming the potential of non-invasive sex identification using linear measurements.
+This study aimed to develop a non-invasive method for identifying the sex of \Tgranosa using machine learning and deep learning technologies. Specifically, it explored the relevance of linear shell measurements and image data in building accurate classification models that can support sustainable aquaculture practices.
 
-Furthermore, deep learning experiments explored the impact of different image angles and model hyperparameters on classification accuracy. The baseline model with balanced data outperformed those trained on unbalanced data. Hyperparameter optimization, involving sets of epochs and batch sizes, further improved model performance. Additionally, the influence of different activation functions, such as ReLU, ELU, and PReLU, was evaluated. The study found that the camera angle from the left lateral view consistently produced the best results, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1 score of 69.12\%, and an AUC score of 77.34\% with a batch size of 32 and epoch of 50. The result suggests that certain morphological features are most visible from the camera angle taken from the left lateral.
+In the machine learning experiments, feature selection played a key role in enhancing model performance. A reduced set of five statistically significant features, which were identified through Mann-Whitney U and Kruskal-Wallis tests, outperformed models using all available features. The K-Nearest Neighbors (KNN) classifier, trained on these five features, achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 score of 63.57\%. The width-height ratio observed from the left lateral view emerged as the most discriminative feature, with a correlation score of $p = 0.18$.
 
-Overall, the key insights from machine learning and deep learning are the effects of reducing dimensionality through feature selection, supported by statistical analysis. Additionally, the left lateral angle showed higher performance compared to other camera angles, which suggests a sex-determining factor that shows potential for further exploration and analysis.
+Deep learning experiments further revealed the impact of image angle and hyperparameter tuning on classification performance. The left lateral view consistently yielded the highest metrics, with the best model reaching 71.68\% accuracy, 72.52\% precision, 69.29\% recall, 69.12\% F1 score, and 77.34\% AUC using a batch size of 32 and 50 training epochs. Additionally, balanced dataset and activation function contributed to improved model performance.
 
-When compared to similar existing studies—such as the gender classification method for Chinese mitten crab using deep learning CNNs \cite{cui2020}—there are both methodological similarities and differences. Both studies employed Convolutional Neural Networks (CNNs) with three convolutional layers, pooling layers, fully connected layers, and dropout. The crab study used grayscale images resized to 64×64 pixels, while this study utilized higher-resolution RGB images (256×256). In terms of architecture, the crab study applied 4, 8, and 16 filters in its convolutional layers and 256 neurons in the fully connected layer, achieving a high accuracy of 98.90\%. In contrast, this study used 16, 32, and 64 filters in the convolutional layers and 128 neurons in the fully connected layer, reaching an accuracy of 71.68\%. This lower performance may be attributed to the subtler morphological differences between male and female \textit{T. granosa}, as well as limitations in image quality and sample size.
+The improved accuracy from models using fewer, more relevant features supports the idea that dimensionality reduction, when guided by statistical analysis, can enhance classification. The prominence of the left lateral view in both machine learning and deep learning results suggests that this angle reveals key morphological traits tied to sex differentiation. This aligns with the biological premise that some external characteristics may be more distinguishable when viewed from specific perspectives.
 
-The findings of this study are significant in demonstrating the feasibility of a non-invasive, accurate, and efficient sex identification method for \textit{T. granosa}. This approach aligns with sustainable aquaculture practices by reducing the need for invasive sex-identifying methods and offering potential in real-time settings. By integrating machine learning with deep learning image analysis, this study provides a valuable model for non-invasive sex identification for \textit{T. granosa}.
+These findings demonstrates the feasibility of a non-invasive, accurate, and scalable approach to sex identification in \textit{T. granosa}. This is especially important in aquaculture, where traditional sex identification methods are often invasive or require specialized knowledge. By reducing the need for physical intervention, this approach promotes animal welfare and operational efficiency, potentially enabling real-time sex identification in aquaculture settings.
 
-This study acknowledges several limitations, particularly the size of the dataset (271 samples) and the reliance on six fixed image angles. These constraints may not fully represent the morphological variability across different populations or environments. Nevertheless, the results indicate that combining machine learning and deep learning offers a promising and non-invasive approach for sex identification in \textit{T. granosa}.
+When compared to related work, such as the gender classification of Chinese mitten crabs using CNNs \cite{cui2020}, this study reflects both shared methodologies and important distinctions. While both utilized CNN architectures, differences in image resolution, dataset characteristics, and species-specific morphology may explain the performance gap which is 98.90\% in the crab study compared to 71.68\% in this study. The lower accuracy here likely reflects subtler morphological differences in \Tgranosa and limited dataset size.
+
+Despite promising results, the study has several limitations. The dataset size (271 samples) was relatively small, which may have affected model generalizability. Additionally, image data was constrained to six fixed angles, potentially missing other informative views. These limitations may restrict the model’s effectiveness across diverse populations or environmental conditions.
