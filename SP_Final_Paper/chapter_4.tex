@@ -131,7 +131,7 @@ Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of 
 \end{figure}
 
 \newpage
-Figure~\ref{fig:roc_ml} displays the average ROC curve, showing KNN’s ability to distinguish between positive and negative cases. The ROC curve helps assess the trade-off between sensitivity (true positive rate) and specificity (1 - false positive rate). The Area Under the Curve (AUC) value, which ranges from 0.5 (random chance) to 1 (perfect discrimination), is used to evaluate the model’s overall performance. In this case, KNN achieved an average AUC of 0.7004, indicating that it performs better than random guessing and has reasonable predictive ability.
+Figure~\ref{fig:roc_ml} displays the average receiver operating characteristic (ROC) curve, showing KNN’s ability to distinguish between positive and negative cases. The ROC curve helps assess the trade-off between sensitivity (true positive rate) and specificity (1 - false positive rate). The area under the curve (AUC) value, which ranges from 0.5 (random chance) to 1 (perfect discrimination), is used to evaluate the model’s overall performance. In this case, KNN achieved an average AUC of 0.7004, indicating that it performs better than random guessing and has reasonable predictive ability.
 
 \begin{figure}[!htbp]
 	\centering
@@ -142,9 +142,9 @@ Figure~\ref{fig:roc_ml} displays the average ROC curve, showing KNN’s ability 
 
 \newpage
 \section{Deep Learning Analysis}
-This section presents the performance of the Convolutional Neural Network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations for deep learning.
+This section presents the performance of the convolutional neural network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations for deep learning.
 
-The machine learning analysis (\textit{see Figure~\ref{tab:performance-5-features}}) revealed that five of the original features produced significant results. The K-Nearest Neighbors (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
+The machine learning analysis (\textit{see Figure~\ref{tab:performance-5-features}}) revealed that five of the original features produced significant results. The k-nearest neighbors (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
 
 \subsection{Baseline Model}
 This section presents the baseline model with a batch size of 16 and 20 epochs, which will serve as the starting point for comparison and provide a guideline for hyperparameter tuning. The focus will be on one of the angles, specifically the Left Lateral view, since the feature importance analysis using the Kruskal-Wallis Test indicated that the width-to-height ratio had the highest importance score, which is most visible from the Left Lateral view.
@@ -256,7 +256,7 @@ Table~\ref{tab:activation-function} shows the performance of different activatio
 \end{table}
 
 \subsection{Proposed Model}
-This section presents the performance evaluation of the proposed Convolutional Neural Network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
+This section presents the performance evaluation of the proposed convolutional neural network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
 
 The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracies above 76\% and strong recall and AUC scores, demonstrating its potential for reliable sex identification of \textit{T. granosa}. The slight variation in performance across folds may be attributed to differences in data distribution, emphasizing the importance of further data augmentation and balancing for future work.
 
@@ -358,12 +358,12 @@ Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and p
 \end{figure}
 
 \newpage
-Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model’s ability to correctly identify the true positives, which can help determine the trade-off between specificity and sensitivity. It will also determine the model's validity, supporting that it is not being predicted based only on random chance. The range of AUC ROC is between 0.5 and 1. The model achieved an average score of 0.7734, which is better than random chance and a positive indication that the model is performing reasonably.
+Figure~\ref{fig:roc_auc} shows the average receiver operating characteristic (ROC) curve, showing the proposed model’s ability to correctly identify the true positives, which can help determine the trade-off between specificity and sensitivity. It will also determine the model's validity, supporting that it is not being predicted based only on random chance. The range of area under the receiver operating characteristic curve (AUC-ROC) is between 0.5 and 1. The model achieved an average score of 0.7734, which is better than random chance and a positive indication that the model is performing reasonably.
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/roc.png}
-	\caption{ROC curve with AUC score for the proposed model.}
+	\caption{ROC curve with area under the curve (AUC) score for the proposed model.}
 	\label{fig:roc_auc}
 \end{figure}
 
@@ -373,7 +373,7 @@ Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model
 
 This study aimed to develop a noninvasive method for identifying the sex of \Tgranosa using machine learning and deep learning technologies. Specifically, it explored the relevance of linear shell measurements and image data in building accurate classification models that can support sustainable aquaculture practices.
 
-In the machine learning experiments, feature selection played a key role in enhancing model performance. A reduced set of five statistically significant features, which were identified through Mann-Whitney U and Kruskal-Wallis tests, outperformed models using all available features. The K-Nearest Neighbors (KNN) classifier, trained on these five features, achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 score of 63.57\%. The width-height ratio observed from the left lateral view emerged as the most discriminative feature, with a correlation score of $p = 0.18$.
+In the machine learning experiments, feature selection played a key role in enhancing model performance. A reduced set of five statistically significant features, which were identified through Mann-Whitney U and Kruskal-Wallis tests, outperformed models using all available features. The k-nearest neighbors (KNN) classifier, trained on these five features, achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 score of 63.57\%. The width-height ratio observed from the left lateral view emerged as the most discriminative feature, with a correlation score of $p = 0.18$.
 
 Deep learning experiments further revealed the impact of image angle and hyperparameter tuning on classification performance. The left lateral view consistently yielded the highest metrics, with the best model reaching 71.68\% accuracy, 72.52\% precision, 69.29\% recall, 69.12\% F1 score, and 77.34\% AUC using a batch size of 32 and 50 training epochs. Additionally, balanced dataset and activation function contributed to improved model performance.
 
