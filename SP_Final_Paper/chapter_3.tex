@@ -11,7 +11,8 @@ The methodology consisted of nine parts: (1) Sample Collection, (2) Ethical Cons
 \section{Sample Collection}
 \label{sec:samplecollect} 
 
-The collection of \Tgranosa samples used in this study was part of an ongoing research project by UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." A total of 271 samples were provided for this study to classify the sex of \textit{T. granosa}. The samples, ranging in size from 34 to 61 mm, were sourced from the coastal area of Zarraga, Iloilo, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figure~\ref{fig:granosa_femaleshells}},{and Figure~\ref{fig:granosa_maleshells}}).
+The collection of \Tgranosa samples used in this study was part of an ongoing research project by UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." A total of 271 samples were provided for this study to classify the sex of \textit{T. granosa}. The samples, ranging in size from 34 to 61 mm, were sourced from the coastal area of Zarraga, Iloilo, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figures~\ref{fig:granosa_femaleshells} and~\ref{fig:granosa_maleshells}}).
+
 
 The research and experimentation were conducted at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, where the samples were maintained in 200 L fiberglass-reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023}.
 
@@ -42,9 +43,9 @@ The ongoing research project titled "Establishment of the Center for Mollusc Res
 \section{Creating \textit{T. granosa} Dataset}
 \label{sec:dataset}
 
-The experiment began with the collection of preliminary observations from 100 \Tgranosa samples. For the actual experimentation, the researchers collected the full dataset in batches until a total sample size of 271 \Tgranosa was reached. Linear measurements—including width, height, length, rib count, hinge line length, and the distance between the umbos—were recorded and organized into a CSV file. This dataset served as the foundation for training and testing machine learning models, as well as for establishing a baseline for the Convolutional Neural Networks.
+The experiment began with the collection of preliminary observations from 100 \Tgranosa samples. For the actual experimentation, the researchers collected the full dataset in batches until a total sample size of 271 \Tgranosa was reached. Linear measurements—including width, height, length, rib count, hinge line length, and the distance between the umbos—were recorded and organized into a CSV file. This dataset served as the foundation for training and testing machine learning models, as well as for establishing a baseline for the convolutional neural networks.
 
-Images of each sample were captured and saved in JPG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (\textit{refer to Figure~\ref{fig:granosa_views}}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
+Images of each sample were captured and saved in JPEG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (\textit{refer to Figure~\ref{fig:granosa_views}}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
 
 \begin{figure}[!htbp]
 	\centering
@@ -56,7 +57,7 @@ Images of each sample were captured and saved in JPG format using a standardized
 \section{Morphometric Data Collection}
 \label{sec:morphochar}
 
-Morphology refers to biological form and is one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe the structural features of \textit{T. granosa}, focusing on measurable attributes such as shape, size, and color. Morphometric characteristics, on the other hand, refer to specific quantifiable features of \textit{T. granosa}, including length, width, height, hinge line length, distance between the umbos, and rib count. As stated by the researchers, quantifying and characterizing these traits is essential for understanding and visualizing variations in \Tgranosa morphology.
+Morphology refers to biological form and is one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe the structural features of \textit{T. granosa}, focusing on measurable attributes such as shape and size. Morphometric characteristics, on the other hand, refer to specific quantifiable features of \textit{T. granosa}, including length, width, height, hinge line length, distance between the umbos, and rib count. Quantifying and characterizing these traits is essential for understanding and visualizing variations in \Tgranosa's morphology.
 
 The researchers measured the height, width, and length of \Tgranosa using a Vernier caliper with a precision of up to 0.01 mm. Refer to Figure~\ref{fig:linear_measurements} for the corresponding measurement diagram. Length (A) refers to the distance from the anterior to the posterior of the shell. Width (B) is defined as the widest span across the shell from the left to the right valve. Height (C) measures the distance from the base to the apex of the shell. In addition, the hinge line length (D) near the hinge and the distance between the umbos (E) were recorded.
 
@@ -72,7 +73,7 @@ Reyment and Kennedy (1998) emphasized that including rib count (F) as supplement
 \section{Image Acquisition and Data Gathering}
 \label{sec:imageprocess}
 
-This study comprised 144 male and 127 female \Tgranosa samples, resulting in a total of 1,626 images captured from various angles. To ensure consistency during image acquisition, the researchers constructed a box-like structure with a white background to control the imaging environment (\textit{see Figure~\ref{fig:setup}}). This setup allowed for uniform image captures by fixing the camera at a consistent angle directly above the \textit{T. granosa}. A ring light was positioned in front of the box to enhance image quality, eliminate shadows, and ensure clarity of the samples throughout the image acquisition process.
+This study comprised 144 male and 127 female \Tgranosa samples, resulting in a total of 1,626 images captured from various angles. To ensure consistency during image acquisition, a box-like structure with a white background was constructed to control the imaging environment (\textit{see Figure~\ref{fig:setup}}).
 
 The images were captured using a Google Pixel 3 XL smartphone, which features a resolution of 2960 × 1440 pixels and a 12.2 MP camera (4032 × 3024 pixels). Additional camera specifications include an f/1.8 aperture, 28mm wide lens, ½.55” sensor size, 1.4µm pixel size, dual-pixel phase detection autofocus (PDAF), and optical image stabilization (OIS) \cite{concepcion2023}.
 
@@ -154,7 +155,7 @@ A five-fold cross-validation approach was implemented (\textit{refer to Figure~\
 
 \newpage
 \section{Deep Learning for Morphological Analysis}
-This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A Convolutional Neural Network (CNN) architecture was implemented and trained on preprocessed images using stratified cross-validation.
+This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A convolutional neural network (CNN) architecture was implemented and trained on preprocessed images using stratified cross-validation.
 
 \subsection{Image Preprocessing}}
 
@@ -163,7 +164,7 @@ This subsection details the image processing techniques applied to raw shell ima
 \newpage
 \textbf{\textit{Adjusting Dimensions}}
 
-All images were resized to a consistent dimension of 256x256 pixels to ensure uniformity throughout the dataset. This standardization is essential for Convolutional Neural Networks (CNNs), as a consistent input dimension is required. While resizing, the aspect ratio was maintained to prevent distortion of the morphological features, and padding was added to retain the original format.
+All images were resized to a consistent dimension of 256x256 pixels to ensure uniformity throughout the dataset. This standardization is essential for CNNs, as a consistent input dimension is required. While resizing, the aspect ratio was maintained to prevent distortion of the morphological features, and padding was added to retain the original format.
 
 \textbf{\textit{Background Removal}}
 
@@ -310,4 +311,4 @@ The F1 Score is the harmonic mean of precision and recall, which penalizes extre
 	\label{eq:f1}
 \end{equation}
 
-The Area Under the Receiver Operating Characteristic Curve (AUC-ROC) is a performance measurement for classification problems. The ROC curve is a plot of the true positive rate (recall) against the false positive rate (1 - specificity), and the AUC score quantifies the overall ability of the model to discriminate between positive and negative classes. A higher AUC indicates better model performance. \cite{nahm2022} 
+The area under the receiver operating characteristic Curve (AUC-ROC) is a performance measurement for classification problems. The receiver operating characteristic (ROC) curve is a plot of the true positive rate (recall) against the false positive rate (1 - specificity), and the area under the curve (AUC) score quantifies the overall ability of the model to discriminate between positive and negative classes. A higher AUC indicates better model performance. \cite{nahm2022} 
