@@ -98,6 +98,7 @@ Table~\ref{tab:performance-5-features} presents the performance of the same mode
 
 Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -150,7 +151,6 @@ This section presents the baseline model with a batch size of 16 and 20 epochs, 
 
 The unbalanced dataset, which consisted of 144 male samples and 127 female samples, achieved an accuracy of 65.27\%, precision of 71.82\%, recall of 58.99\%, an F1 Score of 63.99\%, an AUC score of 73.08\%, and a loss of 0.6122. However, to address the class imbalance and enhance model performance, random undersampling was performed. This approach resulted in improved performance metrics for the balanced dataset, with an accuracy of 67.34\%, precision of 69.43\%, a recall of 64.06\%, an F1 Score of 65.60\%, an AUC score of 74.31\%, and a lower loss of 0.5981.
 
-\vspace{0.5cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -167,7 +167,7 @@ The unbalanced dataset, which consisted of 144 male samples and 127 female sampl
 \end{table}
 
 \subsection{Comparison of Individual and Combined Angles}
-\vspace{-0.5 cm}
+
 Using the same batch size and number of epochs, performance was compared across all individual angles and the combination of the two highest-performing angles based on accuracy, using a balanced dataset. For the combined analysis, samples from the two selected angles were placed side by side, and a new dataset folder was created for male and female samples. 
 
 Table~\ref{tab:individual-combined} presents the performance metrics for each individual angle and the combination of the two highest-performing angles in terms of accuracy. The Left Lateral view achieved the highest accuracy (67.34\%) and precision (69.43\%), while the Dorsal view obtained the highest recall (77.88\%) and F1 Score (69.96\%). Meanwhile, the Ventral view recorded the highest AUC score (74.87\%), indicating its strong ability to distinguish between classes.
@@ -224,8 +224,7 @@ In contrast, increasing the batch size to 64 resulted in lower recall and F1 Sco
 			\hline
 			\multirow{3}{*}{50} 
 			& 16 & 67.73 & 70.17 & 64.06 & 65.72 & 75.76 & 0.5900 \\
-			\rowcolor{celadon}
-			& 32 & 71.68 & 72.52 & 69.29 & 69.12 & 77.34 & 0.5824 \\
+			& \cellcolor{celadon}32 & \cellcolor{celadon}71.68 & \cellcolor{celadon}72.52 & \cellcolor{celadon}69.29 & \cellcolor{celadon}69.12 & \cellcolor{celadon}77.34 & \cellcolor{celadon}0.5824 \\
 			& 64 & 61.10 & 62.68 & 56.12 & 56.83 & 73.46 & 0.6086 \\
 			\hline
 		\end{tabular}
@@ -239,6 +238,7 @@ In contrast, increasing the batch size to 64 resulted in lower recall and F1 Sco
 
 Table~\ref{tab:activation-function} shows the performance of different activation functions applied to the CNN model trained with a batch size of 32 and 50 epochs. Based on the results, the ReLU activation function achieved the best overall performance, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1 Score of 69.12\%, and AUC score of 77.34\%, along with the lowest loss at 0.5824. This suggests that ReLU remains an effective activation function for the classification of \textit{T. granosa}, outperforming both ELU and PReLU in this setup.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -260,6 +260,7 @@ This section presents the performance evaluation of the proposed Convolutional N
 
 The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracies above 76\% and strong recall and AUC scores, demonstrating its potential for reliable sex identification of \textit{T. granosa}. The slight variation in performance across folds may be attributed to differences in data distribution, emphasizing the importance of further data augmentation and balancing for future work.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -288,6 +289,7 @@ This section presents the learning rate adjustments, early stopping events, and 
 
 The following table summarizes the epochs where learning rate reductions occurred, the adjusted learning rates, the epochs at which early stopping took place, and the best epochs from which model weights were restored for each fold.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{

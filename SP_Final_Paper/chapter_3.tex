@@ -53,7 +53,6 @@ Images of each sample were captured and saved in JPG format using a standardized
 	\label{fig:granosa_views}
 \end{figure}
 
-
 \section{Morphometric Data Collection}
 \label{sec:morphochar}
 
@@ -86,12 +85,12 @@ The images were captured using a Google Pixel 3 XL smartphone, which features a 
 
 \section{Hardware and Software Configuration}
 
-This section of the paper discusses the software, programming languages, and tools used for sex identification. Data collection, preprocessing, and model training were conducted on a Windows 11 operating system using an ACER Aspire 3 general-purpose unit (GPU) equipped with an AMD Ryzen 3 7320U CPU with Radeon Graphics (8 cores) @ 2.395 GHz and 8 GB of RAM. Google Colaboratory was utilized for collaborative preprocessing, computer vision tasks, and model training. Image preprocessing was performed using computer vision techniques in Python, while machine learning and deep learning models were developed using Python libraries, including Keras. The results of the gathered measurements were stored and managed using spreadsheet software. GitHub was employed for version control, documentation, and activity tracking throughout the study.
+This section discusses the software, programming languages, and tools used for sex identification. Data collection, preprocessing, and model training were conducted on a Windows 11 operating system using an ACER Aspire 3 general-purpose unit (GPU) equipped with an AMD Ryzen 3 7320U CPU with Radeon Graphics (8 cores) @ 2.395 GHz and 8 GB of RAM. Google Colaboratory was utilized for collaborative preprocessing, computer vision tasks, and model training. Image preprocessing was performed using computer vision techniques in Python, while machine learning and deep learning models were developed using Python libraries, including Keras. The results of the gathered measurements were stored and managed using spreadsheet software. GitHub was employed for version control, documentation, and activity tracking throughout the study.
 
 \section{Machine Learning on Morphometric Data}
 \label{sec:ml models}
 
-This section of the paper discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbos distance-to-length ratio, hinge line length-to-length ratio, umbos distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
+This section discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbos distance-to-length ratio, hinge line length-to-length ratio, umbos distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
 
 \newpage
 \subsection{Data Preprocessing}
@@ -159,7 +158,7 @@ This section outlines the application of deep learning techniques in analyzing t
 
 \subsection{Image Preprocessing}}
 
-This subsection details the image processing techniques applied to raw shell images of \Tgranosa using computer vision methods before training the deep learning model. The image preprocessing techniques include standardizing input dimensions and removing shadows, background, and noise. Each image underwent data augmentation to enhance feature visibility for effective learning. Image preprocessing ensures consistent and high-quality input data for model training.
+This subsection details the image processing techniques applied to raw shell images of \Tgranosa using computer vision methods before training the deep learning model. The image preprocessing techniques include standardizing input dimensions and removing shadows, background, and noise. Image preprocessing ensures consistent and high-quality input data for model training.
 
 \newpage
 \textbf{\textit{Adjusting Dimensions}}
