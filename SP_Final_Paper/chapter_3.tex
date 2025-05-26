@@ -274,7 +274,7 @@ The model was trained using the Adam optimization algorithm, with an initial lea
 
 
 \section{Evaluation Metrics}
-Evaluating the performance of a binary classification model is essential, and selecting appropriate metrics depends on the specific requirements of the user. The performance of both supervised machine learning and deep learning models will be measured using several key metrics, including accuracy, precision, recall, F1 Score, and the AUC-ROC Score.
+Evaluating the performance of a binary classification model is essential, and selecting appropriate metrics depends on the specific requirements of the user. The performance of both supervised machine learning and deep learning models will be measured using several key metrics, including accuracy, precision, recall, F1 Score, and the area under the receiver operating characteristic curve (AUC-ROC) score.
 
 Accuracy (ACC) is the ratio of the overall correctly predicted samples to the total number of examples in the evaluation dataset \cite{cui2020}. It measures the overall correctness of the model in predicting both male and female blood cockles. This metric provides insight into how well the model performs across all classifications. The formula for accuracy is: 
 
@@ -311,4 +311,4 @@ The F1 Score is the harmonic mean of precision and recall, which penalizes extre
 	\label{eq:f1}
 \end{equation}
 
-The area under the receiver operating characteristic Curve (AUC-ROC) is a performance measurement for classification problems. The receiver operating characteristic (ROC) curve is a plot of the true positive rate (recall) against the false positive rate (1 - specificity), and the area under the curve (AUC) score quantifies the overall ability of the model to discriminate between positive and negative classes. A higher AUC indicates better model performance. \cite{nahm2022} 
+The AUC-ROC is a performance measurement for classification problems. The receiver operating characteristic (ROC) curve is a plot of the true positive rate (recall) against the false positive rate (1 - specificity), and the area under the curve (AUC) score quantifies the overall ability of the model to discriminate between positive and negative classes. A higher AUC indicates better model performance. \cite{nahm2022} 
