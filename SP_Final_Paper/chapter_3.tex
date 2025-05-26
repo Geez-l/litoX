@@ -127,7 +127,7 @@ A new column labeled \texttt{Label} was added to both datasets. Female specimens
 
 After cleaning and feature engineering, the male and female datasets were merged into a single DataFrame. The \texttt{Litob\_id} column was removed post de-duplication. All continuous numeric features were normalized using \texttt{MinMaxScaler} to scale values to the range [0, 1].
 
-Rib count was excluded from normalization because it is a discrete feature with biologically meaningful bounds. According to best practices in machine learning, normalizing discrete or categorical features can distort their meaning and is often unnecessary \cite{jaiswal2024}. In this study, rib count was treated as a categorical attribute due to its biological significance and finite, non-continuous nature.
+Rib count was excluded from normalization because it is a discrete feature with biologically meaningful bounds. According to best practices in machine learning, normalizing discrete or categorical features can distort their meaning and is often unnecessary \textnormal{\cite{jaiswal2024}}. In this study, rib count was treated as a categorical attribute due to its biological significance and finite, non-continuous nature.
 
 \textbf{\textit{Class Imbalance Handling}}
 
