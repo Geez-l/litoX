@@ -11,13 +11,14 @@ The methodology consisted of nine parts: (1) Sample Collection, (2) Ethical Cons
 \section{Sample Collection}
 \label{sec:samplecollect} 
 
-The collection of \Tgranosa samples used in this study was part of an ongoing research project by UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." A total of 271 samples were provided for this study to classify the sex of \textit{T. granosa}. The samples, ranging in size from 34 to 61 mm, were sourced from the coastal area of Zarraga, Iloilo, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figure~\ref{fig:granosa_femaleshells}},{and Figure~\ref{fig:granosa_maleshells}}).
+The collection of \Tgranosa samples used in this study was part of an ongoing research project by UPV DOST-PCAARRD titled "Establishment of the Center for Mollusc Research and Development: Development of Spawning and Hatchery Techniques for the Blood Cockle (\textit{Anadara granosa}) for Sustainable Aquaculture." A total of 271 samples were provided for this study to classify the sex of \textit{T. granosa}. The samples, ranging in size from 34 to 61 mm, were sourced from the coastal area of Zarraga, Iloilo, and fish markets in Ivisan, Capiz, Philippines (\textit{see Figures~\ref{fig:granosa_femaleshells} and~\ref{fig:granosa_maleshells}}).
+
 
 The research and experimentation were conducted at the University of the Philippines Visayas hatchery facility in Miagao, Iloilo, where the samples were maintained in 200 L fiberglass-reinforced plastic (FRP) tanks containing filtered seawater with 35 ppt salinity \cite{miranda2023}.
 
 As part of the data collection process, the researchers utilized induced spawning and dissection to classify the sex of the samples. Induced spawning through temperature fluctuations was the most natural and least invasive method for bivalves compared to other approaches \cite{aji}. However, since not all samples exhibited gamete release, the researchers also performed dissections, assisted by hatchery staff, to expedite data collection. The sex of the dissected samples was identified based on the coloration of gonad tissue, which varies according to sex and maturity stage. Females exhibited orange-red to pale orange gonads, while males displayed white to grayish-white gonads \cite{may2021}.
 
-The methods used for data collection were considered non-invasive, given that \Tgranosa are oxygen regulators well adapted to tidal exposure and hypoxia \cite{davenport1986}.
+The methods used for data collection were considered noninvasive, given that \Tgranosa are oxygen regulators well adapted to tidal exposure and hypoxia \cite{davenport1986}.
 
 \begin{figure}[!htbp]
 	\centering
@@ -42,9 +43,9 @@ The ongoing research project titled "Establishment of the Center for Mollusc Res
 \section{Creating \textit{T. granosa} Dataset}
 \label{sec:dataset}
 
-The experiment began with the collection of preliminary observations from 100 \Tgranosa samples. For the actual experimentation, the researchers collected the full dataset in batches until a total sample size of 271 \Tgranosa was reached. Linear measurements—including width, height, length, rib count, hinge line length, and the distance between the umbos—were recorded and organized into a CSV file. This dataset served as the foundation for training and testing machine learning models, as well as for establishing a baseline for the Convolutional Neural Networks.
+The experiment began with the collection of preliminary observations from 100 \Tgranosa samples. For the actual experimentation, the researchers collected the full dataset in batches until a total sample size of 271 \Tgranosa was reached. Linear measurements—including width, height, length, rib count, hinge line length, and the distance between the umbos—were recorded and organized into a CSV file. This dataset served as the foundation for training and testing machine learning models, as well as for establishing a baseline for the convolutional neural networks.
 
-Images of each sample were captured and saved in JPG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (\textit{refer to Figure~\ref{fig:granosa_views}}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
+Images of each sample were captured and saved in JPEG format using a standardized file naming convention that included the sample's sex, the shell's orientation or view, and its corresponding number out of the 271 total samples. File names for female \Tgranosa samples began with “0”, while those for male samples began with “1”. Each file name also included one of the six captured views: (1) dorsal, (2) ventral, (3) anterior, (4) posterior, (5) left lateral, and (6) right lateral (\textit{refer to Figure~\ref{fig:granosa_views}}), followed by a unique sample number. For example, “010001” denoted the first female sample taken from the dorsal view, while “110001” represented the first male sample from the same view. This naming convention was implemented to prevent data leakage and ensure accurate labeling of images according to their respective samples.
 
 \begin{figure}[!htbp]
 	\centering
@@ -53,11 +54,10 @@ Images of each sample were captured and saved in JPG format using a standardized
 	\label{fig:granosa_views}
 \end{figure}
 
-
 \section{Morphometric Data Collection}
 \label{sec:morphochar}
 
-Morphology refers to biological form and is one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe the structural features of \textit{T. granosa}, focusing on measurable attributes such as shape, size, and color. Morphometric characteristics, on the other hand, refer to specific quantifiable features of \textit{T. granosa}, including length, width, height, hinge line length, distance between the umbos, and rib count. As stated by the researchers, quantifying and characterizing these traits is essential for understanding and visualizing variations in \Tgranosa morphology.
+Morphology refers to biological form and is one of the most visually recognizable phenotypes across all organisms \cite{tsutsumi2023}. In this study, morphological characteristics describe the structural features of \textit{T. granosa}, focusing on measurable attributes such as shape and size. Morphometric characteristics, on the other hand, refer to specific quantifiable features of \textit{T. granosa}, including length, width, height, hinge line length, distance between the umbos, and rib count. Quantifying and characterizing these traits is essential for understanding and visualizing variations in \Tgranosa's morphology.
 
 The researchers measured the height, width, and length of \Tgranosa using a Vernier caliper with a precision of up to 0.01 mm. Refer to Figure~\ref{fig:linear_measurements} for the corresponding measurement diagram. Length (A) refers to the distance from the anterior to the posterior of the shell. Width (B) is defined as the widest span across the shell from the left to the right valve. Height (C) measures the distance from the base to the apex of the shell. In addition, the hinge line length (D) near the hinge and the distance between the umbos (E) were recorded.
 
@@ -73,7 +73,7 @@ Reyment and Kennedy (1998) emphasized that including rib count (F) as supplement
 \section{Image Acquisition and Data Gathering}
 \label{sec:imageprocess}
 
-This study comprised 144 male and 127 female \Tgranosa samples, resulting in a total of 1,626 images captured from various angles. To ensure consistency during image acquisition, the researchers constructed a box-like structure with a white background to control the imaging environment (\textit{see Figure~\ref{fig:setup}}). This setup allowed for uniform image captures by fixing the camera at a consistent angle directly above the \textit{T. granosa}. A ring light was positioned in front of the box to enhance image quality, eliminate shadows, and ensure clarity of the samples throughout the image acquisition process.
+This study comprised 144 male and 127 female \Tgranosa samples, resulting in a total of 1,626 images captured from various angles. To ensure consistency during image acquisition, a box-like structure with a white background was constructed to control the imaging environment (\textit{see Figure~\ref{fig:setup}}).
 
 The images were captured using a Google Pixel 3 XL smartphone, which features a resolution of 2960 × 1440 pixels and a 12.2 MP camera (4032 × 3024 pixels). Additional camera specifications include an f/1.8 aperture, 28mm wide lens, ½.55” sensor size, 1.4µm pixel size, dual-pixel phase detection autofocus (PDAF), and optical image stabilization (OIS) \cite{concepcion2023}.
 
@@ -86,12 +86,12 @@ The images were captured using a Google Pixel 3 XL smartphone, which features a 
 
 \section{Hardware and Software Configuration}
 
-This section of the paper discusses the software, programming languages, and tools used for sex identification. Data collection, preprocessing, and model training were conducted on a Windows 11 operating system using an ACER Aspire 3 general-purpose unit (GPU) equipped with an AMD Ryzen 3 7320U CPU with Radeon Graphics (8 cores) @ 2.395 GHz and 8 GB of RAM. Google Colaboratory was utilized for collaborative preprocessing, computer vision tasks, and model training. Image preprocessing was performed using computer vision techniques in Python, while machine learning and deep learning models were developed using Python libraries, including Keras. The results of the gathered measurements were stored and managed using spreadsheet software. GitHub was employed for version control, documentation, and activity tracking throughout the study.
+This section discusses the software, programming languages, and tools used for sex identification. Data collection, preprocessing, and model training were conducted on a Windows 11 operating system using an ACER Aspire 3 general-purpose unit (GPU) equipped with an AMD Ryzen 3 7320U CPU with Radeon Graphics (8 cores) @ 2.395 GHz and 8 GB of RAM. Google Colaboratory was utilized for collaborative preprocessing, computer vision tasks, and model training. Image preprocessing was performed using computer vision techniques in Python, while machine learning and deep learning models were developed using Python libraries, including Keras. The results of the gathered measurements were stored and managed using spreadsheet software. GitHub was employed for version control, documentation, and activity tracking throughout the study.
 
 \section{Machine Learning on Morphometric Data}
 \label{sec:ml models}
 
-This section of the paper discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbos distance-to-length ratio, hinge line length-to-length ratio, umbos distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
+This section discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbos distance-to-length ratio, hinge line length-to-length ratio, umbos distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
 
 \newpage
 \subsection{Data Preprocessing}
@@ -127,7 +127,7 @@ A new column labeled \texttt{Label} was added to both datasets. Female specimens
 
 After cleaning and feature engineering, the male and female datasets were merged into a single DataFrame. The \texttt{Litob\_id} column was removed post de-duplication. All continuous numeric features were normalized using \texttt{MinMaxScaler} to scale values to the range [0, 1].
 
-Rib count was excluded from normalization because it is a discrete feature with biologically meaningful bounds. According to best practices in machine learning, normalizing discrete or categorical features can distort their meaning and is often unnecessary \cite{jaiswal2024}. In this study, rib count was treated as a categorical attribute due to its biological significance and finite, non-continuous nature.
+Rib count was excluded from normalization because it is a discrete feature with biologically meaningful bounds. According to best practices in machine learning, normalizing discrete or categorical features can distort their meaning and is often unnecessary \textnormal{\cite{jaiswal2024}}. In this study, rib count was treated as a categorical attribute due to its biological significance and finite, non-continuous nature.
 
 \textbf{\textit{Class Imbalance Handling}}
 
@@ -155,16 +155,16 @@ A five-fold cross-validation approach was implemented (\textit{refer to Figure~\
 
 \newpage
 \section{Deep Learning for Morphological Analysis}
-This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A Convolutional Neural Network (CNN) architecture was implemented and trained on preprocessed images using stratified cross-validation.
+This section outlines the application of deep learning techniques in analyzing the morphological characteristics of \textit{Tegillarca granosa} to identify their sex based on shell images. A convolutional neural network (CNN) architecture was implemented and trained on preprocessed images using stratified cross-validation.
 
 \subsection{Image Preprocessing}}
 
-This subsection details the image processing techniques applied to raw shell images of \Tgranosa using computer vision methods before training the deep learning model. The image preprocessing techniques include standardizing input dimensions and removing shadows, background, and noise. Each image underwent data augmentation to enhance feature visibility for effective learning. Image preprocessing ensures consistent and high-quality input data for model training.
+This subsection details the image processing techniques applied to raw shell images of \Tgranosa using computer vision methods before training the deep learning model. The image preprocessing techniques include standardizing input dimensions and removing shadows, background, and noise. Image preprocessing ensures consistent and high-quality input data for model training.
 
 \newpage
 \textbf{\textit{Adjusting Dimensions}}
 
-All images were resized to a consistent dimension of 256x256 pixels to ensure uniformity throughout the dataset. This standardization is essential for Convolutional Neural Networks (CNNs), as a consistent input dimension is required. While resizing, the aspect ratio was maintained to prevent distortion of the morphological features, and padding was added to retain the original format.
+All images were resized to a consistent dimension of 256x256 pixels to ensure uniformity throughout the dataset. This standardization is essential for CNNs, as a consistent input dimension is required. While resizing, the aspect ratio was maintained to prevent distortion of the morphological features, and padding was added to retain the original format.
 
 \textbf{\textit{Background Removal}}
 
@@ -254,9 +254,9 @@ Due to the limited dataset size, a traditional train-test split was not adopted.
 \newpage
 \textbf{\textit{Data Augmentation}}
 
-Before model training, online data augmentation was applied exclusively to the training data within each fold, creating new data variations on the fly. The augmentations included random horizontal flips, slight rotations, and zoom transformations to enhance data diversity and improve model generalization \cite{awan2022}. All augmentation was strictly applied only to the training subset of each fold to prevent data leakage and maintain the validity of the results (\textit{Figure~\ref{fig:data_augmentation}}). 
+Before model training, on-the-fly data augmentation (OnDAT) was applied exclusively to the training data within each fold, generating augmented data during each iteration. The augmentations included random horizontal flips, slight rotations (0.05), and zoom transformations (0.05)\cite{awan2022}. This approach exposed the model to constantly changing data variations, allowing better exploration of the underlying data generation process and reducing the risk of overfitting spurious patterns \cite{cerqueira2024}. 
 
-On-the-fly data augmentation (OnDAT) generates augmented data during each iteration, exposing the model to constantly changing data variations. Augmenting the original data allows better exploration of the underlying data generation process and has the potential to prevent the model from overfitting spurious patterns, thereby improving performance \cite{cerqueira2024}.
+When data augmentations were applied randomly and on-the-fly, the model encountered slightly different versions of the same 254 male and 254 female images in each epoch. This enhanced the diversity of the dataset and improve model generalization. All augmentation was strictly limited to the training subset of each fold to prevent data leakage and maintain the validity of the results (\textit{Figure~\ref{fig:data_augmentation}}).
 
 \begin{figure}[h]
 	\centering
@@ -268,13 +268,13 @@ On-the-fly data augmentation (OnDAT) generates augmented data during each iterat
 \newpage
 \textbf{\textit{Training Procedure}}
 
-During the training process, model performance per fold was carefully monitored. One important thing to observe is the consistency in the performance, whether the model is still learning or is at high risk of overfitting. Early stopping was applied to ensure the stable performance of the model across folds. This technique allows for monitoring the training of the neural network, stopping when the performance metrics, in this case, validation loss, cease to improve. Furthermore, to enhance the learning process, \texttt{ReduceLROnPlateau} was applied, which decreased the learning rate if there was no improvement in the model for a specified number of epochs \cite{kerasTeam}.
+During the training process, model performance per fold was carefully monitored. One important thing to observe is the consistency in the performance, whether the model is still learning or is at high risk of overfitting. Early stopping was applied to ensure the stable performance of the model across folds. This technique allows for monitoring the training of the neural network, stopping when the performance metrics, in this case, validation loss, cease to improve. Furthermore, to enhance the learning process, \texttt{ReduceLROnPlateau} was applied, which decreased the learning rate if there was no improvement in the model for a specified number of epochs and restores model weights from the end of the best epoch in every fold \cite{kerasTeam}.
 
 The model was trained using the Adam optimization algorithm, with an initial learning rate of 0.001. Binary cross-entropy, commonly known as the log loss, was employed as the loss function due to its effectiveness in binary classification tasks. To reduce the risk of overfitting, a dropout rate of 0.5 was applied, randomly deactivating half of the neurons during the training process to improve generalization.
 
 
 \section{Evaluation Metrics}
-Evaluating the performance of a binary classification model is essential, and selecting appropriate metrics depends on the specific requirements of the user. The performance of both supervised machine learning and deep learning models will be measured using several key metrics, including accuracy, precision, recall, F1 Score, and the AUC-ROC Score.
+Evaluating the performance of a binary classification model is essential, and selecting appropriate metrics depends on the specific requirements of the user. The performance of both supervised machine learning and deep learning models will be measured using several key metrics, including accuracy, precision, recall, F1 Score, and the area under the receiver operating characteristic curve (AUC-ROC) score.
 
 Accuracy (ACC) is the ratio of the overall correctly predicted samples to the total number of examples in the evaluation dataset \cite{cui2020}. It measures the overall correctness of the model in predicting both male and female blood cockles. This metric provides insight into how well the model performs across all classifications. The formula for accuracy is: 
 
@@ -311,4 +311,4 @@ The F1 Score is the harmonic mean of precision and recall, which penalizes extre
 	\label{eq:f1}
 \end{equation}
 
-The Area Under the Receiver Operating Characteristic Curve (AUC-ROC) is a performance measurement for classification problems. The ROC curve is a plot of the true positive rate (recall) against the false positive rate (1 - specificity), and the AUC score quantifies the overall ability of the model to discriminate between positive and negative classes. A higher AUC indicates better model performance. \cite{nahm2022} 
+The AUC-ROC is a performance measurement for classification problems. The receiver operating characteristic (ROC) curve is a plot of the true positive rate (recall) against the false positive rate (1 - specificity), and the area under the curve (AUC) score quantifies the overall ability of the model to discriminate between positive and negative classes. A higher AUC indicates better model performance. \cite{nahm2022} 

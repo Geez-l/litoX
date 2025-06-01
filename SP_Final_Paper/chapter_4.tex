@@ -9,7 +9,9 @@ This chapter outlines the results of preprocessing, training of machine learning
 
 \subsection{Data Exploration}
 
-Exploratory data analysis was performed to characterize the dataset using visualizations to understand the patterns and correlations within the data. A correlation heatmap was created to assess the relationship between the predictors and the target variable.
+
+Exploratory data analysis was performed to characterize the dataset using data to understand underlying patterns and behaviors using descriptive statistics and correlation heatmap.  A correlation heatmap was created to assess the relationship between the predictors and the target variable.
+
 
 The heatmap (\textit{see Figure~\ref{fig:heatmap}}) revealed three features most correlated with the sex of \textit{T. granosa}: the width-height ratio (r = 0.18), the umbos distance-length ratio (r = 0.12), and the distance between the umbos (r = 0.12). Each of these features demonstrated a weak positive relationship with the target variable. 
 
@@ -56,6 +58,41 @@ It is important to note that statistical significance does not imply predictive 
 \end{table}
 
 \newpage
+\subsubsection{Descriptive Statistics}
+Descriptive statistics summarize and describe the main characteristics of a dataset, offering a concise overview of its features. Table~\ref{tab:morphometric-comparison}  provides a comparison of the morphometric features of \textit{T. granosa} between male and female samples. Generally, male \textit{T. granosa} have slightly longer shells (mean = 51.69 mm) than females (mean = 50.24 mm). However, female \textit{T. granosa} exhibits marginally greater shell height and width. These observations suggest that male shells are more elongated, while female shells appear more rounded or inflated.
+
+The rib count and rib density are nearly identical between the sexes, indicating that these features might not be significant indicators for distinguishing between males and females. However, noticeable differences are observed in hinge line length and the distance between umbos. Female \textit{T. granosa} exhibits longer hinge lines (mean = 31.97 mm) and a greater umbo distance (mean = 4.05 mm) than males, which could point to structural differences in shell formation related to sex.
+
+In terms of the shape of \textit{T. granosa}, the calculated ratios offer additional insight. Males have slightly higher length-to-width and length-to-height ratios, reinforcing that their shells are more elongated. In contrast, females exhibit slightly higher umbo-related ratios, such as umbo distance-to-height and umbo distance-to-length, suggesting a more prominent umbo or hinge area.
+
+Looking at the standard deviations, male specimens demonstrate greater variability in certain features—particularly in shell length, where the standard deviation is notably higher (31.75) than that of females (7.49). This suggests that male \textit{T. granosa} exhibits a wider range of sizes. While the differences are subtle, features like shell length, hinge line length, and specific shape ratios may be useful inputs for developing a machine learning model for sex classification.
+
+\vspace{0.5cm}
+\begin{table}[H]
+	\centering
+	\small
+	\begin{tabular}{lcccc}
+		\hline
+		\textbf{Feature} & \textbf{Male Mean} & \textbf{Female Mean} & \textbf{Male SD} & \textbf{Female SD} \\ \hline
+		Length & 51.69 & 50.24 & 31.75 & 7.49 \\
+		Width & 37.69 & 37.95 & 5.13 & 5.66 \\
+		Height & 33.85 & 34.74 & 4.98 & 5.18 \\
+		Rib Count & 19.87 & 19.74 & 0.85 & 0.84 \\
+		Hinge Line Length & 30.81 & 31.97 & 5.96 & 6.27 \\
+		Umbos Distance & 3.50 & 4.05 & 1.50 & 3.08 \\
+		LW Ratio & 1.39 & 1.33 & 1.06 & 0.08 \\
+		LH Ratio & 1.54 & 1.45 & 0.98 & 0.08 \\
+		WH Ratio & 1.11 & 1.09 & 0.07 & 0.06 \\
+		UL Ratio & 0.07 & 0.08 & 0.02 & 0.06 \\
+		HL Ratio & 0.62 & 0.63 & 0.07 & 0.06 \\
+		UH Ratio & 0.10 & 0.12 & 0.04 & 0.09 \\
+		Rib Density & 0.40 & 0.40 & 0.06 & 0.06 \\ \hline
+	\end{tabular}
+	\caption{Comparison of morphometric features between male and female \textit{T. granosa}, showing mean and standard deviation (SD) values.}
+	\label{tab:morphometric-comparison}
+\end{table}
+
+%\newpage
 \subsection{Feature Importance Analysis}
 
 Feature importance was assessed using the Kruskal-Wallis test, a non-parametric method that is suitable for evaluating differences in distributions across groups when the data does not follow a normal distribution. This approach was chosen because of the non-normality of the dataset and its robustness in handling continuous and ordinal data without assuming homogeneity of variances. \cite{ribeiro2024}
@@ -96,8 +133,9 @@ Table~\ref{tab:performance-13-features} shows the performance metrics of differe
 
 Table~\ref{tab:performance-5-features} presents the performance of the same models using only the top five features identified through Kruskal-Wallis feature importance analysis. The selected features are the distance between the umbos, length-to-width ratio, width-to-height ratio, umbos distance-to-height ratio, and umbos distance-to-length ratio.
 
-Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. K-Nearest Neighbors (KNN) achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
+Interestingly, the overall performance of the models improved when using only the top 5 features compared to using all 13. KNN achieved the best results with an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. Gradient Boosting followed closely behind. These findings suggest that reducing the feature set to the most relevant variables helped simplify the models, improved generalization, and enhanced predictive performance—particularly for KNN, which showed a notable improvement over its earlier results with the full feature set.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -120,7 +158,7 @@ Interestingly, the overall performance of the models improved when using only th
 
 \subsection{Visualizations for Machine Learning}
 
-Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of the K-Nearest Neighbors model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
+Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of the KNN model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
 
 \begin{figure}[!htbp]
 	\centering
@@ -130,7 +168,7 @@ Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of 
 \end{figure}
 
 \newpage
-Figure~\ref{fig:roc_ml} displays the average ROC curve, showing KNN’s ability to distinguish between positive and negative cases. The ROC curve helps assess the trade-off between sensitivity (true positive rate) and specificity (1 - false positive rate). The Area Under the Curve (AUC) value, which ranges from 0.5 (random chance) to 1 (perfect discrimination), is used to evaluate the model’s overall performance. In this case, KNN achieved an average AUC of 0.7004, indicating that it performs better than random guessing and has reasonable predictive ability.
+Figure~\ref{fig:roc_ml} displays the average receiver operating characteristic (ROC) curve, showing KNN’s ability to distinguish between positive and negative cases. The ROC curve helps assess the trade-off between sensitivity (true positive rate) and specificity (1 - false positive rate). The area under the curve (AUC) value, which ranges from 0.5 (random chance) to 1 (perfect discrimination), is used to evaluate the model’s overall performance. In this case, KNN achieved an average AUC of 0.7004, indicating that it performs better than random guessing and has reasonable predictive ability.
 
 \begin{figure}[!htbp]
 	\centering
@@ -141,33 +179,32 @@ Figure~\ref{fig:roc_ml} displays the average ROC curve, showing KNN’s ability 
 
 \newpage
 \section{Deep Learning Analysis}
-This section presents the performance of the Convolutional Neural Network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations for deep learning.
+This section presents the performance of the convolutional neural network (CNN) model in classifying the sex of \Tgranosa based on shell morphology. The analysis evaluates the model's ability to distinguish between male and female shell images using various evaluation metrics. This part of the paper includes six subsections: baseline model, comparison of individual and combined angles, training result and hyperparameter tuning, proposed model, learning rates and training behavior per fold, and visualizations for deep learning.
 
-The machine learning analysis (\textit{see Figure~\ref{tab:performance-5-features}}) revealed that five of the original features produced significant results. The K-Nearest Neighbors (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
+The machine learning analysis (\textit{see Figure~\ref{tab:performance-5-features}}) revealed that five of the original features produced significant results. The k-nearest neighbors (KNN) model achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 Score of 63.75\%. This section compares the model's performance across different angles based on the results of the machine learning and feature importance analysis.
 
 \subsection{Baseline Model}
 This section presents the baseline model with a batch size of 16 and 20 epochs, which will serve as the starting point for comparison and provide a guideline for hyperparameter tuning. The focus will be on one of the angles, specifically the Left Lateral view, since the feature importance analysis using the Kruskal-Wallis Test indicated that the width-to-height ratio had the highest importance score, which is most visible from the Left Lateral view.
 
 The unbalanced dataset, which consisted of 144 male samples and 127 female samples, achieved an accuracy of 65.27\%, precision of 71.82\%, recall of 58.99\%, an F1 Score of 63.99\%, an AUC score of 73.08\%, and a loss of 0.6122. However, to address the class imbalance and enhance model performance, random undersampling was performed. This approach resulted in improved performance metrics for the balanced dataset, with an accuracy of 67.34\%, precision of 69.43\%, a recall of 64.06\%, an F1 Score of 65.60\%, an AUC score of 74.31\%, and a lower loss of 0.5981.
 
-\vspace{0.5cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
 		\begin{tabular}{lcccccc}
 			\hline
 			\textbf{Dataset} & \textbf{Accuracy (\%)} & \textbf{Precision (\%)} & \textbf{Recall (\%)} & \textbf{F1 Score (\%)}  & \textbf{AUC score (\%)}  & \textbf{Loss (\%)} \\ \hline
-			Unbalanced   & 65.27 & 71.82 & 58.99 & 63.99 & 73.08 & 0.6122 \\
+			Imbalanced   & 65.27 & 71.82 & 58.99 & 63.99 & 73.08 & 0.6122 \\
 			\rowcolor{celadon}Balanced     & 67.34 & 69.43 & 64.06 & 65.60 & 74.31 & 0.5981 \\
 			\hline
 		\end{tabular}
 	}
-	\caption{Performance metrics for unbalanced vs. balanced datasets (Batch Size: 16, Epochs: 20).}
+	\caption{Performance metrics for balanced vs imbalanced datasets (Batch Size: 16, Epochs: 20).}
 	\label{tab:unbalanced-balanced}
 \end{table}
 
 \subsection{Comparison of Individual and Combined Angles}
-\vspace{-0.5 cm}
+
 Using the same batch size and number of epochs, performance was compared across all individual angles and the combination of the two highest-performing angles based on accuracy, using a balanced dataset. For the combined analysis, samples from the two selected angles were placed side by side, and a new dataset folder was created for male and female samples. 
 
 Table~\ref{tab:individual-combined} presents the performance metrics for each individual angle and the combination of the two highest-performing angles in terms of accuracy. The Left Lateral view achieved the highest accuracy (67.34\%) and precision (69.43\%), while the Dorsal view obtained the highest recall (77.88\%) and F1 Score (69.96\%). Meanwhile, the Ventral view recorded the highest AUC score (74.87\%), indicating its strong ability to distinguish between classes.
@@ -224,8 +261,7 @@ In contrast, increasing the batch size to 64 resulted in lower recall and F1 Sco
 			\hline
 			\multirow{3}{*}{50} 
 			& 16 & 67.73 & 70.17 & 64.06 & 65.72 & 75.76 & 0.5900 \\
-			\rowcolor{celadon}
-			& 32 & 71.68 & 72.52 & 69.29 & 69.12 & 77.34 & 0.5824 \\
+			& \cellcolor{celadon}32 & \cellcolor{celadon}71.68 & \cellcolor{celadon}72.52 & \cellcolor{celadon}69.29 & \cellcolor{celadon}69.12 & \cellcolor{celadon}77.34 & \cellcolor{celadon}0.5824 \\
 			& 64 & 61.10 & 62.68 & 56.12 & 56.83 & 73.46 & 0.6086 \\
 			\hline
 		\end{tabular}
@@ -239,6 +275,7 @@ In contrast, increasing the batch size to 64 resulted in lower recall and F1 Sco
 
 Table~\ref{tab:activation-function} shows the performance of different activation functions applied to the CNN model trained with a batch size of 32 and 50 epochs. Based on the results, the ReLU activation function achieved the best overall performance, with an accuracy of 71.68\%, precision of 72.52\%, recall of 69.29\%, F1 Score of 69.12\%, and AUC score of 77.34\%, along with the lowest loss at 0.5824. This suggests that ReLU remains an effective activation function for the classification of \textit{T. granosa}, outperforming both ELU and PReLU in this setup.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -256,10 +293,11 @@ Table~\ref{tab:activation-function} shows the performance of different activatio
 \end{table}
 
 \subsection{Proposed Model}
-This section presents the performance evaluation of the proposed Convolutional Neural Network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
+This section presents the performance evaluation of the proposed convolutional neural network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
 
 The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracies above 76\% and strong recall and AUC scores, demonstrating its potential for reliable sex identification of \textit{T. granosa}. The slight variation in performance across folds may be attributed to differences in data distribution, emphasizing the importance of further data augmentation and balancing for future work.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -288,6 +326,7 @@ This section presents the learning rate adjustments, early stopping events, and 
 
 The following table summarizes the epochs where learning rate reductions occurred, the adjusted learning rates, the epochs at which early stopping took place, and the best epochs from which model weights were restored for each fold.
 
+\vspace{0.5 cm}
 \begin{table}[H]
 	\centering
 	\resizebox{\textwidth}{!}{
@@ -351,17 +390,17 @@ Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and p
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/cm_dl.png}
-	\caption{Confusion matrix for final model predictions.}
+	\caption{Confusion matrix for CNN model (Batch Size: 32, Epochs: 50, Activation Function: ReLU).}
 	\label{fig:cm_dl}
 \end{figure}
 
 \newpage
-Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model’s ability to correctly identify the true positives, which can help determine the trade-off between specificity and sensitivity. It will also determine the model's validity, supporting that it is not being predicted based only on random chance. The range of AUC ROC is between 0.5 and 1. The model achieved an average score of 0.7734, which is better than random chance and a positive indication that the model is performing reasonably.
+Figure~\ref{fig:roc_auc} shows the average receiver operating characteristic (ROC) curve, showing the proposed model’s ability to correctly identify the true positives, which can help determine the trade-off between specificity and sensitivity. It will also determine the model's validity, supporting that it is not being predicted based only on random chance. The range of area under the receiver operating characteristic curve (AUC-ROC) is between 0.5 and 1. The model achieved an average score of 0.7734, which is better than random chance and a positive indication that the model is performing reasonably.
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{figures/roc.png}
-	\caption{ROC curve with AUC score for the proposed model.}
+	\caption{ROC curve with area under the curve (AUC) score for the proposed model.}
 	\label{fig:roc_auc}
 \end{figure}
 
@@ -369,15 +408,15 @@ Figure~\ref{fig:roc_auc} shows the average ROC curve, showing the proposed model
 
 \section{Discussions}
 
-This study aimed to develop a non-invasive method for identifying the sex of \Tgranosa using machine learning and deep learning technologies. Specifically, it explored the relevance of linear shell measurements and image data in building accurate classification models that can support sustainable aquaculture practices.
+This study aimed to develop a noninvasive method for identifying the sex of \Tgranosa using machine learning and deep learning technologies. Specifically, it explored the relevance of linear shell measurements and image data in building accurate classification models that can support sustainable aquaculture practices.
 
-In the machine learning experiments, feature selection played a key role in enhancing model performance. A reduced set of five statistically significant features, which were identified through Mann-Whitney U and Kruskal-Wallis tests, outperformed models using all available features. The K-Nearest Neighbors (KNN) classifier, trained on these five features, achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, and an F1 score of 63.57\%. The width-height ratio observed from the left lateral view emerged as the most discriminative feature, with a correlation score of $p = 0.18$.
+In the machine learning experiments, feature selection played a key role in enhancing model performance. A reduced set of five statistically significant features, which were identified through Mann-Whitney U and Kruskal-Wallis tests, outperformed models using all available features. The k-nearest neighbors (KNN) classifier, trained on these five features, achieved an accuracy of 64.16\%, precision of 64.97\%, recall of 64.16\%, F1 score of 63.57\%, and an AUC-ROC score of 70.04\%. The width-height ratio observed from the left lateral view emerged as the most discriminative feature, with a correlation score of $p = 0.18$.
 
 Deep learning experiments further revealed the impact of image angle and hyperparameter tuning on classification performance. The left lateral view consistently yielded the highest metrics, with the best model reaching 71.68\% accuracy, 72.52\% precision, 69.29\% recall, 69.12\% F1 score, and 77.34\% AUC using a batch size of 32 and 50 training epochs. Additionally, balanced dataset and activation function contributed to improved model performance.
 
 The improved accuracy from models using fewer, more relevant features supports the idea that dimensionality reduction, when guided by statistical analysis, can enhance classification. The prominence of the left lateral view in both machine learning and deep learning results suggests that this angle reveals key morphological traits tied to sex differentiation. This aligns with the biological premise that some external characteristics may be more distinguishable when viewed from specific perspectives.
 
-These findings demonstrates the feasibility of a non-invasive, accurate, and scalable approach to sex identification in \textit{T. granosa}. This is especially important in aquaculture, where traditional sex identification methods are often invasive or require specialized knowledge. By reducing the need for physical intervention, this approach promotes animal welfare and operational efficiency, potentially enabling real-time sex identification in aquaculture settings.
+These findings demonstrates the feasibility of a noninvasive, accurate, and scalable approach to sex identification in \textit{T. granosa}. This is especially important in aquaculture, where traditional sex identification methods are often invasive or require specialized knowledge. By reducing the need for physical intervention, this approach promotes animal welfare and operational efficiency, potentially enabling real-time sex identification in aquaculture settings.
 
 When compared to related work, such as the gender classification of Chinese mitten crabs using CNNs \cite{cui2020}, this study reflects both shared methodologies and important distinctions. While both utilized CNN architectures, differences in image resolution, dataset characteristics, and species-specific morphology may explain the performance gap which is 98.90\% in the crab study compared to 71.68\% in this study. The lower accuracy here likely reflects subtler morphological differences in \Tgranosa and limited dataset size.
 

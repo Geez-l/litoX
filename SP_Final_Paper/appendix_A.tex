@@ -49,7 +49,7 @@ This section displays the key steps in the machine learning analysis by performi
 \noindent\textbf{ii. Image Processing}
 \vspace{-0.5cm}
 
-This section of the paper displays the key steps in the image processing by resizing the images to have similar dimensions of 256x256, and the shadows were removed to improve the image quality, and remove noise before proceeding to the deep learning operations.
+This section displays the key steps in the image processing by resizing the images to have similar dimensions of 256x256, and the shadows were removed to improve the image quality, and remove noise before proceeding to the deep learning operations.
  
 \begin{figure}[!htbp]
 	\centering
@@ -68,7 +68,7 @@ This section of the paper displays the key steps in the image processing by resi
 \noindent\textbf{iii. Deep Learning}
 \vspace{-0.5cm}
 
-This section of the paper displays the key steps in deep learning by implementing random undersampling in addressing class imbalance, data augmentation to create variability in the dataset, and the CNN layers comprised of three convolution layers, a flatten, and 2 dense layers. 
+This section outlines the key steps in the deep learning pipeline, including the use of random undersampling to address class imbalance and data augmentation to increase variability in the dataset. The convolutional neural network (CNN) architecture consists of three convolutional layers, followed by a flatten layer and two dense layers. Additionally, early stopping was integrated to halt model training when the validation loss does not improve, and callbacks such as ReduceLROnPlateau were implemented as safeguards against overfitting. ModelCheckpoint was used to save the best model for each fold, allowing the final results to be revisited and analyzed after training; however, it was not heavily utilized in this study.
 
 
 \begin{figure}[!htbp]
@@ -80,11 +80,17 @@ This section of the paper displays the key steps in deep learning by implementin
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth, angle=0]{figures/live_augmentation.png}
-	\caption{On-the-fly data augmentation used to create variety of random transformation to increase training images.}
+	\caption{On-the-fly data augmentation used to create a variety of random transformation to increase variation in the training images.}
 \end{figure}
 
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth, angle=0]{figures/CNN_layers.png}
 	\caption{CNN architecture used for training the image dataset.}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth, angle=0]{figures/avoid_overfitting.png}
+	\caption{Early Stopping and ReduceLROnPlateau used as safeguard against overfitting.}
 \end{figure}
