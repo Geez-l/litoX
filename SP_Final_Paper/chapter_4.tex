@@ -9,7 +9,9 @@ This chapter outlines the results of preprocessing, training of machine learning
 
 \subsection{Data Exploration}
 
-Exploratory data analysis was performed to characterize the dataset using visualizations to understand the patterns and correlations within the data. A correlation heatmap was created to assess the relationship between the predictors and the target variable.
+
+Exploratory data analysis was performed to characterize the dataset using data to understand underlying patterns and behaviors using descriptive statistics and correlation heatmap.  A correlation heatmap was created to assess the relationship between the predictors and the target variable.
+
 
 The heatmap (\textit{see Figure~\ref{fig:heatmap}}) revealed three features most correlated with the sex of \textit{T. granosa}: the width-height ratio (r = 0.18), the umbos distance-length ratio (r = 0.12), and the distance between the umbos (r = 0.12). Each of these features demonstrated a weak positive relationship with the target variable. 
 
@@ -56,6 +58,41 @@ It is important to note that statistical significance does not imply predictive 
 \end{table}
 
 \newpage
+\subsubsection{Descriptive Statistics}
+Descriptive statistics summarize and describe the main characteristics of a dataset, offering a concise overview of its features. Table~\ref{tab:morphometric-comparison}  provides a comparison of the morphometric features of \textit{T. granosa} between male and female samples. Generally, male \textit{T. granosa} have slightly longer shells (mean = 51.69 mm) than females (mean = 50.24 mm). However, female \textit{T. granosa} exhibits marginally greater shell height and width. These observations suggest that male shells are more elongated, while female shells appear more rounded or inflated.
+
+The rib count and rib density are nearly identical between the sexes, indicating that these features might not be significant indicators for distinguishing between males and females. However, noticeable differences are observed in hinge line length and the distance between umbos. Female \textit{T. granosa} exhibits longer hinge lines (mean = 31.97 mm) and a greater umbo distance (mean = 4.05 mm) than males, which could point to structural differences in shell formation related to sex.
+
+In terms of the shape of \textit{T. granosa}, the calculated ratios offer additional insight. Males have slightly higher length-to-width and length-to-height ratios, reinforcing that their shells are more elongated. In contrast, females exhibit slightly higher umbo-related ratios, such as umbo distance-to-height and umbo distance-to-length, suggesting a more prominent umbo or hinge area.
+
+Looking at the standard deviations, male specimens demonstrate greater variability in certain features—particularly in shell length, where the standard deviation is notably higher (31.75) than that of females (7.49). This suggests that male \textit{T. granosa} exhibits a wider range of sizes. While the differences are subtle, features like shell length, hinge line length, and specific shape ratios may be useful inputs for developing a machine learning model for sex classification.
+
+\vspace{0.5cm}
+\begin{table}[H]
+	\centering
+	\small
+	\begin{tabular}{lcccc}
+		\hline
+		\textbf{Feature} & \textbf{Male Mean} & \textbf{Female Mean} & \textbf{Male SD} & \textbf{Female SD} \\ \hline
+		Length & 51.69 & 50.24 & 31.75 & 7.49 \\
+		Width & 37.69 & 37.95 & 5.13 & 5.66 \\
+		Height & 33.85 & 34.74 & 4.98 & 5.18 \\
+		Rib Count & 19.87 & 19.74 & 0.85 & 0.84 \\
+		Hinge Line Length & 30.81 & 31.97 & 5.96 & 6.27 \\
+		Umbos Distance & 3.50 & 4.05 & 1.50 & 3.08 \\
+		LW Ratio & 1.39 & 1.33 & 1.06 & 0.08 \\
+		LH Ratio & 1.54 & 1.45 & 0.98 & 0.08 \\
+		WH Ratio & 1.11 & 1.09 & 0.07 & 0.06 \\
+		UL Ratio & 0.07 & 0.08 & 0.02 & 0.06 \\
+		HL Ratio & 0.62 & 0.63 & 0.07 & 0.06 \\
+		UH Ratio & 0.10 & 0.12 & 0.04 & 0.09 \\
+		Rib Density & 0.40 & 0.40 & 0.06 & 0.06 \\ \hline
+	\end{tabular}
+	\caption{Comparison of morphometric features between male and female \textit{T. granosa}, showing mean and standard deviation (SD) values.}
+	\label{tab:morphometric-comparison}
+\end{table}
+
+%\newpage
 \subsection{Feature Importance Analysis}
 
 Feature importance was assessed using the Kruskal-Wallis test, a non-parametric method that is suitable for evaluating differences in distributions across groups when the data does not follow a normal distribution. This approach was chosen because of the non-normality of the dataset and its robustness in handling continuous and ordinal data without assuming homogeneity of variances. \cite{ribeiro2024}
