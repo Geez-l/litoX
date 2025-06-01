@@ -9,9 +9,7 @@ This chapter outlines the results of preprocessing, training of machine learning
 
 \subsection{Data Exploration}
 
-
-Exploratory data analysis was performed to characterize the dataset using data to understand underlying patterns and behaviors using descriptive statistics and correlation heatmap.  A correlation heatmap was created to assess the relationship between the predictors and the target variable.
-
+Exploratory data analysis was performed to characterize the dataset using data to understand underlying patterns and behaviors using descriptive statistics and correlation heatmap. A correlation heatmap was created to assess the relationship between the predictors and the target variable.
 
 The heatmap (\textit{see Figure~\ref{fig:heatmap}}) revealed three features most correlated with the sex of \textit{T. granosa}: the width-height ratio (r = 0.18), the umbos distance-length ratio (r = 0.12), and the distance between the umbos (r = 0.12). Each of these features demonstrated a weak positive relationship with the target variable. 
 
@@ -26,39 +24,8 @@ The heatmap (\textit{see Figure~\ref{fig:heatmap}}) revealed three features most
 \newpage
 \subsection{Statistical Analysis}
 
-As part of the exploratory data analysis, statistical testing confirmed that the dataset did not follow a normal distribution (\textit{see Table~\ref{tab:mann-whitney}}). Consequently, the Mann-Whitney U test was applied with a significance level of $\alpha = 0.05$ to compare male and female samples. Out of thirteen features, five showed statistically significant differences. These included: width-height ratio ($p = 0.003$), length-width ratio ($p = 0.011$), umbos distance-length ratio ($p = 0.019$), distance between umbos ($p = 0.025$), and umbos distance-height ratio ($p = 0.036$). 
+\textbf{\textit{Descriptive Statistics}}
 
-It is important to note that statistical significance does not imply predictive importance. Therefore, further analysis, such as feature importance evaluation, was performed to identify the most informative predictors for classification.
-
-\vspace{0.5cm}
-\begin{table}[H]
-	\centering
-	\small % or \footnotesize or \scriptsize
-	\begin{tabular}{lc}
-		\hline
-		\textbf{Variable} & \textbf{p-value} \\ \hline
-		WH\_ratio & 0.003 \\
-		LW\_ratio & 0.011 \\
-		UL\_ratio & 0.019 \\
-		Distance Umbos & 0.025 \\
-		UH\_ratio & 0.036 \\
-		HL\_ratio & 0.079 \\
-		Length (Hinge Line) & 0.120 \\
-		Height & 0.124 \\
-		Rib Density & 0.181 \\
-		Rib count & 0.251 \\
-		Length & 0.334 \\
-		LH\_ratio & 0.490 \\
-		Width & 0.753 \\ \hline
-		
-	\end{tabular}
-	
-	\caption{Mann-Whitney U test results for sex-based feature comparison.}
-	\label{tab:mann-whitney}
-\end{table}
-
-\newpage
-\subsubsection{Descriptive Statistics}
 Descriptive statistics summarize and describe the main characteristics of a dataset, offering a concise overview of its features. Table~\ref{tab:morphometric-comparison}  provides a comparison of the morphometric features of \textit{T. granosa} between male and female samples. Generally, male \textit{T. granosa} have slightly longer shells (mean = 51.69 mm) than females (mean = 50.24 mm). However, female \textit{T. granosa} exhibits marginally greater shell height and width. These observations suggest that male shells are more elongated, while female shells appear more rounded or inflated.
 
 The rib count and rib density are nearly identical between the sexes, indicating that these features might not be significant indicators for distinguishing between males and females. However, noticeable differences are observed in hinge line length and the distance between umbos. Female \textit{T. granosa} exhibits longer hinge lines (mean = 31.97 mm) and a greater umbo distance (mean = 4.05 mm) than males, which could point to structural differences in shell formation related to sex.
@@ -90,6 +57,39 @@ Looking at the standard deviations, male specimens demonstrate greater variabili
 	\end{tabular}
 	\caption{Comparison of morphometric features between male and female \textit{T. granosa}, showing mean and standard deviation (SD) values.}
 	\label{tab:morphometric-comparison}
+\end{table}
+
+\textbf{\textit{Mann-Whitney U Test}}
+
+As part of the exploratory data analysis, statistical testing confirmed that the dataset did not follow a normal distribution (\textit{see Table~\ref{tab:mann-whitney}}). Consequently, the Mann-Whitney U test was applied with a significance level of $\alpha = 0.05$ to compare male and female samples. Out of thirteen features, five showed statistically significant differences. These included: width-height ratio ($p = 0.003$), length-width ratio ($p = 0.011$), umbos distance-length ratio ($p = 0.019$), distance between umbos ($p = 0.025$), and umbos distance-height ratio ($p = 0.036$). 
+
+It is important to note that statistical significance does not imply predictive importance. Therefore, further analysis, such as feature importance evaluation, was performed to identify the most informative predictors for classification.
+
+\vspace{0.5cm}
+\begin{table}[H]
+	\centering
+	\small % or \footnotesize or \scriptsize
+	\begin{tabular}{lc}
+		\hline
+		\textbf{Variable} & \textbf{p-value} \\ \hline
+		WH\_ratio & 0.003 \\
+		LW\_ratio & 0.011 \\
+		UL\_ratio & 0.019 \\
+		Distance Umbos & 0.025 \\
+		UH\_ratio & 0.036 \\
+		HL\_ratio & 0.079 \\
+		Length (Hinge Line) & 0.120 \\
+		Height & 0.124 \\
+		Rib Density & 0.181 \\
+		Rib count & 0.251 \\
+		Length & 0.334 \\
+		LH\_ratio & 0.490 \\
+		Width & 0.753 \\ \hline
+		
+	\end{tabular}
+	
+	\caption{Mann-Whitney U test results for sex-based feature comparison.}
+	\label{tab:mann-whitney}
 \end{table}
 
 %\newpage
@@ -159,6 +159,8 @@ Interestingly, the overall performance of the models improved when using only th
 \subsection{Visualizations for Machine Learning}
 
 Figure~\ref{fig:cm_ml} is a confusion matrix that summarizes the performance of the KNN model in classifying \Tgranosa based on their sex, where 0 represents female samples and 1 represents male samples. From the matrix, it can be observed that out of all the actual female samples (true label 0), 91 were correctly predicted as female (true positive for class 0), while 36 were incorrectly classified as male (false negative for class 0). On the other hand, out of all the actual male samples (true label 1), 72 were correctly predicted as male (true positive for class 1), while 55 were incorrectly classified as female (false negative for class 1).
+
+These classification results can be partially accounted for by the descriptive morphometric feature statistics. From Table~\ref{tab:morphometric-comparison}, female samples of \textit{T. granosa} have more uniform and lower variance measurements than males, particularly in such features as shell length (SD = 7.49 for females vs. 31.75 for males). This reduced variability indicates that female samples constitute a closer group in feature space, thus are simpler for KNN to correctly classify. By comparison, the greater variation of male samples will most likely render them more spread out and vulnerable to overlap with female data. In addition, certain shape features (e.g., height, width, rib density) exhibit little variation between sexes and may thus make it more difficult for the model to differentiate between long male shells and curved female shells when the male values are closer to female means. These are some of the possible reasons why the model records a greater true positive value for females and false negatives for males.
 
 \begin{figure}[!htbp]
 	\centering
@@ -387,9 +389,11 @@ Figure~\ref{fig:atvlaf} shows the average performance of the model regarding tra
 \newpage
 Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and predicted class label after the training and validation. The matrix shows the correctly predicted male and female samples and their corresponding percentages. Females have slightly higher true positives compared to males in the number and percentages, which are 94 and 88, corresponding to 74\% and 69\%, respectively. Additionally, the falsely classified samples were 33 for females and 39 for males, respectively, accounting for 26\% and 31\%.
 
+The results from the confusion matrix of the CNN model also matches what is observed in the descriptive statistics. Just like in the results from KNN, female samples again have slightly better correct classification rates. This can be explained by having lower variability in their morphometric attributes—particularly shell length, with females having a much smaller standard deviation (SD = 7.49) than males (SD = 31.75). This similarity probably makes the female class simpler to acquire and generalize for the model. Additionally, some shape-based ratios (for instance, UL ratio, UH ratio) that varied subtly but consistently by sex might provide sharper decision boundaries for females, particularly if the neural network is sensitive to subtle differences in spatial features. In contrast, the larger variation of male feature values may have caused intersections with female patterns and thus raised the rate of false negatives among males. This implies that although the deep learning model captures complex patterns, variability in features remains a source of error for reliable classification of the male class.
+
 \begin{figure}[!htbp]
 	\centering
-	\includegraphics[width=0.6\textwidth]{figures/cm_dl.png}
+	\includegraphics[width=0.8\textwidth]{figures/cm_dl.png}
 	\caption{Confusion matrix for CNN model (Batch Size: 32, Epochs: 50, Activation Function: ReLU).}
 	\label{fig:cm_dl}
 \end{figure}

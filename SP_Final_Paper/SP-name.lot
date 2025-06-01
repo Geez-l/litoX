@@ -4,15 +4,16 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Architecture of the convolutional neural network used.}}{44}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Mann-Whitney U test results for sex-based feature comparison.}}{53}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Performance metrics for models with all 13 features.}}{55}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Performance metrics for models with 5 features.}}{56}{}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Performance metrics for unbalanced vs. balanced datasets (Batch Size: 16, Epochs: 20).}}{59}{}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces Performance metrics for individual and combined angles (Batch Size: 16, Epochs: 20).}}{60}{}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces Effect of batch size and epoch values on CNN model performance.}}{62}{}%
-\contentsline {table}{\numberline {4.7}{\ignorespaces Performance metrics for different activation functions (Batch Size: 32, Epochs: 50).}}{62}{}%
-\contentsline {table}{\numberline {4.8}{\ignorespaces Per-fold performance metrics (Batch Size: 32, Epochs: 50, Activation Function: ReLU).}}{63}{}%
-\contentsline {table}{\numberline {4.9}{\ignorespaces Learning rate reductions, early stopping, and best epochs per fold during 5-fold cross-validation.}}{64}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison of morphometric features between male and female \textit {T. granosa}, showing mean and standard deviation (SD) values.}}{54}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Mann-Whitney U test results for sex-based feature comparison.}}{55}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Performance metrics for models with all 13 features.}}{57}{}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Performance metrics for models with 5 features.}}{57}{}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Performance metrics for balanced vs imbalanced datasets (Batch Size: 16, Epochs: 20).}}{61}{}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Performance metrics for individual and combined angles (Batch Size: 16, Epochs: 20).}}{62}{}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Effect of batch size and epoch values on CNN model performance.}}{64}{}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Performance metrics for different activation functions (Batch Size: 32, Epochs: 50).}}{64}{}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Per-fold performance metrics (Batch Size: 32, Epochs: 50, Activation Function: ReLU).}}{65}{}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Learning rate reductions, early stopping, and best epochs per fold during 5-fold cross-validation.}}{66}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
