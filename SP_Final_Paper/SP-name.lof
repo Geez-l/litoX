@@ -1,6 +1,6 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\@LN@changevadjust \vspace {-10pt}
+\vspace {-10pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Diagram of \textit {T. granosa}'s external anatomy.}}{12}{}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Female \textit {T. granosa }shells.}}{31}{}%
@@ -8,10 +8,10 @@
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Different views of the \textit {T. granosa} shell captured.}}{32}{}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Linear measurements that were gathered from the shell of \textit {T. granosa}.}}{34}{}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Image acquisition setup for \textit {T. granosa} samples.}}{35}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Data preprocessing in machine learning pipeline.}}{37}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagram of k-fold cross-validation with k = 5.}}{40}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Data preprocessing in machine learning pipeline.}}{36}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagram of k-fold cross-validation with k = 5.}}{39}{}%
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Shadows removed from male samples at different angles.}}{41}{}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Shadows removed from female samples at different angles.}}{42}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Shadows removed from female samples at different angles.}}{41}{}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Architecture of convolutional neural network (CNN).}}{42}{}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Diagram of stratified k-fold cross-validation with k=5.}}{45}{}%
 \contentsline {figure}{\numberline {3.12}{\ignorespaces On-the-Fly dataset augmentation (OnDAT) techniques.}}{46}{}%
@@ -21,7 +21,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces KNN confusion matrix for \textit {T. granosa} sex classification.}}{59}{}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces ROC curve with AUC score for KNN.}}{60}{}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Training and validation accuracy per fold.}}{67}{}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Average training and validation accuracy across folds.}}{67}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Average training and validation accuracy across folds.}}{68}{}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Training and validation loss per fold.}}{68}{}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Average training and validation loss across folds.}}{69}{}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Confusion matrix for CNN model (Batch Size: 32, Epochs: 50, Activation Function: ReLU).}}{70}{}%
