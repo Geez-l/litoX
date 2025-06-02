@@ -84,6 +84,7 @@ The images were captured using a Google Pixel 3 XL smartphone, which features a 
 	\label{fig:setup}
 \end{figure}
 
+\newpage
 \section{Hardware and Software Configuration}
 
 This section discusses the software, programming languages, and tools used for sex identification. Data collection, preprocessing, and model training were conducted on a Windows 11 operating system using an ACER Aspire 3 general-purpose unit (GPU) equipped with an AMD Ryzen 3 7320U CPU with Radeon Graphics (8 cores) @ 2.395 GHz and 8 GB of RAM. Google Colaboratory was utilized for collaborative preprocessing, computer vision tasks, and model training. Image preprocessing was performed using computer vision techniques in Python, while machine learning and deep learning models were developed using Python libraries, including Keras. The results of the gathered measurements were stored and managed using spreadsheet software. GitHub was employed for version control, documentation, and activity tracking throughout the study.
@@ -93,7 +94,6 @@ This section discusses the software, programming languages, and tools used for s
 
 This section discusses the machine learning operations that served as a baseline prior to implementing more complex deep learning methods for image classification. The study utilized collected variables including linear measurements—length, width, height, hinge line length, distance between the umbos, and rib count—along with derived features used as predictors. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, umbos distance-to-length ratio, hinge line length-to-length ratio, umbos distance-to-height ratio, and rib density. The samples were classified by sex, with females labeled as 0 and males as 1, which served as the response variable.
 
-\newpage
 \subsection{Data Preprocessing}
 \label{sec:pre-processing}
 
@@ -114,7 +114,6 @@ The process began by loading two separate datasets for male and female \textit{T
 
 Additional ratio-based features were generated to augment the existing measurements. These included the length-to-width ratio, length-to-height ratio, width-to-height ratio, hinge line length-to-length ratio, umbos distance-to-length ratio, umbos distance-to-height ratio, and rib density. These derived features aimed to emphasize shape characteristics independent of size, improving the models' ability to distinguish morphological differences between sexes.
 
-\newpage
 \textbf{\textit{Data De-duplication}}
 
 To avoid redundancy and ensure each specimen was uniquely represented, the last three digits of each \texttt{Litob\_id} were used to identify duplicates. Only the first occurrence of each unique ID was retained, reducing potential bias caused by repeated entries.
@@ -142,6 +141,7 @@ After normalization, class imbalance was addressed by applying Random Under-samp
 
 To establish a baseline for classification, various models were evaluated: Logistic Regression, K-Nearest Neighbors, Support Vector Machine, Random Forest, AdaBoost, Extra Trees, and Gradient Boosting. Hyperparameter tuning was conducted using \texttt{GridSearchCV}, which systematically identified the optimal settings for each model to enhance accuracy and performance.
 
+\newpage
 \textbf{\textit{Cross-Validation}}
 
 A five-fold cross-validation approach was implemented (\textit{refer to Figure~\ref{fig:cv}}). The dataset was divided into five subsets, with four used for training and one for validation. This process was repeated five times, with each fold serving as the validation set once. This method ensured that model evaluation was robust and generalizable, minimizing the bias that may result from a single train-test split. \cite{geeksforgeeks2024}
@@ -161,7 +161,6 @@ This section outlines the application of deep learning techniques in analyzing t
 
 This subsection details the image processing techniques applied to raw shell images of \Tgranosa using computer vision methods before training the deep learning model. The image preprocessing techniques include standardizing input dimensions and removing shadows, background, and noise. Image preprocessing ensures consistent and high-quality input data for model training.
 
-\newpage
 \textbf{\textit{Adjusting Dimensions}}
 
 All images were resized to a consistent dimension of 256x256 pixels to ensure uniformity throughout the dataset. This standardization is essential for CNNs, as a consistent input dimension is required. While resizing, the aspect ratio was maintained to prevent distortion of the morphological features, and padding was added to retain the original format.

@@ -298,7 +298,7 @@ Table~\ref{tab:activation-function} shows the performance of different activatio
 \subsection{Proposed Model}
 This section presents the performance evaluation of the proposed convolutional neural network (CNN) model, trained with a batch size of 32, 50 epochs, and using the ReLU activation function. The model’s effectiveness was assessed through 5-fold cross-validation to ensure robustness and generalizability across different data partitions. 
 
-The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracy above 76\%, and strong recall and AUC scores, demonstrating its potential for reliable sex identification of \textit{T. granosa}. The mean standard deviation for the performance metrics is 71.68 $\pm$7.32 for accuracy,  71.68 $\pm$ 7.32 for precision, 72.52 $\pm$ 0.02 for recall, 72.52 $\pm$ 0.02 for F1 score, and 69.29 $\pm$ 0.22 for AUC score. The standard deviation indicates the spread and variability in the performance. All metrics show a good indication of spread and consistency across folds. However, some with higher standard deviation values are recall, and F1 indicates some inconsistencies in predicting positive classes across the folds. 
+The proposed model consistently achieved high performance in Folds 1, 3, and 5, with accuracy above 76\%, and strong recall and AUC scores, demonstrating its potential for reliable sex identification of \textit{T. granosa}. The mean standard deviation for the performance metrics is 71.68 $\pm$7.32 for accuracy,  71.68 $\pm$ 7.32 for precision, 72.52 $\pm$ 0.02 for recall, 72.52 $\pm$ 0.02 for F1 score, and 69.29 $\pm$ 0.22 for AUC score. The standard deviation indicates the spread and variability in the performance. All metrics show a good indication of spread and consistency across folds. However, some with higher standard deviation values are recall, and F1 score indicates some inconsistencies in predicting positive classes across the folds. 
 
 The slight variation in performance across folds may be attributed to differences in data distribution, emphasizing the importance of further data augmentation and balancing for future work.
 
@@ -321,8 +321,6 @@ The slight variation in performance across folds may be attributed to difference
 	\caption{Per-fold performance metrics (Batch Size: 32, Epochs: 50, Activation Function: ReLU) and corresponding mean and standard deviation.}
 	\label{tab:per-fold}
 \end{table}
-
-
 
 \vspace{0.75cm}
 \begin{minipage}{\linewidth}
@@ -363,7 +361,6 @@ Figure~\ref{fig:tvapf} shows the performance of the model in the training and va
 	\label{fig:tvapf}
 \end{figure}
 
-\newpage
 Figure~\ref{fig:atvaaf} shows the average performance of the model in terms of training and validation accuracy across five folds. An upward trend is observable in the training and validation accuracy, indicating that the model gradually improves over the epochs. While fluctuations or dips can be seen in the validation accuracy, the model recovers in later epochs. The training accuracy remains consistently higher than the validation accuracy, which is expected behavior, as it learns from the training data. Generally, the model demonstrates a gradual improvement in learning, as reflected in the average upward trend aggregated across five folds.
 
 \begin{figure}[!htbp]
@@ -372,6 +369,8 @@ Figure~\ref{fig:atvaaf} shows the average performance of the model in terms of t
 	\caption{Average training and validation accuracy across folds.}
 	\label{fig:atvaaf}
 \end{figure}
+
+\newpage
 
 Figure~\ref{fig:tvlpf} shows the performance of the model in the training and validation in terms of the training and validation loss across five folds. The graph across folds displays a consistent downward trend for the training loss. On the other hand, there is an observable change in the performance, especially in Folds 1,2,3, and 4, where it shows an upward trend in the validation loss. This is an implication for the learning performance of the model, as it may not be learning effectively. 
 
@@ -391,7 +390,6 @@ Figure~\ref{fig:atvlaf} shows the average performance of the model regarding tra
 	\label{fig:atvlaf}
 \end{figure}
 
-\newpage
 Figure~\ref{fig:cm_dl} shows the confusion matrix for the true class label and predicted class label after the training and validation. The matrix shows the correctly predicted male and female samples and their corresponding percentages. Females have slightly higher true positives compared to males in the number and percentages, which are 94 and 88, corresponding to 74\% and 69\%, respectively. Additionally, the falsely classified samples were 33 for females and 39 for males, respectively, accounting for 26\% and 31\%.
 
 The results from the confusion matrix of the CNN model also matches what is observed in the descriptive statistics. Just like in the results from KNN, female samples again have slightly better correct classification rates. This can be explained by having lower variability in their morphometric attributes—particularly shell length, with females having a much smaller standard deviation (SD = 7.49) than males (SD = 31.75). This similarity probably makes the female class simpler to acquire and generalize for the model. Additionally, some shape-based ratios (for instance, UL ratio, UH ratio) that varied subtly but consistently by sex might provide sharper decision boundaries for females, particularly if the neural network is sensitive to subtle differences in spatial features. In contrast, the larger variation of male feature values may have caused intersections with female patterns and thus raised the rate of false negatives among males. This implies that although the deep learning model captures complex patterns, variability in features remains a source of error for reliable classification of the male class.

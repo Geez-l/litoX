@@ -25,10 +25,10 @@
 \contentsline {section}{\numberline {3.3}Creating \textit {T. granosa} Dataset}{32}{}%
 \contentsline {section}{\numberline {3.4}Morphometric Data Collection}{33}{}%
 \contentsline {section}{\numberline {3.5}Image Acquisition and Data Gathering}{34}{}%
-\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{34}{}%
-\contentsline {section}{\numberline {3.7}Machine Learning on Morphometric Data}{35}{}%
-\contentsline {subsection}{\numberline {3.7.1}Data Preprocessing}{37}{}%
-\contentsline {subsection}{\numberline {3.7.2}Machine Learning Models Training}{39}{}%
+\contentsline {section}{\numberline {3.6}Hardware and Software Configuration}{35}{}%
+\contentsline {section}{\numberline {3.7}Machine Learning on Morphometric Data}{36}{}%
+\contentsline {subsection}{\numberline {3.7.1}Data Preprocessing}{36}{}%
+\contentsline {subsection}{\numberline {3.7.2}Machine Learning Models Training}{38}{}%
 \contentsline {section}{\numberline {3.8}Deep Learning for Morphological Analysis}{40}{}%
 \contentsline {subsection}{\numberline {3.8.1}Image Preprocessing}{40}{}%
 \contentsline {subsection}{\numberline {3.8.2}Convolutional Neural Network}{42}{}%
